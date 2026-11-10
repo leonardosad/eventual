@@ -31,7 +31,7 @@
   {
     "id": "allaccess",
     "name": "AllAccess",
-    "enabled": true,
+    "enabled": false,
     "type": "follow",
     "urls": [
       "https://www.allaccess.com.ar/"
@@ -40,7 +40,8 @@
     "maxLinks": 50,
     "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires",
     "browser": true,
-    "delayMs": 1500
+    "delayMs": 1500,
+    "nota": "Desactivada: el sitio bloquea el acceso automatizado (protección antibots). Muchos de sus shows (Vorterix, Roxy) están también en otras ticketeras."
   },
   {
     "id": "ticketek",
