@@ -23,6 +23,7 @@ export function parseHtml(html, baseUrl, selectors) {
       image: get($el, selectors.image || 'img', ['src', 'data-src']),
       price: get($el, selectors.price),
       description: get($el, selectors.description),
+      whenText: get($el, selectors.whenText),
       baseUrl,
     });
   });

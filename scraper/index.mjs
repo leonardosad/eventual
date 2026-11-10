@@ -7,6 +7,11 @@ import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
 import { parseAlternativa } from './adapters/alternativa.mjs';
 import { parseTurismoBA } from './adapters/turismoba.mjs';
+import { follow } from './adapters/follow.mjs';
+import { ticketek } from './adapters/ticketek.mjs';
+import { complejo } from './adapters/complejo.mjs';
+import { parseArtMedia } from './adapters/artmedia.mjs';
+import { rendered, closeBrowser } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -31,8 +36,13 @@ async function fetchText(url, tries = 2, extraHeaders = {}) {
   }
 }
 
-function runAdapter(source, body, url) {
+// Tipos que necesitan pedir más páginas además de la inicial
+const MULTI = { follow, ticketek, complejo };
+
+async function runAdapter(source, body, url, ctx) {
+  if (MULTI[source.type]) return MULTI[source.type](body, url, source, ctx);
   switch (source.type) {
+    case 'artmedia': return parseArtMedia(body, url);
     case 'auto': return parseAuto(body, url);
     case 'jsonld': return parseJsonLd(body, url);
     case 'microdata': return parseMicrodata(body, url);
@@ -47,11 +57,21 @@ function runAdapter(source, body, url) {
 async function scrapeSource(source, now) {
   const raw = [];
   const errors = [];
+  const warnings = [];
+  const delay = source.delayMs ?? 800;
+  const ctx = {
+    fetch: async (u) => { await new Promise((r) => setTimeout(r, delay)); return fetchText(u, 2, source.headers); },
+    warn: (msg) => warnings.push(msg),
+  };
   for (const url of source.urls) {
     try {
+      if (source.type === 'rendered') {
+        raw.push(...await rendered(null, url, source));
+        continue;
+      }
       const body = await fetchText(url, 2, source.headers);
       try {
-        raw.push(...runAdapter(source, body, url));
+        raw.push(...await runAdapter(source, body, url, ctx));
       } catch (err) {
         throw new Error(`${err.message} (respuesta de ${body.length} caracteres: ${JSON.stringify(body.slice(0, 120))})`);
       }
@@ -60,8 +80,12 @@ async function scrapeSource(source, now) {
     }
     await new Promise((r) => setTimeout(r, 1500)); // ser amables con el sitio
   }
+  if (warnings.length) {
+    errors.push(...warnings.slice(0, 5));
+    if (warnings.length > 5) errors.push(`… y ${warnings.length - 5} avisos más`);
+  }
   const events = raw.map((r) => normalizeEvent(r, source, now)).filter(Boolean);
-  return { events, errors, ok: errors.length < source.urls.length };
+  return { events, errors, ok: events.length > 0 };
 }
 
 function inWindow(e, now) {
@@ -100,6 +124,7 @@ async function main() {
     for (const e of errors) console.log(`   ⚠ ${e}`);
   }
 
+  await closeBrowser();
   const events = dedupe(all.filter((e) => inWindow(e, now)))
     .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
 

@@ -5,12 +5,17 @@ import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
 import { parseAlternativa } from './adapters/alternativa.mjs';
 import { parseTurismoBA, weekRange } from './adapters/turismoba.mjs';
+import { follow } from './adapters/follow.mjs';
+import { eventsFromNode, showsFromSearch } from './adapters/ticketek.mjs';
+import { parseComplejoDay } from './adapters/complejo.mjs';
+import { parseArtMedia } from './adapters/artmedia.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
 const src = { id: 'test', name: 'Test' };
 let passed = 0;
 const test = (name, fn) => { fn(); passed++; console.log(`✓ ${name}`); };
+const testAsync = async (name, fn) => { await fn(); passed++; console.log(`✓ ${name}`); };
 
 test('parseDate: formatos comunes', () => {
   assert.equal(parseDate('2026-11-08T21:00:00-03:00'), '2026-11-08T21:00:00-03:00');
@@ -134,6 +139,74 @@ test('Turismo BA: semana del encabezado + texto ¿Cuándo?', () => {
   assert.equal(b.free, true);
   assert.deepEqual(weekRange('Desde el lunes 29 de diciembre al domingo 4 de enero', new Date('2027-01-01T12:00:00-03:00')),
     { start: '2026-12-29T00:00:00-03:00', end: '2027-01-04T23:59:00-03:00' });
+});
+
+const ctxFrom = (pages) => ({ fetch: async (u) => { if (!(u in pages)) throw new Error('404'); return pages[u]; }, warn: () => {} });
+
+await testAsync('follow: sigue links y lee JSON-LD (AllAccess / Konex)', async () => {
+  const list = `<a href="../event/airbag">x</a><a href="/event/fito-en-rosario">y</a><a href="/ayuda">z</a>`;
+  const ld = (name, loc) => `<script type="application/ld+json">{"@type":"Event","name":"${name}","startDate":"2026-12-12T00:00:00Z",
+    "location":{"@type":"Place","name":"${loc}","address":{"streetAddress":"Calle 1","addressLocality":"${loc === 'Estadio River Plate' ? 'CABA' : 'Rosario'}"}},
+    "offers":[{"@type":"Offer","price":20000,"priceCurrency":"ARS"}]}</script>`;
+  const ctx = ctxFrom({
+    'https://www.allaccess.com.ar/event/airbag': ld('AIRBAG', 'Estadio River Plate'),
+    'https://www.allaccess.com.ar/event/fito-en-rosario': ld('Fito', 'Anfiteatro'),
+  });
+  const src2 = { id: 'aa', name: 'AllAccess', linkPattern: 'allaccess\\.com\\.ar/event/', placeInclude: 'CABA|Capital Federal' };
+  const raw = await follow(list, 'https://www.allaccess.com.ar/home/', src2, ctx);
+  assert.equal(raw.length, 1);
+  const e = normalizeEvent(raw[0], src2, now);
+  assert.equal(e.title, 'AIRBAG');
+  assert.equal(e.start, '2026-12-11T21:00:00-03:00');
+  assert.equal(e.price, '$20.000');
+});
+
+test('Ticketek: datos del nodo', () => {
+  const node = { google_structured_data: [{ '@type': 'MusicEvent', name: 'Tarja', startDate: '2026-12-01T21:00:00-03:00', endDate: '2026-12-01T21:00:00-03:00',
+    location: { '@type': 'Place', name: 'Teatro Coliseo', address: { streetAddress: 'Marcelo T. de Alvear 1125', addressRegion: 'Capital Federal' } },
+    offers: { price: '124300', priceCurrency: 'ARS', url: 'https://www.ticketek.com.ar/tarja/teatro-coliseo' } }] };
+  const [e] = eventsFromNode(node, 'tarja/teatro-coliseo').map((r) => normalizeEvent(r, src, now));
+  assert.equal(e.place, 'Teatro Coliseo');
+  assert.equal(e.end, null);
+  assert.equal(e.category, 'Música');
+  assert.equal(e.price, '$124.300');
+  assert.deepEqual(showsFromSearch({ resultados: [{ url: 'a/b' }, { url: 'c/d' }] }), ['a/b', 'c/d']);
+});
+
+test('Complejo Teatral: agenda del día', () => {
+  const html = `<div class="small_item"><div class="background lozad" data-background-image="https://ctba/img.jpg"></div>
+    <span class="category">opera rock</span><span class="place"> Sala Martín Coronado / Teatro San Martín </span>
+    <h2>INVASIONES I</h2><span class="date">Miércoles a sábados, 20.30 horas. Domingos, 19.30 horas</span>
+    <a class="button buy" href="https://entradasba/x">Comprar</a><a href="https://complejoteatral.gob.ar/produccion/invasiones/">+ info</a></div>`;
+  const [e] = parseComplejoDay(html, '2026-11-12', 'https://complejoteatral.gob.ar/agenda/').map((r) => normalizeEvent(r, src, now));
+  assert.equal(e.title, 'INVASIONES I');
+  assert.equal(e.category, 'Música');
+  assert.equal(e.whenText, 'Miércoles a sábados, 20.30 horas. Domingos, 19.30 horas');
+  assert.equal(e.url, 'https://complejoteatral.gob.ar/produccion/invasiones/');
+});
+
+test('C Art Media: API', () => {
+  const body = JSON.stringify({ statusCode: 200, body: JSON.stringify({ events: [
+    { title: 'JORJA SMITH', subTitle: 'EN VIVO', day: '2026-11-11T00:00:00.000Z', hs: '19', type: 'Recitales', nave: 'Central', Publicado: 'si', linkPago: 'https://www.passline.com/eventos/jorja', imageUrl: 'https://centroc.s3/x.jpg' },
+    { title: 'Borrador', day: '2026-11-20T00:00:00.000Z', hs: '21:30', Publicado: 'no' },
+  ] }) });
+  const raw = parseArtMedia(body, 'https://api');
+  assert.equal(raw.length, 1);
+  const e = normalizeEvent(raw[0], src, now);
+  assert.equal(e.title, 'JORJA SMITH · EN VIVO');
+  assert.equal(e.start, '2026-11-11T19:00:00-03:00');
+  assert.equal(e.category, 'Música');
+});
+
+test('HTML con whenText (Movistar Arena)', () => {
+  const html = `<div class="evento"><img src="https://m/a.jpg"><h3>María Becerra</h3><span class="fecha">13 noviembre 2026 y 8 fechas más</span>
+    <span class="precio-desde">Desde $60.000</span><a href="/show/993a" class="mas-info">Más info</a></div>`;
+  const sel = { item: '.evento', title: 'h3', date: '.fecha', whenText: '.fecha', link: 'a.mas-info', price: '.precio-desde' };
+  const [e] = parseHtml(html, 'https://www.movistararena.com.ar/shows', sel).map((r) => normalizeEvent(r, src, now));
+  assert.equal(e.start, '2026-11-13T00:00:00-03:00');
+  assert.equal(e.whenText, '13 noviembre 2026 y 8 fechas más');
+  assert.equal(e.url, 'https://www.movistararena.com.ar/show/993a');
+  assert.equal(e.price, 'Desde $60.000');
 });
 
 console.log(`\n${passed} pruebas OK`);

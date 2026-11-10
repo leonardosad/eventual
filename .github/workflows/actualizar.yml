@@ -19,6 +19,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -31,6 +32,9 @@ jobs:
           cache: npm
 
       - run: npm ci
+
+      - name: Instalar navegador automático (para sitios hechos con JavaScript)
+        run: npx playwright install --with-deps chromium
 
       - name: Probar los lectores
         run: npm test

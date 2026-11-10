@@ -29,6 +29,84 @@
     ]
   },
   {
+    "id": "allaccess",
+    "name": "AllAccess",
+    "enabled": true,
+    "type": "follow",
+    "urls": [
+      "https://www.allaccess.com.ar/"
+    ],
+    "linkPattern": "allaccess\\.com\\.ar/event/",
+    "maxLinks": 70,
+    "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires"
+  },
+  {
+    "id": "ticketek",
+    "name": "Ticketek",
+    "enabled": true,
+    "type": "ticketek",
+    "urls": [
+      "https://prod-cms-search.ticketek.com.ar/api/1.1/search/"
+    ],
+    "delayMs": 400,
+    "maxLinks": 200,
+    "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires"
+  },
+  {
+    "id": "complejo-teatral",
+    "name": "Complejo Teatral de Buenos Aires",
+    "enabled": true,
+    "type": "complejo",
+    "urls": [
+      "https://complejoteatral.gob.ar/"
+    ],
+    "options": {
+      "daysAhead": 14
+    }
+  },
+  {
+    "id": "movistar-arena",
+    "name": "Movistar Arena",
+    "enabled": true,
+    "type": "rendered",
+    "urls": [
+      "https://www.movistararena.com.ar/shows"
+    ],
+    "selectors": {
+      "item": ".evento",
+      "title": "h3",
+      "date": ".fecha",
+      "whenText": ".fecha",
+      "link": "a.mas-info",
+      "image": "img",
+      "price": ".precio-desde"
+    },
+    "defaultPlace": "Movistar Arena",
+    "defaultAddress": "Humboldt 450, Villa Crespo",
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "konex",
+    "name": "Ciudad Cultural Konex",
+    "enabled": true,
+    "type": "follow",
+    "urls": [
+      "https://www.cckonex.org/"
+    ],
+    "linkPattern": "entradas\\.cckonex\\.org/event/",
+    "maxLinks": 40,
+    "placePrefix": "Konex"
+  },
+  {
+    "id": "c-art-media",
+    "name": "C Art Media",
+    "enabled": true,
+    "type": "artmedia",
+    "urls": [
+      "https://ojtwazeqh7.execute-api.us-east-1.amazonaws.com/prod/events"
+    ]
+  },
+  {
     "id": "ejemplo-auto",
     "name": "Ejemplo con datos estándar schema.org (desactivado)",
     "enabled": false,
