@@ -17,6 +17,22 @@ export async function closeBrowser() {
   browserPromise = null;
 }
 
+/** Abre una página con el navegador automático y devuelve el HTML ya armado. */
+export async function browserFetch(url, waitFor) {
+  const browser = await getBrowser();
+  const page = await browser.newPage({ locale: 'es-AR', userAgent: undefined });
+  try {
+    const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
+    if (waitFor) await page.waitForSelector(waitFor, { timeout: 20_000 }).catch(() => {});
+    await page.waitForTimeout(2500); // deja terminar desafíos antibots y scripts
+    const html = await page.content();
+    if (res && res.status() >= 400 && !/ld\+json/.test(html)) throw new Error(`HTTP ${res.status()} (navegador)`);
+    return html;
+  } finally {
+    await page.close();
+  }
+}
+
 export async function rendered(body, url, source) {
   const browser = await getBrowser();
   const page = await browser.newPage({ locale: 'es-AR' });

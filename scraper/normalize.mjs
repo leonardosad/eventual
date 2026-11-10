@@ -42,7 +42,24 @@ export function parseDate(input, now = new Date()) {
   }
 
   const lower = s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-  const time = extractTime(lower);
+  const time = extractTime(lower.replace(/([a-z])(\d)/g, '$1 $2'));
+
+  // "Todos los lunes 20 hs" → el próximo lunes
+  m = lower.match(/todos los (domingo|lunes|martes|miercoles|jueves|viernes|sabado)/);
+  if (m) {
+    const target = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'].indexOf(m[1]);
+    const local = new Date(now.getTime() - 3 * 3600e3);
+    const diff = (target - local.getUTCDay() + 7) % 7;
+    const d = new Date(local.getTime() + diff * 864e5);
+    return build(d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate(), time, now);
+  }
+
+  // "8 de noviembre", "8 nov", "sabado 8 de nov. de 2026"
+  m = [...lower.matchAll(/\b(\d{1,2})\s*(?:de\s+)?([a-z]{3,10})\.?(?:\s+(?:de\s+)?(\d{4}))?/g)].find((x) => MESES[x[2]]);
+  if (m) {
+    const r = build(m[3] ? +m[3] : null, MESES[m[2]], +m[1], time, now);
+    if (r) return r;
+  }
 
   // dd/mm/yyyy o dd/mm
   m = lower.match(/\b(\d{1,2})[\/.-](\d{1,2})(?:[\/.-](\d{2,4}))?\b/);
@@ -50,13 +67,8 @@ export function parseDate(input, now = new Date()) {
     const d = +m[1], mo = +m[2];
     let y = m[3] ? +m[3] : null;
     if (y && y < 100) y += 2000;
-    return build(y, mo, d, time, now);
-  }
-
-  // "8 de noviembre", "8 nov", "sabado 8 de nov. de 2026"
-  m = lower.match(/\b(\d{1,2})\s*(?:de\s+)?([a-z]{3,10})\.?(?:\s+(?:de\s+)?(\d{4}))?/);
-  if (m && MESES[m[2]]) {
-    return build(m[3] ? +m[3] : null, MESES[m[2]], +m[1], time, now);
+    const r = build(y, mo, d, time, now);
+    if (r) return r;
   }
 
   const t = Date.parse(s);

@@ -209,4 +209,16 @@ test('HTML con whenText (Movistar Arena)', () => {
   assert.equal(e.price, 'Desde $60.000');
 });
 
+test('Konex: tarjetas con fondo y "Todos los lunes"', () => {
+  const html = `<div class="show_top"><a href="https://entradas.cckonex.org/event/la-bomba"><div class="foto" style="background-image:url('https://www.cckonex.org/img.png');"></div></a>
+    <div class="categoria"> Música </div><div class="informacion"><p><strong>Todos los lunes</strong><br>20 hs</p></div><div class="nombre"> La Bomba de Tiempo </div><div class="ubicacion"><span>Patio</span></div></div>
+    <div class="show_top"><a href="https://entradas.cckonex.org/event/cumbia"></a><div class="informacion"><p>Sábado 28 de noviembre - Medianoche | Puertas 00.30 hs</p></div><div class="nombre">CUMBIA KONEX</div></div>`;
+  const sel = { item: '.show_top', title: '.nombre', date: '.informacion', whenText: '.informacion', link: 'a', image: '.foto', place: '.ubicacion', description: '.categoria' };
+  const [a, b] = parseHtml(html, 'https://www.cckonex.org/shows/', sel).map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.start, '2026-11-09T20:00:00-03:00'); // now = sábado 7 → lunes 9
+  assert.equal(a.image, 'https://www.cckonex.org/img.png');
+  assert.equal(a.category, 'Música');
+  assert.equal(b.start, '2026-11-28T00:30:00-03:00');
+});
+
 console.log(`\n${passed} pruebas OK`);

@@ -11,6 +11,8 @@ export function parseHtml(html, baseUrl, selectors) {
     const n = $el.find(sel).first();
     if (!n.length) return '';
     for (const a of attrs) if (n.attr(a)) return n.attr(a);
+    const bg = (n.attr('style') || '').match(/background-image:\s*url\(['"]?([^'")]+)/);
+    if (bg && attrs.includes('src')) return bg[1];
     return n.text();
   };
   $(selectors.item).each((_, el) => {
@@ -20,7 +22,7 @@ export function parseHtml(html, baseUrl, selectors) {
       start: get($el, selectors.date, ['datetime', 'content']),
       url: get($el, selectors.link || 'a', ['href']),
       place: get($el, selectors.place),
-      image: get($el, selectors.image || 'img', ['src', 'data-src']),
+      image: get($el, selectors.image || 'img', ['src', 'data-src', 'data-background-image']),
       price: get($el, selectors.price),
       description: get($el, selectors.description),
       whenText: get($el, selectors.whenText),

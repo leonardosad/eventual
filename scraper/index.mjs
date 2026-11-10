@@ -11,7 +11,7 @@ import { follow } from './adapters/follow.mjs';
 import { ticketek } from './adapters/ticketek.mjs';
 import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
-import { rendered, closeBrowser } from './adapters/rendered.mjs';
+import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -60,7 +60,10 @@ async function scrapeSource(source, now) {
   const warnings = [];
   const delay = source.delayMs ?? 800;
   const ctx = {
-    fetch: async (u) => { await new Promise((r) => setTimeout(r, delay)); return fetchText(u, 2, source.headers); },
+    fetch: async (u) => {
+      await new Promise((r) => setTimeout(r, delay));
+      return source.browser ? browserFetch(u, 'script[type="application/ld+json"]') : fetchText(u, 2, source.headers);
+    },
     warn: (msg) => warnings.push(msg),
   };
   for (const url of source.urls) {
@@ -69,7 +72,7 @@ async function scrapeSource(source, now) {
         raw.push(...await rendered(null, url, source));
         continue;
       }
-      const body = await fetchText(url, 2, source.headers);
+      const body = source.browser ? await browserFetch(url) : await fetchText(url, 2, source.headers);
       try {
         raw.push(...await runAdapter(source, body, url, ctx));
       } catch (err) {
@@ -83,6 +86,12 @@ async function scrapeSource(source, now) {
   if (warnings.length) {
     errors.push(...warnings.slice(0, 5));
     if (warnings.length > 5) errors.push(`… y ${warnings.length - 5} avisos más`);
+  }
+  for (const r of raw) {
+    r.place ||= source.defaultPlace;
+    r.address ||= source.defaultAddress;
+    if (source.placePrefix && r.place && !r.place.includes(source.placePrefix)) r.place = `${source.placePrefix} · ${r.place}`;
+    else if (source.placePrefix && !r.place) r.place = source.placePrefix;
   }
   const events = raw.map((r) => normalizeEvent(r, source, now)).filter(Boolean);
   return { events, errors, ok: events.length > 0 };

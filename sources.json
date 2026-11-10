@@ -37,8 +37,10 @@
       "https://www.allaccess.com.ar/"
     ],
     "linkPattern": "allaccess\\.com\\.ar/event/",
-    "maxLinks": 70,
-    "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires"
+    "maxLinks": 50,
+    "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires",
+    "browser": true,
+    "delayMs": 1500
   },
   {
     "id": "ticketek",
@@ -89,13 +91,22 @@
     "id": "konex",
     "name": "Ciudad Cultural Konex",
     "enabled": true,
-    "type": "follow",
+    "type": "html",
     "urls": [
-      "https://www.cckonex.org/"
+      "https://www.cckonex.org/shows/"
     ],
-    "linkPattern": "entradas\\.cckonex\\.org/event/",
-    "maxLinks": 40,
-    "placePrefix": "Konex"
+    "selectors": {
+      "item": ".show_top",
+      "title": ".nombre",
+      "date": ".informacion",
+      "whenText": ".informacion",
+      "link": "a",
+      "image": ".foto",
+      "place": ".ubicacion",
+      "description": ".categoria"
+    },
+    "placePrefix": "Konex",
+    "defaultAddress": "Sarmiento 3131, Abasto"
   },
   {
     "id": "c-art-media",
