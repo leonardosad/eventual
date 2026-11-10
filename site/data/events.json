@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:30:16.601Z",
+ "generatedAt": "2026-11-10T01:34:43.756Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -16,16 +16,6 @@
    "ok": false,
    "note": null,
    "errors": []
-  },
-  {
-   "id": "allaccess",
-   "name": "AllAccess",
-   "count": 0,
-   "ok": false,
-   "note": null,
-   "errors": [
-    "https://www.allaccess.com.ar/: HTTP 403 (navegador)"
-   ]
   },
   {
    "id": "ticketek",
