@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:42:30.534Z",
+ "generatedAt": "2026-11-10T02:00:02.553Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -56,6 +56,30 @@
    "ok": true,
    "note": null,
    "errors": []
+  },
+  {
+   "id": "niceto",
+   "name": "Niceto Club",
+   "count": 101,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "indiehoy-vorterix",
+   "name": "Indie Hoy (Teatro Vorterix)",
+   "count": 5,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "indiehoy-roxy",
+   "name": "Indie Hoy (The Roxy Live)",
+   "count": 4,
+   "ok": true,
+   "note": null,
+   "errors": []
   }
  ],
  "events": [
@@ -78,28 +102,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/esperando-godot/teatro-presidente-alvear"
-    }
-   ]
-  },
-  {
-   "id": "bb9b69dce20a",
-   "title": "Las adoro",
-   "start": "2026-11-09T19:00:00-03:00",
-   "end": null,
-   "whenText": "19:00 y 21:30 h",
-   "place": "EL GALPÓN DE GUEVARA",
-   "address": "Guevara 326, Chacarita",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000311613.jpg",
-   "url": "https://www.alternativateatral.com/obra99976-las-adoro",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra99976-las-adoro"
     }
    ]
   },
@@ -170,6 +172,28 @@
    ]
   },
   {
+   "id": "c543cc2c2310",
+   "title": "Máze + Mora y los Metegoles",
+   "start": "2026-11-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791902414767-lg.jpg",
+   "url": "https://venti.live/evento/m-ze-mora-y-los-metegoles-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/m-ze-mora-y-los-metegoles-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "8f922a458d8e",
    "title": "No me dejes asi",
    "start": "2026-11-09T20:00:00-03:00",
@@ -188,6 +212,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra4909-no-me-dejes-asi"
+    }
+   ]
+  },
+  {
+   "id": "5f57a3bdedc4",
+   "title": "PIANO BAR: PEDRO AGUILAR Y AMIGOS DESCRIPCION",
+   "start": "2026-11-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793969755630-lg.jpg",
+   "url": "https://venti.live/evento/piano-bar-pedro-aguilar-y-amigos-descripcion-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/piano-bar-pedro-aguilar-y-amigos-descripcion-en-niceto-bar"
     }
    ]
   },
@@ -258,6 +304,28 @@
    ]
   },
   {
+   "id": "69866634cbc5",
+   "title": "VATICANO CLUB - CABINA ABIERTA",
+   "start": "2026-11-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793830984970-lg.jpg",
+   "url": "https://venti.live/evento/vaticano-club-cabina-abierta-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/vaticano-club-cabina-abierta-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "0445e1b43ea3",
    "title": "Menos Lunes - Stand Up Show",
    "start": "2026-11-09T20:30:00-03:00",
@@ -320,6 +388,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103954-quimera"
+    }
+   ]
+  },
+  {
+   "id": "d35c23deb9aa",
+   "title": "CODA + BRUXISMO",
+   "start": "2026-11-09T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793139461291-lg.jpg",
+   "url": "https://venti.live/evento/coda-bruxismo-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/coda-bruxismo-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -452,6 +542,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102824-el-hijo-de"
+    }
+   ]
+  },
+  {
+   "id": "21252a6d1055",
+   "title": "CHINWEZZ EN NICETO + GG SALORT Y FIESTA OBLIGADO: TRASNOCHE Y DERROCHE",
+   "start": "2026-11-09T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1792506535310-lg.jpg",
+   "url": "https://venti.live/evento/chinwezz-en-niceto-gg-salort-y-fiesta-obligado-trasnoche-y-derroche-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/chinwezz-en-niceto-gg-salort-y-fiesta-obligado-trasnoche-y-derroche-en-niceto-club"
     }
    ]
   },
@@ -1244,6 +1356,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra88566-cafe-central"
+    }
+   ]
+  },
+  {
+   "id": "2dff309f1753",
+   "title": "Catalina Ammaturo",
+   "start": "2026-11-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1786744577279-lg.jpg",
+   "url": "https://venti.live/evento/catalina-ammaturo-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/catalina-ammaturo-en-niceto-club"
     }
    ]
   },
@@ -2128,6 +2262,28 @@
    ]
   },
   {
+   "id": "5afc18b74464",
+   "title": "LA DANZA DE LAS BESTIAS + PLAYA DEL KARMA",
+   "start": "2026-11-12T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792156786838-lg.jpg",
+   "url": "https://venti.live/evento/la-danza-de-las-bestias-playa-del-karma-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-danza-de-las-bestias-playa-del-karma-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "e33080813320",
    "title": "La vida fracturada",
    "start": "2026-11-12T19:00:00-03:00",
@@ -2168,6 +2324,28 @@
      "id": "c-art-media",
      "name": "C Art Media",
      "url": "https://www.passline.com/eventos/maro-so-much-has-changed"
+    }
+   ]
+  },
+  {
+   "id": "49c65356f88f",
+   "title": "QUÉ SE SIENTE | ARA T",
+   "start": "2026-11-12T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1788471920771-lg.jpg",
+   "url": "https://venti.live/evento/qu-se-siente-ara-t-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/qu-se-siente-ara-t-en-humboldt-niceto-club"
     }
    ]
   },
@@ -2300,6 +2478,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra74582-discepolin-fanatico-arlequin"
+    }
+   ]
+  },
+  {
+   "id": "e1a57808422b",
+   "title": "El Ciclo Federal",
+   "start": "2026-11-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791900000904-lg.jpg",
+   "url": "https://venti.live/evento/el-ciclo-federal-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/el-ciclo-federal-en-niceto-bar"
     }
    ]
   },
@@ -3998,6 +4198,28 @@
    ]
   },
   {
+   "id": "b7da7ef09289",
+   "title": "Canto del Alma",
+   "start": "2026-11-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791502863062-lg.jpg",
+   "url": "https://venti.live/evento/canto-del-alma-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/canto-del-alma-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "864f8f2b39fd",
    "title": "Ciclo de la peluca - viernes de noviembre",
    "start": "2026-11-13T20:00:00-03:00",
@@ -4016,6 +4238,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103923-ciclo-de-la-peluca-viernes-de-noviembre"
+    }
+   ]
+  },
+  {
+   "id": "69cb03bdcae8",
+   "title": "CICLO DESORDEN",
+   "start": "2026-11-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791917975359-lg.jpg",
+   "url": "https://venti.live/evento/ciclo-desorden-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ciclo-desorden-en-niceto-bar"
     }
    ]
   },
@@ -5758,6 +6002,28 @@
    ]
   },
   {
+   "id": "b3337a949cd3",
+   "title": "Mila",
+   "start": "2026-11-13T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1780489372871-lg.jpg",
+   "url": "https://venti.live/evento/mila-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/mila-en-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "bcc7e4997f08",
    "title": "Muestra Taller de los Miercoles - Romina Pais",
    "start": "2026-11-13T21:00:00-03:00",
@@ -6594,6 +6860,28 @@
    ]
   },
   {
+   "id": "ff35ed3e7b5c",
+   "title": "NOCHE PANTERA",
+   "start": "2026-11-13T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1792770299925-lg.jpg",
+   "url": "https://venti.live/evento/noche-pantera-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/noche-pantera-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "85844e58cac2",
    "title": "Seré",
    "start": "2026-11-13T22:00:00-03:00",
@@ -7254,6 +7542,50 @@
    ]
   },
   {
+   "id": "fd9e35164dab",
+   "title": "LA ANALÓGICA",
+   "start": "2026-11-13T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792602737998-lg.jpg",
+   "url": "https://venti.live/evento/la-anal-gica-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-anal-gica-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "6d048b5ce5f5",
+   "title": "Random Fiesta",
+   "start": "2026-11-13T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1784131304766-lg.jpg",
+   "url": "https://venti.live/evento/random-fiesta-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/random-fiesta-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "474fedb5eddb",
    "title": "Varonas",
    "start": "2026-11-13T23:59:00-03:00",
@@ -7514,6 +7846,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "762e7e9baf0d",
+   "title": "Los Aspirantes en The Roxy Live",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "The Roxy Live",
+   "address": "Niceto Vega 5542, Buenos Aires",
+   "description": "Los Aspirantes cierran la gira de Hilacha en The Roxy [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/10/aspirantes.webp",
+   "url": "https://indiehoy.com/agenda/los-aspirantes-en-the-roxy-live/",
+   "price": "$18000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-roxy",
+     "name": "Indie Hoy (The Roxy Live)",
+     "url": "https://indiehoy.com/agenda/los-aspirantes-en-the-roxy-live/"
     }
    ]
   },
@@ -9036,6 +9390,28 @@
    ]
   },
   {
+   "id": "704c71d6a21f",
+   "title": "Peña Regina: La brasita de mi Chala - SUNSET TERRAZA",
+   "start": "2026-11-14T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793021409094-lg.jpg",
+   "url": "https://venti.live/evento/pe-a-regina-la-brasita-de-mi-chala-sunset-terraza-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/pe-a-regina-la-brasita-de-mi-chala-sunset-terraza-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "5851c79db1f4",
    "title": "Podran maldecir mi nombre",
    "start": "2026-11-14T19:00:00-03:00",
@@ -9516,6 +9892,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103660-divino-consorcio"
+    }
+   ]
+  },
+  {
+   "id": "b37b97454b46",
+   "title": "EDU OLIVA + HALOS",
+   "start": "2026-11-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790194017331-lg.jpg",
+   "url": "https://venti.live/evento/edu-oliva-halos-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/edu-oliva-halos-en-niceto-bar"
     }
    ]
   },
@@ -10466,6 +10864,28 @@
    ]
   },
   {
+   "id": "69d5f3a5d9bd",
+   "title": "OEISIS - Familiar vibes in the area",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1776455758132-lg.jpg",
+   "url": "https://venti.live/evento/oeisis-familiar-vibes-in-the-area-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/oeisis-familiar-vibes-in-the-area-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "c984082ba3f0",
    "title": "Personas que se encuentran en lugares",
    "start": "2026-11-14T20:30:00-03:00",
@@ -10572,6 +10992,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/zarzuela-flamenco/teatro-avenida"
+    }
+   ]
+  },
+  {
+   "id": "65c523361190",
+   "title": "107 Faunos",
+   "start": "2026-11-14T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792939990293-lg.jpg",
+   "url": "https://venti.live/evento/s107-faunos-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/s107-faunos-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -12688,6 +13130,28 @@
    ]
   },
   {
+   "id": "16a5f442309f",
+   "title": "SEE-SAW | 14 NOV",
+   "start": "2026-11-14T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793910778344-lg.jpg",
+   "url": "https://venti.live/evento/see-saw-14-nov-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/see-saw-14-nov-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "38ec437631ee",
    "title": "Guillotina 14 de nov a las 23.15 - Hasta que el clásico + Cuidado con lo que deseas + Sesión final",
    "start": "2026-11-14T23:15:00-03:00",
@@ -12728,6 +13192,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/uriel-lozano/tropitango"
+    }
+   ]
+  },
+  {
+   "id": "77f7fcd4733d",
+   "title": "Beyond the festival",
+   "start": "2026-11-14T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1794088047945-lg.jpg",
+   "url": "https://venti.live/evento/beyond-the-festival-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/beyond-the-festival-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "18e202477609",
+   "title": "Club 69 | 14 NOV",
+   "start": "2026-11-14T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793716727897-lg.jpg",
+   "url": "https://venti.live/evento/club-69-14-nov-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/club-69-14-nov-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -16296,6 +16804,28 @@
    ]
   },
   {
+   "id": "2465510b778c",
+   "title": "ULTRALIGERA",
+   "start": "2026-11-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791302891622-lg.jpg",
+   "url": "https://venti.live/evento/ultraligera-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ultraligera-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "d2680f7b0684",
    "title": "Huele a espíritu adolescente",
    "start": "2026-11-15T20:15:00-03:00",
@@ -17418,6 +17948,28 @@
    ]
   },
   {
+   "id": "ffb47cbf625e",
+   "title": "Alexisonfire en Argentina",
+   "start": "2026-11-17T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Alexisonfire regresa a la Argentina para celebrar los 20 años de Crisis, [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/alexisonfire-en-argentina.webp",
+   "url": "https://indiehoy.com/agenda/alexisonfire-argentina-2026/",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/alexisonfire-argentina-2026/"
+    }
+   ]
+  },
+  {
    "id": "0317957211f7",
    "title": "EL SAN MARTÍN EN LOS ‘80: REFUGIO, RESISTENCIA Y LIBERTAD",
    "start": "2026-11-17T00:00:00-03:00",
@@ -17788,6 +18340,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103678-desde-que-baila"
+    }
+   ]
+  },
+  {
+   "id": "b46d54942570",
+   "title": "JAZE - QUIZÁ NO ES PARA TANTO TOUR II",
+   "start": "2026-11-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1787058578408-lg.jpg",
+   "url": "https://venti.live/evento/jaze-quiz-no-es-para-tanto-tour-ii-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/jaze-quiz-no-es-para-tanto-tour-ii-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -18558,6 +19132,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra80184-el-brote"
+    }
+   ]
+  },
+  {
+   "id": "11a0857248e8",
+   "title": "KAKKMADDAFAKKA",
+   "start": "2026-11-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1786476870579-lg.jpg",
+   "url": "https://venti.live/evento/kakkmaddafakka-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/kakkmaddafakka-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -19464,6 +20060,28 @@
    ]
   },
   {
+   "id": "0a49108ef778",
+   "title": "ÁMBAR PRESENTA MARIPOSA",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790194569423-lg.jpg",
+   "url": "https://venti.live/evento/mbar-presenta-mariposa-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/mbar-presenta-mariposa-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "1709fac99a74",
    "title": "Amor (Sobre lo amorfo, lo casual, lo visceral, lo ridículo)",
    "start": "2026-11-19T20:00:00-03:00",
@@ -19663,6 +20281,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103832-el-ultimo-de-los-taxistas-ardientes"
+    }
+   ]
+  },
+  {
+   "id": "5ce533027aee",
+   "title": "IVAN SALO & Los Paracaidistas",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792435250521-lg.jpg",
+   "url": "https://venti.live/evento/ivan-salo-los-paracaidistas-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ivan-salo-los-paracaidistas-en-niceto-bar"
     }
    ]
   },
@@ -19927,6 +20567,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102161-viktor-y-josef-la-sombra-de-auschwitz"
+    }
+   ]
+  },
+  {
+   "id": "b4748f3217c1",
+   "title": "Willy Bronca 19 NOV",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792679023406-lg.jpg",
+   "url": "https://venti.live/evento/willy-bronca-19-nov-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/willy-bronca-19-nov-en-niceto-club"
     }
    ]
   },
@@ -20741,6 +21403,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/homenaje-a-john-huston/"
+    }
+   ]
+  },
+  {
+   "id": "5b674689c230",
+   "title": "Ilán Amores en The Roxy Live",
+   "start": "2026-11-20T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "The Roxy Live",
+   "address": "Niceto Vega 5542, Buenos Aires",
+   "description": "Ilán Amores se presentará el viernes 20 de noviembre a las [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/10/ilan-amores-roxy.jpg",
+   "url": "https://indiehoy.com/agenda/ilan-amores-en-the-roxy-live-2/",
+   "price": "Desde $30.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-roxy",
+     "name": "Indie Hoy (The Roxy Live)",
+     "url": "https://indiehoy.com/agenda/ilan-amores-en-the-roxy-live-2/"
     }
    ]
   },
@@ -22136,6 +22820,28 @@
    ]
   },
   {
+   "id": "075dfb4e88bd",
+   "title": "Un Muerto Más",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1786746109604-lg.jpg",
+   "url": "https://venti.live/evento/un-muerto-m-s-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/un-muerto-m-s-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "45f5e3cd3d7d",
    "title": "Ustedes no vengan, voy yo",
    "start": "2026-11-20T20:00:00-03:00",
@@ -23280,6 +23986,28 @@
    ]
   },
   {
+   "id": "c887cbb1e7ef",
+   "title": "Temporada de Elefantes",
+   "start": "2026-11-20T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1785252940302-lg.jpg",
+   "url": "https://venti.live/evento/temporada-de-elefantes-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/temporada-de-elefantes-en-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "ab0b31ab234d",
    "title": "Una de película",
    "start": "2026-11-20T21:00:00-03:00",
@@ -24310,6 +25038,50 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra99274-la-caverna"
+    }
+   ]
+  },
+  {
+   "id": "67b076304f34",
+   "title": "FESTIVAL PARDO: Elektromanos + Lucas Sequeira & la lovely band",
+   "start": "2026-11-20T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1792415009574-lg.jpg",
+   "url": "https://venti.live/evento/festival-pardo-elektromanos-lucas-sequeira-la-lovely-band-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/festival-pardo-elektromanos-lucas-sequeira-la-lovely-band-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "18ec170f7595",
+   "title": "Kybba",
+   "start": "2026-11-20T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1780581432498-lg.jpg",
+   "url": "https://venti.live/evento/kybba-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/kybba-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -25920,6 +26692,28 @@
    ]
   },
   {
+   "id": "94452e8f56cb",
+   "title": "POP UP ROPA DE AUTOR",
+   "start": "2026-11-21T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791762865914-lg.jpg",
+   "url": "https://venti.live/evento/pop-up-ropa-de-autor-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/pop-up-ropa-de-autor-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "ec9452775e90",
    "title": "Ricky Behrens más",
    "start": "2026-11-21T19:00:00-03:00",
@@ -26801,6 +27595,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra99842-para-no-caer-vol-1"
+    }
+   ]
+  },
+  {
+   "id": "82a4192df393",
+   "title": "PIXEL 33 show en vivo",
+   "start": "2026-11-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790783813887-lg.jpg",
+   "url": "https://venti.live/evento/pixel-33-show-en-vivo-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/pixel-33-show-en-vivo-en-niceto-bar"
     }
    ]
   },
@@ -28279,6 +29095,28 @@
    ]
   },
   {
+   "id": "323749531e59",
+   "title": "ARTROX - PREESCUCHA 11:23",
+   "start": "2026-11-21T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793227505345-lg.jpg",
+   "url": "https://venti.live/evento/artrox-preescucha-11-23-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/artrox-preescucha-11-23-en-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "7954935679a1",
    "title": "El amor es un bien",
    "start": "2026-11-21T21:30:00-03:00",
@@ -29291,6 +30129,28 @@
    ]
   },
   {
+   "id": "b994f372d4cf",
+   "title": "La Chicle - Fiesta Disco",
+   "start": "2026-11-21T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1791921050118-lg.jpg",
+   "url": "https://venti.live/evento/la-chicle-fiesta-disco-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-chicle-fiesta-disco-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "3a4c5a86f031",
    "title": "La presión, una comedia negra a 10.000 metros de altura",
    "start": "2026-11-21T23:00:00-03:00",
@@ -29331,6 +30191,50 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103947-guillotina-21-de-nov-a-las-2315-hasta-que-el-clasico-no-incluye-beso-sesion-final"
+    }
+   ]
+  },
+  {
+   "id": "430343f21b8d",
+   "title": "Club 69 | 21 NOV",
+   "start": "2026-11-21T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793716727897-lg.jpg",
+   "url": "https://venti.live/evento/club-69-21-nov-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/club-69-21-nov-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "000ab5a0f0ce",
+   "title": "FIESTA MERMELADA - NACIONAL",
+   "start": "2026-11-21T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1793792568741-lg.jpg",
+   "url": "https://venti.live/evento/fiesta-mermelada-nacional-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/fiesta-mermelada-nacional-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -31513,6 +32417,28 @@
    ]
   },
   {
+   "id": "53d562492fff",
+   "title": "Gvtz en",
+   "start": "2026-11-22T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789572053204-lg.jpg",
+   "url": "https://venti.live/evento/gvtz-en-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/gvtz-en-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "4e92b1d11508",
    "title": "La distancia infinita",
    "start": "2026-11-22T19:00:00-03:00",
@@ -32288,6 +33214,28 @@
    ]
   },
   {
+   "id": "7e6e06bc8b2b",
+   "title": "FLOR IBARRA",
+   "start": "2026-11-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791332200952-lg.jpg",
+   "url": "https://venti.live/evento/flor-ibarra-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/flor-ibarra-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "b7f9c1e416c8",
    "title": "Fonavi",
    "start": "2026-11-22T20:00:00-03:00",
@@ -32416,6 +33364,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103383-historias-de-alcoba"
+    }
+   ]
+  },
+  {
+   "id": "9b426a822c0e",
+   "title": "INDIOS EN BUENOS AIRES",
+   "start": "2026-11-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789398553714-lg.jpg",
+   "url": "https://venti.live/evento/indios-en-buenos-aires-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/indios-en-buenos-aires-en-niceto-club"
     }
    ]
   },
@@ -33542,6 +34512,28 @@
    ]
   },
   {
+   "id": "1b3e861357ea",
+   "title": "Dogos Waterpolo en",
+   "start": "2026-11-22T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791918558773-lg.jpg",
+   "url": "https://venti.live/evento/dogos-waterpolo-en-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/dogos-waterpolo-en-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "87b455f7e48f",
    "title": "Andres Calamaro",
    "start": "2026-11-23T00:00:00-03:00",
@@ -34092,6 +35084,28 @@
    ]
   },
   {
+   "id": "76bd4274a43c",
+   "title": "MOYKA en Niceto Humboldt | Niceto Club",
+   "start": "2026-11-24T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1788475144570-lg.jpg",
+   "url": "https://venti.live/evento/moyka-en-niceto-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/moyka-en-niceto-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "f01d9525ee6a",
    "title": "ULISES BUENO",
    "start": "2026-11-25T00:00:00-03:00",
@@ -34202,6 +35216,50 @@
    ]
   },
   {
+   "id": "bfccae2ba088",
+   "title": "Piazzolla Electrónico x Nico Sorin 25 NOV",
+   "start": "2026-11-25T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791762268751-lg.jpg",
+   "url": "https://venti.live/evento/piazzolla-electr-nico-x-nico-sorin-25-nov-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/piazzolla-electr-nico-x-nico-sorin-25-nov-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "414b39bcee82",
+   "title": "El vecindario",
+   "start": "2026-11-26T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794001470750-lg.jpg",
+   "url": "https://venti.live/evento/el-vecindario-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/el-vecindario-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "e2d0ec2eeb28",
    "title": "JOHNNY MARR · THE AGE OF EVERTYTHING",
    "start": "2026-11-26T19:00:00-03:00",
@@ -34242,6 +35300,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "1613db395e73",
+   "title": "Comida para Llevar en Buenos Aires",
+   "start": "2026-11-26T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790011069741-lg.jpg",
+   "url": "https://venti.live/evento/comida-para-llevar-en-buenos-aires-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/comida-para-llevar-en-buenos-aires-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -34290,6 +35370,72 @@
    ]
   },
   {
+   "id": "4769df54617b",
+   "title": "ERROR VANESSA PRESENTA INDOMABLE",
+   "start": "2026-11-26T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792070402791-lg.jpg",
+   "url": "https://venti.live/evento/error-vanessa-presenta-indomable-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/error-vanessa-presenta-indomable-en-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "01c12375ff59",
+   "title": "Montse • Fredrik Svabø • Thea Wang",
+   "start": "2026-11-26T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791296611787-lg.jpg",
+   "url": "https://venti.live/evento/from-fjords-to-andes-tour-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/from-fjords-to-andes-tour-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "f8a12482bee6",
+   "title": "Un Verano en Teatro Vorterix",
+   "start": "2026-11-27T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Un Verano se presentará el viernes 27 de noviembre a las [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/un-verano-vorterix.jpg",
+   "url": "https://indiehoy.com/agenda/un-verano-en-teatro-vorterix/",
+   "price": "Desde $15.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/un-verano-en-teatro-vorterix/"
+    }
+   ]
+  },
+  {
    "id": "853ba80d5f30",
    "title": "La RE Fiesta",
    "start": "2026-11-27T00:30:00-03:00",
@@ -34334,6 +35480,28 @@
    ]
   },
   {
+   "id": "b4bbb691ba96",
+   "title": "Barbi Recanati",
+   "start": "2026-11-27T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789141106596-lg.jpg",
+   "url": "https://venti.live/evento/barbi-recanati-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/barbi-recanati-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "041605fea912",
    "title": "Campo Minado",
    "start": "2026-11-27T20:00:00-03:00",
@@ -34352,6 +35520,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "7bd4573d9930",
+   "title": "Julián Elordi + Martín Zta y la Flia Cohete",
+   "start": "2026-11-27T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793362228884-lg.jpg",
+   "url": "https://venti.live/evento/juli-n-elordi-mart-n-zta-y-la-flia-cohete-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/juli-n-elordi-mart-n-zta-y-la-flia-cohete-en-niceto-bar"
     }
    ]
   },
@@ -34418,6 +35608,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/homenaje-sinfonico-ennio-morricone/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "6dc2b14c2f19",
+   "title": "LAGRIMITAS presenta en vivo su nueva etapa",
+   "start": "2026-11-27T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792687556214-lg.jpg",
+   "url": "https://venti.live/evento/lagrimitas-presenta-en-vivo-su-nueva-etapa-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/lagrimitas-presenta-en-vivo-su-nueva-etapa-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -34554,6 +35766,50 @@
    ]
   },
   {
+   "id": "2e0b0d0df994",
+   "title": "La Chancha Muda - Antes que se abra el corral",
+   "start": "2026-11-28T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792156407470-lg.jpg",
+   "url": "https://venti.live/evento/la-chancha-muda-antes-que-se-abra-el-corral-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-chancha-muda-antes-que-se-abra-el-corral-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "81b032364240",
+   "title": "SELF-TITLED x FOUND - OPEN AIR",
+   "start": "2026-11-28T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793714072369-lg.jpg",
+   "url": "https://venti.live/evento/self-titled-techno-session-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/self-titled-techno-session-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "3ecc9a07101a",
    "title": "Shine On",
    "start": "2026-11-28T19:00:00-03:00",
@@ -34620,6 +35876,28 @@
    ]
   },
   {
+   "id": "f6180895d6cc",
+   "title": "Ciclo Void",
+   "start": "2026-11-28T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789406261258-lg.jpg",
+   "url": "https://venti.live/evento/ciclo-void-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ciclo-void-en-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "19c73dd34bc3",
    "title": "Clearwater",
    "start": "2026-11-28T21:00:00-03:00",
@@ -34638,6 +35916,116 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/clearwater/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "b07b0c811e90",
+   "title": "QUETZAL CHEBÚ",
+   "start": "2026-11-28T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790361191177-lg.jpg",
+   "url": "https://venti.live/evento/quetzal-cheb-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/quetzal-cheb-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "fab1bfe7d9a6",
+   "title": "Reggaeton Night Vol ll",
+   "start": "2026-11-28T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793998655436-lg.jpg",
+   "url": "https://venti.live/evento/reggaeton-night-vol-ll-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/reggaeton-night-vol-ll-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "85591df6d8eb",
+   "title": "Basura presentación de sencillos + Vino de marte",
+   "start": "2026-11-28T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794087744756-lg.jpg",
+   "url": "https://venti.live/evento/basura-presentaci-n-de-sencillos-vino-de-marte-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/basura-presentaci-n-de-sencillos-vino-de-marte-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "8d82be55f6db",
+   "title": "Club 69 | 28 NOV",
+   "start": "2026-11-28T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793716727897-lg.jpg",
+   "url": "https://venti.live/evento/club-69-28-nov-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/club-69-28-nov-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "3c1030680dcd",
+   "title": "Lucas Edi - Abril Roitman | 28.10",
+   "start": "2026-11-28T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793635619847-lg.jpg",
+   "url": "https://venti.live/evento/lucas-edi-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/lucas-edi-en-niceto-bar"
     }
    ]
   },
@@ -34774,6 +36162,50 @@
    ]
   },
   {
+   "id": "6521a3a0b8ec",
+   "title": "FESTIVAL PARDO: da skate en",
+   "start": "2026-11-29T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1793117950405-lg.jpg",
+   "url": "https://venti.live/evento/festival-pardo-da-skate-en-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/festival-pardo-da-skate-en-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "07236d75b423",
+   "title": "LAUTA 29 NOV en Niceto Club (+18años)",
+   "start": "2026-11-29T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790009389651-lg.jpg",
+   "url": "https://venti.live/evento/lauta-29-nov-en-niceto-club-18a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/lauta-29-nov-en-niceto-club-18a-os"
+    }
+   ]
+  },
+  {
    "id": "e322416b749a",
    "title": "Ballet de San Petersburgo",
    "start": "2026-11-29T21:00:00-03:00",
@@ -34792,6 +36224,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/ballet-de-san-petersburgo/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "cb9bfc39fc8b",
+   "title": "La Raxxet 29 NOV",
+   "start": "2026-11-29T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794001907294-lg.jpg",
+   "url": "https://venti.live/evento/la-raxxet-29-nov-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-raxxet-29-nov-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -34858,6 +36312,28 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/28e5ef16-c201-4de7-97cb-cda401c661a3"
+    }
+   ]
+  },
+  {
+   "id": "13a92a312958",
+   "title": "Giant Rooks en Argentina",
+   "start": "2026-12-01T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Giant Rooks se presentará el martes 1 de diciembre a las 20.30 [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/05/giant-rooks-vorterix-1.jpg",
+   "url": "https://indiehoy.com/agenda/giant-rooks-en-argentina/",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/giant-rooks-en-argentina/"
     }
    ]
   },
@@ -34950,6 +36426,28 @@
    ]
   },
   {
+   "id": "e0c97394e8bc",
+   "title": "Malcriada en The Roxy Live",
+   "start": "2026-12-03T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "The Roxy Live",
+   "address": "Niceto Vega 5542, Buenos Aires",
+   "description": "Malcriada se presentará el jueves 3 de diciembre a las [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/10/malcriada-roxy.jpg",
+   "url": "https://indiehoy.com/agenda/malcriada-en-the-roxy-live/",
+   "price": "Desde $50.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-roxy",
+     "name": "Indie Hoy (The Roxy Live)",
+     "url": "https://indiehoy.com/agenda/malcriada-en-the-roxy-live/"
+    }
+   ]
+  },
+  {
    "id": "11ea47e93850",
    "title": "OF MONSTERS AND MEN · MOUSE PRADE TOUR",
    "start": "2026-12-03T19:00:00-03:00",
@@ -34968,6 +36466,28 @@
      "id": "c-art-media",
      "name": "C Art Media",
      "url": "https://www.passline.com/eventos/sorpresa-en-c-art-media"
+    }
+   ]
+  },
+  {
+   "id": "102f19bbcb23",
+   "title": "JULI JELEN",
+   "start": "2026-12-03T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793118163769-lg.jpg",
+   "url": "https://venti.live/evento/juli-jelen-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/juli-jelen-en-niceto-bar"
     }
    ]
   },
@@ -35016,6 +36536,72 @@
    ]
   },
   {
+   "id": "b74aba12ae5d",
+   "title": "LEO MIDDEA PRESENTA NOTICIAS DE PUGLIA EN BUENOS AIRES",
+   "start": "2026-12-03T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1776689929043-lg.jpg",
+   "url": "https://venti.live/evento/leo-middea-presenta-noticias-de-puglia-en-buenos-aires-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/leo-middea-presenta-noticias-de-puglia-en-buenos-aires-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "48aa851c70ac",
+   "title": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA",
+   "start": "2026-12-03T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792507108719-lg.jpg",
+   "url": "https://venti.live/evento/arkadia-presenta-el-fin-de-la-nostalgia-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/arkadia-presenta-el-fin-de-la-nostalgia-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "29d29b10ee98",
+   "title": "CATTO EYEWEAR SS27",
+   "start": "2026-12-04T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793110112875-lg.jpg",
+   "url": "https://venti.live/evento/catto-eyewear-ss27-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/catto-eyewear-ss27-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "088ac014854f",
    "title": "DOMINGUINHO · EN ARGENTINA",
    "start": "2026-12-04T19:00:00-03:00",
@@ -35038,6 +36624,28 @@
    ]
   },
   {
+   "id": "3301166c1fe6",
+   "title": "Cloe Demer \"Sin Rodeos\"",
+   "start": "2026-12-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790021818214-lg.jpg",
+   "url": "https://venti.live/evento/cloe-demer-sin-rodeos-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/cloe-demer-sin-rodeos-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "297817bfc6d8",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-04T20:00:00-03:00",
@@ -35056,6 +36664,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "fc36ff2d4073",
+   "title": "Mi Amigo Invencible Regresa a Niceto Club",
+   "start": "2026-12-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792691508245-lg.jpg",
+   "url": "https://venti.live/evento/mi-amigo-invencible-regresa-a-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/mi-amigo-invencible-regresa-a-niceto-club-18-a-os"
     }
    ]
   },
@@ -35100,6 +36730,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/emanero/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "89f0a67c1a51",
+   "title": "Lua + Lucyid",
+   "start": "2026-12-04T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790783536632-lg.jpg",
+   "url": "https://venti.live/evento/lua-lucyd-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/lua-lucyd-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "9e6930d6dae5",
+   "title": "HIEDRAH",
+   "start": "2026-12-04T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793733040606-lg.jpg",
+   "url": "https://venti.live/evento/hiedrah-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/hiedrah-en-niceto-club"
     }
    ]
   },
@@ -35236,6 +36910,28 @@
    ]
   },
   {
+   "id": "242853a4b03e",
+   "title": "DESORDEN con OPINEL, ISLA TUCAN, JTF",
+   "start": "2026-12-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793642498115-lg.jpg",
+   "url": "https://venti.live/evento/desorden-con-opinel-isla-tucan-jtf-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/desorden-con-opinel-isla-tucan-jtf-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "50a7be53e11d",
    "title": "Katseye: The tribute experience",
    "start": "2026-12-05T20:00:00-03:00",
@@ -35276,6 +36972,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "26df55deb99d",
+   "title": "SHAILA lanza \" LA CONSTANTE\"",
+   "start": "2026-12-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789050190282-lg.jpg",
+   "url": "https://venti.live/evento/shaila-lanza-la-constante-su-nuevo-disco",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/shaila-lanza-la-constante-su-nuevo-disco"
+    }
+   ]
+  },
+  {
+   "id": "8e7ea7a2a27b",
+   "title": "Ciclo Void 5 DIC",
+   "start": "2026-12-05T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791296300235-lg.jpg",
+   "url": "https://venti.live/evento/ciclo-void-5-dic-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ciclo-void-5-dic-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -35390,6 +37130,72 @@
    ]
   },
   {
+   "id": "af3fc17486c9",
+   "title": "LA PATRULLA ESPACIAL",
+   "start": "2026-12-06T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791550430740-lg.jpg",
+   "url": "https://venti.live/evento/la-patrulla-espacial-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/la-patrulla-espacial-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "bb421226073c",
+   "title": "YOKO CLERC",
+   "start": "2026-12-06T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792160176947-lg.jpg",
+   "url": "https://venti.live/evento/yoko-clerc-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/yoko-clerc-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "ffee056223a2",
+   "title": "FIESTA EXPRESO KINGSTON",
+   "start": "2026-12-06T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1793970018878-lg.jpg",
+   "url": "https://venti.live/evento/fiesta-expreso-kingston-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/fiesta-expreso-kingston-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "f82a017eb81f",
    "title": "DESAKTA2",
    "start": "2026-12-07T00:00:00-03:00",
@@ -35456,6 +37262,50 @@
    ]
   },
   {
+   "id": "9417848eae9c",
+   "title": "RYAN presenta “Zafarrancho”",
+   "start": "2026-12-07T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790078589424-lg.jpg",
+   "url": "https://venti.live/evento/ryan-presenta-zafarrancho-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/ryan-presenta-zafarrancho-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "545e43e5a3fd",
+   "title": "Thofa SSJ",
+   "start": "2026-12-07T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793653030147-lg.jpg",
+   "url": "https://venti.live/evento/thofa-ssj-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/thofa-ssj-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "6e26de97a324",
    "title": "Angela Torres",
    "start": "2026-12-08T00:00:00-03:00",
@@ -35474,6 +37324,28 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/b944238d-05f6-4bc2-8a43-0f4ca5fbbc2e"
+    }
+   ]
+  },
+  {
+   "id": "8d48c60877a3",
+   "title": "Shintaro Sakamoto",
+   "start": "2026-12-08T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792425862111-lg.jpg",
+   "url": "https://venti.live/evento/shintaro-sakamoto-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/shintaro-sakamoto-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -35518,6 +37390,28 @@
      "id": "konex",
      "name": "Ciudad Cultural Konex",
      "url": "https://entradas.cckonex.org/event/chukujam-v5"
+    }
+   ]
+  },
+  {
+   "id": "b0713ad885a9",
+   "title": "FELIPE BALDOMIR EN BUENOS AIRES",
+   "start": "2026-12-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1782401687143-lg.jpg",
+   "url": "https://venti.live/evento/felipe-baldomir-en-buenos-aires-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/felipe-baldomir-en-buenos-aires-en-niceto-club"
     }
    ]
   },
@@ -35698,6 +37592,50 @@
    ]
   },
   {
+   "id": "9fa3309077af",
+   "title": "VALERIO & LOS EXTRAVAGANTES EN VIVO! ARTISTA INVITADO: PLEIN",
+   "start": "2026-12-10T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793020990496-lg.jpg",
+   "url": "https://venti.live/evento/valerio-los-extravagantes-en-vivo-artista-invitado-plein-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/valerio-los-extravagantes-en-vivo-artista-invitado-plein-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "9f42d8e4c0c9",
+   "title": "El Purre en The Roxy Live",
+   "start": "2026-12-11T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "The Roxy Live",
+   "address": "Niceto Vega 5542, Buenos Aires",
+   "description": "El Purre se presentará el viernes 11 de diciembre a [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/el-purre-roxy.jpg",
+   "url": "https://indiehoy.com/agenda/el-purre-en-the-roxy-live/",
+   "price": "Desde $25.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-roxy",
+     "name": "Indie Hoy (The Roxy Live)",
+     "url": "https://indiehoy.com/agenda/el-purre-en-the-roxy-live/"
+    }
+   ]
+  },
+  {
    "id": "b7da2f8e9cd4",
    "title": "GABRIEL ROLÓN",
    "start": "2026-12-11T00:00:00-03:00",
@@ -35738,6 +37676,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "074e22e4d74d",
+   "title": "Richard Coleman & El Trans-Siberian Express 11 DIC",
+   "start": "2026-12-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793190346925-lg.jpg",
+   "url": "https://venti.live/evento/richard-coleman-el-trans-siberian-express-11-dic-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/richard-coleman-el-trans-siberian-express-11-dic-en-niceto-club-18-a-os"
     }
    ]
   },
@@ -35804,6 +37764,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/hasta-que-me-olvides/teatro-santa-maria"
+    }
+   ]
+  },
+  {
+   "id": "a473c1d8b7d8",
+   "title": "PAISANOS DE MARTE",
+   "start": "2026-12-11T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792598503699-lg.jpg",
+   "url": "https://venti.live/evento/paisanos-de-marte-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/paisanos-de-marte-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "cd5b981aca98",
+   "title": "Valentín Caba - Acoustic Session",
+   "start": "2026-12-11T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792603006005-lg.jpg",
+   "url": "https://venti.live/evento/valent-n-caba-acoustic-session-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/valent-n-caba-acoustic-session-en-niceto-bar"
     }
    ]
   },
@@ -35940,6 +37944,28 @@
    ]
   },
   {
+   "id": "675dfd80c71d",
+   "title": "MIMI MAURA presenta Bailaré",
+   "start": "2026-12-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1791761838607-lg.jpg",
+   "url": "https://venti.live/evento/mimi-maura-presenta-bailar-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/mimi-maura-presenta-bailar-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "91580dffc148",
    "title": "Elena Roger",
    "start": "2026-12-12T20:30:00-03:00",
@@ -35984,6 +38010,28 @@
    ]
   },
   {
+   "id": "19d69d7fe5d6",
+   "title": "SuperVos cierra el año",
+   "start": "2026-12-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1788799563002-lg.jpg",
+   "url": "https://venti.live/evento/supervos-cierra-el-a-o-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/supervos-cierra-el-a-o-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "377d8b5a45ff",
    "title": "BANDALOS CHINOS · CHAU 2026",
    "start": "2026-12-13T19:00:00-03:00",
@@ -36024,6 +38072,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "d8bd21360b49",
+   "title": "Festival Plasma 4ta edición",
+   "start": "2026-12-13T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1791763182049-lg.jpg",
+   "url": "https://venti.live/evento/festival-plasma-4ta-edici-n-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/festival-plasma-4ta-edici-n-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "dc511b3b19b3",
+   "title": "Gallo Criollo celebra su 1er año",
+   "start": "2026-12-13T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1788822306466-lg.jpg",
+   "url": "https://venti.live/evento/gallo-criollo-celebra-su-1er-a-o-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/gallo-criollo-celebra-su-1er-a-o-en-humboldt-niceto-club"
     }
    ]
   },
@@ -36094,6 +38186,28 @@
    ]
   },
   {
+   "id": "a19434dc7ec9",
+   "title": "Feli Colina",
+   "start": "2026-12-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790721501474-lg.jpg",
+   "url": "https://venti.live/evento/feli-colina-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/feli-colina-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
    "id": "f1569ac4bbfb",
    "title": "Ballet Hispania",
    "start": "2026-12-16T19:00:00-03:00",
@@ -36112,6 +38226,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/ballet-hispania/teatro-santa-maria"
+    }
+   ]
+  },
+  {
+   "id": "6fb4bd020506",
+   "title": "NASIR CATRIEL/ FASCIOLO/ ALKOY con Banda",
+   "start": "2026-12-16T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793830099552-lg.jpg",
+   "url": "https://venti.live/evento/nasir-catriel-fasciolo-alkoy-con-banda-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/nasir-catriel-fasciolo-alkoy-con-banda-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -36160,6 +38296,28 @@
    ]
   },
   {
+   "id": "af8d7659c272",
+   "title": "OCTAFONIC",
+   "start": "2026-12-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790861983549-lg.jpg",
+   "url": "https://venti.live/evento/octafonic-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/octafonic-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "328330d1a502",
    "title": "Zoe Gotusso",
    "start": "2026-12-17T21:00:00-03:00",
@@ -36178,6 +38336,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/zoe-gotusso/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "f30537b7dc61",
+   "title": "El Síndrome de Peter en Teatro Vorterix",
+   "start": "2026-12-18T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "El Síndrome de Peter se presentará el viernes 18 de [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/el-sindrome-de-peter.jpg",
+   "url": "https://indiehoy.com/agenda/el-sindrome-de-peter-en-teatro-vorterix-3/",
+   "price": "Desde $30.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/el-sindrome-de-peter-en-teatro-vorterix-3/"
     }
    ]
   },
@@ -36222,6 +38402,50 @@
      "id": "konex",
      "name": "Ciudad Cultural Konex",
      "url": "https://entradas.cckonex.org/event/los-totora"
+    }
+   ]
+  },
+  {
+   "id": "512ca2a1b9ec",
+   "title": "OCTAFONIC 18 DIC",
+   "start": "2026-12-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1793636903265-lg.jpg",
+   "url": "https://venti.live/evento/octafonic-18-dic-en-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/octafonic-18-dic-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "0d0035f8bae7",
+   "title": "RENZO LEALI Y LOS DESERTORES",
+   "start": "2026-12-18T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789053635228-lg.jpg",
+   "url": "https://venti.live/evento/renzo-leali-y-los-desertores-en-humboldt-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/renzo-leali-y-los-desertores-en-humboldt-niceto-club"
     }
    ]
   },
@@ -36292,6 +38516,50 @@
    ]
   },
   {
+   "id": "2b3502c38b25",
+   "title": "Lola Avesani",
+   "start": "2026-12-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792069018396-lg.jpg",
+   "url": "https://venti.live/evento/lola-avesani-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/lola-avesani-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "9019c411325c",
+   "title": "Sara Hebe Presenta Negocionismo en Bs As",
+   "start": "2026-12-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1787865226072-lg.jpg",
+   "url": "https://venti.live/evento/sara-hebe-presenta-negocionismo-en-bs-as-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/sara-hebe-presenta-negocionismo-en-bs-as-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "39e96e21f2a3",
    "title": "Navidad Sinfónica",
    "start": "2026-12-19T20:30:00-03:00",
@@ -36310,6 +38578,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/navidad-sinfonica/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "ac46a0ba7cea",
+   "title": "HOJAS POR EL BARRIO presenta AÚN QUE SEA",
+   "start": "2026-12-19T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1789682667220-lg.jpg",
+   "url": "https://venti.live/evento/hojas-por-el-barrio-presenta-a-n-que-sea-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/hojas-por-el-barrio-presenta-a-n-que-sea-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
@@ -36420,6 +38710,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/feli-de-la-garma/radio-city-roxy-melany"
+    }
+   ]
+  },
+  {
+   "id": "0f73f3c76ac9",
+   "title": "FESTIVAL PARDO: LAS LIGAS MENORES",
+   "start": "2026-12-26T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Humboldt | Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1793623757477-lg.jpg",
+   "url": "https://venti.live/evento/festival-pardo-las-ligas-menores-en-humboldt-niceto-club-18-a-os",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/festival-pardo-las-ligas-menores-en-humboldt-niceto-club-18-a-os"
     }
    ]
   },
