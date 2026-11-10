@@ -1,19 +1,19 @@
 :root {
-  --bg: #f6f1e7;
-  --paper: #fffdf8;
-  --ink: #1d1a16;
-  --muted: #6b6359;
-  --line: #e4dccd;
-  --accent: #e0452b;      /* rojo colectivo */
-  --accent-2: #1f5c99;    /* azul celeste porteño, más profundo */
-  --free: #2f7d4f;
+  --bg: #e4ebe1;          /* verde salvia claro y opaco */
+  --paper: #f3f6f0;
+  --ink: #1f2b23;
+  --muted: #5b6a5f;
+  --line: #ccd8c8;
+  --accent: #4d7559;      /* verde musgo para títulos y horarios */
+  --accent-2: #3d6660;    /* verde azulado para categorías */
+  --free: #2e6b42;
   --radius: 14px;
   font-family: 'Inter', system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #15130f; --paper: #1f1c17; --ink: #f2ece1; --muted: #a69d90; --line: #36312a; --accent-2: #7fb2e5; --free: #6cc191; }
+  :root { --bg: #18201a; --paper: #212b23; --ink: #e9efe6; --muted: #a3b0a5; --line: #34413a; --accent: #9cc3a3; --accent-2: #8fbdb5; --free: #8fd0a2; }
 }
 * { box-sizing: border-box; }
 body { margin: 0; line-height: 1.5; }
@@ -37,7 +37,7 @@ h1 em { font-style: normal; color: var(--accent); }
 .chips button { font: inherit; font-size: .88rem; padding: 6px 13px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
 .chips button:hover { border-color: var(--ink); }
 .chips button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.cats button.on { background: var(--accent-2); border-color: var(--accent-2); color: #fff; }
+.cats button.on { background: var(--accent-2); border-color: var(--accent-2); color: var(--paper); }
 
 .count { color: var(--muted); font-size: .9rem; margin: 22px 0 6px; }
 .day { margin: 26px 0 8px; display: flex; align-items: baseline; gap: 12px; }

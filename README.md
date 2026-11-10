@@ -1,4 +1,4 @@
-# Eventual · Agenda CABA
+# Eventual · Agenda de eventos
 
 Una página que junta en un solo lugar los eventos y actividades de la Ciudad de Buenos Aires: recitales, teatro, muestras, ferias, talleres y planes gratis. La información sale de otros sitios y cada evento enlaza a su fuente original.
 
