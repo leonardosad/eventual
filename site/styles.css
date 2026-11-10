@@ -11,9 +11,7 @@
   font-family: 'Inter', system-ui, sans-serif;
   color: var(--ink);
   background: var(--bg);
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #18201a; --paper: #212b23; --ink: #e9efe6; --muted: #a3b0a5; --line: #34413a; --accent: #9cc3a3; --accent-2: #8fbdb5; --free: #8fd0a2; }
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 body { margin: 0; line-height: 1.5; }
