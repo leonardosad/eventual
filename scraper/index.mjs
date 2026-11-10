@@ -1,0 +1,108 @@
+// Junta eventos de todas las fuentes de sources.json y escribe site/data/events.json
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { parseAuto, parseJsonLd, parseMicrodata } from './adapters/jsonld.mjs';
+import { parseHtml } from './adapters/html.mjs';
+import { parseIcal } from './adapters/ical.mjs';
+import { normalizeEvent, dedupe } from './normalize.mjs';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const OUT = path.join(ROOT, 'site', 'data', 'events.json');
+const DAYS_AHEAD = Number(process.env.DAYS_AHEAD || 60);
+const USER_AGENT = process.env.USER_AGENT ||
+  'AgendaCABA/1.0 (agregador de eventos sin fines de lucro; enlaza siempre a la fuente)';
+
+async function fetchText(url, tries = 2) {
+  for (let i = 1; i <= tries; i++) {
+    try {
+      const res = await fetch(url, {
+        headers: { 'User-Agent': USER_AGENT, 'Accept-Language': 'es-AR,es;q=0.9' },
+        signal: AbortSignal.timeout(25_000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      if (i === tries) throw err;
+      await new Promise((r) => setTimeout(r, 2000 * i));
+    }
+  }
+}
+
+function runAdapter(source, body, url) {
+  switch (source.type) {
+    case 'auto': return parseAuto(body, url);
+    case 'jsonld': return parseJsonLd(body, url);
+    case 'microdata': return parseMicrodata(body, url);
+    case 'html': return parseHtml(body, url, source.selectors);
+    case 'ical': return parseIcal(body, url);
+    default: throw new Error(`Tipo de fuente desconocido: ${source.type}`);
+  }
+}
+
+async function scrapeSource(source, now) {
+  const raw = [];
+  const errors = [];
+  for (const url of source.urls) {
+    try {
+      const body = await fetchText(url);
+      raw.push(...runAdapter(source, body, url));
+    } catch (err) {
+      errors.push(`${url}: ${err.message}`);
+    }
+    await new Promise((r) => setTimeout(r, 1500)); // ser amables con el sitio
+  }
+  const events = raw.map((r) => normalizeEvent(r, source, now)).filter(Boolean);
+  return { events, errors, ok: errors.length < source.urls.length };
+}
+
+function inWindow(e, now) {
+  const start = new Date(e.start);
+  const end = e.end ? new Date(e.end) : new Date(start.getTime() + 4 * 3600e3);
+  const limit = new Date(now.getTime() + DAYS_AHEAD * 864e5);
+  return end >= now && start <= limit;
+}
+
+async function loadPrevious() {
+  try { return JSON.parse(await readFile(OUT, 'utf8')); } catch { return null; }
+}
+
+async function main() {
+  const now = new Date();
+  const sources = JSON.parse(await readFile(path.join(ROOT, 'sources.json'), 'utf8'))
+    .filter((s) => s.enabled !== false);
+  const previous = await loadPrevious();
+
+  const all = [];
+  const report = [];
+  for (const source of sources) {
+    process.stdout.write(`→ ${source.name}… `);
+    const { events, errors, ok } = await scrapeSource(source, now);
+    let kept = events;
+    let note = null;
+    // Si una fuente falla o no devuelve nada, conservamos sus eventos anteriores
+    // que todavía no pasaron, para que la página no quede vacía.
+    if (!events.length && previous?.events) {
+      kept = previous.events.filter((e) => e.sources.some((s) => s.id === source.id));
+      if (kept.length) note = 'sin datos nuevos: se muestran los de la última actualización';
+    }
+    all.push(...kept);
+    report.push({ id: source.id, name: source.name, count: events.length, ok: ok && events.length > 0, note, errors });
+    console.log(`${events.length} eventos${errors.length ? ` (${errors.length} error/es)` : ''}`);
+    for (const e of errors) console.log(`   ⚠ ${e}`);
+  }
+
+  const events = dedupe(all.filter((e) => inWindow(e, now)))
+    .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
+
+  if (!events.length && previous?.events?.length) {
+    console.log('Ninguna fuente devolvió eventos: se mantiene el archivo anterior.');
+    process.exit(0);
+  }
+
+  await mkdir(path.dirname(OUT), { recursive: true });
+  await writeFile(OUT, JSON.stringify({ generatedAt: now.toISOString(), sources: report, events }, null, 1));
+  console.log(`\n✓ ${events.length} eventos guardados en site/data/events.json`);
+}
+
+main().catch((err) => { console.error(err); process.exit(1); });

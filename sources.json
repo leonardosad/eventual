@@ -1,0 +1,55 @@
+[
+  {
+    "id": "eventbrite",
+    "name": "Eventbrite",
+    "enabled": true,
+    "type": "auto",
+    "urls": [
+      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/",
+      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/?page=2",
+      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/free--events/"
+    ]
+  },
+  {
+    "id": "turismo-ba",
+    "name": "Turismo Buenos Aires",
+    "enabled": true,
+    "type": "auto",
+    "urls": [
+      "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"
+    ]
+  },
+  {
+    "id": "alternativa-teatral",
+    "name": "Alternativa Teatral",
+    "enabled": true,
+    "type": "auto",
+    "urls": [
+      "https://www.alternativateatral.com/cartelera.asp"
+    ]
+  },
+  {
+    "id": "ejemplo-html",
+    "name": "Ejemplo con selectores CSS (desactivado)",
+    "enabled": false,
+    "type": "html",
+    "urls": ["https://www.ejemplo.com.ar/agenda"],
+    "selectors": {
+      "item": ".evento",
+      "title": ".evento-titulo",
+      "date": ".evento-fecha",
+      "link": "a",
+      "place": ".evento-lugar",
+      "image": "img",
+      "price": ".evento-precio"
+    },
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "ejemplo-ical",
+    "name": "Ejemplo calendario .ics (desactivado)",
+    "enabled": false,
+    "type": "ical",
+    "urls": ["https://www.ejemplo.com.ar/eventos.ics"]
+  }
+]
