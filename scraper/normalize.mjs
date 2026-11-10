@@ -137,6 +137,7 @@ export function normalizeEvent(raw, source, now = new Date()) {
     title,
     start,
     end: end && end >= start ? end : null,
+    whenText: clean(raw.whenText) || null,
     place: clean(raw.place) || null,
     address: clean(raw.address) || null,
     description: description || null,

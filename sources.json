@@ -1,32 +1,25 @@
 [
   {
-    "id": "eventbrite",
-    "name": "Eventbrite",
+    "id": "alternativa-teatral",
+    "name": "Alternativa Teatral",
     "enabled": true,
-    "type": "auto",
-    "urls": [
-      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/",
-      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/?page=2",
-      "https://www.eventbrite.com.ar/d/argentina--buenos-aires/free--events/"
-    ]
+    "type": "alternativa",
+    "urls": ["https://www.alternativateatral.com/get-json.php?t=novedades&r=cartelera"],
+    "options": { "provincias": ["CABA"], "daysAhead": 14 }
   },
   {
     "id": "turismo-ba",
     "name": "Turismo Buenos Aires",
     "enabled": true,
-    "type": "auto",
-    "urls": [
-      "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"
-    ]
+    "type": "turismo-ba",
+    "urls": ["https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"]
   },
   {
-    "id": "alternativa-teatral",
-    "name": "Alternativa Teatral",
-    "enabled": true,
+    "id": "ejemplo-auto",
+    "name": "Ejemplo con datos estándar schema.org (desactivado)",
+    "enabled": false,
     "type": "auto",
-    "urls": [
-      "https://www.alternativateatral.com/cartelera.asp"
-    ]
+    "urls": ["https://www.ejemplo.com.ar/agenda"]
   },
   {
     "id": "ejemplo-html",

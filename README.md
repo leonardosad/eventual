@@ -47,7 +47,12 @@ Una fuente con **0 eventos** significa que ese sitio no publica sus datos en un 
 
 ## Agregar o cambiar fuentes
 
-Todo se configura en `sources.json`. Hay tres tipos:
+Todo se configura en `sources.json`. Las dos fuentes activas usan lectores propios:
+
+- **`alternativa`** (Alternativa Teatral): lee el archivo de datos de la cartelera y genera una entrada por obra y por día durante los próximos `daysAhead` días, solo en las provincias indicadas en `provincias`.
+- **`turismo-ba`** (Turismo Buenos Aires, "Qué hacer esta semana"): toma las actividades de la semana que figura en el encabezado. Si el sitio no actualizó la semana, esas actividades no aparecen.
+
+Para sumar sitios nuevos hay tres tipos genéricos:
 
 **`auto`** (recomendado): lee los datos de eventos que los sitios publican para Google (schema.org). Funciona con muchas ticketeras y agendas sin configurar nada más.
 

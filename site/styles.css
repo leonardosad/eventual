@@ -69,3 +69,7 @@ h1 em { font-style: normal; color: var(--accent); }
 .foot ul { padding-left: 18px; }
 .foot .bad { color: var(--accent); }
 .small { font-size: .8rem; }
+
+.more { text-align: center; margin: 32px 0 8px; }
+.more button { font: inherit; font-weight: 600; padding: 11px 22px; border-radius: 999px; border: 1px solid var(--accent); background: var(--paper); color: var(--accent); cursor: pointer; }
+.more button:hover { background: var(--accent); color: var(--paper); }

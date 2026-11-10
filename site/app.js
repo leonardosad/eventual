@@ -3,6 +3,8 @@
   const TZ = 'America/Argentina/Buenos_Aires';
   const $ = (id) => document.getElementById(id);
   const state = { q: '', free: false, when: 'all', cat: null };
+  const PAGE = 120;
+  let limit = PAGE;
   let data = { events: [], sources: [] };
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -51,7 +53,7 @@
 
   function card(e) {
     const multi = e.end && dayKey(e.end) !== dayKey(e.start);
-    const when = multi ? `Hasta el ${new Intl.DateTimeFormat('es-AR', { day: 'numeric', month: 'short', timeZone: TZ }).format(new Date(e.end))}`
+    const when = e.whenText ? e.whenText : multi ? `Hasta el ${new Intl.DateTimeFormat('es-AR', { day: 'numeric', month: 'short', timeZone: TZ }).format(new Date(e.end))}`
       : hasTime(e.start) ? fmtTime(e.start) : 'Todo el día';
     const links = e.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">Ver en ${esc(s.name)} ↗</a>`).join('');
     return `<article class="card">
@@ -66,10 +68,12 @@
       </div></article>`;
   }
 
-  function render() {
-    const list = filtered();
+  function render(keepLimit) {
+    if (!keepLimit) limit = PAGE;
+    const all = filtered();
+    const list = all.slice(0, limit);
     const [from] = range();
-    $('count').textContent = list.length ? `${list.length} ${list.length === 1 ? 'evento' : 'eventos'}` : '';
+    $('count').textContent = all.length ? `${all.length} ${all.length === 1 ? 'evento' : 'eventos'}` : '';
     if (!data.events.length) {
       $('list').innerHTML = `<div class="empty"><strong>Todavía no hay eventos cargados</strong>La agenda se completa sola en la próxima actualización automática.</div>`;
       return;
@@ -90,7 +94,9 @@
       const label = k === t ? 'Hoy' : k === addDays(t, 1) ? 'Mañana' : '';
       return `<div class="day"><h2>${esc(fmtDay(k))}</h2>${label ? `<span>${label}</span>` : ''}</div>
         <div class="grid">${groups.get(k).map(card).join('')}</div>`;
-    }).join('');
+    }).join('') + (all.length > limit ? `<div class="more"><button id="more">Ver más eventos (${all.length - limit} restantes)</button></div>` : '');
+    const more = $('more');
+    if (more) more.onclick = () => { limit += PAGE; render(true); };
   }
 
   function renderCats() {

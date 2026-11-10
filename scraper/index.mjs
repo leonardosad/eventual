@@ -5,6 +5,8 @@ import path from 'node:path';
 import { parseAuto, parseJsonLd, parseMicrodata } from './adapters/jsonld.mjs';
 import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
+import { parseAlternativa } from './adapters/alternativa.mjs';
+import { parseTurismoBA } from './adapters/turismoba.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -36,6 +38,8 @@ function runAdapter(source, body, url) {
     case 'microdata': return parseMicrodata(body, url);
     case 'html': return parseHtml(body, url, source.selectors);
     case 'ical': return parseIcal(body, url);
+    case 'alternativa': return parseAlternativa(body, url, source.options);
+    case 'turismo-ba': return parseTurismoBA(body, url);
     default: throw new Error(`Tipo de fuente desconocido: ${source.type}`);
   }
 }
