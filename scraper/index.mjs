@@ -11,6 +11,7 @@ import { follow } from './adapters/follow.mjs';
 import { ticketek } from './adapters/ticketek.mjs';
 import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
+import { parseNiceto } from './adapters/niceto.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -43,6 +44,7 @@ async function runAdapter(source, body, url, ctx) {
   if (MULTI[source.type]) return MULTI[source.type](body, url, source, ctx);
   switch (source.type) {
     case 'artmedia': return parseArtMedia(body, url);
+    case 'niceto': return parseNiceto(body, url);
     case 'auto': return parseAuto(body, url);
     case 'jsonld': return parseJsonLd(body, url);
     case 'microdata': return parseMicrodata(body, url);

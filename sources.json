@@ -119,6 +119,39 @@
     ]
   },
   {
+    "id": "niceto",
+    "name": "Niceto Club",
+    "enabled": true,
+    "type": "niceto",
+    "urls": [
+      "https://nicetoclub.com/agenda/"
+    ]
+  },
+  {
+    "id": "indiehoy-vorterix",
+    "name": "Indie Hoy (Teatro Vorterix)",
+    "enabled": true,
+    "type": "follow",
+    "urls": [
+      "https://indiehoy.com/lugares/teatro-vorterix/"
+    ],
+    "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
+    "maxLinks": 15,
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "indiehoy-roxy",
+    "name": "Indie Hoy (The Roxy Live)",
+    "enabled": true,
+    "type": "follow",
+    "urls": [
+      "https://indiehoy.com/lugares/the-roxy-live-bar/"
+    ],
+    "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
+    "maxLinks": 15,
+    "defaultCategory": "Música"
+  },
+  {
     "id": "ejemplo-auto",
     "name": "Ejemplo con datos estándar schema.org (desactivado)",
     "enabled": false,

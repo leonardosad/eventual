@@ -9,6 +9,7 @@ import { follow } from './adapters/follow.mjs';
 import { eventsFromNode, showsFromSearch } from './adapters/ticketek.mjs';
 import { parseComplejoDay } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
+import { parseNiceto } from './adapters/niceto.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -222,6 +223,26 @@ test('Konex: tarjetas con fondo y "Todos los lunes"', () => {
   assert.equal(a.image, 'https://www.cckonex.org/img.png');
   assert.equal(a.category, 'Música');
   assert.equal(b.start, '2026-11-28T00:30:00-03:00');
+});
+
+test('Niceto: tarjetas de la agenda', () => {
+  const html = `<div class="event-card" data-name="Catalina Ammaturo en Niceto Club (+18 años)" data-lugar="Niceto Club">
+    <img src="data:image/svg+xml,x" data-lazy-src="https://images.venti.live/a.jpg"><div style="background:#2E3192;">Concierto</div>
+    <div style="padding:8px;"><h3>Catalina Ammaturo en Niceto Club (+18 años)</h3><div style="max-width:90%;"><div style="display:flex;">
+    <div style="font-size:32px;font-weight:bold;">13</div><div style=" display:flex; flex-direction:column; font-size:12px;">NOV<br>2026</div><span>|</span>
+    <div style="font-size:32px;font-weight:bold;">21</div><div style=" display:flex; flex-direction:column; font-size:12px;">30<br>hs</div></div></div>
+    <a href="https://venti.live/evento/catalina">COMPRAR</a></div></div>`;
+  const [e] = parseNiceto(html, 'https://nicetoclub.com/agenda/').map((r) => normalizeEvent(r, src, now));
+  assert.equal(e.title, 'Catalina Ammaturo');
+  assert.equal(e.start, '2026-11-13T21:30:00-03:00');
+  assert.equal(e.place, 'Niceto Club');
+  assert.equal(e.image, 'https://images.venti.live/a.jpg');
+  assert.equal(e.url, 'https://venti.live/evento/catalina');
+  assert.equal(e.category, 'Música');
+});
+
+test('Fecha ISO sin ceros (Indie Hoy)', () => {
+  assert.equal(parseDate('2026-10-7'), '2026-10-07T00:00:00-03:00');
 });
 
 console.log(`\n${passed} pruebas OK`);

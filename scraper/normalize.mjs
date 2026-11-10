@@ -33,9 +33,10 @@ export function parseDate(input, now = new Date()) {
   if (!s) return null;
 
   // ISO completo o parcial
-  let m = s.match(/^(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2})(?::(\d{2}))?(?:\.\d+)?)?\s*(Z|[+-]\d{2}:?\d{2})?$/);
+  let m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})(?:[T ](\d{2}):(\d{2})(?::(\d{2}))?(?:\.\d+)?)?\s*(Z|[+-]\d{2}:?\d{2})?$/);
   if (m) {
-    const [, y, mo, d, h, mi, se, tz] = m;
+    let [, y, mo, d, h, mi, se, tz] = m;
+    mo = mo.padStart(2, '0'); d = d.padStart(2, '0');
     if (!h) return `${y}-${mo}-${d}T00:00:00${TZ_OFFSET}`;
     const zone = tz ? (tz === 'Z' ? 'Z' : tz.replace(/^([+-]\d{2})(\d{2})$/, '$1:$2')) : TZ_OFFSET;
     return toLocalIso(new Date(`${y}-${mo}-${d}T${h}:${mi}:${se || '00'}${zone}`));
