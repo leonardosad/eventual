@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-10T10:08:37.573Z",
+ "generatedAt": "2026-11-10T21:55:17.939Z",
  "sources": [
   {
    "id": "alternativa-teatral",
    "name": "Alternativa Teatral",
-   "count": 1343,
+   "count": 1349,
    "ok": true,
    "note": null,
    "errors": []
@@ -20,7 +20,7 @@
   {
    "id": "ticketek",
    "name": "Ticketek",
-   "count": 164,
+   "count": 163,
    "ok": true,
    "note": null,
    "errors": []
@@ -60,7 +60,7 @@
   {
    "id": "niceto",
    "name": "Niceto Club",
-   "count": 99,
+   "count": 97,
    "ok": true,
    "note": null,
    "errors": []
@@ -6384,7 +6384,7 @@
    "place": "EL JUFRÉ TEATRO BAR",
    "address": "Jufré 444, Villa Crespo",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/27/000324227.jpg",
    "url": "https://www.alternativateatral.com/obra104186-ciclo-arco-iris-1311",
    "price": null,
    "free": false,
@@ -13746,6 +13746,28 @@
    ]
   },
   {
+   "id": "b1aad67feef7",
+   "title": "LA LIBERTAD (Dos Puntos): Una performance epistémica",
+   "start": "2026-11-15T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL MACEDONIA",
+   "address": "Sarmiento 3632, Almagro",
+   "description": "Teatro · Performance",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/29/000324229.jpg",
+   "url": "https://www.alternativateatral.com/obra104197-la-libertad-dos-puntos-una-performance-epistemica",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104197-la-libertad-dos-puntos-una-performance-epistemica"
+    }
+   ]
+  },
+  {
    "id": "b6ecaf64010b",
    "title": "La memoria que somos",
    "start": "2026-11-15T17:00:00-03:00",
@@ -16628,6 +16650,50 @@
    ]
   },
   {
+   "id": "80f2920034c6",
+   "title": "Casimiro del Tango",
+   "start": "2026-11-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL MACEDONIA",
+   "address": "Sarmiento 3632, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000317867.jpg",
+   "url": "https://www.alternativateatral.com/obra102119-casimiro-del-tango",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra102119-casimiro-del-tango"
+    }
+   ]
+  },
+  {
+   "id": "8b2f2cd628f7",
+   "title": "Diego Alberto (Musica)",
+   "start": "2026-11-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO EL DESGUACE",
+   "address": "México 3694, Boedo",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104201-diego-alberto-musica",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104201-diego-alberto-musica"
+    }
+   ]
+  },
+  {
    "id": "b8ef5ffa9742",
    "title": "La Bestia (lo de adentro)",
    "start": "2026-11-15T21:00:00-03:00",
@@ -17164,7 +17230,7 @@
    "place": "ESPACIO CALLEJÓN",
    "address": "Humahuaca 3759, Almagro",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000324222.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/31/000324231.jpg",
    "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno",
    "price": null,
    "free": false,
@@ -24368,7 +24434,7 @@
    "place": "NUEVO TEATRO GARGANTÚA",
    "address": "Serrano 459, Palermo",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/57/000324257.jpg",
    "url": "https://www.alternativateatral.com/obra104098-primera-escena",
    "price": null,
    "free": false,
@@ -25754,7 +25820,7 @@
    "place": "SILENCIO DE NEGRAS",
    "address": "Luis Sáenz Peña 663, Monserrat",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/34/000324234.jpg",
    "url": "https://www.alternativateatral.com/obra104165-matar-a-juan-de-garay",
    "price": null,
    "free": false,
@@ -25988,6 +26054,28 @@
    ]
   },
   {
+   "id": "3862ed871406",
+   "title": "Fecha 1 - GIRA 2026. Segundo festival de Danza Aérea con arnés",
+   "start": "2026-11-21T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO HACHE",
+   "address": "Roseti 101, Chacarita",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/03/000324203.jpg",
+   "url": "https://www.alternativateatral.com/obra104182-fecha-1-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104182-fecha-1-gira-2026-segundo-festival-de-danza-aerea-con-arnes"
+    }
+   ]
+  },
+  {
    "id": "0377e0b770fd",
    "title": "Galería de objetos tristes",
    "start": "2026-11-21T19:00:00-03:00",
@@ -26006,28 +26094,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102837-galeria-de-objetos-tristes"
-    }
-   ]
-  },
-  {
-   "id": "ade721d8831d",
-   "title": "GIRA 2026. Segundo festival de Danza Aérea con arnés",
-   "start": "2026-11-21T19:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ESPACIO HACHE",
-   "address": "Roseti 101, Chacarita",
-   "description": "Danza",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/03/000324203.jpg",
-   "url": "https://www.alternativateatral.com/obra104182-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104182-gira-2026-segundo-festival-de-danza-aerea-con-arnes"
     }
    ]
   },
@@ -30635,6 +30701,28 @@
    ]
   },
   {
+   "id": "f7695fe8be63",
+   "title": "Viva la nada",
+   "start": "2026-11-22T16:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO EL DESGUACE",
+   "address": "México 3694, Boedo",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000315998.jpg",
+   "url": "https://www.alternativateatral.com/obra101393-viva-la-nada",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra101393-viva-la-nada"
+    }
+   ]
+  },
+  {
    "id": "c9d8b6c8f7ec",
    "title": "Las cautivas",
    "start": "2026-11-22T16:30:00-03:00",
@@ -30921,6 +31009,28 @@
    ]
   },
   {
+   "id": "54264d356ec5",
+   "title": "LA LIBERTAD (Dos Puntos): Una performance epistémica",
+   "start": "2026-11-22T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL MACEDONIA",
+   "address": "Sarmiento 3632, Almagro",
+   "description": "Teatro · Performance",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/29/000324229.jpg",
+   "url": "https://www.alternativateatral.com/obra104197-la-libertad-dos-puntos-una-performance-epistemica",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104197-la-libertad-dos-puntos-una-performance-epistemica"
+    }
+   ]
+  },
+  {
    "id": "21ed0bd14b5a",
    "title": "La muerte ya no es noticia",
    "start": "2026-11-22T17:00:00-03:00",
@@ -30951,7 +31061,7 @@
    "place": "ANIMAL TEATRO",
    "address": "Castro 561, Boedo",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000323610.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000324250.jpg",
    "url": "https://www.alternativateatral.com/obra103959-la-parrilla",
    "price": null,
    "free": false,
@@ -31911,6 +32021,28 @@
    ]
   },
   {
+   "id": "7a4af3d58254",
+   "title": "Fecha 2 - GIRA 2026. Segundo festival de Danza Aérea con arnés",
+   "start": "2026-11-22T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO HACHE",
+   "address": "Roseti 101, Chacarita",
+   "description": "Danza",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104204-fecha-2-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104204-fecha-2-gira-2026-segundo-festival-de-danza-aerea-con-arnes"
+    }
+   ]
+  },
+  {
    "id": "cfe7bb6f2927",
    "title": "Función privada",
    "start": "2026-11-22T19:00:00-03:00",
@@ -31929,28 +32061,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102859-funcion-privada"
-    }
-   ]
-  },
-  {
-   "id": "bdbfd45aac67",
-   "title": "GIRA 2026. Segundo festival de Danza Aérea con arnés",
-   "start": "2026-11-22T19:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ESPACIO HACHE",
-   "address": "Roseti 101, Chacarita",
-   "description": "Danza",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/03/000324203.jpg",
-   "url": "https://www.alternativateatral.com/obra104182-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104182-gira-2026-segundo-festival-de-danza-aerea-con-arnes"
     }
    ]
   },
@@ -32550,28 +32660,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104011-colmena-abierta"
-    }
-   ]
-  },
-  {
-   "id": "32844275c107",
-   "title": "Crudo. El sabor de las entrañas de la historia",
-   "start": "2026-11-22T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "PARAJE ARTESÓN",
-   "address": "Palestina 919 timbre 2, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/14/000320914.jpg",
-   "url": "https://www.alternativateatral.com/obra103049-crudo-el-sabor-de-las-entranas-de-la-historia",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103049-crudo-el-sabor-de-las-entranas-de-la-historia"
     }
    ]
   },
@@ -33808,6 +33896,50 @@
    ]
   },
   {
+   "id": "d53116f10cb9",
+   "title": "Casimiro del Tango",
+   "start": "2026-11-22T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL MACEDONIA",
+   "address": "Sarmiento 3632, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000317867.jpg",
+   "url": "https://www.alternativateatral.com/obra102119-casimiro-del-tango",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra102119-casimiro-del-tango"
+    }
+   ]
+  },
+  {
+   "id": "5d15430c16bf",
+   "title": "Ensamble Sinfónico Argentino",
+   "start": "2026-11-22T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CAFÉ VINILO",
+   "address": "Estados Unidos 2483, San Cristóbal",
+   "description": "Otros géneros",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104198-ensamble-sinfonico-argentino",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104198-ensamble-sinfonico-argentino"
+    }
+   ]
+  },
+  {
    "id": "bfffc157c77f",
    "title": "La Bestia (lo de adentro)",
    "start": "2026-11-22T21:00:00-03:00",
@@ -34410,7 +34542,7 @@
    "place": "ESPACIO CALLEJÓN",
    "address": "Humahuaca 3759, Almagro",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000324222.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/31/000324231.jpg",
    "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno",
    "price": null,
    "free": false,
