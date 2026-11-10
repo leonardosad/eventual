@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:23:13.268Z",
+ "generatedAt": "2026-11-10T01:30:16.601Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -24,7 +24,7 @@
    "ok": false,
    "note": null,
    "errors": [
-    "https://www.allaccess.com.ar/: HTTP 403"
+    "https://www.allaccess.com.ar/: HTTP 403 (navegador)"
    ]
   },
   {
@@ -54,17 +54,10 @@
   {
    "id": "konex",
    "name": "Ciudad Cultural Konex",
-   "count": 0,
-   "ok": false,
+   "count": 10,
+   "ok": true,
    "note": null,
-   "errors": [
-    "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026: HTTP 403",
-    "https://entradas.cckonex.org/event/cumbia-konex: HTTP 403",
-    "https://entradas.cckonex.org/event/fiesta-bomba-fin-de-anio: HTTP 403",
-    "https://entradas.cckonex.org/event/dancing-mood: HTTP 403",
-    "https://entradas.cckonex.org/event/patricio-rey-y-sus-redonditos-de-ricota: HTTP 403",
-    "… y 11 avisos más"
-   ]
+   "errors": []
   },
   {
    "id": "c-art-media",
@@ -161,6 +154,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103558-el-te-de-lluvia"
+    }
+   ]
+  },
+  {
+   "id": "b8167feba148",
+   "title": "La Bomba de Tiempo",
+   "start": "2026-11-09T20:00:00-03:00",
+   "end": null,
+   "whenText": "Todos los lunes20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2020/11/LBDT-Aire-Libre-1080x1080-1-400x400.png",
+   "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026"
     }
    ]
   },
@@ -2405,6 +2420,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra92523-obituario"
+    }
+   ]
+  },
+  {
+   "id": "78b04345e246",
+   "title": "PPT FEST",
+   "start": "2026-11-12T20:00:00-03:00",
+   "end": null,
+   "whenText": "Jueves 12 de noviembre20 hs",
+   "place": "Konex · Gran Sala",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Ideas",
+   "image": "https://www.cckonex.org/wp-content/uploads/2020/03/PPTfest-KONEX-WEB-400x400.png",
+   "url": "https://entradas.cckonex.org/event/ppt-fest",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/ppt-fest"
     }
    ]
   },
@@ -19508,6 +19545,28 @@
    ]
   },
   {
+   "id": "2f7b540ea483",
+   "title": "Dancing Mood",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": "Jueves 19 de noviembre 20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2024/11/web900x900pix-2-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/dancing-mood",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/dancing-mood"
+    }
+   ]
+  },
+  {
    "id": "2269408445bb",
    "title": "Desde que baila",
    "start": "2026-11-19T20:00:00-03:00",
@@ -25141,6 +25200,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra67216-ay-camila"
+    }
+   ]
+  },
+  {
+   "id": "688b34599e42",
+   "title": "Ballet of Lights: La Bella Durmiente",
+   "start": "2026-11-21T18:00:00-03:00",
+   "end": null,
+   "whenText": "8 y 21 de noviembre | 20 y 27 de diciembre | 31 de enero16 y 18 hs",
+   "place": "Konex · Gran Sala",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Danza",
+   "image": "https://www.cckonex.org/wp-content/uploads/2025/11/ballet-of-lights-400x400.jpg",
+   "url": "https://feverup.com/m/456236",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://feverup.com/m/456236"
     }
    ]
   },
@@ -34527,6 +34608,28 @@
    ]
   },
   {
+   "id": "5e32d0f73e48",
+   "title": "El Profe Borda presenta: Antes era mejor",
+   "start": "2026-11-29T19:00:00-03:00",
+   "end": null,
+   "whenText": "Domingo 29 de noviembre19 hs",
+   "place": "Konex · Gran Sala",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Ideas",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/10/05_BORDA_KONEX_web_900x900-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/el-profe-borda-presenta-antes-era-mejor",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/el-profe-borda-presenta-antes-era-mejor"
+    }
+   ]
+  },
+  {
    "id": "1ddddf13d4ea",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-11-29T19:00:00-03:00",
@@ -34989,6 +35092,28 @@
    ]
   },
   {
+   "id": "1c600aa3614d",
+   "title": "Sonido Konex: Buenos Vampiros + Nina Suárez + Tomates en Verano",
+   "start": "2026-12-05T18:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 5 de diciembre18 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/10/BV_Web_900x900-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/sonido-konex-buenos-vampiros-nina-surez-tomates-en-verano",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/sonido-konex-buenos-vampiros-nina-surez-tomates-en-verano"
+    }
+   ]
+  },
+  {
    "id": "4a16bf800886",
    "title": "EL KUELGUE · EN C ART MEDIA",
    "start": "2026-12-05T19:00:00-03:00",
@@ -35095,6 +35220,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
+   "id": "e3fc487c6cb8",
+   "title": "Mesa Dulce",
+   "start": "2026-12-06T18:00:00-03:00",
+   "end": null,
+   "whenText": "Domingo 6 de diciembre (pre-feriado)desde las 18 hs",
+   "place": "Konex · Patio + Sala de las Columnas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Festivales",
+   "image": "https://www.cckonex.org/wp-content/uploads/2025/02/900x900-0612-konex-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/mesa-dulce",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/mesa-dulce"
     }
    ]
   },
@@ -35253,6 +35400,28 @@
    ]
   },
   {
+   "id": "72ad56001e68",
+   "title": "Chukujam V.5",
+   "start": "2026-12-09T19:30:00-03:00",
+   "end": null,
+   "whenText": "Miércoles 9 de diciembre19:30 hs",
+   "place": "Konex · Sala de las Columnas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/10/CHKJAMV5-KONEX-WEB-900x900-1-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/chukujam-v5",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/chukujam-v5"
+    }
+   ]
+  },
+  {
    "id": "dffb62271d7c",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-09T20:00:00-03:00",
@@ -35337,6 +35506,28 @@
      "id": "c-art-media",
      "name": "C Art Media",
      "url": "https://www.passline.com/eventos/oney-1-caps-round2-bsas-551927"
+    }
+   ]
+  },
+  {
+   "id": "4ef811e7e414",
+   "title": "Palta & The mood",
+   "start": "2026-12-10T19:00:00-03:00",
+   "end": null,
+   "whenText": "Jueves 10 de diciembre19 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2023/06/PALTA_KONEX2026_WEB_900x900-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/palta-and-the-mood",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/palta-and-the-mood"
     }
    ]
   },
@@ -35887,6 +36078,28 @@
      "id": "c-art-media",
      "name": "C Art Media",
      "url": "https://www.passline.com/eventos/cero-en-c-art-media"
+    }
+   ]
+  },
+  {
+   "id": "e00c42fd6aa4",
+   "title": "Los Totora",
+   "start": "2026-12-18T19:00:00-03:00",
+   "end": null,
+   "whenText": "Viernes 18 de diciembre19 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2023/11/flyer-los-totora-web-900x900-v13-final-sin-M-rostros-ok-400x400.png",
+   "url": "https://entradas.cckonex.org/event/los-totora",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/los-totora"
     }
    ]
   },
