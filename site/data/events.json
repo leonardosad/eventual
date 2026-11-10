@@ -1,29 +1,19 @@
 {
- "generatedAt": "2026-11-10T00:53:16.087Z",
+ "generatedAt": "2026-11-10T00:59:21.902Z",
  "sources": [
   {
-   "id": "eventbrite",
-   "name": "Eventbrite",
+   "id": "alternativa-teatral",
+   "name": "Alternativa Teatral",
    "count": 0,
    "ok": false,
    "note": null,
    "errors": [
-    "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/: HTTP 405",
-    "https://www.eventbrite.com.ar/d/argentina--buenos-aires/all-events/?page=2: HTTP 405",
-    "https://www.eventbrite.com.ar/d/argentina--buenos-aires/free--events/: HTTP 405"
+    "https://www.alternativateatral.com/get-json.php?t=novedades&r=cartelera: Unexpected end of JSON input"
    ]
   },
   {
    "id": "turismo-ba",
    "name": "Turismo Buenos Aires",
-   "count": 0,
-   "ok": false,
-   "note": null,
-   "errors": []
-  },
-  {
-   "id": "alternativa-teatral",
-   "name": "Alternativa Teatral",
    "count": 0,
    "ok": false,
    "note": null,
