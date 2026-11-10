@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-10T02:00:02.553Z",
+ "generatedAt": "2026-11-10T10:08:37.573Z",
  "sources": [
   {
    "id": "alternativa-teatral",
    "name": "Alternativa Teatral",
-   "count": 1338,
+   "count": 1343,
    "ok": true,
    "note": null,
    "errors": []
@@ -28,7 +28,7 @@
   {
    "id": "complejo-teatral",
    "name": "Complejo Teatral de Buenos Aires",
-   "count": 162,
+   "count": 150,
    "ok": true,
    "note": null,
    "errors": []
@@ -60,7 +60,7 @@
   {
    "id": "niceto",
    "name": "Niceto Club",
-   "count": 101,
+   "count": 99,
    "ok": true,
    "note": null,
    "errors": []
@@ -102,622 +102,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/esperando-godot/teatro-presidente-alvear"
-    }
-   ]
-  },
-  {
-   "id": "c351acdc08c3",
-   "title": "Cae diagonal pisa palito",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ESPACIO CALLEJÓN",
-   "address": "Humahuaca 3759, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/82/000320782.jpg",
-   "url": "https://www.alternativateatral.com/obra102970-cae-diagonal-pisa-palito",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra102970-cae-diagonal-pisa-palito"
-    }
-   ]
-  },
-  {
-   "id": "e27f7dab7877",
-   "title": "El te de lluvia",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TEATRO BORDER",
-   "address": "Godoy Cruz 1838, Palermo",
-   "description": "Teatro",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra103558-el-te-de-lluvia",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103558-el-te-de-lluvia"
-    }
-   ]
-  },
-  {
-   "id": "b8167feba148",
-   "title": "La Bomba de Tiempo",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": "Todos los lunes 20 hs",
-   "place": "Konex · Patio",
-   "address": "Sarmiento 3131, Abasto",
-   "description": "Música",
-   "image": "https://www.cckonex.org/wp-content/uploads/2020/11/LBDT-Aire-Libre-1080x1080-1-400x400.png",
-   "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "konex",
-     "name": "Ciudad Cultural Konex",
-     "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026"
-    }
-   ]
-  },
-  {
-   "id": "c543cc2c2310",
-   "title": "Máze + Mora y los Metegoles",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Niceto Club",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Concierto",
-   "image": "https://images.venti.live/user-images/1791902414767-lg.jpg",
-   "url": "https://venti.live/evento/m-ze-mora-y-los-metegoles-en-niceto-club",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/m-ze-mora-y-los-metegoles-en-niceto-club"
-    }
-   ]
-  },
-  {
-   "id": "8f922a458d8e",
-   "title": "No me dejes asi",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TIMBRE 4",
-   "address": "México 3554 / Boedo 640, Boedo",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/40/000319140.jpg",
-   "url": "https://www.alternativateatral.com/obra4909-no-me-dejes-asi",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra4909-no-me-dejes-asi"
-    }
-   ]
-  },
-  {
-   "id": "5f57a3bdedc4",
-   "title": "PIANO BAR: PEDRO AGUILAR Y AMIGOS DESCRIPCION",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Niceto Bar",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Concierto",
-   "image": "https://images.venti.live/user-images/1793969755630-lg.jpg",
-   "url": "https://venti.live/evento/piano-bar-pedro-aguilar-y-amigos-descripcion-en-niceto-bar",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/piano-bar-pedro-aguilar-y-amigos-descripcion-en-niceto-bar"
-    }
-   ]
-  },
-  {
-   "id": "97cf90a6441d",
-   "title": "San Genesio TV, ci siamo comprate il canale!",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TEATRO ANFITRION",
-   "address": "Venezuela 3340, Almagro",
-   "description": "Teatro · Muestras",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000322876.jpg",
-   "url": "https://www.alternativateatral.com/obra103509-san-genesio-tv-ci-siamo-comprate-il-canale",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103509-san-genesio-tv-ci-siamo-comprate-il-canale"
-    }
-   ]
-  },
-  {
-   "id": "9281467fa009",
-   "title": "Solo - La felicidad de los demás",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ÍTACA, COMPLEJO TEATRAL",
-   "address": "Humahuaca 4027, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/08/000320808.jpg",
-   "url": "https://www.alternativateatral.com/obra103044-solo-la-felicidad-de-los-demas",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103044-solo-la-felicidad-de-los-demas"
-    }
-   ]
-  },
-  {
-   "id": "896b9915c8e2",
-   "title": "Solo como una perra",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "DUMONT 4040",
-   "address": "Santos Dumont 4040, Chacarita",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/95/000318795.jpg",
-   "url": "https://www.alternativateatral.com/obra102467-solo-como-una-perra",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra102467-solo-como-una-perra"
-    }
-   ]
-  },
-  {
-   "id": "69866634cbc5",
-   "title": "VATICANO CLUB - CABINA ABIERTA",
-   "start": "2026-11-09T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Niceto Bar",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Concierto",
-   "image": "https://images.venti.live/user-images/1793830984970-lg.jpg",
-   "url": "https://venti.live/evento/vaticano-club-cabina-abierta-en-niceto-bar",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/vaticano-club-cabina-abierta-en-niceto-bar"
-    }
-   ]
-  },
-  {
-   "id": "0445e1b43ea3",
-   "title": "Menos Lunes - Stand Up Show",
-   "start": "2026-11-09T20:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "AGUIRRE 700",
-   "address": "Aguirre 700, Villa Crespo",
-   "description": "Stand up",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/50/000312750.jpg",
-   "url": "https://www.alternativateatral.com/obra90456-menos-lunes-stand-up-show",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra90456-menos-lunes-stand-up-show"
-    }
-   ]
-  },
-  {
-   "id": "e967922363e6",
-   "title": "Nido de lagarto",
-   "start": "2026-11-09T20:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TEATRO EL EXTRANJERO",
-   "address": "Valentín Gómez 3378, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/26/000312126.jpg",
-   "url": "https://www.alternativateatral.com/obra100026-nido-de-lagarto",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra100026-nido-de-lagarto"
-    }
-   ]
-  },
-  {
-   "id": "562f6f4b827a",
-   "title": "Quimera",
-   "start": "2026-11-09T20:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TEATRO HASTA TRILCE",
-   "address": "Maza 177, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/77/000323577.jpg",
-   "url": "https://www.alternativateatral.com/obra103954-quimera",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103954-quimera"
-    }
-   ]
-  },
-  {
-   "id": "d35c23deb9aa",
-   "title": "CODA + BRUXISMO",
-   "start": "2026-11-09T21:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Humboldt | Niceto Club",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Concierto",
-   "image": "https://images.venti.live/user-images/1793139461291-lg.jpg",
-   "url": "https://venti.live/evento/coda-bruxismo-en-humboldt-niceto-club-18-a-os",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/coda-bruxismo-en-humboldt-niceto-club-18-a-os"
-    }
-   ]
-  },
-  {
-   "id": "51c0df720881",
-   "title": "Sex, viví tu experiencia",
-   "start": "2026-11-09T21:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "GORRITI ART CENTER",
-   "address": "Av. Juan B. Justo 1617, Palermo",
-   "description": "Teatro · Performance · Físico",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/49/000316249.jpg",
-   "url": "https://www.alternativateatral.com/obra65140-sex-vivi-tu-experiencia",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra65140-sex-vivi-tu-experiencia"
-    }
-   ]
-  },
-  {
-   "id": "2dea95b29510",
-   "title": "A.M.O.R. El Musical",
-   "start": "2026-11-09T21:15:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "EL MÉTODO KAIRÓS TEATRO",
-   "address": "El Salvador 4530, Palermo",
-   "description": "Musical",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/76/000321876.jpg",
-   "url": "https://www.alternativateatral.com/obra103310-amor-el-musical",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103310-amor-el-musical"
-    }
-   ]
-  },
-  {
-   "id": "e2b7920f9fc5",
-   "title": "Mamushka teatral",
-   "start": "2026-11-09T21:15:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "EL MÉTODO KAIRÓS TEATRO",
-   "address": "El Salvador 4530, Palermo",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/25/000322825.jpg",
-   "url": "https://www.alternativateatral.com/obra99014-mamushka-teatral",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra99014-mamushka-teatral"
-    }
-   ]
-  },
-  {
-   "id": "305ab752eb37",
-   "title": "Los malcasados",
-   "start": "2026-11-09T21:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "DUMONT 4040",
-   "address": "Santos Dumont 4040, Chacarita",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000321453.jpg",
-   "url": "https://www.alternativateatral.com/obra101890-los-malcasados",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra101890-los-malcasados"
-    }
-   ]
-  },
-  {
-   "id": "f6a56d555718",
-   "title": "Sí, mi Amor! Stand Up de Pareja",
-   "start": "2026-11-09T21:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "STAND UP CLUB",
-   "address": "Paraná 1021, Barrio Norte",
-   "description": "Stand up",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/35/000243435.jpg",
-   "url": "https://www.alternativateatral.com/obra63378-si-mi-amor-stand-up-de-pareja",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra63378-si-mi-amor-stand-up-de-pareja"
-    }
-   ]
-  },
-  {
-   "id": "7a2e4c6e2c6c",
-   "title": "El Hijo de",
-   "start": "2026-11-09T22:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ESPACIO CALLEJÓN",
-   "address": "Humahuaca 3759, Almagro",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/35/000320035.jpg",
-   "url": "https://www.alternativateatral.com/obra102824-el-hijo-de",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra102824-el-hijo-de"
-    }
-   ]
-  },
-  {
-   "id": "21252a6d1055",
-   "title": "CHINWEZZ EN NICETO + GG SALORT Y FIESTA OBLIGADO: TRASNOCHE Y DERROCHE",
-   "start": "2026-11-09T23:59:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Niceto Club",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Fiesta",
-   "image": "https://images.venti.live/user-images/1792506535310-lg.jpg",
-   "url": "https://venti.live/evento/chinwezz-en-niceto-gg-salort-y-fiesta-obligado-trasnoche-y-derroche-en-niceto-club",
-   "price": null,
-   "free": false,
-   "category": "Fiestas",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/chinwezz-en-niceto-gg-salort-y-fiesta-obligado-trasnoche-y-derroche-en-niceto-club"
-    }
-   ]
-  },
-  {
-   "id": "972cbecd99f2",
-   "title": "EL SAN MARTÍN EN LOS ‘80: REFUGIO, RESISTENCIA Y LIBERTAD",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "martes a viernes, 14 a 19 horas Sábados y domingos, 13 a 19 horas",
-   "place": "Primer Piso Hall Alfredo Alcón / Teatro San Martín",
-   "address": null,
-   "description": "fotogalería",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/11/portada-damico-balcones.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/",
-   "price": null,
-   "free": false,
-   "category": "Arte y muestras",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/"
-    }
-   ]
-  },
-  {
-   "id": "02ff2825b3f4",
-   "title": "Homenaje a John Huston",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "Del 6 de noviembre al 4 de diciembre",
-   "place": "Sala Leopoldo Lugones / Teatro San Martín",
-   "address": null,
-   "description": "cine",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/John-Huston-01-PORTADA.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/homenaje-a-john-huston/",
-   "price": null,
-   "free": false,
-   "category": "Cine",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/homenaje-a-john-huston/"
-    }
-   ]
-  },
-  {
-   "id": "b78d6afdf6c6",
-   "title": "Jazz Buenos Aires",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "Marzo a noviembre",
-   "place": "Sala Martín Coronado / Teatro San Martín",
-   "address": null,
-   "description": "música · Gerald Clayton Trío / Sarah Hanahan Quartet / Etienne Charles Creole Quartet / Shenel Johns / Herlin Riley Quartet / George Garzone Quartet feat. Jeff “Tain” Watts / Melissa Aldana / Christian Sands Quartet",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/ODmrt7ruXvnsvK19vE5H.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/jazz_buenos_aires/",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/jazz_buenos_aires/"
-    }
-   ]
-  },
-  {
-   "id": "3b1def0b5588",
-   "title": "JORGE LAVELLI: EL GESTO INCONFORMISTA",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "Desde el martes 6 de octubre hasta el domingo 1° de noviembre",
-   "place": "Primer Piso Hall Alfredo Alcón / Teatro San Martín",
-   "address": null,
-   "description": "fotogalería",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/rlJKCMEexyvZSSi7nPGP.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/",
-   "price": null,
-   "free": false,
-   "category": "Arte y muestras",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/"
-    }
-   ]
-  },
-  {
-   "id": "10f47b942d93",
-   "title": "LA ISLA EL TEATRO SAN MARTÍN EN DICTADURAS",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "Del 15 de septiembre al 28 de noviembre, de lunes a sábados de 11 a 20 horas",
-   "place": "Espacio Las Rotativas / Casa de la Cultura",
-   "address": null,
-   "description": "FIBA",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/mb4N4ANIv9SlAwR9266I.png",
-   "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictaduras/",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictaduras/"
-    }
-   ]
-  },
-  {
-   "id": "3cdaeebfa998",
-   "title": "LA POESÍA DE LO COTIDIANO",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "Martes a viernes, 14 a 21 horas Sábados y domingos, 13 a 20 horas",
-   "place": "FotoGalería Sara Facio / Teatro San Martín",
-   "address": null,
-   "description": "fotogalería · Alicia D’Amico",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Escenografia-para-un-sueno-1961-scaled.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/la-poesia-de-lo-cotidiano/",
-   "price": null,
-   "free": false,
-   "category": "Arte y muestras",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/la-poesia-de-lo-cotidiano/"
-    }
-   ]
-  },
-  {
-   "id": "7a646e332953",
-   "title": "Museo de la subversión",
-   "start": "2026-11-10T00:00:00-03:00",
-   "end": null,
-   "whenText": "A partir del 5 de noviembre",
-   "place": "Sala Leopoldo Lugones / Teatro San Martín",
-   "address": null,
-   "description": "cine",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Museo-de-la-subversion_Portada-1.jpg",
-   "url": "https://complejoteatral.gob.ar/produccion/museo-de-la-subversion/",
-   "price": null,
-   "free": false,
-   "category": "Cine",
-   "sources": [
-    {
-     "id": "complejo-teatral",
-     "name": "Complejo Teatral de Buenos Aires",
-     "url": "https://complejoteatral.gob.ar/produccion/museo-de-la-subversion/"
     }
    ]
   },
@@ -1268,6 +652,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/todos-los-angeles-alzaron-el-vuelo/"
+    }
+   ]
+  },
+  {
+   "id": "8c1e26d997b2",
+   "title": "SELF-TITLED - OPEN AIR (SUNSET)",
+   "start": "2026-11-11T18:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794261845298-lg.jpg",
+   "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar"
     }
    ]
   },
@@ -4722,28 +4128,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103784-ovejarock-festival-de-bandas-disidentes"
-    }
-   ]
-  },
-  {
-   "id": "c03bf19f7375",
-   "title": "Piedra Libre: una razón escondida",
-   "start": "2026-11-13T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CALIBAN",
-   "address": "Mexico 1428 PB 5, Monserrat",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000316306.jpg",
-   "url": "https://www.alternativateatral.com/obra101559-piedra-libre-una-razon-escondida",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra101559-piedra-libre-una-razon-escondida"
     }
    ]
   },
@@ -10234,7 +9618,7 @@
    "place": "TEATRO DEL PASILLO",
    "address": "Colombres 35, Almagro",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000324223.jpg",
    "url": "https://www.alternativateatral.com/obra103940-mounstro-botanica",
    "price": null,
    "free": false,
@@ -17552,6 +16936,28 @@
    ]
   },
   {
+   "id": "0c434ea6fffa",
+   "title": "La Bomba de Tiempo",
+   "start": "2026-11-16T20:00:00-03:00",
+   "end": null,
+   "whenText": "Todos los lunes 20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2020/11/LBDT-Aire-Libre-1080x1080-1-400x400.png",
+   "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/la-bomba-de-tiempo-2026"
+    }
+   ]
+  },
+  {
    "id": "37da08fd00e2",
    "title": "Las Fugitivas",
    "start": "2026-11-16T20:00:00-03:00",
@@ -17746,6 +17152,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102293-un-sueno-raro"
+    }
+   ]
+  },
+  {
+   "id": "7a674c9f5d80",
+   "title": "El milagro inoportuno",
+   "start": "2026-11-16T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO CALLEJÓN",
+   "address": "Humahuaca 3759, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000324222.jpg",
+   "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno"
     }
    ]
   },
@@ -19950,6 +19378,28 @@
    ]
   },
   {
+   "id": "c20a32a9e524",
+   "title": "El misterio de Irma Vap",
+   "start": "2026-11-19T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000324215.jpg",
+   "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap"
+    }
+   ]
+  },
+  {
    "id": "a105ea49f53b",
    "title": "COTI · EN C ART MEDIA",
    "start": "2026-11-19T19:00:00-03:00",
@@ -21649,6 +21099,28 @@
    ]
   },
   {
+   "id": "9c3c7fc7c50f",
+   "title": "El misterio de Irma Vap",
+   "start": "2026-11-20T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000324215.jpg",
+   "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap"
+    }
+   ]
+  },
+  {
    "id": "82cd5809f883",
    "title": "A propósito de los besos",
    "start": "2026-11-20T19:00:00-03:00",
@@ -22530,28 +22002,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103652-personalidades-biofarsa-de-un-ilusionista"
-    }
-   ]
-  },
-  {
-   "id": "9a97ae6ce3fa",
-   "title": "Piedra Libre: una razón escondida",
-   "start": "2026-11-20T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CALIBAN",
-   "address": "Mexico 1428 PB 5, Monserrat",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000316306.jpg",
-   "url": "https://www.alternativateatral.com/obra101559-piedra-libre-una-razon-escondida",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra101559-piedra-libre-una-razon-escondida"
     }
    ]
   },
@@ -24236,7 +23686,7 @@
    "place": "TIMBRE 4",
    "address": "México 3554 / Boedo 640, Boedo",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/21/000324221.jpg",
    "url": "https://www.alternativateatral.com/obra104178-la-curiosidad-protocolo-de-emergencia",
    "price": null,
    "free": false,
@@ -25896,6 +25346,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto"
+    }
+   ]
+  },
+  {
+   "id": "8a1b8e5f2513",
+   "title": "Cuidado Brujas",
+   "start": "2026-11-21T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ÍTACA, COMPLEJO TEATRAL",
+   "address": "Humahuaca 4027, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104195-cuidado-brujas",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104195-cuidado-brujas"
+    }
+   ]
+  },
+  {
+   "id": "48e6556905b0",
+   "title": "El misterio de Irma Vap",
+   "start": "2026-11-21T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000324215.jpg",
+   "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap"
     }
    ]
   },
@@ -27563,7 +27057,7 @@
    "place": "TEATRO DEL PASILLO",
    "address": "Colombres 35, Almagro",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000324223.jpg",
    "url": "https://www.alternativateatral.com/obra103940-mounstro-botanica",
    "price": null,
    "free": false,
@@ -28387,6 +27881,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra100738-arquitectura-del-limite"
+    }
+   ]
+  },
+  {
+   "id": "35b805a115a2",
+   "title": "Asado Tango",
+   "start": "2026-11-21T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ASADO TANGO",
+   "address": "La dirección se comparte al comprar la entrada, Parque Chacabuco",
+   "description": "Tango",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000309623.jpg",
+   "url": "https://www.alternativateatral.com/obra99302-asado-tango",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra99302-asado-tango"
     }
    ]
   },
@@ -31691,6 +31207,28 @@
    ]
   },
   {
+   "id": "7864cb96d51d",
+   "title": "El misterio de Irma Vap",
+   "start": "2026-11-22T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/15/000324215.jpg",
+   "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104193-el-misterio-de-irma-vap"
+    }
+   ]
+  },
+  {
    "id": "da150d96c342",
    "title": "Las troyanas",
    "start": "2026-11-22T17:30:00-03:00",
@@ -32567,6 +32105,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103657-lo-que-el-olvido-no-puede"
+    }
+   ]
+  },
+  {
+   "id": "acf12c664598",
+   "title": "Los Compadritos",
+   "start": "2026-11-22T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CONVENTILLO DE NELLY - MUSEO Y CENTRO CULTURAL",
+   "address": "Av. Suárez 557, Boca",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000323453.jpg",
+   "url": "https://www.alternativateatral.com/obra103951-los-compadritos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103951-los-compadritos"
     }
    ]
   },
@@ -34842,6 +34402,28 @@
    ]
   },
   {
+   "id": "91653ecd424a",
+   "title": "El milagro inoportuno",
+   "start": "2026-11-23T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO CALLEJÓN",
+   "address": "Humahuaca 3759, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000324222.jpg",
+   "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104194-el-milagro-inoportuno"
+    }
+   ]
+  },
+  {
    "id": "1f89f9d677ba",
    "title": "Menos Lunes - Stand Up Show",
    "start": "2026-11-23T20:30:00-03:00",
@@ -35018,6 +34600,182 @@
    ]
   },
   {
+   "id": "e4239b86e0e8",
+   "title": "CHRISTIAN SANDS QUARTET",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Martes 24 de noviembre, 20 horas",
+   "place": "Sala Martín Coronado / Teatro San Martín",
+   "address": null,
+   "description": "música",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/PORTADA-WEB-Christian-Sands-01.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/christian-sands-quartet/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/christian-sands-quartet/"
+    }
+   ]
+  },
+  {
+   "id": "832a08b7efc1",
+   "title": "EL SAN MARTÍN EN LOS ‘80: REFUGIO, RESISTENCIA Y LIBERTAD",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "martes a viernes, 14 a 19 horas Sábados y domingos, 13 a 19 horas",
+   "place": "Primer Piso Hall Alfredo Alcón / Teatro San Martín",
+   "address": null,
+   "description": "fotogalería",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/11/portada-damico-balcones.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/",
+   "price": null,
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/"
+    }
+   ]
+  },
+  {
+   "id": "223eb751bc59",
+   "title": "Herzog-Kinski: enemigo mío",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Del 12 al 25 de noviembre",
+   "place": "Sala Leopoldo Lugones / Teatro San Martín",
+   "address": null,
+   "description": "cine",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Mi-mejor-enemigoportada.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/herzog-kinski-enemigo-mio/",
+   "price": null,
+   "free": false,
+   "category": "Cine",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/herzog-kinski-enemigo-mio/"
+    }
+   ]
+  },
+  {
+   "id": "d4562afc437a",
+   "title": "Homenaje a John Huston",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Del 6 de noviembre al 4 de diciembre",
+   "place": "Sala Leopoldo Lugones / Teatro San Martín",
+   "address": null,
+   "description": "cine",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/John-Huston-01-PORTADA.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/homenaje-a-john-huston/",
+   "price": null,
+   "free": false,
+   "category": "Cine",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/homenaje-a-john-huston/"
+    }
+   ]
+  },
+  {
+   "id": "a29ba1eb116c",
+   "title": "Jazz Buenos Aires",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Marzo a noviembre",
+   "place": "Sala Martín Coronado / Teatro San Martín",
+   "address": null,
+   "description": "música · Gerald Clayton Trío / Sarah Hanahan Quartet / Etienne Charles Creole Quartet / Shenel Johns / Herlin Riley Quartet / George Garzone Quartet feat. Jeff “Tain” Watts / Melissa Aldana / Christian Sands Quartet",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/ODmrt7ruXvnsvK19vE5H.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/jazz_buenos_aires/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/jazz_buenos_aires/"
+    }
+   ]
+  },
+  {
+   "id": "a6ec7e082448",
+   "title": "JORGE LAVELLI: EL GESTO INCONFORMISTA",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Desde el martes 6 de octubre hasta el domingo 1° de noviembre",
+   "place": "Primer Piso Hall Alfredo Alcón / Teatro San Martín",
+   "address": null,
+   "description": "fotogalería",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/rlJKCMEexyvZSSi7nPGP.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/",
+   "price": null,
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/"
+    }
+   ]
+  },
+  {
+   "id": "f52932ad056e",
+   "title": "LA ISLA EL TEATRO SAN MARTÍN EN DICTADURAS",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Del 15 de septiembre al 28 de noviembre, de lunes a sábados de 11 a 20 horas",
+   "place": "Espacio Las Rotativas / Casa de la Cultura",
+   "address": null,
+   "description": "FIBA",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/mb4N4ANIv9SlAwR9266I.png",
+   "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictaduras/",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictaduras/"
+    }
+   ]
+  },
+  {
+   "id": "c564abab7b20",
+   "title": "LA POESÍA DE LO COTIDIANO",
+   "start": "2026-11-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "Martes a viernes, 14 a 21 horas Sábados y domingos, 13 a 20 horas",
+   "place": "FotoGalería Sara Facio / Teatro San Martín",
+   "address": null,
+   "description": "fotogalería · Alicia D’Amico",
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/Escenografia-para-un-sueno-1961-scaled.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/la-poesia-de-lo-cotidiano/",
+   "price": null,
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/la-poesia-de-lo-cotidiano/"
+    }
+   ]
+  },
+  {
    "id": "62b52b9ba398",
    "title": "ZZ TOP",
    "start": "2026-11-24T00:00:00-03:00",
@@ -35062,6 +34820,138 @@
    ]
   },
   {
+   "id": "332df4965816",
+   "title": "MARTES DE LA GRANDE",
+   "start": "2026-11-24T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "DUMONT 4040",
+   "address": "Santos Dumont 4040, Chacarita",
+   "description": "Musical · Popular · Latinoamericana · Rioplatense",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/91/000246891.jpg",
+   "url": "https://www.alternativateatral.com/obra73854-martes-de-la-grande",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra73854-martes-de-la-grande"
+    }
+   ]
+  },
+  {
+   "id": "32173cdbfed7",
+   "title": "Passione",
+   "start": "2026-11-24T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO NAVAL",
+   "address": "Florida 801, Retiro",
+   "description": "Opera",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/70/000323270.jpg",
+   "url": "https://www.alternativateatral.com/obra103866-passione",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103866-passione"
+    }
+   ]
+  },
+  {
+   "id": "1242460e68c5",
+   "title": "Peña sin cadenas",
+   "start": "2026-11-24T19:00:00-03:00",
+   "end": null,
+   "whenText": "19:00 y 21:00 h",
+   "place": "TEATRO HASTA TRILCE",
+   "address": "Maza 177, Almagro",
+   "description": "Cine",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/17/000236017.jpg",
+   "url": "https://www.alternativateatral.com/obra75124-pena-sin-cadenas",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra75124-pena-sin-cadenas"
+    }
+   ]
+  },
+  {
+   "id": "f2998a339ab1",
+   "title": "Un mismo rio",
+   "start": "2026-11-24T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "FELISBERTO",
+   "address": "Yatay 112, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000322706.jpg",
+   "url": "https://www.alternativateatral.com/obra103650-un-mismo-rio",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103650-un-mismo-rio"
+    }
+   ]
+  },
+  {
+   "id": "603708a0749e",
+   "title": "Civilización",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "EL GALPÓN DE GUEVARA",
+   "address": "Guevara 326, Chacarita",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000293753.jpg",
+   "url": "https://www.alternativateatral.com/obra73969-civilizacion",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra73969-civilizacion"
+    }
+   ]
+  },
+  {
+   "id": "84105ba07d59",
+   "title": "La vida extraordinaria",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO PICADERO",
+   "address": "Pasaje Santos Discepolo 1857, Balvanera",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000221123.jpg",
+   "url": "https://www.alternativateatral.com/obra59413-la-vida-extraordinaria",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra59413-la-vida-extraordinaria"
+    }
+   ]
+  },
+  {
    "id": "df87f372c610",
    "title": "Mentes Expertas Borja Vilaseca",
    "start": "2026-11-24T20:00:00-03:00",
@@ -35080,6 +34970,182 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/mentes-expertas-borja-vilaseca/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "91adc9438174",
+   "title": "Pasado, Presente, Pasión: Pasolini",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ÍTACA, COMPLEJO TEATRAL",
+   "address": "Humahuaca 4027, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/75/000320475.jpg",
+   "url": "https://www.alternativateatral.com/obra102706-pasado-presente-pasion-pasolini",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra102706-pasado-presente-pasion-pasolini"
+    }
+   ]
+  },
+  {
+   "id": "b707cd0216b7",
+   "title": "Petróleo",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO METROPOLITAN SURA",
+   "address": "Av. Corrientes 1343, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/66/000187666.jpg",
+   "url": "https://www.alternativateatral.com/obra59570-petroleo",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra59570-petroleo"
+    }
+   ]
+  },
+  {
+   "id": "0053f3df6f55",
+   "title": "USTED ESTÁ SIENDO INTERPRETADO POR LUIS MARÍA CARNICETTI",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ÍTACA, COMPLEJO TEATRAL",
+   "address": "Humahuaca 4027, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/02/000201002.jpg",
+   "url": "https://www.alternativateatral.com/obra64842-usted-esta-siendo-interpretado-por-luis-maria-carnicetti",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra64842-usted-esta-siendo-interpretado-por-luis-maria-carnicetti"
+    }
+   ]
+  },
+  {
+   "id": "0771f1dd3186",
+   "title": "Carambola el musical",
+   "start": "2026-11-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CARAS Y CARETAS 2037",
+   "address": "Sarmiento 2037, Balvanera",
+   "description": "Musical",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000322751.jpg",
+   "url": "https://www.alternativateatral.com/obra103292-carambola-el-musical",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103292-carambola-el-musical"
+    }
+   ]
+  },
+  {
+   "id": "4686201976a7",
+   "title": "Como lograr felicidad en su vida familiar",
+   "start": "2026-11-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO EL EXTRANJERO",
+   "address": "Valentín Gómez 3378, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/54/000322554.jpg",
+   "url": "https://www.alternativateatral.com/obra103598-como-lograr-felicidad-en-su-vida-familiar",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103598-como-lograr-felicidad-en-su-vida-familiar"
+    }
+   ]
+  },
+  {
+   "id": "69d0973bd276",
+   "title": "Muestra -Amor en el roca- Grupo comedia musical martes avanzado",
+   "start": "2026-11-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "LA GALERA ENCANTADA",
+   "address": "Humboldt 1591, Palermo",
+   "description": "Muestras",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra103777-muestra-amor-en-el-roca-grupo-comedia-musical-martes-avanzado",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103777-muestra-amor-en-el-roca-grupo-comedia-musical-martes-avanzado"
+    }
+   ]
+  },
+  {
+   "id": "a45a808a67fa",
+   "title": "Argenti-Lab (Juremos por la empresa morir)",
+   "start": "2026-11-24T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "NÜN TEATRO BAR",
+   "address": "Juan Ramirez de Velasco 419, Villa Crespo",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/53/000323553.jpg",
+   "url": "https://www.alternativateatral.com/obra103978-argentilab-juremos-por-la-empresa-morir",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra103978-argentilab-juremos-por-la-empresa-morir"
+    }
+   ]
+  },
+  {
+   "id": "7695629eb40a",
+   "title": "Astillero",
+   "start": "2026-11-24T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "PISTA URBANA",
+   "address": "Chacabuco 874, San Telmo",
+   "description": "Tango",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/93/000294393.jpg",
+   "url": "https://www.alternativateatral.com/obra94240-astillero",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra94240-astillero"
     }
    ]
   },
@@ -38688,6 +38754,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany"
+    }
+   ]
+  },
+  {
+   "id": "673b035ca047",
+   "title": "SELF-TITLED SUNSET FESTIVAL",
+   "start": "2026-12-26T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Fiesta",
+   "image": "https://images.venti.live/user-images/1794261620960-lg.jpg",
+   "url": "https://venti.live/evento/self-titled-sunset-festival-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/self-titled-sunset-festival-en-niceto-bar"
     }
    ]
   },
