@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-10T01:34:43.756Z",
+ "generatedAt": "2026-11-10T01:42:30.534Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -44,7 +44,7 @@
   {
    "id": "konex",
    "name": "Ciudad Cultural Konex",
-   "count": 10,
+   "count": 17,
    "ok": true,
    "note": null,
    "errors": []
@@ -72,7 +72,7 @@
    "url": "https://www.ticketek.com.ar/esperando-godot/teatro-presidente-alvear",
    "price": "$25.990",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -152,7 +152,7 @@
    "title": "La Bomba de Tiempo",
    "start": "2026-11-09T20:00:00-03:00",
    "end": null,
-   "whenText": "Todos los lunes20 hs",
+   "whenText": "Todos los lunes 20 hs",
    "place": "Konex · Patio",
    "address": "Sarmiento 3131, Abasto",
    "description": "Música",
@@ -622,7 +622,7 @@
    "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta",
    "price": "$24.000",
    "free": false,
-   "category": "Música",
+   "category": "Otros",
    "sources": [
     {
      "id": "ticketek",
@@ -1392,7 +1392,7 @@
    "url": "https://www.ticketek.com.ar/cena-de-tontos/teatro-devoto",
    "price": "$61.600",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -2382,7 +2382,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -2418,7 +2418,7 @@
    "title": "PPT FEST",
    "start": "2026-11-12T20:00:00-03:00",
    "end": null,
-   "whenText": "Jueves 12 de noviembre20 hs",
+   "whenText": "Jueves 12 de noviembre 20 hs",
    "place": "Konex · Gran Sala",
    "address": "Sarmiento 3131, Abasto",
    "description": "Ideas",
@@ -4230,7 +4230,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -7596,7 +7596,7 @@
    "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano",
    "price": "$84.000",
    "free": false,
-   "category": "Música",
+   "category": "Otros",
    "sources": [
     {
      "id": "ticketek",
@@ -7618,7 +7618,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -7662,7 +7662,7 @@
    "url": "https://www.ticketek.com.ar/topa/teatro-devoto",
    "price": "$3.920",
    "free": false,
-   "category": "Música",
+   "category": "Infantil",
    "sources": [
     {
      "id": "ticketek",
@@ -9774,7 +9774,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -11116,7 +11116,7 @@
    "url": "https://www.ticketek.com.ar/la-luna-que-te-pario/teatro-devoto",
    "price": "$28.000",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -13184,7 +13184,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -13976,7 +13976,7 @@
    "url": "https://www.ticketek.com.ar/pequeno-pez/teatro-coliseo",
    "price": "$41.850",
    "free": false,
-   "category": "Música",
+   "category": "Infantil",
    "sources": [
     {
      "id": "ticketek",
@@ -14988,7 +14988,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -17606,7 +17606,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -18376,7 +18376,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -18596,7 +18596,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -19701,7 +19701,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -20987,6 +20987,28 @@
    ]
   },
   {
+   "id": "bc298a01dace",
+   "title": "El alucinante viaje de Patricio Rey y sus redonditos de ricota",
+   "start": "2026-11-20T19:00:00-03:00",
+   "end": null,
+   "whenText": "Viernes 20 de noviembre Puerta 19 hs | Proyección 20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Experiencias",
+   "image": "https://www.cckonex.org/wp-content/uploads/2024/09/Redondos_11-2026_web-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/patricio-rey-y-sus-redonditos-de-ricota",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/patricio-rey-y-sus-redonditos-de-ricota"
+    }
+   ]
+  },
+  {
    "id": "2ec9fdf4093d",
    "title": "Experiencia sensorial inmersiva en total oscuridad con Parlantes Holofónicos",
    "start": "2026-11-20T19:00:00-03:00",
@@ -21576,7 +21598,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -23094,7 +23116,7 @@
    "url": "https://www.ticketek.com.ar/las-alucines/teatro-opera",
    "price": "$56.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -23116,7 +23138,7 @@
    "url": "https://www.ticketek.com.ar/lito-costa-febre/auditorio-de-belgrano",
    "price": "$33.600",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -24634,7 +24656,7 @@
    "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano",
    "price": "$84.000",
    "free": false,
-   "category": "Música",
+   "category": "Otros",
    "sources": [
     {
      "id": "ticketek",
@@ -24656,7 +24678,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -25096,7 +25118,7 @@
    "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto",
    "price": "$42.600",
    "free": false,
-   "category": "Música",
+   "category": "Infantil",
    "sources": [
     {
      "id": "ticketek",
@@ -25198,7 +25220,7 @@
    "title": "Ballet of Lights: La Bella Durmiente",
    "start": "2026-11-21T18:00:00-03:00",
    "end": null,
-   "whenText": "8 y 21 de noviembre | 20 y 27 de diciembre | 31 de enero16 y 18 hs",
+   "whenText": "8 y 21 de noviembre | 20 y 27 de diciembre | 31 de enero 16 y 18 hs",
    "place": "Konex · Gran Sala",
    "address": "Sarmiento 3131, Abasto",
    "description": "Danza",
@@ -25932,7 +25954,7 @@
    "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista",
    "price": "$203.400",
    "free": false,
-   "category": "Música",
+   "category": "Otros",
    "sources": [
     {
      "id": "ticketek",
@@ -26597,7 +26619,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -27169,7 +27191,7 @@
    "url": "https://www.ticketek.com.ar/el-oficial-gordillo/teatro-universidad-nacional-de-la-matanza",
    "price": "$45.200",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -29831,7 +29853,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -29903,6 +29925,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103654-entreamar"
+    }
+   ]
+  },
+  {
+   "id": "c7f1a57fbba9",
+   "title": "Sonorama",
+   "start": "2026-11-22T15:00:00-03:00",
+   "end": null,
+   "whenText": "Domingo 22 de noviembre Desde las 15 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Experiencias",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/09/PORTADAS-900X900-400x400.png",
+   "url": "https://entradas.cckonex.org/event/sonorama",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/sonorama"
     }
    ]
   },
@@ -30073,7 +30117,7 @@
    "url": "https://www.ticketek.com.ar/la-crossover-la-bombonerita/estadio-luis-conde-la-bombonerita",
    "price": "$11.500",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -31547,7 +31591,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -33378,7 +33422,7 @@
    "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto",
    "price": "$42.600",
    "free": false,
-   "category": "Música",
+   "category": "Infantil",
    "sources": [
     {
      "id": "ticketek",
@@ -34038,7 +34082,7 @@
    "url": "https://www.ticketek.com.ar/mentes-expertas-borja-vilaseca/teatro-coliseo",
    "price": "$45.200",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34104,7 +34148,7 @@
    "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34126,7 +34170,7 @@
    "url": "https://www.ticketek.com.ar/emilio-lovera/teatro-opera",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34148,7 +34192,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34192,7 +34236,7 @@
    "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34214,7 +34258,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34236,12 +34280,34 @@
    "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida"
+    }
+   ]
+  },
+  {
+   "id": "853ba80d5f30",
+   "title": "La RE Fiesta",
+   "start": "2026-11-27T00:30:00-03:00",
+   "end": null,
+   "whenText": "Viernes 27 de noviembre Medianoche | Puerta 00:30 hs",
+   "place": "Konex · Sala de las Columnas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Trasnoche",
+   "image": "https://www.cckonex.org/wp-content/uploads/2023/08/CCKonex_Web900px-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/la-re-fiesta",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/la-re-fiesta"
     }
    ]
   },
@@ -34280,7 +34346,7 @@
    "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34302,7 +34368,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34324,7 +34390,7 @@
    "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34422,6 +34488,28 @@
    ]
   },
   {
+   "id": "6f7b9e465927",
+   "title": "Cumbia Konex",
+   "start": "2026-11-28T00:30:00-03:00",
+   "end": null,
+   "whenText": "Sábado 28 de noviembre Medianoche | Puerta 00:30 hs",
+   "place": "Konex · Sala de las Columnas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Trasnoche",
+   "image": "https://www.cckonex.org/wp-content/uploads/2024/11/Cumbia_2026_nov_web-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/cumbia-konex",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/cumbia-konex"
+    }
+   ]
+  },
+  {
    "id": "746c498f70f1",
    "title": "Triple Corona",
    "start": "2026-11-28T13:30:00-03:00",
@@ -34434,12 +34522,34 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
+   "id": "997441d79c52",
+   "title": "Feria del vino slow",
+   "start": "2026-11-28T19:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 28 de noviembre De 12 a 19 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Experiencias",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/10/slow-wine-konex-900x900-1-400x400.png",
+   "url": "https://entradas.cckonex.org/event/feria-del-vino-slow",
+   "price": null,
+   "free": false,
+   "category": "Ferias",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/feria-del-vino-slow"
     }
    ]
   },
@@ -34456,7 +34566,7 @@
    "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista",
    "price": "$203.400",
    "free": false,
-   "category": "Música",
+   "category": "Otros",
    "sources": [
     {
      "id": "ticketek",
@@ -34478,7 +34588,7 @@
    "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34500,7 +34610,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34588,7 +34698,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -34602,7 +34712,7 @@
    "title": "El Profe Borda presenta: Antes era mejor",
    "start": "2026-11-29T19:00:00-03:00",
    "end": null,
-   "whenText": "Domingo 29 de noviembre19 hs",
+   "whenText": "Domingo 29 de noviembre 19 hs",
    "place": "Konex · Gran Sala",
    "address": "Sarmiento 3131, Abasto",
    "description": "Ideas",
@@ -34632,7 +34742,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34654,7 +34764,7 @@
    "url": "https://www.ticketek.com.ar/campo-minado/teatro-coliseo",
    "price": "$34.500",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34676,7 +34786,7 @@
    "url": "https://www.ticketek.com.ar/ballet-de-san-petersburgo/auditorio-de-belgrano",
    "price": "$44.800",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34830,7 +34940,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34874,7 +34984,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34940,7 +35050,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -34962,7 +35072,7 @@
    "url": "https://www.ticketek.com.ar/pablito-castillo/teatro-coliseo",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35028,7 +35138,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -35072,7 +35182,7 @@
    "url": "https://www.ticketek.com.ar/ta-bueno-che/teatro-coliseo",
    "price": "$33.900",
    "free": false,
-   "category": "Música",
+   "category": "Infantil",
    "sources": [
     {
      "id": "ticketek",
@@ -35086,7 +35196,7 @@
    "title": "Sonido Konex: Buenos Vampiros + Nina Suárez + Tomates en Verano",
    "start": "2026-12-05T18:00:00-03:00",
    "end": null,
-   "whenText": "Sábado 5 de diciembre18 hs",
+   "whenText": "Sábado 5 de diciembre 18 hs",
    "place": "Konex · Patio",
    "address": "Sarmiento 3131, Abasto",
    "description": "Música",
@@ -35160,7 +35270,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35204,7 +35314,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -35218,7 +35328,7 @@
    "title": "Mesa Dulce",
    "start": "2026-12-06T18:00:00-03:00",
    "end": null,
-   "whenText": "Domingo 6 de diciembre (pre-feriado)desde las 18 hs",
+   "whenText": "Domingo 6 de diciembre (pre-feriado) desde las 18 hs",
    "place": "Konex · Patio + Sala de las Columnas",
    "address": "Sarmiento 3131, Abasto",
    "description": "Festivales",
@@ -35248,7 +35358,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35394,7 +35504,7 @@
    "title": "Chukujam V.5",
    "start": "2026-12-09T19:30:00-03:00",
    "end": null,
-   "whenText": "Miércoles 9 de diciembre19:30 hs",
+   "whenText": "Miércoles 9 de diciembre 19:30 hs",
    "place": "Konex · Sala de las Columnas",
    "address": "Sarmiento 3131, Abasto",
    "description": "Música",
@@ -35424,7 +35534,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35468,7 +35578,7 @@
    "url": "https://www.ticketek.com.ar/derecha-fest/teatro-del-globo",
    "price": "$46.000",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35504,7 +35614,7 @@
    "title": "Palta & The mood",
    "start": "2026-12-10T19:00:00-03:00",
    "end": null,
-   "whenText": "Jueves 10 de diciembre19 hs",
+   "whenText": "Jueves 10 de diciembre 19 hs",
    "place": "Konex · Patio",
    "address": "Sarmiento 3131, Abasto",
    "description": "Música",
@@ -35534,7 +35644,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35622,7 +35732,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35732,7 +35842,7 @@
    "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
    "price": "$6.200",
    "free": false,
-   "category": "Música",
+   "category": "Deportes",
    "sources": [
     {
      "id": "ticketek",
@@ -35760,6 +35870,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/festival-la-portena/hipodromo-de-palermo"
+    }
+   ]
+  },
+  {
+   "id": "a2769ed49430",
+   "title": "Árbol",
+   "start": "2026-12-12T19:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 12 de diciembre Puerta 19 hs | Show 20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/02/ARBOL-Imagen-900x900-Show-12-Dic-2026-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/arbol",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/arbol"
     }
    ]
   },
@@ -35798,7 +35930,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35886,7 +36018,7 @@
    "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
    "price": "$13.560",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -35974,7 +36106,7 @@
    "url": "https://www.ticketek.com.ar/ballet-hispania/teatro-santa-maria",
    "price": "$28.750",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36076,7 +36208,7 @@
    "title": "Los Totora",
    "start": "2026-12-18T19:00:00-03:00",
    "end": null,
-   "whenText": "Viernes 18 de diciembre19 hs",
+   "whenText": "Viernes 18 de diciembre 19 hs",
    "place": "Konex · Patio",
    "address": "Sarmiento 3131, Abasto",
    "description": "Música",
@@ -36194,7 +36326,7 @@
    "url": "https://www.ticketek.com.ar/juli-bellese/teatro-opera",
    "price": "$45.200",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36260,7 +36392,7 @@
    "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36282,7 +36414,7 @@
    "url": "https://www.ticketek.com.ar/feli-de-la-garma/radio-city-roxy-melany",
    "price": "$28.250",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36304,7 +36436,7 @@
    "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36326,7 +36458,7 @@
    "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36348,7 +36480,7 @@
    "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
@@ -36370,7 +36502,7 @@
    "url": "https://www.ticketek.com.ar/la-revista-del-cervantes/radio-city-roxy-melany",
    "price": "$39.550",
    "free": false,
-   "category": "Música",
+   "category": "Teatro",
    "sources": [
     {
      "id": "ticketek",
