@@ -12,8 +12,12 @@ export function showsFromSearch(json) {
   return (json?.resultados || []).map((r) => r.url).filter(Boolean);
 }
 
+const CATS = { musica: 'Música', teatro: 'Teatro', familia: 'Infantil', deportes: 'Deportes' };
+
 export function eventsFromNode(json, path) {
   const first = (v) => (Array.isArray(v) ? v[0] : v);
+  const parent = String(json?.category?.parent || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const category = CATS[parent];
   return (json?.google_structured_data || []).filter((d) => /Event$/.test(String(d['@type']))).map((d) => {
     const loc = first(d.location) || {};
     const addr = loc.address || {};
@@ -29,7 +33,7 @@ export function eventsFromNode(json, path) {
       currency: offer.priceCurrency,
       url: offer.url || `https://www.ticketek.com.ar/${path}`,
       baseUrl: 'https://www.ticketek.com.ar/',
-      category: /MusicEvent/.test(d['@type']) ? 'Música' : undefined,
+      category, // Ticketek marca todo como MusicEvent; la categoría real viene en json.category
     };
   });
 }

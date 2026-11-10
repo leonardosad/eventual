@@ -11,6 +11,8 @@ export function parseHtml(html, baseUrl, selectors) {
     const n = $el.find(sel).first();
     if (!n.length) return '';
     for (const a of attrs) if (n.attr(a)) return n.attr(a);
+    n.find('br').replaceWith(' ');
+    n.find('p, div, li').after(' ');
     const bg = (n.attr('style') || '').match(/background-image:\s*url\(['"]?([^'")]+)/);
     if (bg && attrs.includes('src')) return bg[1];
     return n.text();

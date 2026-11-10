@@ -162,7 +162,7 @@ await testAsync('follow: sigue links y lee JSON-LD (AllAccess / Konex)', async (
 });
 
 test('Ticketek: datos del nodo', () => {
-  const node = { google_structured_data: [{ '@type': 'MusicEvent', name: 'Tarja', startDate: '2026-12-01T21:00:00-03:00', endDate: '2026-12-01T21:00:00-03:00',
+  const node = { category: { parent: 'Musica' }, google_structured_data: [{ '@type': 'MusicEvent', name: 'Tarja', startDate: '2026-12-01T21:00:00-03:00', endDate: '2026-12-01T21:00:00-03:00',
     location: { '@type': 'Place', name: 'Teatro Coliseo', address: { streetAddress: 'Marcelo T. de Alvear 1125', addressRegion: 'Capital Federal' } },
     offers: { price: '124300', priceCurrency: 'ARS', url: 'https://www.ticketek.com.ar/tarja/teatro-coliseo' } }] };
   const [e] = eventsFromNode(node, 'tarja/teatro-coliseo').map((r) => normalizeEvent(r, src, now));
@@ -170,6 +170,8 @@ test('Ticketek: datos del nodo', () => {
   assert.equal(e.end, null);
   assert.equal(e.category, 'Música');
   assert.equal(e.price, '$124.300');
+  const [t] = eventsFromNode({ category: { parent: 'Teatro' }, google_structured_data: [{ '@type': 'MusicEvent', name: 'Esperando a Godot', startDate: '2026-11-12T20:00:00-03:00' }] }, 'x/y');
+  assert.equal(t.category, 'Teatro');
   assert.deepEqual(showsFromSearch({ resultados: [{ url: 'a/b' }, { url: 'c/d' }] }), ['a/b', 'c/d']);
 });
 
@@ -216,6 +218,7 @@ test('Konex: tarjetas con fondo y "Todos los lunes"', () => {
   const sel = { item: '.show_top', title: '.nombre', date: '.informacion', whenText: '.informacion', link: 'a', image: '.foto', place: '.ubicacion', description: '.categoria' };
   const [a, b] = parseHtml(html, 'https://www.cckonex.org/shows/', sel).map((r) => normalizeEvent(r, src, now));
   assert.equal(a.start, '2026-11-09T20:00:00-03:00'); // now = sábado 7 → lunes 9
+  assert.equal(a.whenText, 'Todos los lunes 20 hs');
   assert.equal(a.image, 'https://www.cckonex.org/img.png');
   assert.equal(a.category, 'Música');
   assert.equal(b.start, '2026-11-28T00:30:00-03:00');
