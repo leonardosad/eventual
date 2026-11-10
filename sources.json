@@ -4,29 +4,47 @@
     "name": "Alternativa Teatral",
     "enabled": true,
     "type": "alternativa",
-    "urls": ["https://www.alternativateatral.com/get-json.php?t=novedades&r=cartelera"],
-    "options": { "provincias": ["CABA"], "daysAhead": 14 }
+    "urls": [
+      "https://www.alternativateatral.com/get-json.php?t=novedades&r=cartelera&callback=jsoncallback"
+    ],
+    "options": {
+      "provincias": [
+        "CABA"
+      ],
+      "daysAhead": 14
+    },
+    "headers": {
+      "Referer": "https://www.alternativateatral.com/cartelera.asp",
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "text/javascript, application/javascript, */*; q=0.01"
+    }
   },
   {
     "id": "turismo-ba",
     "name": "Turismo Buenos Aires",
     "enabled": true,
     "type": "turismo-ba",
-    "urls": ["https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"]
+    "urls": [
+      "https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana"
+    ]
   },
   {
     "id": "ejemplo-auto",
     "name": "Ejemplo con datos estándar schema.org (desactivado)",
     "enabled": false,
     "type": "auto",
-    "urls": ["https://www.ejemplo.com.ar/agenda"]
+    "urls": [
+      "https://www.ejemplo.com.ar/agenda"
+    ]
   },
   {
     "id": "ejemplo-html",
     "name": "Ejemplo con selectores CSS (desactivado)",
     "enabled": false,
     "type": "html",
-    "urls": ["https://www.ejemplo.com.ar/agenda"],
+    "urls": [
+      "https://www.ejemplo.com.ar/agenda"
+    ],
     "selectors": {
       "item": ".evento",
       "title": ".evento-titulo",
@@ -43,6 +61,8 @@
     "name": "Ejemplo calendario .ics (desactivado)",
     "enabled": false,
     "type": "ical",
-    "urls": ["https://www.ejemplo.com.ar/eventos.ics"]
+    "urls": [
+      "https://www.ejemplo.com.ar/eventos.ics"
+    ]
   }
 ]

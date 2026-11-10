@@ -15,11 +15,11 @@ const DAYS_AHEAD = Number(process.env.DAYS_AHEAD || 60);
 const USER_AGENT = process.env.USER_AGENT ||
   'AgendaCABA/1.0 (agregador de eventos sin fines de lucro; enlaza siempre a la fuente)';
 
-async function fetchText(url, tries = 2) {
+async function fetchText(url, tries = 2, extraHeaders = {}) {
   for (let i = 1; i <= tries; i++) {
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': USER_AGENT, 'Accept-Language': 'es-AR,es;q=0.9' },
+        headers: { 'User-Agent': USER_AGENT, 'Accept-Language': 'es-AR,es;q=0.9', ...extraHeaders },
         signal: AbortSignal.timeout(25_000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -49,8 +49,12 @@ async function scrapeSource(source, now) {
   const errors = [];
   for (const url of source.urls) {
     try {
-      const body = await fetchText(url);
-      raw.push(...runAdapter(source, body, url));
+      const body = await fetchText(url, 2, source.headers);
+      try {
+        raw.push(...runAdapter(source, body, url));
+      } catch (err) {
+        throw new Error(`${err.message} (respuesta de ${body.length} caracteres: ${JSON.stringify(body.slice(0, 120))})`);
+      }
     } catch (err) {
       errors.push(`${url}: ${err.message}`);
     }
