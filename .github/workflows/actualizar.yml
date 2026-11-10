@@ -47,6 +47,9 @@ jobs:
           git pull --rebase -X theirs origin main
           git push
 
+      - name: Versionar estilos y script (evita la caché del navegador)
+        run: sed -i "s/__V__/$(git rev-parse --short HEAD)/g" site/index.html
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
