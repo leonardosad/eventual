@@ -4,8 +4,20 @@
 import { chromium } from 'playwright';
 const urls = process.argv.slice(2);
 const browser = await chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch());
-for (const url of urls) {
+for (const arg of urls) {
+  // "url|texto": además muestra el HTML crudo alrededor de "texto"
+  const [url, needle] = arg.split('|');
   console.log(`\n===== ${url}`);
+  if (needle) {
+    try {
+      const t = await (await fetch(url, { headers: { 'User-Agent': 'AgendaCABA/1.0' } })).text();
+      let i = t.indexOf(needle), n = 0;
+      if (i < 0) console.log(`"${needle}" no aparece en el HTML crudo`);
+      while (i >= 0 && n < 2) { console.log(`--- alrededor de "${needle}":\n` + t.slice(Math.max(0, i - 1800), i + 1200).replace(/\s+/g, ' ')); i = t.indexOf(needle, i + 3000); n++; }
+      if (url.endsWith('.json') || url.includes('.json?')) console.log('JSON:', t.slice(0, 2500));
+    } catch (e) { console.log('crudo falló', e.message); }
+    continue;
+  }
   try {
     const r = await fetch(url, { headers: { 'User-Agent': 'AgendaCABA/1.0' } });
     const t = await r.text();
