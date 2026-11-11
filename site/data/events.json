@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T15:31:55.951Z",
+ "generatedAt": "2026-11-11T16:16:01.351Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -60,7 +60,7 @@
   {
    "id": "niceto",
    "name": "Niceto Club",
-   "count": 97,
+   "count": 100,
    "ok": true,
    "note": null,
    "errors": []
@@ -132,28 +132,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta"
-    }
-   ]
-  },
-  {
-   "id": "8c1e26d997b2",
-   "title": "SELF-TITLED - OPEN AIR (SUNSET)",
-   "start": "2026-11-11T18:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Niceto Bar",
-   "address": "Niceto Vega 5510, Palermo",
-   "description": "Concierto",
-   "image": "https://images.venti.live/user-images/1794261845298-lg.jpg",
-   "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "niceto",
-     "name": "Niceto Club",
-     "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar"
     }
    ]
   },
@@ -20447,6 +20425,28 @@
    ]
   },
   {
+   "id": "8804208c0ec5",
+   "title": "EL SIGNIFICADO DE LAS FLORES + LOS GIRASOLES + JURAMENTO",
+   "start": "2026-11-19T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794397605603-lg.jpg",
+   "url": "https://venti.live/evento/el-significado-de-las-flores-los-girasoles-juramento-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/el-significado-de-las-flores-los-girasoles-juramento-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "af86384ea320",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-20T00:00:00-03:00",
@@ -22076,6 +22076,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101659-vetusta-orquesta"
+    }
+   ]
+  },
+  {
+   "id": "7eb6603b8ac4",
+   "title": "VIERNES DE FLOW Y RABIA",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794411491593-lg.jpg",
+   "url": "https://venti.live/evento/viernes-de-flow-y-rabia-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/viernes-de-flow-y-rabia-en-niceto-bar"
     }
    ]
   },
@@ -38740,6 +38762,28 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/a2156fbf-be3e-4134-9547-1602faf1b9e9"
+    }
+   ]
+  },
+  {
+   "id": "23f15d1fcb4a",
+   "title": "SELF-TITLED - OPEN AIR (SUNSET)",
+   "start": "2026-12-11T18:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794261845298-lg.jpg",
+   "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/self-titled-open-air-sunset-en-niceto-bar"
     }
    ]
   },
