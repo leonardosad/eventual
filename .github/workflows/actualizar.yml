@@ -34,7 +34,7 @@ jobs:
       - run: npm ci
 
       - name: Instalar navegador automático (para sitios hechos con JavaScript)
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
 
       - name: Probar los lectores
         run: npm test
