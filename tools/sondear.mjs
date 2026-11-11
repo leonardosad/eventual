@@ -1,0 +1,38 @@
+// Herramienta de diagnóstico: abre un sitio con el navegador automático y muestra
+// cómo publica sus datos (JSON-LD, APIs que consulta, links a eventos).
+// Uso: node tools/sondear.mjs https://sitio.com [https://sitio.com/otra]
+import { chromium } from 'playwright';
+const urls = process.argv.slice(2);
+const browser = await chromium.launch();
+for (const url of urls) {
+  console.log(`\n===== ${url}`);
+  try {
+    const r = await fetch(url, { headers: { 'User-Agent': 'AgendaCABA/1.0' } });
+    const t = await r.text();
+    console.log(`fetch directo: HTTP ${r.status}, ${t.length} caracteres, JSON-LD: ${(t.match(/ld\+json/g) || []).length}, __NEXT_DATA__: ${t.includes('__NEXT_DATA__')}`);
+  } catch (e) { console.log('fetch directo falló:', e.message); }
+  const page = await browser.newPage({ locale: 'es-AR' });
+  const apis = [];
+  page.on('response', async (res) => {
+    const ct = res.headers()['content-type'] || '';
+    if (/json/.test(ct) && !/google|facebook|analytics|hotjar|clarity|tiktok|sentry/.test(res.url())) {
+      let size = 0; try { size = (await res.body()).length; } catch {}
+      apis.push(`${res.request().method()} ${res.status()} ${res.url().slice(0, 200)} (${size} bytes)`);
+    }
+  });
+  try {
+    const res = await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+    console.log(`navegador: HTTP ${res?.status()}, título: ${await page.title()}`);
+    const info = await page.evaluate(() => ({
+      ld: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => s.textContent.replace(/\s+/g, ' ').slice(0, 300)),
+      links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href))].filter((h) => /event|evento|show|ticket/i.test(h)).slice(0, 25),
+      texto: document.body.innerText.replace(/\s+/g, ' ').slice(0, 800),
+    }));
+    console.log('JSON-LD:', JSON.stringify(info.ld, null, 1));
+    console.log('Links:', info.links.join('\n  '));
+    console.log('Texto:', info.texto);
+    console.log('APIs JSON:\n  ' + apis.slice(0, 30).join('\n  '));
+  } catch (e) { console.log('navegador falló:', e.message); }
+  await page.close();
+}
+await browser.close();
