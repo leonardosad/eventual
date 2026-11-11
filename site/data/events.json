@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T16:32:39.481Z",
+ "generatedAt": "2026-11-11T17:23:57.396Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -108,10 +108,12 @@
   {
    "id": "ba-jazz-cafe",
    "name": "Buenos Aires Jazz Café",
-   "count": 12,
-   "ok": true,
-   "note": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "note": "sin datos nuevos: se muestran los de la última actualización",
+   "errors": [
+    "https://buenosairesjazzcafe.com/eventos: fetch failed"
+   ]
   },
   {
    "id": "livepass",
@@ -42978,6 +42980,28 @@
    ]
   },
   {
+   "id": "ab03920cfdb9",
+   "title": "Six Sex",
+   "start": "2026-12-19T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media.",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/57e6a8b8-26b7-4871-a92f-70dc6b67827d/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d"
+    }
+   ]
+  },
+  {
    "id": "f905af8235be",
    "title": "SIX SEX · PRESENTA ULTRA",
    "start": "2026-12-19T19:00:00-03:00",
@@ -43062,28 +43086,6 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/sara-hebe-presenta-negocionismo-en-bs-as-en-niceto-club"
-    }
-   ]
-  },
-  {
-   "id": "ab03920cfdb9",
-   "title": "Six Sex",
-   "start": "2026-12-19T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "C Art Media.",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/57e6a8b8-26b7-4871-a92f-70dc6b67827d/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d"
     }
    ]
   },
