@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T17:23:57.396Z",
+ "generatedAt": "2026-11-11T17:34:19.357Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -44,7 +44,7 @@
   {
    "id": "konex",
    "name": "Ciudad Cultural Konex",
-   "count": 17,
+   "count": 16,
    "ok": true,
    "note": null,
    "errors": []
@@ -119,6 +119,14 @@
    "id": "livepass",
    "name": "Livepass",
    "count": 90,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada",
+   "name": "TuEntrada",
+   "count": 18,
    "ok": true,
    "note": null,
    "errors": []
@@ -720,6 +728,28 @@
    ]
   },
   {
+   "id": "ecf4354a71b1",
+   "title": "Dani Garcia",
+   "start": "2026-11-11T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/dani-garcia/dani-garcia-image-main-1792520345.jpg",
+   "url": "https://www.tuentrada.com/dani-garcia-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/dani-garcia-rondeman"
+    }
+   ]
+  },
+  {
    "id": "239c5200dd5e",
    "title": "Hanukkah",
    "start": "2026-11-11T21:00:00-03:00",
@@ -984,6 +1014,50 @@
    ]
   },
   {
+   "id": "2a080538d37f",
+   "title": "EBENEZER: LOS FANTASMAS DE LA NAVIDAD",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/ebenezer-los-fantasmas-de-la-navidad/ebenezer-los-fantasmas-de-la-navidad-image-main-1794413835.png",
+   "url": "https://www.tuentrada.com/ebenezer-escobar",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/ebenezer-escobar"
+    }
+   ]
+  },
+  {
+   "id": "95be8decf5a5",
+   "title": "EL GATO CON SOMBRERO",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/el-gato-con-sombrero/el-gato-con-sombrero-image-main-1793715105.png",
+   "url": "https://www.tuentrada.com/egatocsombrero-escobar",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/egatocsombrero-escobar"
+    }
+   ]
+  },
+  {
    "id": "889feb405eb0",
    "title": "EL SAN MARTÍN EN LOS ‘80: REFUGIO, RESISTENCIA Y LIBERTAD",
    "start": "2026-11-12T00:00:00-03:00",
@@ -1024,6 +1098,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/esperando_a_godot/"
+    }
+   ]
+  },
+  {
+   "id": "df24e6c5ea8b",
+   "title": "GODZILLA MINUS ZERO",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/godzilla-minus-zero/godzilla-minus-zero-image-main-1793715037.png",
+   "url": "https://www.tuentrada.com/godzilla-0-escobar",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/godzilla-0-escobar"
     }
    ]
   },
@@ -1244,6 +1340,50 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/todos-los-angeles-alzaron-el-vuelo/"
+    }
+   ]
+  },
+  {
+   "id": "678376edf294",
+   "title": "VISITÁ EL MUSEO DEL AGUA",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-el-museo-del-agua/visita-el-museo-del-agua-image-main-1765384530.png",
+   "url": "https://www.tuentrada.com/museodelagua",
+   "price": null,
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/museodelagua"
+    }
+   ]
+  },
+  {
+   "id": "d198e632e6a2",
+   "title": "VISITA GUIADA AMIA",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-guiada-amia/visita-guiada-amia-image-main-1764706577.png",
+   "url": "https://www.tuentrada.com/visita-guiada-amia",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/visita-guiada-amia"
     }
    ]
   },
@@ -2106,6 +2246,28 @@
    ]
   },
   {
+   "id": "266791333e56",
+   "title": "NICO SERNA",
+   "start": "2026-11-12T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nico-serna/nico-serna-image-main-1787664403.jpg",
+   "url": "https://www.tuentrada.com/nicoserna-pinamar",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nicoserna-pinamar"
+    }
+   ]
+  },
+  {
    "id": "c1277511d95d",
    "title": "The Beatles Symphonic",
    "start": "2026-11-12T20:30:00-03:00",
@@ -2392,6 +2554,28 @@
    ]
   },
   {
+   "id": "f31b433127ca",
+   "title": "HERNAN MERLO 4TET",
+   "start": "2026-11-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/hernan-merlo-4tet/hernan-merlo-4tet-image-main-1791485445.jpg",
+   "url": "https://www.tuentrada.com/hmerlo4tet-prez",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/hmerlo4tet-prez"
+    }
+   ]
+  },
+  {
    "id": "0b2b07a4be42",
    "title": "Jazz y algo Mazz - Orquesta de Jazz de la UNA",
    "start": "2026-11-12T21:00:00-03:00",
@@ -2564,6 +2748,28 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-11-12"
+    }
+   ]
+  },
+  {
+   "id": "c74d502dbe96",
+   "title": "SOY MESTIZA",
+   "start": "2026-11-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/soy-mestiza/soy-mestiza-image-main-1781708484.jpg",
+   "url": "https://www.tuentrada.com/soy-mestiza-tbsj",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/soy-mestiza-tbsj"
     }
    ]
   },
@@ -2806,6 +3012,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "b4bb1238968c",
+   "title": "Abel Pintos",
+   "start": "2026-11-13T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/abel-pintos/abel-pintos-image-main-1781039005.jpg",
+   "url": "https://www.tuentrada.com/abel-pintos-tgr",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
     }
    ]
   },
@@ -4834,6 +5062,28 @@
    ]
   },
   {
+   "id": "fbad5bb8ba98",
+   "title": "ÁNGEL SUCHERAS & NEW ORLEANS SPIRITS",
+   "start": "2026-11-13T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/angel-sucheras-new-orleans-spirits/angel-sucheras-new-orleans-spirits-image-main-1791485488.jpg",
+   "url": "https://www.tuentrada.com/asnos-prez",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/asnos-prez"
+    }
+   ]
+  },
+  {
    "id": "d813628ec9ef",
    "title": "(H)ay amor",
    "start": "2026-11-13T21:00:00-03:00",
@@ -4984,6 +5234,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra100224-autodefinida-leyenda"
+    }
+   ]
+  },
+  {
+   "id": "f3c56e61366e",
+   "title": "Carla Calasanz",
+   "start": "2026-11-13T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/carla-calasanz/carla-calasanz-image-main-1793982225.jpg",
+   "url": "https://www.tuentrada.com/carla-calasanz-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/carla-calasanz-rondeman"
     }
    ]
   },
@@ -21977,6 +22249,28 @@
    ]
   },
   {
+   "id": "acd99aba81cb",
+   "title": "NO TE VA GUSTAR",
+   "start": "2026-11-20T00:00:00-03:00",
+   "end": null,
+   "whenText": "Desde el Viernes 20 de Noviembre",
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=700,fit=scale-down,format=auto,quality=85/bucket/event-groups/no-te-va-gustar/no-te-va-gustar-image-main-1772451812.jpg",
+   "url": "https://www.tuentrada.com/ntvg-gira",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/ntvg-gira"
+    }
+   ]
+  },
+  {
    "id": "04527eec9014",
    "title": "TODOS LOS ÁNGELES ALZARON EL VUELO",
    "start": "2026-11-20T00:00:00-03:00",
@@ -25740,6 +26034,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/buenas-palabras/"
+    }
+   ]
+  },
+  {
+   "id": "01de1bf13f08",
+   "title": "Egberto Gismonti",
+   "start": "2026-11-21T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colón",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=700,fit=scale-down,format=auto,quality=85/bucket/events/egberto-gismonti/egberto-gismonti-image-main-1784901432.jpg",
+   "url": "https://www.tuentrada.com/egberto-gismonti-tc",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/egberto-gismonti-tc"
     }
    ]
   },
@@ -41484,28 +41800,6 @@
    ]
   },
   {
-   "id": "4ef811e7e414",
-   "title": "Palta & The mood",
-   "start": "2026-12-10T19:00:00-03:00",
-   "end": null,
-   "whenText": "Jueves 10 de diciembre 19 hs",
-   "place": "Konex · Patio",
-   "address": "Sarmiento 3131, Abasto",
-   "description": "Música",
-   "image": "https://www.cckonex.org/wp-content/uploads/2023/06/PALTA_KONEX2026_WEB_900x900-400x400.jpg",
-   "url": "https://entradas.cckonex.org/event/palta-and-the-mood",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "konex",
-     "name": "Ciudad Cultural Konex",
-     "url": "https://entradas.cckonex.org/event/palta-and-the-mood"
-    }
-   ]
-  },
-  {
    "id": "4b9a30f7dd7d",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-10T20:00:00-03:00",
@@ -41986,6 +42280,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/0fbd1c9b-8ac6-4060-a984-4f75476c1905"
+    }
+   ]
+  },
+  {
+   "id": "652a938d25b0",
+   "title": "ÑENGO FLOW",
+   "start": "2026-12-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Autodromo De Buenos Aires",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=700,fit=scale-down,format=auto,quality=85/bucket/events/nengo-flow/nengo-flow-image-main-1791314725.jpg",
+   "url": "https://www.tuentrada.com/nengo-flow",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nengo-flow"
     }
    ]
   },
