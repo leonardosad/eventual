@@ -223,11 +223,15 @@
     "enabled": true,
     "type": "tuentrada",
     "urls": [
-      "https://www.tuentrada.com/"
+      "https://www.tuentrada.com/",
+      "https://www.tuentrada.com/teatro-gran-rex",
+      "https://www.tuentrada.com/prez-jazz-music-club",
+      "https://www.tuentrada.com/rondeman-abasto",
+      "https://www.tuentrada.com/teatro-colonial"
     ],
     "options": {
       "logVenues": true,
-      "venueInclude": "Gran Rex|Col[oó]n|Prez|Autodromo De Buenos Aires|AMIA|Museo Del Agua"
+      "venueInclude": "Gran Rex|Teatro Col[oó]n|Colonial|Prez|Rondeman|Autodromo De Buenos Aires|AMIA|Palacio De Las Aguas"
     }
   },
   {
