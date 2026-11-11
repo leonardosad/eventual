@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-11T10:14:45.827Z",
+ "generatedAt": "2026-11-11T15:19:02.328Z",
  "sources": [
   {
    "id": "alternativa-teatral",
    "name": "Alternativa Teatral",
-   "count": 1366,
+   "count": 1374,
    "ok": true,
    "note": null,
    "errors": []
@@ -2082,6 +2082,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra84695-coto-de-caza-de-dos-cazadores"
+    }
+   ]
+  },
+  {
+   "id": "1705522072dd",
+   "title": "El movimiento",
+   "start": "2026-11-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
     }
    ]
   },
@@ -4660,6 +4682,28 @@
    ]
   },
   {
+   "id": "b908dbe61a9d",
+   "title": "El movimiento",
+   "start": "2026-11-13T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
+    }
+   ]
+  },
+  {
    "id": "e9bcd0d9e22f",
    "title": "El odio en el cuerpo",
    "start": "2026-11-13T21:00:00-03:00",
@@ -6362,7 +6406,7 @@
    "place": "TIMBRE 4",
    "address": "México 3554 / Boedo 640, Boedo",
    "description": "Magia",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000321351.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/88/000324288.jpg",
    "url": "https://www.alternativateatral.com/obra49004-sin-explicacion-jam-de-magia",
    "price": null,
    "free": false,
@@ -10156,6 +10200,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra97408-el-cuento-de-la-mujer-pato"
+    }
+   ]
+  },
+  {
+   "id": "cb966ac7b063",
+   "title": "El movimiento",
+   "start": "2026-11-14T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
     }
    ]
   },
@@ -16166,6 +16232,28 @@
    ]
   },
   {
+   "id": "6501c85c50f3",
+   "title": "El movimiento",
+   "start": "2026-11-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
+    }
+   ]
+  },
+  {
    "id": "b8ef5ffa9742",
    "title": "La Bestia (lo de adentro)",
    "start": "2026-11-15T21:00:00-03:00",
@@ -17604,7 +17692,7 @@
    "place": "LA SODERIA - ESPACIO ARTÍSTICO FABRIL",
    "address": "Vidal 2549, Belgrano",
    "description": "Improvisación · Muestras",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/94/000307994.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000324290.jpg",
    "url": "https://www.alternativateatral.com/obra98624-exhibicion-de-impro",
    "price": null,
    "free": false,
@@ -19885,6 +19973,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra84695-coto-de-caza-de-dos-cazadores"
+    }
+   ]
+  },
+  {
+   "id": "0b7b2afc7839",
+   "title": "El movimiento",
+   "start": "2026-11-19T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
     }
    ]
   },
@@ -22644,6 +22754,28 @@
    ]
   },
   {
+   "id": "c43cc5a854be",
+   "title": "El movimiento",
+   "start": "2026-11-20T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
+    }
+   ]
+  },
+  {
    "id": "abaa6d06c440",
    "title": "El odio en el cuerpo",
    "start": "2026-11-20T21:00:00-03:00",
@@ -23113,12 +23245,12 @@
    "whenText": null,
    "place": "ESPACIO EK",
    "address": "Jorge Newbery 3880, Chacarita",
-   "description": "Otros géneros",
+   "description": "Música · Folklore · Rock · Jazz · Popular · Otros géneros · Latinoamericana",
    "image": null,
    "url": "https://www.alternativateatral.com/obra104156-ekn-chill-matupea-ivan-destefanis",
    "price": null,
    "free": false,
-   "category": "Teatro",
+   "category": "Música",
    "sources": [
     {
      "id": "alternativa-teatral",
@@ -27621,6 +27753,28 @@
    ]
   },
   {
+   "id": "6debb8eb65b1",
+   "title": "El movimiento",
+   "start": "2026-11-21T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
+    }
+   ]
+  },
+  {
    "id": "3a5f061dd64c",
    "title": "Eleonora",
    "start": "2026-11-21T21:00:00-03:00",
@@ -30730,12 +30884,12 @@
    "whenText": null,
    "place": "EL PISO - CULTURA ESCÉNICA",
    "address": "Hidalgo 878, Caballito",
-   "description": "Magia",
+   "description": "Infantiles · Magia",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/77/000320977.jpg",
    "url": "https://www.alternativateatral.com/obra103067-show-de-magia-tur-pour-la-magie",
    "price": null,
    "free": false,
-   "category": "Teatro",
+   "category": "Infantil",
    "sources": [
     {
      "id": "alternativa-teatral",
@@ -31501,7 +31655,7 @@
    "place": "ESPACIO HACHE",
    "address": "Roseti 101, Chacarita",
    "description": "Danza",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000324287.jpg",
    "url": "https://www.alternativateatral.com/obra104204-fecha-2-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
    "price": null,
    "free": false,
@@ -33386,6 +33540,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102119-casimiro-del-tango"
+    }
+   ]
+  },
+  {
+   "id": "ba330dac92f0",
+   "title": "El movimiento",
+   "start": "2026-11-22T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO NACIONAL CERVANTES",
+   "address": "Libertad 815, San Nicolas",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104213-el-movimiento",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104213-el-movimiento"
     }
    ]
   },
