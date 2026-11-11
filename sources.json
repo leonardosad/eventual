@@ -160,7 +160,7 @@
       "https://www.enigmatickets.com/"
     ],
     "options": {
-      "exclude": "Mendoza|Foxy|C[oó]rdoba|Kempes|Rosario|Mar del Plata|La Plata|Vte\\.? ?L[oó]pez|alr[ií]o|Montevideo|Santiago|Tucum[aá]n|Salta|Neuqu[eé]n"
+      "exclude": "Mendoza|Foxy|C[oó]rdoba|Kempes|Rosario|Mar del Plata|La Plata|Vte\\.? ?L[oó]pez|alr[ií]o|Montevideo|Santiago|Tucum[aá]n|Salta|Neuqu[eé]n|Lago Puelo|Aonikenk|Bariloche|Chubut|Mendoza|San Juan|Jujuy|Corrientes|Misiones|Paraná|Santa Fe"
     },
     "defaultCategory": "Música"
   },

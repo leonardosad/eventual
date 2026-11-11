@@ -25,12 +25,17 @@ export function parseEnigma(html, baseUrl, opts = {}) {
     if (exclude && exclude.test(`${e.title} ${venue}`)) continue;
     const dates = (e.eventDates || []).filter(Number.isFinite).sort((a, b) => a - b);
     if (!dates.length) continue;
-    const label = Object.values(e.schedules || {}).map((s) => s?.labelForReplaceDate).find(Boolean);
+    const label = Object.values(e.schedules || {}).map((s) => s?.labelForReplaceDate).find(Boolean) || '';
+    // eventDates trae solo el día; la hora viene en el texto ("Sáb 14/11 19:30hs")
+    let start = toIso(dates[0]);
+    const t = label.match(/\b(\d{1,2})[:.](\d{2})\s*h/i) || label.match(/\b(\d{1,2})\s*hs\b/i);
+    if (t && start.slice(11, 16) === '00:00') start = `${start.slice(0, 11)}${t[1].padStart(2, '0')}:${t[2] || '00'}:00-03:00`;
+    const simple = /^\S+\s+\d{1,2}\/\d{1,2}\s+\d{1,2}([:.]\d{2})?\s*hs?$/i.test(label.trim());
     out.push({
-      title: e.title,
-      start: toIso(dates[0]),
+      title: String(e.title || '').trim(),
+      start,
       end: dates.length > 1 ? toIso(dates[dates.length - 1]) : null,
-      whenText: label || (e.isSoldOut ? 'Agotado' : null),
+      whenText: (label && !simple ? label : null) || (e.isSoldOut ? 'Agotado' : null),
       place: venue && venue !== 'Argentina' ? venue : null,
       image: e.imageUrl || e.smallImageUrl,
       price: e.minPrice > 0 ? String(e.minPrice) : '',

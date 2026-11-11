@@ -248,7 +248,7 @@ test('Fecha ISO sin ceros (Indie Hoy)', () => {
 
 test('Enigma Tickets: datos de Remix', () => {
   const ctx = { state: { loaderData: { root: {}, 'routes/_index': { nextEvents: [
-    { uid: 'aaa', title: 'NATION OF LANGUAGE', eventDates: [1796081400], venue: { name: 'Deseo Club' }, minPrice: 45000, imageUrl: 'https://assets/a.jpg', schedules: {} },
+    { uid: 'aaa', title: ' NATION OF LANGUAGE', eventDates: [1796007600], venue: { name: 'Deseo Club' }, minPrice: 45000, imageUrl: 'https://assets/a.jpg', schedules: { s: { labelForReplaceDate: 'Lun 30/11 20:30hs' } } },
     { uid: 'bbb', title: 'KAMADA EN MENDOZA', eventDates: [1794697200], venue: { name: 'Foxy' } },
     { uid: 'ccc', title: "Primavera Sound Buenos Aires '26", eventDates: [1795906800, 1795993200], venue: { name: 'Club Ciudad' }, schedules: { x: { labelForReplaceDate: 'Sáb 28/11 + Dom 29/11' } } },
   ] } } } };
@@ -257,6 +257,8 @@ test('Enigma Tickets: datos de Remix', () => {
   assert.equal(raw.length, 2);
   const [a, b] = raw.map((r) => normalizeEvent(r, { ...src, defaultCategory: 'Música' }, now));
   assert.equal(a.start, '2026-11-30T20:30:00-03:00');
+  assert.equal(a.title, 'NATION OF LANGUAGE');
+  assert.equal(a.whenText, null);
   assert.equal(a.place, 'Deseo Club');
   assert.equal(a.price, '$45.000');
   assert.equal(a.url, 'https://www.enigmatickets.com/event/aaa');
