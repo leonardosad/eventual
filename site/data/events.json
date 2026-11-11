@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T18:03:31.583Z",
+ "generatedAt": "2026-11-11T18:08:15.351Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -134,7 +134,7 @@
   {
    "id": "tuentrada-salas",
    "name": "TuEntrada",
-   "count": 12,
+   "count": 36,
    "ok": true,
    "note": null,
    "errors": []
@@ -742,7 +742,7 @@
    "end": null,
    "whenText": null,
    "place": "Rondeman Abasto",
-   "address": null,
+   "address": "Lavalle 3177, Abasto",
    "description": null,
    "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/dani-garcia/dani-garcia-image-main-1792520345.jpg",
    "url": "https://www.tuentrada.com/dani-garcia-rondeman",
@@ -752,6 +752,11 @@
    "sources": [
     {
      "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/dani-garcia-rondeman"
+    },
+    {
+     "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/dani-garcia-rondeman"
     }
@@ -2480,7 +2485,7 @@
    "end": null,
    "whenText": null,
    "place": "Prez Jazz & Music Club",
-   "address": null,
+   "address": "Buenos Aires",
    "description": null,
    "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/hernan-merlo-4tet/hernan-merlo-4tet-image-main-1791485445.jpg",
    "url": "https://www.tuentrada.com/hmerlo4tet-prez",
@@ -2490,6 +2495,11 @@
    "sources": [
     {
      "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/hmerlo4tet-prez"
+    },
+    {
+     "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/hmerlo4tet-prez"
     }
@@ -3187,7 +3197,7 @@
    "title": "María Becerra",
    "start": "2026-11-13T00:00:00-03:00",
    "end": null,
-   "whenText": "13 noviembre 2026 y 8 fechas más",
+   "whenText": "13 noviembre 2026 y 9 fechas más",
    "place": "Movistar Arena",
    "address": "Humboldt 450, Villa Crespo",
    "description": null,
@@ -4971,7 +4981,7 @@
    "end": null,
    "whenText": null,
    "place": "Prez Jazz & Music Club",
-   "address": null,
+   "address": "Buenos Aires",
    "description": null,
    "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/angel-sucheras-new-orleans-spirits/angel-sucheras-new-orleans-spirits-image-main-1791485488.jpg",
    "url": "https://www.tuentrada.com/asnos-prez",
@@ -4981,6 +4991,11 @@
    "sources": [
     {
      "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/asnos-prez"
+    },
+    {
+     "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/asnos-prez"
     }
@@ -5147,7 +5162,7 @@
    "end": null,
    "whenText": null,
    "place": "Rondeman Abasto",
-   "address": null,
+   "address": "Lavalle 3177, Abasto",
    "description": null,
    "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/carla-calasanz/carla-calasanz-image-main-1793982225.jpg",
    "url": "https://www.tuentrada.com/carla-calasanz-rondeman",
@@ -5157,6 +5172,11 @@
    "sources": [
     {
      "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/carla-calasanz-rondeman"
+    },
+    {
+     "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/carla-calasanz-rondeman"
     }
@@ -6985,6 +7005,28 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/los-abuelos-la-musica-de-los-abuelos-de-la-nada-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "4d59316c7393",
+   "title": "PABLO BASEZ & LOS INFERNALES",
+   "start": "2026-11-13T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/pablo-basez-los-infernales/pablo-basez-los-infernales-image-main-1791485527.jpg",
+   "url": "https://www.tuentrada.com/pbasezli-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/pbasezli-prez"
     }
    ]
   },
@@ -10663,6 +10705,28 @@
    ]
   },
   {
+   "id": "75b082a819c9",
+   "title": "BENOIT DELBECQ SOLO PIANO",
+   "start": "2026-11-14T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/benoit-delbecq-solo-piano/benoit-delbecq-solo-piano-image-main-1791485619.jpg",
+   "url": "https://www.tuentrada.com/bdelbecqps-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/bdelbecqps-prez"
+    }
+   ]
+  },
+  {
    "id": "65c523361190",
    "title": "107 Faunos",
    "start": "2026-11-14T21:00:00-03:00",
@@ -11055,6 +11119,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103644-familia-frec-un-nuevo-nacimiento"
+    }
+   ]
+  },
+  {
+   "id": "05331e6159eb",
+   "title": "Fernando Blanco",
+   "start": "2026-11-14T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/fernando-blanco/fernando-blanco-image-main-1792171954.jpg",
+   "url": "https://www.tuentrada.com/fernando-blanco-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/fernando-blanco-rondeman"
     }
    ]
   },
@@ -12771,6 +12857,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra98174-todos-mis-cuerpos"
+    }
+   ]
+  },
+  {
+   "id": "60cf0fa71c3c",
+   "title": "BENOIT DELBECQ TRIO",
+   "start": "2026-11-14T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/benoit-delbecq-trio/benoit-delbecq-trio-image-main-1791485666.jpg",
+   "url": "https://www.tuentrada.com/benoitdt-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/benoitdt-prez"
     }
    ]
   },
@@ -16929,6 +17037,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103738-la-institucion-tan-solo-una-cuestion-de-numeros"
+    }
+   ]
+  },
+  {
+   "id": "c447f198165a",
+   "title": "Leo Borrelli",
+   "start": "2026-11-15T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/leo-borrelli/leo-borrelli-image-main-1792598530.jpg",
+   "url": "https://www.tuentrada.com/leo-borrelli-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/leo-borrelli-rondeman"
     }
    ]
   },
@@ -21536,6 +21666,28 @@
    ]
   },
   {
+   "id": "b8cf1b09e6a9",
+   "title": "NICOLAS GUERSCHBERG TRIO",
+   "start": "2026-11-19T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nicolas-guerschberg-trio/nicolas-guerschberg-trio-image-main-1791993108.jpg",
+   "url": "https://www.tuentrada.com/guerschberg-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/guerschberg-prez"
+    }
+   ]
+  },
+  {
    "id": "b4f60815f168",
    "title": "Pecu Segal Cuarteto",
    "start": "2026-11-19T21:00:00-03:00",
@@ -24071,6 +24223,28 @@
    ]
   },
   {
+   "id": "5f598708025a",
+   "title": "JUAN PRESAS NONETO",
+   "start": "2026-11-20T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/juan-presas-noneto/juan-presas-noneto-image-main-1791993167.jpg",
+   "url": "https://www.tuentrada.com/jpresas9-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/jpresas9-prez"
+    }
+   ]
+  },
+  {
    "id": "71055602b290",
    "title": "¡JETTATORE!",
    "start": "2026-11-20T21:00:00-03:00",
@@ -24573,6 +24747,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103989-mi-mas-sinsentido-pesame"
+    }
+   ]
+  },
+  {
+   "id": "e163af231f33",
+   "title": "Nico Favio",
+   "start": "2026-11-20T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nico-favio/nico-favio-image-main-1788970606.jpeg",
+   "url": "https://www.tuentrada.com/nico-favio-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nico-favio-rondeman"
     }
    ]
   },
@@ -29268,6 +29464,28 @@
    ]
   },
   {
+   "id": "c228de11812d",
+   "title": "ADRIAN IAIES TRIO",
+   "start": "2026-11-21T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/adrian-iaies-trio/adrian-iaies-trio-image-main-1791993272.jpg",
+   "url": "https://www.tuentrada.com/adrianiaies3-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/adrianiaies3-prez"
+    }
+   ]
+  },
+  {
    "id": "6db83ad44c4d",
    "title": "1850. el último agosto",
    "start": "2026-11-21T21:00:00-03:00",
@@ -29792,6 +30010,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103931-les-chanches-o-la-robustez"
+    }
+   ]
+  },
+  {
+   "id": "74c2e2c18a61",
+   "title": "Living Rondewine - Sumo",
+   "start": "2026-11-21T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/living-rondewine-sumo/living-rondewine-sumo-image-main-1793896523.jpg",
+   "url": "https://www.tuentrada.com/living-rondewine-sumo-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/living-rondewine-sumo-rondeman"
     }
    ]
   },
@@ -31090,6 +31330,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra98174-todos-mis-cuerpos"
+    }
+   ]
+  },
+  {
+   "id": "71ab2810baef",
+   "title": "COLTRANE'S SOUND",
+   "start": "2026-11-21T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/coltranes-sound/coltranes-sound-image-main-1791993674.jpg",
+   "url": "https://www.tuentrada.com/coltranes-sound-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/coltranes-sound-prez"
     }
    ]
   },
@@ -35037,6 +35299,28 @@
    ]
   },
   {
+   "id": "79a4c0e7cee9",
+   "title": "Vocal Sessions",
+   "start": "2026-11-22T20:00:00-03:00",
+   "end": null,
+   "whenText": "Agotado",
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/vocal-sessions/vocal-sessions-image-main-1791483832.jpg",
+   "url": "https://www.tuentrada.com/vocal-sessions-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/vocal-sessions-rondeman"
+    }
+   ]
+  },
+  {
    "id": "b87997fc7553",
    "title": "Huele a espíritu adolescente",
    "start": "2026-11-22T20:15:00-03:00",
@@ -35407,6 +35691,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103684-vinieron"
+    }
+   ]
+  },
+  {
+   "id": "964d5494a509",
+   "title": "NBMV",
+   "start": "2026-11-22T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nbmv/nbmv-image-main-1791993387.jpg",
+   "url": "https://www.tuentrada.com/nbmv-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nbmv-prez"
     }
    ]
   },
@@ -35825,6 +36131,28 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/50037599-daa4-4d15-bf88-b99bd660baa9"
+    }
+   ]
+  },
+  {
+   "id": "40ef2e08eb17",
+   "title": "FARB/GAMALLO CUARTETO",
+   "start": "2026-11-22T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/farbgamallo-cuarteto/farbgamallo-cuarteto-image-main-1791993425.jpg",
+   "url": "https://www.tuentrada.com/farbgamallo4-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/farbgamallo4-prez"
     }
    ]
   },
@@ -38491,6 +38819,28 @@
    ]
   },
   {
+   "id": "c661fa2a0e75",
+   "title": "SMOKIN' AT THE HALF NOTE SESSIONS",
+   "start": "2026-11-26T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": "Buenos Aires",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/smokin-at-the-half-note-session/smokin-at-the-half-note-session-image-main-1792603333.jpg",
+   "url": "https://www.tuentrada.com/sathns-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/sathns-prez"
+    }
+   ]
+  },
+  {
    "id": "2c54c6b1978d",
    "title": "Glasé | presenta su álbum Almíbar + inéditos | Aimé Cantilo, Cuki López, Juana Gramigna, Noelia Sarquiz, Candela Delorenzi Orlandini y Mari Polé",
    "start": "2026-11-26T22:30:00-03:00",
@@ -38707,6 +39057,28 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/nora-sarmoria-victoria-zotalis-en-ccnu"
+    }
+   ]
+  },
+  {
+   "id": "2d801b3828ad",
+   "title": "AlmaNegra",
+   "start": "2026-11-27T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/almanegra/almanegra-image-main-1790961212.jpg",
+   "url": "https://www.tuentrada.com/almanegra-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/almanegra-rondeman"
     }
    ]
   },
@@ -39191,6 +39563,28 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/god-save-the-queen-tgr"
+    }
+   ]
+  },
+  {
+   "id": "8ad0418d4a4f",
+   "title": "Tregua",
+   "start": "2026-11-28T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/tregua/tregua-image-main-1792432808.jpg",
+   "url": "https://www.tuentrada.com/tregua-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/tregua-rondeman"
     }
    ]
   },
@@ -40603,6 +40997,28 @@
    ]
   },
   {
+   "id": "0a478d3abd33",
+   "title": "David Telson",
+   "start": "2026-12-04T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/david-telson/david-telson-image-main-1793296651.jpeg",
+   "url": "https://www.tuentrada.com/david-telson-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/david-telson-rondeman"
+    }
+   ]
+  },
+  {
    "id": "9f64976a41b0",
    "title": "La Misa",
    "start": "2026-12-04T20:30:00-03:00",
@@ -41061,6 +41477,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/ciclo-void-5-dic-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "8ec5840fcec8",
+   "title": "Elvis en 360º",
+   "start": "2026-12-05T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/elvis-en-360o/elvis-en-360o-image-main-1791478527.jpg",
+   "url": "https://www.tuentrada.com/elvis-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/elvis-rondeman"
     }
    ]
   },
@@ -41809,6 +42247,28 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/ney-matogroso-tgr"
+    }
+   ]
+  },
+  {
+   "id": "f64d913b623f",
+   "title": "Sergio Sacoto",
+   "start": "2026-12-09T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Rondeman Abasto",
+   "address": "Lavalle 3177, Abasto",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/sergio-sacoto/sergio-sacoto-image-main-1794420363.png",
+   "url": "https://www.tuentrada.com/sergio-sacoto-rondeman",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/sergio-sacoto-rondeman"
     }
    ]
   },
