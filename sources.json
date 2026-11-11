@@ -223,15 +223,28 @@
     "enabled": true,
     "type": "tuentrada",
     "urls": [
-      "https://www.tuentrada.com/",
-      "https://www.tuentrada.com/teatro-gran-rex",
-      "https://www.tuentrada.com/prez-jazz-music-club",
-      "https://www.tuentrada.com/rondeman-abasto",
-      "https://www.tuentrada.com/teatro-colonial"
+      "https://www.tuentrada.com/"
     ],
     "options": {
-      "logVenues": true,
-      "venueInclude": "Gran Rex|Teatro Col[oó]n|Colonial|Prez|Rondeman|Autodromo De Buenos Aires|AMIA|Palacio De Las Aguas"
+      "venueInclude": "Gran Rex|Teatro Col[oó]n|Prez|Rondeman|Autodromo De Buenos Aires|AMIA|Palacio De Las Aguas"
+    }
+  },
+  {
+    "id": "tuentrada-salas",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-salas",
+    "urls": [
+      "https://www.tuentrada.com/"
+    ],
+    "options": {
+      "venues": [
+        {
+          "id": 27,
+          "name": "Teatro Gran Rex",
+          "address": "Av. Corrientes 857, Centro"
+        }
+      ]
     }
   },
   {

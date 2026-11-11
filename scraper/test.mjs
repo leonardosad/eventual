@@ -12,7 +12,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
-import { parseTuEntrada } from './adapters/tuentrada.mjs';
+import { parseTuEntrada, eventsFromVenueApi } from './adapters/tuentrada.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -321,6 +321,21 @@ test('TuEntrada: datos de Next.js', () => {
   assert.equal(a.url, 'https://www.tuentrada.com/hmerlo4tet-prez');
   assert.equal(b.whenText, 'Del 12-11-2026 al 17-11-2026');
   assert.equal(b.end, '2026-11-17T23:59:00-03:00');
+});
+
+test('TuEntrada: API de sala (Gran Rex)', () => {
+  const json = { success: true, data: { events: [
+    { id: 842, model: 'event', slug: 'abel-pintos-tgr', name: 'Abel Pintos', availability: 'Agotado', dateRange: 'Del 13-11-2026 al 20-11-2026', imageMainNew: { src: 'https://bucket/a.jpg' } },
+    { id: 9, model: 'event', slug: 'djavan-tgr', name: 'DJAVAN', availability: 'Disponible', dateRange: '24-11-2026 20:30 hs' },
+    { id: 10, model: 'event', slug: 'back-tgr', name: 'BACK TO THE ORCHESTRA', availability: 'Cancelado', dateRange: '29-11-2026 20:00 hs' },
+  ] } };
+  const raw = eventsFromVenueApi(json, { name: 'Teatro Gran Rex', address: 'Av. Corrientes 857' }, 'https://www.tuentrada.com/');
+  assert.equal(raw.length, 2);
+  const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.whenText, 'Del 13-11-2026 al 20-11-2026 · Agotado');
+  assert.equal(b.start, '2026-11-24T20:30:00-03:00');
+  assert.equal(b.place, 'Teatro Gran Rex');
+  assert.equal(b.url, 'https://www.tuentrada.com/djavan-tgr');
 });
 
 console.log(`\n${passed} pruebas OK`);

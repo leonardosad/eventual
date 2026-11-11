@@ -14,7 +14,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
-import { parseTuEntrada } from './adapters/tuentrada.mjs';
+import { parseTuEntrada, tuentradaVenues } from './adapters/tuentrada.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -41,7 +41,7 @@ async function fetchText(url, tries = 2, extraHeaders = {}) {
 }
 
 // Tipos que necesitan pedir más páginas además de la inicial
-const MULTI = { follow, ticketek, complejo };
+const MULTI = { follow, ticketek, complejo, 'tuentrada-salas': tuentradaVenues };
 
 async function runAdapter(source, body, url, ctx) {
   if (MULTI[source.type]) return MULTI[source.type](body, url, source, ctx);
@@ -74,6 +74,17 @@ async function scrapeSource(source, now) {
       return source.browser ? browserFetch(u, 'script[type="application/ld+json"]') : fetchText(u, 2, source.headers);
     },
     warn: (msg) => warnings.push(msg),
+    post: async (u, data) => {
+      await new Promise((r) => setTimeout(r, delay));
+      const res = await fetch(u, {
+        method: 'POST',
+        headers: { 'User-Agent': USER_AGENT, 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data),
+        signal: AbortSignal.timeout(25_000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.text();
+    },
   };
   for (const url of source.urls) {
     try {

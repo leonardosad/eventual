@@ -64,3 +64,39 @@ export function parseTuEntrada(html, baseUrl, opts = {}) {
   if (opts.logVenues) console.log('   salas de TuEntrada:', [...venues].map(([v, n]) => `${v} (${n})`).join(' · '));
   return out;
 }
+
+// Página de una sala: la web pide los eventos a /api/proxy/venue/list-events con
+// {"venueId":27,"model":"venue","cursor":null} y pagina con un cursor.
+export function eventsFromVenueApi(json, venue, baseUrl) {
+  const list = json?.data?.events || [];
+  return list.filter((e) => e.model === 'event' && e.slug && !/cancelad/i.test(e.availability || '')).map((e) => {
+    const { start, end } = parseDateRange(e.dateRange);
+    return {
+      title: e.name,
+      start,
+      end,
+      whenText: [/^del\b/i.test(e.dateRange || '') ? e.dateRange : null, /agotad|[uú]ltimas/i.test(e.availability || '') ? e.availability : null].filter(Boolean).join(' · ') || null,
+      place: venue.name,
+      address: venue.address,
+      image: e.imageMainNew?.src || null,
+      url: new URL(e.slug, baseUrl).href,
+      baseUrl,
+    };
+  }).filter((e) => e.start);
+}
+
+export async function tuentradaVenues(body, url, source, ctx) {
+  const out = [];
+  for (const venue of source.options?.venues || []) {
+    let cursor = null;
+    for (let page = 0; page < 10; page++) {
+      const res = await ctx.post(new URL('/api/proxy/venue/list-events', url).href, { venueId: venue.id, model: 'venue', cursor });
+      const json = JSON.parse(res);
+      out.push(...eventsFromVenueApi(json, venue, url));
+      const next = json?.data?.cursor ?? json?.data?.nextCursor ?? json?.data?.pagination?.nextCursor ?? null;
+      if (!next || next === cursor || !(json?.data?.events || []).length) break;
+      cursor = next;
+    }
+  }
+  return out;
+}
