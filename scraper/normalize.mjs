@@ -166,7 +166,7 @@ export function normalizeEvent(raw, source, now = new Date()) {
 function formatPrice(p, currency) {
   if (/^\d+([.,]\d+)?$/.test(p)) {
     const n = Number(p.replace(',', '.'));
-    const sym = !currency || currency === 'ARS' ? '$' : `${currency} `;
+    const sym = !currency || /^(ARS?|\$)$/.test(currency) ? '$' : `${currency} `;
     return `${sym}${n.toLocaleString('es-AR', { maximumFractionDigits: 0 })}`;
   }
   return p;
