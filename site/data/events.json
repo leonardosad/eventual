@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T17:50:05.540Z",
+ "generatedAt": "2026-11-11T17:58:54.580Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -68,13 +68,10 @@
   {
    "id": "indiehoy-vorterix",
    "name": "Indie Hoy (Teatro Vorterix)",
-   "count": 3,
+   "count": 5,
    "ok": true,
    "note": null,
-   "errors": [
-    "https://indiehoy.com/agenda/alexisonfire-argentina-2026/: The operation was aborted due to timeout",
-    "https://indiehoy.com/agenda/un-verano-en-teatro-vorterix/: The operation was aborted due to timeout"
-   ]
+   "errors": []
   },
   {
    "id": "indiehoy-roxy",
@@ -18019,6 +18016,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101890-los-malcasados"
+    }
+   ]
+  },
+  {
+   "id": "ffb47cbf625e",
+   "title": "Alexisonfire en Argentina",
+   "start": "2026-11-17T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Alexisonfire regresa a la Argentina para celebrar los 20 años de Crisis, [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/alexisonfire-en-argentina.webp",
+   "url": "https://indiehoy.com/agenda/alexisonfire-argentina-2026/",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/alexisonfire-argentina-2026/"
     }
    ]
   },
@@ -38411,6 +38430,28 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/musica-no-disponible-en-internet-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "f8a12482bee6",
+   "title": "Un Verano en Teatro Vorterix",
+   "start": "2026-11-27T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Un Verano se presentará el viernes 27 de noviembre a las [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/09/un-verano-vorterix.jpg",
+   "url": "https://indiehoy.com/agenda/un-verano-en-teatro-vorterix/",
+   "price": "Desde $15.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/un-verano-en-teatro-vorterix/"
     }
    ]
   },
