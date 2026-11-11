@@ -36,22 +36,32 @@ for (const url of urls) {
   const apis = [];
   page.on('response', async (res) => {
     const ct = res.headers()['content-type'] || '';
-    if (/json/.test(ct) && !/google|facebook|analytics|hotjar|clarity|tiktok|sentry/.test(res.url())) {
+    if (/json/.test(ct) && !/google|zdassets|zendesk|facebook|analytics|hotjar|clarity|tiktok|sentry/.test(res.url())) {
       let size = 0; try { size = (await res.body()).length; } catch {}
       apis.push(`${res.request().method()} ${res.status()} ${res.url().slice(0, 200)} (${size} bytes)`);
     }
   });
   try {
-    const res = await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+    const res = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForTimeout(8000);
     console.log(`navegador: HTTP ${res?.status()}, título: ${await page.title()}`);
     const info = await page.evaluate(() => ({
       ld: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => s.textContent.replace(/\s+/g, ' ').slice(0, 300)),
       links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href))].filter((h) => /event|evento|show|ticket/i.test(h)).slice(0, 25),
       texto: document.body.innerText.replace(/\s+/g, ' ').slice(0, 800),
+      tarjeta: (() => {
+        const a = [...document.querySelectorAll('a[href]')].find((x) => /comprar|entradas|ver m[aá]s|evento\/|event\/|\/e\//i.test(x.textContent + ' ' + x.getAttribute('href')) && !/login|ayuda|faq/i.test(x.href));
+        if (!a) return '';
+        let c = a; for (let i = 0; i < 6 && c.parentElement && c.textContent.trim().length < 80; i++) c = c.parentElement;
+        return c.outerHTML.replace(/\s+/g, ' ').replace(/<svg[\s\S]*?<\/svg>/g, '<svg/>').slice(0, 2000);
+      })(),
+      ldTipos: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => (s.textContent.match(/"@type"\s*:\s*"[^"]+"/g) || []).slice(0, 3).join(',')),
     }));
     console.log('JSON-LD:', JSON.stringify(info.ld, null, 1));
     console.log('Links:', info.links.join('\n  '));
     console.log('Texto:', info.texto);
+    console.log('Tipos JSON-LD:', info.ldTipos.join(' | '));
+    console.log('Tarjeta:', info.tarjeta);
     console.log('APIs JSON:\n  ' + apis.slice(0, 30).join('\n  '));
   } catch (e) { console.log('navegador falló:', e.message); }
   await page.close();
