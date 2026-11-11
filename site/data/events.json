@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-11T18:12:30.025Z",
+ "generatedAt": "2026-11-11T22:16:53.531Z",
  "sources": [
   {
    "id": "alternativa-teatral",
    "name": "Alternativa Teatral",
-   "count": 1374,
+   "count": 1397,
    "ok": true,
    "note": null,
    "errors": []
@@ -36,7 +36,7 @@
   {
    "id": "movistar-arena",
    "name": "Movistar Arena",
-   "count": 52,
+   "count": 53,
    "ok": true,
    "note": null,
    "errors": []
@@ -44,7 +44,7 @@
   {
    "id": "konex",
    "name": "Ciudad Cultural Konex",
-   "count": 16,
+   "count": 18,
    "ok": true,
    "note": null,
    "errors": []
@@ -134,7 +134,7 @@
   {
    "id": "tuentrada-salas",
    "name": "TuEntrada",
-   "count": 35,
+   "count": 34,
    "ok": true,
    "note": null,
    "errors": []
@@ -394,7 +394,7 @@
    "description": null,
    "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/53a15c30cfd65eaa303ec57b1b2a1fb96336f8da.png?1792592809",
    "url": "https://livepass.com.ar/events/los-pablos-jazz-trio-en-ccnu",
-   "price": "$20.700",
+   "price": "$24.150",
    "free": false,
    "category": "Música",
    "sources": [
@@ -1727,6 +1727,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "4ff1e1d8277d",
+   "title": "Luisa Fernanda",
+   "start": "2026-11-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CARAS Y CARETAS 2037",
+   "address": "Sarmiento 2037, Balvanera",
+   "description": "Teatro · Musical · Comedia",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104227-luisa-fernanda",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104227-luisa-fernanda"
     }
    ]
   },
@@ -3325,6 +3347,28 @@
    ]
   },
   {
+   "id": "e1a616f0fa2f",
+   "title": "Conurbano, Cotidiano",
+   "start": "2026-11-13T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/30/000290630.jpg",
+   "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano"
+    }
+   ]
+  },
+  {
    "id": "267c23595973",
    "title": "Experiencia sensorial inmersiva en total oscuridad con Parlantes Holofónicos",
    "start": "2026-11-13T19:00:00-03:00",
@@ -3585,6 +3629,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/canto-del-alma-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "96ac944e9ce6",
+   "title": "Casa matriz",
+   "start": "2026-11-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "PALACIO LIBERTAD - CC DOMINGO FAUSTINO SARMIENTO",
+   "address": "Sarmiento 151, San Nicolas",
+   "description": "Teatro · Comedia",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000295556.jpg",
+   "url": "https://www.alternativateatral.com/obra77228-casa-matriz",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra77228-casa-matriz"
     }
    ]
   },
@@ -7889,6 +7955,28 @@
    ]
   },
   {
+   "id": "39e62b84fc5d",
+   "title": "Bergman y Liv (Correspondencia Amorosa)",
+   "start": "2026-11-14T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000233090.jpg",
+   "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa"
+    }
+   ]
+  },
+  {
    "id": "dceed04edf80",
    "title": "Ensayo sobre la vejez",
    "start": "2026-11-14T17:00:00-03:00",
@@ -8259,6 +8347,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra100967-calzones-estampados"
+    }
+   ]
+  },
+  {
+   "id": "ff25bf5a84e8",
+   "title": "Canciones para viajar, por Copla Colores (Ciclo: Pequeño teatro musical)",
+   "start": "2026-11-14T18:00:00-03:00",
+   "end": null,
+   "whenText": "18:00 y 19:30 y 21:00 h",
+   "place": "PALACIO LIBERTAD - CC DOMINGO FAUSTINO SARMIENTO",
+   "address": "Sarmiento 151, San Nicolas",
+   "description": "Infantiles · Folklore · Otros géneros",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/24/000324324.jpg",
+   "url": "https://www.alternativateatral.com/obra104233-canciones-para-viajar-por-copla-colores-ciclo-pequeno-teatro-musical",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104233-canciones-para-viajar-por-copla-colores-ciclo-pequeno-teatro-musical"
     }
    ]
   },
@@ -8813,6 +8923,28 @@
    ]
   },
   {
+   "id": "8650e3f73dd1",
+   "title": "Conurbano, Cotidiano",
+   "start": "2026-11-14T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/30/000290630.jpg",
+   "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano"
+    }
+   ]
+  },
+  {
    "id": "dbf55fff7dc7",
    "title": "Experiencia sensorial inmersiva en total oscuridad con Parlantes Holofónicos",
    "start": "2026-11-14T19:00:00-03:00",
@@ -9363,6 +9495,28 @@
    ]
   },
   {
+   "id": "8a4d86a4d889",
+   "title": "Casa matriz",
+   "start": "2026-11-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "PALACIO LIBERTAD - CC DOMINGO FAUSTINO SARMIENTO",
+   "address": "Sarmiento 151, San Nicolas",
+   "description": "Teatro · Comedia",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000295556.jpg",
+   "url": "https://www.alternativateatral.com/obra77228-casa-matriz",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra77228-casa-matriz"
+    }
+   ]
+  },
+  {
    "id": "b069fbf306f2",
    "title": "Chicas del montón",
    "start": "2026-11-14T20:00:00-03:00",
@@ -9715,28 +9869,6 @@
    ]
   },
   {
-   "id": "defc782b5cf1",
-   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
-   "start": "2026-11-14T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Bebop Club",
-   "address": "Moreno 364, San Telmo",
-   "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
-   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "bebop",
-     "name": "Bebop Club",
-     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
-    }
-   ]
-  },
-  {
    "id": "dffcda3d28c9",
    "title": "La Forma Sonámbula",
    "start": "2026-11-14T20:00:00-03:00",
@@ -9887,6 +10019,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103017-magnanimidad-ausencia-tarrio-rebobinado"
+    }
+   ]
+  },
+  {
+   "id": "f23fd377496e",
+   "title": "Mi joven vida tiene un final",
+   "start": "2026-11-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000309410.jpg",
+   "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final"
     }
    ]
   },
@@ -10635,6 +10789,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103323-quiero-eso-que-vos-tenes"
+    }
+   ]
+  },
+  {
+   "id": "1fdc13f9d811",
+   "title": "Salto al vacío",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "LA VIEJA GUARIDA",
+   "address": "Guardia Vieja 3777, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104220-salto-al-vacio",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104220-salto-al-vacio"
     }
    ]
   },
@@ -13609,6 +13785,28 @@
    ]
   },
   {
+   "id": "3a595cf4172d",
+   "title": "FUTCON | Festival de Cultura Futbolera",
+   "start": "2026-11-15T14:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 14 y Domingo 15 de noviembre Desde las 14 hs",
+   "place": "Konex · Todas las salas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Festivales",
+   "image": "https://www.cckonex.org/wp-content/uploads/2025/09/futcon-900px-400x400.jpeg",
+   "url": "https://venti.live/evento/futcon",
+   "price": null,
+   "free": false,
+   "category": "Deportes",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://venti.live/evento/futcon"
+    }
+   ]
+  },
+  {
    "id": "96a505bd29af",
    "title": "Jardineria",
    "start": "2026-11-15T14:00:00-03:00",
@@ -14111,6 +14309,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra100789-bailando-en-el-koch-cronicas-de-una-guardia-respiratoria"
+    }
+   ]
+  },
+  {
+   "id": "750b7d7a335c",
+   "title": "Bergman y Liv (Correspondencia Amorosa)",
+   "start": "2026-11-15T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000233090.jpg",
+   "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa"
     }
    ]
   },
@@ -16535,6 +16755,28 @@
    ]
   },
   {
+   "id": "71a13ad097d1",
+   "title": "Mi joven vida tiene un final",
+   "start": "2026-11-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000309410.jpg",
+   "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final"
+    }
+   ]
+  },
+  {
    "id": "900c033ef4ed",
    "title": "MOSAICO NOVIEMBRE - Ciclo de obras cortas",
    "start": "2026-11-15T20:00:00-03:00",
@@ -18163,6 +18405,28 @@
    ]
   },
   {
+   "id": "54ea3b6b7a0d",
+   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
+   "start": "2026-11-16T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
+    }
+   ]
+  },
+  {
    "id": "ffb47cbf625e",
    "title": "Alexisonfire en Argentina",
    "start": "2026-11-17T00:00:00-03:00",
@@ -18731,6 +18995,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra59570-petroleo"
+    }
+   ]
+  },
+  {
+   "id": "3fbb1debd386",
+   "title": "Somos",
+   "start": "2026-11-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO CALLEJÓN",
+   "address": "Humahuaca 3759, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104214-somos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104214-somos"
     }
    ]
   },
@@ -22436,6 +22722,28 @@
    ]
   },
   {
+   "id": "4c8737ee76ee",
+   "title": "Conurbano, Cotidiano",
+   "start": "2026-11-20T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/30/000290630.jpg",
+   "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano"
+    }
+   ]
+  },
+  {
    "id": "bc298a01dace",
    "title": "El alucinante viaje de Patricio Rey y sus redonditos de ricota",
    "start": "2026-11-20T19:00:00-03:00",
@@ -22987,6 +23295,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra97684-fronter"
+    }
+   ]
+  },
+  {
+   "id": "1d953a0910c4",
+   "title": "La educación sentimental",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": "20:00 y 22:00 h",
+   "place": "DEPARTAMENTO DE ARTES DRAMÁTICAS UNA",
+   "address": "FRENCH 3614, Palermo",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104215-la-educacion-sentimental",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104215-la-educacion-sentimental"
     }
    ]
   },
@@ -26005,6 +26335,28 @@
    ]
   },
   {
+   "id": "86477cf00d5a",
+   "title": "Teatralogía - Edición Especial Vol.I",
+   "start": "2026-11-20T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "EL PISO - CULTURA ESCÉNICA",
+   "address": "Hidalgo 878, Caballito",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104221-teatralogia-edicion-especial-voli",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104221-teatralogia-edicion-especial-voli"
+    }
+   ]
+  },
+  {
    "id": "110ae18ea86a",
    "title": "KLAV PRES. PRIKU",
    "start": "2026-11-20T23:30:00-03:00",
@@ -26705,6 +27057,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101129-aurelia-escribe"
+    }
+   ]
+  },
+  {
+   "id": "f95becc24f18",
+   "title": "Bergman y Liv (Correspondencia Amorosa)",
+   "start": "2026-11-21T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000233090.jpg",
+   "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa"
     }
    ]
   },
@@ -27501,6 +27875,28 @@
    ]
   },
   {
+   "id": "d5cc0ec328af",
+   "title": "Conurbano, Cotidiano",
+   "start": "2026-11-21T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/30/000290630.jpg",
+   "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra79559-conurbano-cotidiano"
+    }
+   ]
+  },
+  {
    "id": "c446f0121ca6",
    "title": "Cuanto vale tu amor",
    "start": "2026-11-21T19:00:00-03:00",
@@ -27553,7 +27949,7 @@
    "place": "ESPACIO HACHE",
    "address": "Roseti 101, Chacarita",
    "description": "Danza",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/03/000324203.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/22/000324322.jpg",
    "url": "https://www.alternativateatral.com/obra104182-fecha-1-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
    "price": null,
    "free": false,
@@ -28232,6 +28628,28 @@
    ]
   },
   {
+   "id": "1eb3ee478ffd",
+   "title": "El musical de mi vida",
+   "start": "2026-11-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "AUDITORIO AIC ABASTO",
+   "address": "Humahuaca 3640, Almagro",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/52/000322152.jpg",
+   "url": "https://www.alternativateatral.com/obra100573-el-musical-de-mi-vida",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra100573-el-musical-de-mi-vida"
+    }
+   ]
+  },
+  {
    "id": "377e79c6e63c",
    "title": "El trabajo",
    "start": "2026-11-21T20:00:00-03:00",
@@ -28646,6 +29064,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103858-mbaraka-poty-c-la-reina-rebelde-c-mas-grandes-que-israel-m-fidba-en-arthaus"
+    }
+   ]
+  },
+  {
+   "id": "92965c8faec4",
+   "title": "Mi joven vida tiene un final",
+   "start": "2026-11-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000309410.jpg",
+   "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final"
     }
    ]
   },
@@ -29416,6 +29856,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra91603-pulsion"
+    }
+   ]
+  },
+  {
+   "id": "0d2614ef507b",
+   "title": "Salto al vacío",
+   "start": "2026-11-21T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "LA VIEJA GUARIDA",
+   "address": "Guardia Vieja 3777, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104220-salto-al-vacio",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104220-salto-al-vacio"
     }
    ]
   },
@@ -32610,6 +33072,28 @@
    ]
   },
   {
+   "id": "a183f6d86637",
+   "title": "Bergman y Liv (Correspondencia Amorosa)",
+   "start": "2026-11-22T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000233090.jpg",
+   "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa"
+    }
+   ]
+  },
+  {
    "id": "d5d1b3d8657d",
    "title": "Bodas de sangre",
    "start": "2026-11-22T17:00:00-03:00",
@@ -33806,7 +34290,7 @@
    "place": "ESPACIO HACHE",
    "address": "Roseti 101, Chacarita",
    "description": "Danza",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/87/000324287.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/23/000324323.jpg",
    "url": "https://www.alternativateatral.com/obra104204-fecha-2-gira-2026-segundo-festival-de-danza-aerea-con-arnes",
    "price": null,
    "free": false,
@@ -35031,6 +35515,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103829-manifiesto-hamlet"
+    }
+   ]
+  },
+  {
+   "id": "ed00cb92b3a2",
+   "title": "Mi joven vida tiene un final",
+   "start": "2026-11-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/10/000309410.jpg",
+   "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra99227-mi-joven-vida-tiene-un-final"
     }
    ]
   },
@@ -37165,6 +37671,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra59570-petroleo"
+    }
+   ]
+  },
+  {
+   "id": "e152986ccc86",
+   "title": "Somos",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESPACIO CALLEJÓN",
+   "address": "Humahuaca 3759, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104214-somos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104214-somos"
     }
    ]
   },
@@ -39941,6 +40469,28 @@
    ]
   },
   {
+   "id": "c1590e3f2580",
+   "title": "Los Rockan presentan El reino del revés",
+   "start": "2026-11-29T16:30:00-03:00",
+   "end": null,
+   "whenText": "Domingo 29 de noviembre 16:30 hs",
+   "place": "Konex · Sala Auditorio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Konex para chicos",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/11/REINO-KONEX-900px-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/los-rockan",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/los-rockan"
+    }
+   ]
+  },
+  {
    "id": "32f0f7794799",
    "title": "Argentum Jazz Quinteto | Festival de Jazz Argentino | Juan Cruz de Urquiza, Ricardo Cavalli, Guillermo Romero, Jerónimo Carmona, Oscar Giunta",
    "start": "2026-11-29T19:00:00-03:00",
@@ -42203,28 +42753,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
-    }
-   ]
-  },
-  {
-   "id": "2fb62a0c23a0",
-   "title": "Ney Matogrosso",
-   "start": "2026-12-09T20:30:00-03:00",
-   "end": null,
-   "whenText": "Últimas Entradas",
-   "place": "Teatro Gran Rex",
-   "address": "Av. Corrientes 857, Centro",
-   "description": null,
-   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/ney-matogrosso/ney-matogrosso-image-main-1793111953.jpg",
-   "url": "https://www.tuentrada.com/ney-matogroso-tgr",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "tuentrada-salas",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/ney-matogroso-tgr"
     }
    ]
   },
