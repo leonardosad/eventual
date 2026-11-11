@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T18:08:15.351Z",
+ "generatedAt": "2026-11-11T18:12:30.025Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -134,7 +134,7 @@
   {
    "id": "tuentrada-salas",
    "name": "TuEntrada",
-   "count": 36,
+   "count": 35,
    "ok": true,
    "note": null,
    "errors": []
@@ -40025,28 +40025,6 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/pellican-jazz-duo-en-ccnu"
-    }
-   ]
-  },
-  {
-   "id": "e298ab06099b",
-   "title": "Back To The Orchestra",
-   "start": "2026-11-29T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Teatro Gran Rex",
-   "address": "Av. Corrientes 857, Centro",
-   "description": null,
-   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/back-to-the-orchestra/back-to-the-orchestra-image-main-1780322508.jpg",
-   "url": "https://www.tuentrada.com/back-to-the-orchestra-tgr",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "tuentrada-salas",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/back-to-the-orchestra-tgr"
     }
    ]
   },
