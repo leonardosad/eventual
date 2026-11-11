@@ -23,3 +23,5 @@ jobs:
         timeout-minutes: 4
         run: which google-chrome || npx playwright install chromium
       - run: node tools/sondear.mjs ${{ inputs.urls }}
+        env:
+          VER_JSON: '1'

@@ -49,8 +49,9 @@ for (const arg of urls) {
   page.on('response', async (res) => {
     const ct = res.headers()['content-type'] || '';
     if (/json/.test(ct) && !/google|zdassets|zendesk|facebook|analytics|hotjar|clarity|tiktok|sentry/.test(res.url())) {
-      let size = 0; try { size = (await res.body()).length; } catch {}
-      apis.push(`${res.request().method()} ${res.status()} ${res.url().slice(0, 200)} (${size} bytes)`);
+      let size = 0, head = ''; try { const b = await res.body(); size = b.length; head = b.toString('utf8').slice(0, 700); } catch {}
+      const body = res.request().postData();
+      apis.push(`${res.request().method()} ${res.status()} ${res.url().slice(0, 200)} (${size} bytes)` + (body ? `\n      enviado: ${body.slice(0, 400)}` : '') + (process.env.VER_JSON ? `\n      respuesta: ${head}` : ''));
     }
   });
   try {
