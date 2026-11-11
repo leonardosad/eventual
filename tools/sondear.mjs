@@ -15,6 +15,18 @@ for (const url of urls) {
     if (i >= 0) console.log('HTML alrededor del primer evento:\n' + t.slice(Math.max(0, i - 1500), i + 1500).replace(/\s+/g, ' '));
     const scripts = (t.match(/<script[^>]*>[\s\S]{0,200}/g) || []).filter((x) => /self\.__next_f|__remix|window\.__|application\/json/.test(x)).slice(0, 4);
     if (scripts.length) console.log('Scripts con datos:', scripts.join('\n  '));
+    const rm = t.match(/window\.__remixContext\s*=\s*(\{[\s\S]*?\});\s*(?:__remixContext|<\/script>)/);
+    if (rm) {
+      try {
+        const ctx = JSON.parse(rm[1]);
+        const ld = ctx.state?.loaderData || {};
+        for (const [route, data] of Object.entries(ld)) {
+          console.log(`remix loaderData[${route}]: claves ${JSON.stringify(Object.keys(data || {}))}`);
+          const findArr = (o, path = '') => { if (Array.isArray(o) && o.length && typeof o[0] === 'object') return [[path, o]]; if (o && typeof o === 'object') return Object.entries(o).flatMap(([k, v]) => findArr(v, path + '.' + k)); return []; };
+          for (const [path, arr] of findArr(data).slice(0, 6)) console.log(`  arreglo ${path} (${arr.length}): ${JSON.stringify(arr[0]).slice(0, 1500)}`);
+        }
+      } catch (e) { console.log('remixContext no se pudo leer:', e.message, rm[1].slice(0, 200)); }
+    }
   } catch (e) { console.log('fetch directo falló:', e.message); }
   const page = await browser.newPage({ locale: 'es-AR' });
   const apis = [];
