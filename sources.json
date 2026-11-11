@@ -243,6 +243,16 @@
           "id": 27,
           "name": "Teatro Gran Rex",
           "address": "Av. Corrientes 857, Centro"
+        },
+        {
+          "id": 24,
+          "name": "Prez Jazz & Music Club",
+          "address": "Buenos Aires"
+        },
+        {
+          "id": 30,
+          "name": "Rondeman Abasto",
+          "address": "Lavalle 3177, Abasto"
         }
       ]
     }
