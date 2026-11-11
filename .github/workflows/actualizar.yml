@@ -34,7 +34,10 @@ jobs:
       - run: npm ci
 
       - name: Instalar navegador automático (para sitios hechos con JavaScript)
-        run: npx playwright install --with-deps chromium || npx playwright install chromium
+        # Solo si el runner no trae Google Chrome (normalmente ya lo trae)
+        continue-on-error: true
+        timeout-minutes: 4
+        run: which google-chrome || npx playwright install chromium
 
       - name: Probar los lectores
         run: npm test

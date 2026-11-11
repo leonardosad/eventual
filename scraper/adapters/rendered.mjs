@@ -7,7 +7,9 @@ let browserPromise = null;
 async function getBrowser() {
   if (!browserPromise) {
     const { chromium } = await import('playwright');
-    browserPromise = chromium.launch();
+    // Los servidores de GitHub ya traen Google Chrome: se usa ese y, si no está,
+    // el Chromium que descarga Playwright.
+    browserPromise = chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch());
   }
   return browserPromise;
 }

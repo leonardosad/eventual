@@ -3,7 +3,7 @@
 // Uso: node tools/sondear.mjs https://sitio.com [https://sitio.com/otra]
 import { chromium } from 'playwright';
 const urls = process.argv.slice(2);
-const browser = await chromium.launch();
+const browser = await chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch());
 for (const url of urls) {
   console.log(`\n===== ${url}`);
   try {
