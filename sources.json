@@ -165,6 +165,69 @@
     "defaultCategory": "Música"
   },
   {
+    "id": "jazz-voyeur",
+    "name": "Jazz Voyeur",
+    "enabled": true,
+    "type": "auto",
+    "urls": [
+      "https://jazzvoyeur.com.ar/"
+    ],
+    "localTime": true,
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "bebop",
+    "name": "Bebop Club",
+    "enabled": true,
+    "type": "bebop",
+    "urls": [
+      "https://bebopclub.com.ar/"
+    ],
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "ba-jazz-cafe",
+    "name": "Buenos Aires Jazz Café",
+    "enabled": true,
+    "type": "html",
+    "urls": [
+      "https://buenosairesjazzcafe.com/eventos"
+    ],
+    "selectors": {
+      "item": ".etn-event-item",
+      "title": ".etn-title",
+      "date": ".etn-event-date",
+      "link": ".etn-title a",
+      "image": "img",
+      "description": ".etn-event-content p"
+    },
+    "defaultPlace": "Buenos Aires Jazz Café",
+    "defaultCategory": "Música"
+  },
+  {
+    "id": "livepass",
+    "name": "Livepass",
+    "enabled": true,
+    "type": "livepass",
+    "urls": [
+      "https://livepass.com.ar/events/search.json?q="
+    ],
+    "options": {
+      "locationInclude": "Buenos Aires, Argentina$",
+      "locationExclude": "Provincia de Buenos Aires|La Plata"
+    }
+  },
+  {
+    "id": "passline",
+    "name": "Passline",
+    "enabled": false,
+    "type": "auto",
+    "urls": [
+      "https://www.passline.com/"
+    ],
+    "nota": "Desactivada: el sitio exige pasar un control antibots de Cloudflare."
+  },
+  {
     "id": "ejemplo-auto",
     "name": "Ejemplo con datos estándar schema.org (desactivado)",
     "enabled": false,

@@ -13,6 +13,7 @@ import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
+import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -47,6 +48,8 @@ async function runAdapter(source, body, url, ctx) {
     case 'artmedia': return parseArtMedia(body, url);
     case 'niceto': return parseNiceto(body, url);
     case 'enigma': return parseEnigma(body, url, source.options);
+    case 'bebop': return parseBebop(body, url);
+    case 'livepass': return parseLivepass(body, url, source.options);
     case 'auto': return parseAuto(body, url);
     case 'jsonld': return parseJsonLd(body, url);
     case 'microdata': return parseMicrodata(body, url);
@@ -92,6 +95,9 @@ async function scrapeSource(source, now) {
     if (warnings.length > 5) errors.push(`… y ${warnings.length - 5} avisos más`);
   }
   for (const r of raw) {
+    // Algunos sitios (Jazz Voyeur) marcan la hora local como si fuera UTC: se ignora la zona
+    if (source.localTime && typeof r.start === 'string') r.start = r.start.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
+    if (source.localTime && typeof r.end === 'string') r.end = r.end.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
     r.place ||= source.defaultPlace;
     r.address ||= source.defaultAddress;
     if (source.placePrefix && r.place && !r.place.includes(source.placePrefix)) r.place = `${source.placePrefix} · ${r.place}`;

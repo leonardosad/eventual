@@ -11,6 +11,7 @@ import { parseComplejoDay } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
+import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -264,6 +265,43 @@ test('Enigma Tickets: datos de Remix', () => {
   assert.equal(a.url, 'https://www.enigmatickets.com/event/aaa');
   assert.equal(b.whenText, 'Sáb 28/11 + Dom 29/11');
   assert.ok(b.end > b.start);
+});
+
+test('Bebop Club: tarjetas', () => {
+  const html = `<div class="card"><a href="https://ticketera.bebopclub.com.ar/evento/ffb2" aria-label="Ver evento Sheryl Youngblood | Chicago Blues Woman ">
+    <img src="/_next/image?url=https%3A%2F%2Fd14.cloudfront.net%2Fabc&amp;w=3840&amp;q=75"/></a><div class="flex flex-col flex-grow p-2"><p class="uppercase">Sheryl Youngblood | Chicago Blues Woman </p>
+    <div class="flex"><div class="flex items-end gap-1"><span class="text-4xl font-display">12</span><div class="flex flex-col leading-none pb-0.5"><span class="uppercase">nov</span><span>2026</span></div></div>
+    <div class="flex items-end gap-1"><span class="text-4xl font-display">22</span><div class="flex flex-col leading-none pb-0.5"><span>30</span><span>hrs</span></div></div></div>
+    <a href="https://ticketera.bebopclub.com.ar/evento/ffb2">Comprar Entradas</a></div></div>`;
+  const [e] = parseBebop(html, 'https://bebopclub.com.ar/').map((r) => normalizeEvent(r, { ...src, defaultCategory: 'Música' }, now));
+  assert.equal(e.title, 'Sheryl Youngblood | Chicago Blues Woman');
+  assert.equal(e.start, '2026-11-12T22:30:00-03:00');
+  assert.equal(e.image, 'https://d14.cloudfront.net/abc');
+  assert.equal(e.place, 'Bebop Club');
+});
+
+test('Livepass: JSON del buscador, solo CABA', () => {
+  const body = JSON.stringify({ results: [
+    { id: 'pablo-sbaraglia-en-cafe-berlin-2026-11-14-20-30-00-0300', title: 'Pablo Sbaraglia en Café Berlín', location: 'Avenida San Martín 6656, Buenos Aires, Argentina', date: 'Sábado 14 de Noviembre 20:30', url: 'https://livepass.com.ar/events/pablo', price: '33600.0', currency: 'ARS', category: 'TEATRO' },
+    { id: 'elgarrista-en-ccnu', title: 'Elgarrista en CCNU', location: 'Uriarte 1289, Buenos Aires, Argentina', date: 'Sábado 14 de Noviembre 20:00', url: 'https://livepass.com.ar/events/elg', price: '17250.0', category: 'SHOW' },
+    { id: 'babasonicos', title: 'BABASONICOS en el Hipódromo', location: 'Hipodromo de la Plata, Avenida 44, La Plata, Provincia de Buenos Aires, Argentina', date: 'Sábado 14 de Noviembre 21:00' },
+    { id: 'merch', title: 'Merchandising Tiago PZK', location: null, date: 'Martes 24 de Octubre 00:00' },
+  ] });
+  const raw = parseLivepass(body, 'https://livepass.com.ar/', { locationExclude: 'Provincia de Buenos Aires|La Plata' });
+  assert.equal(raw.length, 2);
+  const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.start, '2026-11-14T20:30:00-03:00');
+  assert.equal(a.category, 'Teatro');
+  assert.equal(a.price, '$33.600');
+  assert.equal(b.start, '2026-11-14T20:00:00-03:00');
+  assert.equal(b.place, 'Uriarte 1289');
+});
+
+test('Hora local marcada como UTC (Jazz Voyeur)', () => {
+  const html = `<script type="application/ld+json">{"@context": "http://schema.org","@type": "Event","name":"MARINA RUIZ MATTA TRÍO","startDate":"2026-11-11T20:00+0:00","location":{"@type":"Place","name":"Jazz Voyeur Club"}}</script>`;
+  const [r] = parseAuto(html, 'https://jazzvoyeur.com.ar/');
+  r.start = r.start.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
+  assert.equal(normalizeEvent(r, src, now).start, '2026-11-11T20:00:00-03:00');
 });
 
 console.log(`\n${passed} pruebas OK`);
