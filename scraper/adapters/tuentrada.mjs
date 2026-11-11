@@ -69,7 +69,9 @@ export function parseTuEntrada(html, baseUrl, opts = {}) {
 // {"venueId":27,"model":"venue","cursor":null} y pagina con un cursor.
 export function eventsFromVenueApi(json, venue, baseUrl) {
   const list = json?.data?.events || [];
-  return list.filter((e) => e.model === 'event' && e.slug && !/cancelad/i.test(e.availability || '')).map((e) => {
+  const anulado = (e) => /cancel|suspend|reprogram/i.test(`${e.availability || ''} ${e.status || ''} ${e.label || ''} ${e.badge || ''}`)
+    || /^(CANCELLED|CANCELED|SUSPENDED)$/i.test(e.status || '');
+  return list.filter((e) => e.model === 'event' && e.slug && !anulado(e)).map((e) => {
     const { start, end } = parseDateRange(e.dateRange);
     return {
       title: e.name,
