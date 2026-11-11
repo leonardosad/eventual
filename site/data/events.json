@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T17:41:02.622Z",
+ "generatedAt": "2026-11-11T17:45:47.162Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -20,7 +20,7 @@
   {
    "id": "ticketek",
    "name": "Ticketek",
-   "count": 163,
+   "count": 161,
    "ok": true,
    "note": null,
    "errors": []
