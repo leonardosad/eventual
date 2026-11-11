@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T17:58:54.580Z",
+ "generatedAt": "2026-11-11T18:03:31.583Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -127,6 +127,14 @@
    "id": "tuentrada",
    "name": "TuEntrada",
    "count": 7,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-salas",
+   "name": "TuEntrada",
+   "count": 12,
    "ok": true,
    "note": null,
    "errors": []
@@ -2912,7 +2920,7 @@
    "end": "2026-11-20T23:59:00-03:00",
    "whenText": "Del 13-11-2026 al 20-11-2026",
    "place": "Teatro Gran Rex",
-   "address": null,
+   "address": "Av. Corrientes 857, Centro",
    "description": null,
    "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/abel-pintos/abel-pintos-image-main-1781039005.jpg",
    "url": "https://www.tuentrada.com/abel-pintos-tgr",
@@ -2922,6 +2930,11 @@
    "sources": [
     {
      "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
+    },
+    {
+     "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/abel-pintos-tgr"
     }
@@ -29101,6 +29114,28 @@
    ]
   },
   {
+   "id": "7a646a8f9464",
+   "title": "Miguel Mateos",
+   "start": "2026-11-21T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/miguel-mateos/miguel-mateos-image-main-1785960492.jpg",
+   "url": "https://www.tuentrada.com/miguel-mateos-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/miguel-mateos-tgr"
+    }
+   ]
+  },
+  {
    "id": "3ce04f5d06fc",
    "title": "No me dejes asi",
    "start": "2026-11-21T20:30:00-03:00",
@@ -31781,6 +31816,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103825-show-anual-2026"
+    }
+   ]
+  },
+  {
+   "id": "b38fc1bdfb3d",
+   "title": "Boda Lyniel",
+   "start": "2026-11-22T13:30:00-03:00",
+   "end": null,
+   "whenText": "Últimas Entradas",
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/boda-lyniel/boda-lyniel-image-main-1785948197.jpg",
+   "url": "https://www.tuentrada.com/boda-lyniel-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/boda-lyniel-tgr"
     }
    ]
   },
@@ -36872,6 +36929,28 @@
    ]
   },
   {
+   "id": "18d243b759ae",
+   "title": "Djavan",
+   "start": "2026-11-24T20:30:00-03:00",
+   "end": null,
+   "whenText": "Agotado",
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/djavan/djavan-image-main-1778685941.jpeg",
+   "url": "https://www.tuentrada.com/djavan-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/djavan-tgr"
+    }
+   ]
+  },
+  {
    "id": "69d0973bd276",
    "title": "Muestra -Amor en el roca- Grupo comedia musical martes avanzado",
    "start": "2026-11-24T20:30:00-03:00",
@@ -38302,6 +38381,28 @@
    ]
   },
   {
+   "id": "6830dab2af15",
+   "title": "Greeicy",
+   "start": "2026-11-26T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/greeicy-rendon/greeicy-rendon-image-main-1784318797.jpg",
+   "url": "https://www.tuentrada.com/greeicy-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/greeicy-tgr"
+    }
+   ]
+  },
+  {
    "id": "c50a210dca29",
    "title": "La Verbena de la Paloma",
    "start": "2026-11-26T20:30:00-03:00",
@@ -39072,6 +39173,28 @@
    ]
   },
   {
+   "id": "9da39c3e424f",
+   "title": "God Save The Queen",
+   "start": "2026-11-28T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/god-save-the-queen/god-save-the-queen-image-main-1773172061.jpg",
+   "url": "https://www.tuentrada.com/god-save-the-queen-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/god-save-the-queen-tgr"
+    }
+   ]
+  },
+  {
    "id": "de1496641203",
    "title": "Fernando Cabrera - Hugo Fattoruso en Café Berlín",
    "start": "2026-11-28T20:45:00-03:00",
@@ -39512,6 +39635,28 @@
    ]
   },
   {
+   "id": "e298ab06099b",
+   "title": "Back To The Orchestra",
+   "start": "2026-11-29T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/back-to-the-orchestra/back-to-the-orchestra-image-main-1780322508.jpg",
+   "url": "https://www.tuentrada.com/back-to-the-orchestra-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/back-to-the-orchestra-tgr"
+    }
+   ]
+  },
+  {
    "id": "2d429701561e",
    "title": "Campo Minado",
    "start": "2026-11-29T20:00:00-03:00",
@@ -39750,6 +39895,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/fka-twigs/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "abdbc274bc63",
+   "title": "LAUCHAS ETERNAS",
+   "start": "2026-11-30T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/lauchas-eternas/lauchas-eternas-image-main-1793643974.jpg",
+   "url": "https://www.tuentrada.com/lauchas-eternas-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/lauchas-eternas-tgr"
     }
    ]
   },
@@ -40436,6 +40603,28 @@
    ]
   },
   {
+   "id": "9f64976a41b0",
+   "title": "La Misa",
+   "start": "2026-12-04T20:30:00-03:00",
+   "end": null,
+   "whenText": "Últimas Entradas",
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/la-misa/la-misa-image-main-1788460047.jpg",
+   "url": "https://www.tuentrada.com/la-misa-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/la-misa-tgr"
+    }
+   ]
+  },
+  {
    "id": "2e6da6069304",
    "title": "Pablito Castillo",
    "start": "2026-12-04T20:30:00-03:00",
@@ -40696,6 +40885,28 @@
      "id": "c-art-media",
      "name": "C Art Media",
      "url": "https://www.passline.com/passlink/daf0IB3iZ_ad0L9GKCalWQ"
+    }
+   ]
+  },
+  {
+   "id": "a57289897a49",
+   "title": "Daniel Agostini + Amigos",
+   "start": "2026-12-05T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/daniel-agostini-amigos/daniel-agostini-amigos-image-main-1793810545.jpg",
+   "url": "https://www.tuentrada.com/daniel-agostini-amigos-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/daniel-agostini-amigos-tgr"
     }
    ]
   },
@@ -41426,6 +41637,28 @@
    ]
   },
   {
+   "id": "c67dfd88bf92",
+   "title": "Agarrate Catalina",
+   "start": "2026-12-08T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/agarrate-catalina/agarrate-catalina-image-main-1781194718.jpeg",
+   "url": "https://www.tuentrada.com/agarrate-catalina-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/agarrate-catalina-tgr"
+    }
+   ]
+  },
+  {
    "id": "abdd4a893ef5",
    "title": "Devotos del Rock en Café Berlín",
    "start": "2026-12-08T20:45:00-03:00",
@@ -41554,6 +41787,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "2fb62a0c23a0",
+   "title": "Ney Matogrosso",
+   "start": "2026-12-09T20:30:00-03:00",
+   "end": null,
+   "whenText": "Últimas Entradas",
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/ney-matogrosso/ney-matogrosso-image-main-1793111953.jpg",
+   "url": "https://www.tuentrada.com/ney-matogroso-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/ney-matogroso-tgr"
     }
    ]
   },
