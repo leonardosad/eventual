@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T15:28:18.410Z",
+ "generatedAt": "2026-11-11T15:31:55.951Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -84,7 +84,7 @@
   {
    "id": "enigma",
    "name": "Enigma Tickets",
-   "count": 22,
+   "count": 21,
    "ok": true,
    "note": null,
    "errors": []
@@ -6802,50 +6802,6 @@
    ]
   },
   {
-   "id": "9208081afcd3",
-   "title": "PEACHES + Dum Chica",
-   "start": "2026-11-14T00:00:00-03:00",
-   "end": null,
-   "whenText": "Sáb 14/11 19:30hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/Peaches_desktop.png",
-   "url": "https://www.enigmatickets.com/event/5558f4f1-e291-432c-a7e5-250c5e740a07",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/5558f4f1-e291-432c-a7e5-250c5e740a07"
-    }
-   ]
-  },
-  {
-   "id": "54685fe7ff19",
-   "title": "Pop Hereje en Deseo 14.11.2026",
-   "start": "2026-11-14T00:00:00-03:00",
-   "end": null,
-   "whenText": "Sáb 14/11 23:59hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/bf155505-838f-42fc-9a38-9031101399ec/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/bf155505-838f-42fc-9a38-9031101399ec",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/bf155505-838f-42fc-9a38-9031101399ec"
-    }
-   ]
-  },
-  {
    "id": "5a3a8a10b8d7",
    "title": "TODOS LOS ÁNGELES ALZARON EL VUELO",
    "start": "2026-11-14T00:00:00-03:00",
@@ -8558,6 +8514,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102018-huida-permanente"
+    }
+   ]
+  },
+  {
+   "id": "9208081afcd3",
+   "title": "PEACHES + Dum Chica",
+   "start": "2026-11-14T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/Peaches_desktop.png",
+   "url": "https://www.enigmatickets.com/event/5558f4f1-e291-432c-a7e5-250c5e740a07",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/5558f4f1-e291-432c-a7e5-250c5e740a07"
     }
    ]
   },
@@ -12236,6 +12214,28 @@
    ]
   },
   {
+   "id": "54685fe7ff19",
+   "title": "Pop Hereje en Deseo 14.11.2026",
+   "start": "2026-11-14T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/bf155505-838f-42fc-9a38-9031101399ec/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/bf155505-838f-42fc-9a38-9031101399ec",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/bf155505-838f-42fc-9a38-9031101399ec"
+    }
+   ]
+  },
+  {
    "id": "b032cfff2052",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-15T00:00:00-03:00",
@@ -12386,28 +12386,6 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/invasiones-1/"
-    }
-   ]
-  },
-  {
-   "id": "18c2a26b52c1",
-   "title": "JMSN",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": "Dom 15/11 21:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/JMSN_desktop.jpg",
-   "url": "https://www.enigmatickets.com/event/233bbd6f-7531-4c4e-aaa5-b6d8356600f9",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/233bbd6f-7531-4c4e-aaa5-b6d8356600f9"
     }
    ]
   },
@@ -16328,6 +16306,28 @@
    ]
   },
   {
+   "id": "18c2a26b52c1",
+   "title": "JMSN",
+   "start": "2026-11-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/JMSN_desktop.jpg",
+   "url": "https://www.enigmatickets.com/event/233bbd6f-7531-4c4e-aaa5-b6d8356600f9",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/233bbd6f-7531-4c4e-aaa5-b6d8356600f9"
+    }
+   ]
+  },
+  {
    "id": "b8ef5ffa9742",
    "title": "La Bestia (lo de adentro)",
    "start": "2026-11-15T21:00:00-03:00",
@@ -18792,28 +18792,6 @@
    ]
   },
   {
-   "id": "4cb0ccc67493",
-   "title": "DELVON LAMARR ORGAN TRIO + EKATHE",
-   "start": "2026-11-19T00:00:00-03:00",
-   "end": null,
-   "whenText": "Jue 19/11 20:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/a6ddf6b4-6837-4596-b353-6adc8eb2a425/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/a6ddf6b4-6837-4596-b353-6adc8eb2a425",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/a6ddf6b4-6837-4596-b353-6adc8eb2a425"
-    }
-   ]
-  },
-  {
    "id": "a63654d1dd23",
    "title": "EL SAN MARTÍN EN LOS ‘80: REFUGIO, RESISTENCIA Y LIBERTAD",
    "start": "2026-11-19T00:00:00-03:00",
@@ -19343,6 +19321,28 @@
      "id": "konex",
      "name": "Ciudad Cultural Konex",
      "url": "https://entradas.cckonex.org/event/dancing-mood"
+    }
+   ]
+  },
+  {
+   "id": "4cb0ccc67493",
+   "title": "DELVON LAMARR ORGAN TRIO + EKATHE",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/a6ddf6b4-6837-4596-b353-6adc8eb2a425/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/a6ddf6b4-6837-4596-b353-6adc8eb2a425",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/a6ddf6b4-6837-4596-b353-6adc8eb2a425"
     }
    ]
   },
@@ -20645,28 +20645,6 @@
    ]
   },
   {
-   "id": "b5dcf764306a",
-   "title": "ISLA DE CARAS presenta cosquilla",
-   "start": "2026-11-20T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 20/11 21:30hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/IsladeCaras2_desktop.jpg",
-   "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302"
-    }
-   ]
-  },
-  {
    "id": "2c86469307b2",
    "title": "JORGE LAVELLI: EL GESTO INCONFORMISTA",
    "start": "2026-11-20T00:00:00-03:00",
@@ -20685,28 +20663,6 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/"
-    }
-   ]
-  },
-  {
-   "id": "110ae18ea86a",
-   "title": "KLAV PRES. PRIKU",
-   "start": "2026-11-20T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 20/11 23:30hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/22919a35-e6f5-40a3-84ab-7004c07f8466/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/22919a35-e6f5-40a3-84ab-7004c07f8466",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/22919a35-e6f5-40a3-84ab-7004c07f8466"
     }
    ]
   },
@@ -23466,6 +23422,28 @@
    ]
   },
   {
+   "id": "b5dcf764306a",
+   "title": "ISLA DE CARAS presenta cosquilla",
+   "start": "2026-11-20T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/IsladeCaras2_desktop.jpg",
+   "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302"
+    }
+   ]
+  },
+  {
    "id": "063a7c5607ab",
    "title": "La Catalina del Riachuelo presenta La Baraja Manda",
    "start": "2026-11-20T21:30:00-03:00",
@@ -24298,6 +24276,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra99274-la-caverna"
+    }
+   ]
+  },
+  {
+   "id": "110ae18ea86a",
+   "title": "KLAV PRES. PRIKU",
+   "start": "2026-11-20T23:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/22919a35-e6f5-40a3-84ab-7004c07f8466/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/22919a35-e6f5-40a3-84ab-7004c07f8466",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/22919a35-e6f5-40a3-84ab-7004c07f8466"
     }
    ]
   },
@@ -36324,28 +36324,6 @@
    ]
   },
   {
-   "id": "9ef587036c3f",
-   "title": "SOFIA MORA - LIMBO TOUR",
-   "start": "2026-11-27T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 27/11 21:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/SofiaMora_desktop.jpg",
-   "url": "https://www.enigmatickets.com/event/d203e54c-08a4-4994-bcd8-c3dbdeed0910",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/d203e54c-08a4-4994-bcd8-c3dbdeed0910"
-    }
-   ]
-  },
-  {
    "id": "f8a12482bee6",
    "title": "Un Verano en Teatro Vorterix",
    "start": "2026-11-27T00:00:00-03:00",
@@ -36562,6 +36540,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/lagrimitas-presenta-en-vivo-su-nueva-etapa-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "9ef587036c3f",
+   "title": "SOFIA MORA - LIMBO TOUR",
+   "start": "2026-11-27T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/SofiaMora_desktop.jpg",
+   "url": "https://www.enigmatickets.com/event/d203e54c-08a4-4994-bcd8-c3dbdeed0910",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/d203e54c-08a4-4994-bcd8-c3dbdeed0910"
     }
    ]
   },
@@ -37204,28 +37204,6 @@
    ]
   },
   {
-   "id": "3c292d547ab9",
-   "title": "NATION OF LANGUAGE & MANNEQUIN PUSSY",
-   "start": "2026-11-30T00:00:00-03:00",
-   "end": null,
-   "whenText": "Lun 30/11 20:30hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/dec75431-ad8f-4bc4-8533-c5849a4c3a5d/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/dec75431-ad8f-4bc4-8533-c5849a4c3a5d",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/dec75431-ad8f-4bc4-8533-c5849a4c3a5d"
-    }
-   ]
-  },
-  {
    "id": "256baab7c06d",
    "title": "Omar Courtz",
    "start": "2026-11-30T00:00:00-03:00",
@@ -37266,6 +37244,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/fka-twigs/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "3c292d547ab9",
+   "title": "NATION OF LANGUAGE & MANNEQUIN PUSSY",
+   "start": "2026-11-30T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/dec75431-ad8f-4bc4-8533-c5849a4c3a5d/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/dec75431-ad8f-4bc4-8533-c5849a4c3a5d",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/dec75431-ad8f-4bc4-8533-c5849a4c3a5d"
     }
    ]
   },
@@ -37316,9 +37316,9 @@
   {
    "id": "54d837be1cda",
    "title": "underscores B2B umru & Sophia Stel",
-   "start": "2026-12-01T00:00:00-03:00",
+   "start": "2026-12-01T20:00:00-03:00",
    "end": null,
-   "whenText": "Mar 01/12 20:00hs",
+   "whenText": null,
    "place": "Deseo Club",
    "address": null,
    "description": null,
@@ -37354,28 +37354,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/tarja/teatro-coliseo"
-    }
-   ]
-  },
-  {
-   "id": "e51d1036382d",
-   "title": "Genesis presenta: Metrika, Cimarrón & más invitados",
-   "start": "2026-12-02T00:00:00-03:00",
-   "end": null,
-   "whenText": "Mié 02/12 20:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78"
     }
    ]
   },
@@ -37424,6 +37402,28 @@
    ]
   },
   {
+   "id": "e51d1036382d",
+   "title": "Genesis presenta: Metrika, Cimarrón & más invitados",
+   "start": "2026-12-02T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/1d0d3608-0a7d-49b6-a4b2-a9ac5b678a78"
+    }
+   ]
+  },
+  {
    "id": "712f3a2d14d3",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-02T20:00:00-03:00",
@@ -37442,28 +37442,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
-    }
-   ]
-  },
-  {
-   "id": "cca6aa532e10",
-   "title": "Jaime Sin Tierra",
-   "start": "2026-12-03T00:00:00-03:00",
-   "end": null,
-   "whenText": "Jue 03/12 21:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/6df5b858-43ad-4f36-8ccd-48acbf2ac440/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/6df5b858-43ad-4f36-8ccd-48acbf2ac440",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/6df5b858-43ad-4f36-8ccd-48acbf2ac440"
     }
    ]
   },
@@ -37622,24 +37600,24 @@
    ]
   },
   {
-   "id": "8d488494cce0",
-   "title": "KAMADA EN LAGO PUELO",
-   "start": "2026-12-04T00:00:00-03:00",
+   "id": "cca6aa532e10",
+   "title": "Jaime Sin Tierra",
+   "start": "2026-12-03T21:00:00-03:00",
    "end": null,
-   "whenText": "Vie 04/12 20:00hs",
-   "place": "Centro Cultural Keuken Aonikenk",
+   "whenText": null,
+   "place": "Deseo Club",
    "address": null,
    "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/cfc4169f-d5a0-44cc-9141-8f3b6b41f41a/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/cfc4169f-d5a0-44cc-9141-8f3b6b41f41a",
-   "price": "$25.000",
+   "image": "https://assets.prod.enigmatickets.com/events/images/6df5b858-43ad-4f36-8ccd-48acbf2ac440/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/6df5b858-43ad-4f36-8ccd-48acbf2ac440",
+   "price": null,
    "free": false,
    "category": "Música",
    "sources": [
     {
      "id": "enigma",
      "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/cfc4169f-d5a0-44cc-9141-8f3b6b41f41a"
+     "url": "https://www.enigmatickets.com/event/6df5b858-43ad-4f36-8ccd-48acbf2ac440"
     }
    ]
   },
@@ -37838,28 +37816,6 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/hiedrah-en-niceto-club"
-    }
-   ]
-  },
-  {
-   "id": "fe964f1febf7",
-   "title": "Militantes del Climax presenta: Operación Clímax de Medianoche VOL III",
-   "start": "2026-12-05T00:00:00-03:00",
-   "end": null,
-   "whenText": "Sáb 05/12 23:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d"
     }
    ]
   },
@@ -38106,6 +38062,28 @@
    ]
   },
   {
+   "id": "fe964f1febf7",
+   "title": "Militantes del Climax presenta: Operación Clímax de Medianoche VOL III",
+   "start": "2026-12-05T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/8da4bc0f-9ba8-48ae-849e-7f1ee2c6eb3d"
+    }
+   ]
+  },
+  {
    "id": "1ea65a991a78",
    "title": "Diego Torres",
    "start": "2026-12-06T00:00:00-03:00",
@@ -38124,28 +38102,6 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/877f7a7a-5168-4eca-b226-9c0e1d7a9dbb"
-    }
-   ]
-  },
-  {
-   "id": "e349129c57ec",
-   "title": "MISSLUPE EN DESEO",
-   "start": "2026-12-06T00:00:00-03:00",
-   "end": null,
-   "whenText": "Dom 06/12 23:59hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/9f75fe4f-9590-402b-9e82-cf7eb7902dab/large/current.png",
-   "url": "https://www.enigmatickets.com/event/9f75fe4f-9590-402b-9e82-cf7eb7902dab",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/9f75fe4f-9590-402b-9e82-cf7eb7902dab"
     }
    ]
   },
@@ -38300,6 +38256,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/fiesta-expreso-kingston-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "e349129c57ec",
+   "title": "MISSLUPE EN DESEO",
+   "start": "2026-12-06T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/9f75fe4f-9590-402b-9e82-cf7eb7902dab/large/current.png",
+   "url": "https://www.enigmatickets.com/event/9f75fe4f-9590-402b-9e82-cf7eb7902dab",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/9f75fe4f-9590-402b-9e82-cf7eb7902dab"
     }
    ]
   },
@@ -38722,28 +38700,6 @@
    ]
   },
   {
-   "id": "64c9ba5d2708",
-   "title": "DESEO PRES. LAZARUS",
-   "start": "2026-12-11T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 11/12 23:59hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9"
-    }
-   ]
-  },
-  {
    "id": "9f42d8e4c0c9",
    "title": "El Purre en The Roxy Live",
    "start": "2026-12-11T00:00:00-03:00",
@@ -38784,28 +38740,6 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/a2156fbf-be3e-4134-9547-1602faf1b9e9"
-    }
-   ]
-  },
-  {
-   "id": "791d7f1f47b5",
-   "title": "Usted Señalemelo Terminos y Condiciones Tour",
-   "start": "2026-12-11T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 11/12 20:30hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/UstedSe%C3%B1alemelo_desktop.png",
-   "url": "https://www.enigmatickets.com/event/db3b5ae3-e9ce-42d0-9680-c28991be3643",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/db3b5ae3-e9ce-42d0-9680-c28991be3643"
     }
    ]
   },
@@ -38872,6 +38806,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/elena-roger/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "791d7f1f47b5",
+   "title": "Usted Señalemelo Terminos y Condiciones Tour",
+   "start": "2026-12-11T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/UstedSe%C3%B1alemelo_desktop.png",
+   "url": "https://www.enigmatickets.com/event/db3b5ae3-e9ce-42d0-9680-c28991be3643",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/db3b5ae3-e9ce-42d0-9680-c28991be3643"
     }
    ]
   },
@@ -38960,6 +38916,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/valent-n-caba-acoustic-session-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "64c9ba5d2708",
+   "title": "DESEO PRES. LAZARUS",
+   "start": "2026-12-11T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9"
     }
    ]
   },
@@ -39514,28 +39492,6 @@
    ]
   },
   {
-   "id": "d18a7d1386d6",
-   "title": "ALEX ANWANDTER EN DESEO CLUB",
-   "start": "2026-12-18T00:00:00-03:00",
-   "end": null,
-   "whenText": "Vie 18/12 21:00hs",
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/a79e695f-e8a6-458d-a081-1fd7cbb1279c/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/a79e695f-e8a6-458d-a081-1fd7cbb1279c",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/a79e695f-e8a6-458d-a081-1fd7cbb1279c"
-    }
-   ]
-  },
-  {
    "id": "f30537b7dc61",
    "title": "El Síndrome de Peter en Teatro Vorterix",
    "start": "2026-12-18T00:00:00-03:00",
@@ -39624,6 +39580,28 @@
    ]
   },
   {
+   "id": "d18a7d1386d6",
+   "title": "ALEX ANWANDTER EN DESEO CLUB",
+   "start": "2026-12-18T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/a79e695f-e8a6-458d-a081-1fd7cbb1279c/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/a79e695f-e8a6-458d-a081-1fd7cbb1279c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/a79e695f-e8a6-458d-a081-1fd7cbb1279c"
+    }
+   ]
+  },
+  {
    "id": "0d0035f8bae7",
    "title": "RENZO LEALI Y LOS DESERTORES",
    "start": "2026-12-18T21:00:00-03:00",
@@ -39690,28 +39668,6 @@
    ]
   },
   {
-   "id": "ab03920cfdb9",
-   "title": "Six Sex",
-   "start": "2026-12-19T00:00:00-03:00",
-   "end": null,
-   "whenText": "Sáb 19/12 20:00hs",
-   "place": "C Art Media.",
-   "address": null,
-   "description": null,
-   "image": "https://assets.prod.enigmatickets.com/events/images/57e6a8b8-26b7-4871-a92f-70dc6b67827d/large/current.jpg",
-   "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d"
-    }
-   ]
-  },
-  {
    "id": "f905af8235be",
    "title": "SIX SEX · PRESENTA ULTRA",
    "start": "2026-12-19T19:00:00-03:00",
@@ -39774,6 +39730,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/sara-hebe-presenta-negocionismo-en-bs-as-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "ab03920cfdb9",
+   "title": "Six Sex",
+   "start": "2026-12-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media.",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/57e6a8b8-26b7-4871-a92f-70dc6b67827d/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d"
     }
    ]
   },
