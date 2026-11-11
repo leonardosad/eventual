@@ -10,6 +10,11 @@ for (const url of urls) {
     const r = await fetch(url, { headers: { 'User-Agent': 'AgendaCABA/1.0' } });
     const t = await r.text();
     console.log(`fetch directo: HTTP ${r.status}, ${t.length} caracteres, JSON-LD: ${(t.match(/ld\+json/g) || []).length}, __NEXT_DATA__: ${t.includes('__NEXT_DATA__')}`);
+    console.log('Meta:', (t.match(/<meta[^>]+(og:|twitter:|description)[^>]*>/g) || []).slice(0, 8).join('\n  '));
+    const i = t.search(/href="[^"]*\/event\//);
+    if (i >= 0) console.log('HTML alrededor del primer evento:\n' + t.slice(Math.max(0, i - 1500), i + 1500).replace(/\s+/g, ' '));
+    const scripts = (t.match(/<script[^>]*>[\s\S]{0,200}/g) || []).filter((x) => /self\.__next_f|__remix|window\.__|application\/json/.test(x)).slice(0, 4);
+    if (scripts.length) console.log('Scripts con datos:', scripts.join('\n  '));
   } catch (e) { console.log('fetch directo falló:', e.message); }
   const page = await browser.newPage({ locale: 'es-AR' });
   const apis = [];
