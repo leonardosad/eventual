@@ -226,7 +226,8 @@
       "https://www.tuentrada.com/"
     ],
     "options": {
-      "exclude": "^Tour\\b|C[oó]rdoba|Rosario|Mendoza|Mar del Plata|La Plata|Tucum[aá]n|Salta|Neuqu[eé]n|Montevideo|Santiago de Chile"
+      "logVenues": true,
+      "venueInclude": "Gran Rex|Col[oó]n|Prez|Autodromo De Buenos Aires|AMIA|Museo Del Agua"
     }
   },
   {

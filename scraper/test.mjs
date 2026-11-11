@@ -305,22 +305,22 @@ test('Hora local marcada como UTC (Jazz Voyeur)', () => {
   assert.equal(normalizeEvent(r, src, now).start, '2026-11-11T20:00:00-03:00');
 });
 
-test('TuEntrada: tarjetas de la portada', () => {
-  const card = (t, fecha, sala, href) => `<div role="group"><div><img alt="${t}" src="https://bucket.tuentrada.com/${href}.jpg"></div>
-    <div class="w-full"><h2>${t}</h2><div class="mt-4"><span><svg class="lucide lucide-calendar-days"><path d="M8 2v4"></path></svg>${fecha}</span>
-    <span><svg class="lucide lucide-map-pin"><circle></circle></svg>${sala}</span></div><a class="inline-block" href="${href}"><button>Comprar entradas</button></a></div></div>`;
-  const html = card('EGBERTO GISMONTI', 'Sábado 21 de Noviembre', 'Teatro Colón', 'gismonti-colon')
-    + card('NO TE VA GUSTAR', 'Desde el Viernes 20 de Noviembre', 'Tour', 'ntvg-tour')
-    + card('Djavan', 'Martes 24 de Noviembre', 'Teatro Gran Rex', 'djavan-tgr');
-  const raw = parseTuEntrada(html, 'https://www.tuentrada.com/', { exclude: '^Tour\\b' });
+test('TuEntrada: datos de Next.js', () => {
+  const objs = [
+    { id: 202, model: 'event', slug: 'hmerlo4tet-prez', name: 'HERNAN MERLO 4TET', venue: 'Prez Jazz & Music Club', imageMainNew: { src: 'https://bucket/h.jpg' }, dateRange: '12-11-2026 21:00 hs' },
+    { id: 7, model: 'event', slug: 'godzilla', name: 'GODZILLA MINUS ZERO', venue: 'Teatro Gran Rex', dateRange: 'Del 12-11-2026 al 17-11-2026' },
+    { id: 1339, model: 'event', slug: 'nicoserna-pinamar', name: 'NICO SERNA', venue: 'Teatro De La Torre', dateRange: '12-11-2026 20:30 hs' },
+  ];
+  const chunk = JSON.stringify('1a:["$","div",null,{"items":' + JSON.stringify(objs) + '}]');
+  const html = `<script>self.__next_f.push([1,${chunk}])</script>`;
+  const raw = parseTuEntrada(html, 'https://www.tuentrada.com/', { venueInclude: 'Gran Rex|Prez' });
   assert.equal(raw.length, 2);
   const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
-  assert.equal(a.title, 'EGBERTO GISMONTI');
-  assert.equal(a.start, '2026-11-21T00:00:00-03:00');
-  assert.equal(a.place, 'Teatro Colón');
-  assert.equal(a.url, 'https://www.tuentrada.com/gismonti-colon');
-  assert.equal(a.image, 'https://bucket.tuentrada.com/gismonti-colon.jpg');
-  assert.equal(b.place, 'Teatro Gran Rex');
+  assert.equal(a.start, '2026-11-12T21:00:00-03:00');
+  assert.equal(a.place, 'Prez Jazz & Music Club');
+  assert.equal(a.url, 'https://www.tuentrada.com/hmerlo4tet-prez');
+  assert.equal(b.whenText, 'Del 12-11-2026 al 17-11-2026');
+  assert.equal(b.end, '2026-11-17T23:59:00-03:00');
 });
 
 console.log(`\n${passed} pruebas OK`);
