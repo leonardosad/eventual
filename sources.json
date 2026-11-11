@@ -152,6 +152,19 @@
     "defaultCategory": "Música"
   },
   {
+    "id": "enigma",
+    "name": "Enigma Tickets",
+    "enabled": true,
+    "type": "enigma",
+    "urls": [
+      "https://www.enigmatickets.com/"
+    ],
+    "options": {
+      "exclude": "Mendoza|Foxy|C[oó]rdoba|Kempes|Rosario|Mar del Plata|La Plata|Vte\\.? ?L[oó]pez|alr[ií]o|Montevideo|Santiago|Tucum[aá]n|Salta|Neuqu[eé]n"
+    },
+    "defaultCategory": "Música"
+  },
+  {
     "id": "ejemplo-auto",
     "name": "Ejemplo con datos estándar schema.org (desactivado)",
     "enabled": false,

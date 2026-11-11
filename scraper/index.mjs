@@ -12,6 +12,7 @@ import { ticketek } from './adapters/ticketek.mjs';
 import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
+import { parseEnigma } from './adapters/enigma.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -45,6 +46,7 @@ async function runAdapter(source, body, url, ctx) {
   switch (source.type) {
     case 'artmedia': return parseArtMedia(body, url);
     case 'niceto': return parseNiceto(body, url);
+    case 'enigma': return parseEnigma(body, url, source.options);
     case 'auto': return parseAuto(body, url);
     case 'jsonld': return parseJsonLd(body, url);
     case 'microdata': return parseMicrodata(body, url);

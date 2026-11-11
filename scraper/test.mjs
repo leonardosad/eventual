@@ -10,6 +10,7 @@ import { eventsFromNode, showsFromSearch } from './adapters/ticketek.mjs';
 import { parseComplejoDay } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
+import { parseEnigma } from './adapters/enigma.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -243,6 +244,24 @@ test('Niceto: tarjetas de la agenda', () => {
 
 test('Fecha ISO sin ceros (Indie Hoy)', () => {
   assert.equal(parseDate('2026-10-7'), '2026-10-07T00:00:00-03:00');
+});
+
+test('Enigma Tickets: datos de Remix', () => {
+  const ctx = { state: { loaderData: { root: {}, 'routes/_index': { nextEvents: [
+    { uid: 'aaa', title: 'NATION OF LANGUAGE', eventDates: [1796081400], venue: { name: 'Deseo Club' }, minPrice: 45000, imageUrl: 'https://assets/a.jpg', schedules: {} },
+    { uid: 'bbb', title: 'KAMADA EN MENDOZA', eventDates: [1794697200], venue: { name: 'Foxy' } },
+    { uid: 'ccc', title: "Primavera Sound Buenos Aires '26", eventDates: [1795906800, 1795993200], venue: { name: 'Club Ciudad' }, schedules: { x: { labelForReplaceDate: 'Sáb 28/11 + Dom 29/11' } } },
+  ] } } } };
+  const html = `<script>window.__remixContext = ${JSON.stringify(ctx)};</script>`;
+  const raw = parseEnigma(html, 'https://www.enigmatickets.com/', { exclude: 'Mendoza|Foxy' });
+  assert.equal(raw.length, 2);
+  const [a, b] = raw.map((r) => normalizeEvent(r, { ...src, defaultCategory: 'Música' }, now));
+  assert.equal(a.start, '2026-11-30T20:30:00-03:00');
+  assert.equal(a.place, 'Deseo Club');
+  assert.equal(a.price, '$45.000');
+  assert.equal(a.url, 'https://www.enigmatickets.com/event/aaa');
+  assert.equal(b.whenText, 'Sáb 28/11 + Dom 29/11');
+  assert.ok(b.end > b.start);
 });
 
 console.log(`\n${passed} pruebas OK`);
