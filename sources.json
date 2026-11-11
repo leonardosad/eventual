@@ -218,6 +218,18 @@
     }
   },
   {
+    "id": "tuentrada",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada",
+    "urls": [
+      "https://www.tuentrada.com/"
+    ],
+    "options": {
+      "exclude": "^Tour\\b|C[oó]rdoba|Rosario|Mendoza|Mar del Plata|La Plata|Tucum[aá]n|Salta|Neuqu[eé]n|Montevideo|Santiago de Chile"
+    }
+  },
+  {
     "id": "passline",
     "name": "Passline",
     "enabled": false,

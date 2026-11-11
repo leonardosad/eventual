@@ -12,6 +12,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
+import { parseTuEntrada } from './adapters/tuentrada.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -302,6 +303,24 @@ test('Hora local marcada como UTC (Jazz Voyeur)', () => {
   const [r] = parseAuto(html, 'https://jazzvoyeur.com.ar/');
   r.start = r.start.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
   assert.equal(normalizeEvent(r, src, now).start, '2026-11-11T20:00:00-03:00');
+});
+
+test('TuEntrada: tarjetas de la portada', () => {
+  const card = (t, fecha, sala, href) => `<div role="group"><div><img alt="${t}" src="https://bucket.tuentrada.com/${href}.jpg"></div>
+    <div class="w-full"><h2>${t}</h2><div class="mt-4"><span><svg class="lucide lucide-calendar-days"><path d="M8 2v4"></path></svg>${fecha}</span>
+    <span><svg class="lucide lucide-map-pin"><circle></circle></svg>${sala}</span></div><a class="inline-block" href="${href}"><button>Comprar entradas</button></a></div></div>`;
+  const html = card('EGBERTO GISMONTI', 'Sábado 21 de Noviembre', 'Teatro Colón', 'gismonti-colon')
+    + card('NO TE VA GUSTAR', 'Desde el Viernes 20 de Noviembre', 'Tour', 'ntvg-tour')
+    + card('Djavan', 'Martes 24 de Noviembre', 'Teatro Gran Rex', 'djavan-tgr');
+  const raw = parseTuEntrada(html, 'https://www.tuentrada.com/', { exclude: '^Tour\\b' });
+  assert.equal(raw.length, 2);
+  const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.title, 'EGBERTO GISMONTI');
+  assert.equal(a.start, '2026-11-21T00:00:00-03:00');
+  assert.equal(a.place, 'Teatro Colón');
+  assert.equal(a.url, 'https://www.tuentrada.com/gismonti-colon');
+  assert.equal(a.image, 'https://bucket.tuentrada.com/gismonti-colon.jpg');
+  assert.equal(b.place, 'Teatro Gran Rex');
 });
 
 console.log(`\n${passed} pruebas OK`);

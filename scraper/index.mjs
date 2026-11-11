@@ -14,6 +14,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
+import { parseTuEntrada } from './adapters/tuentrada.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -50,6 +51,7 @@ async function runAdapter(source, body, url, ctx) {
     case 'enigma': return parseEnigma(body, url, source.options);
     case 'bebop': return parseBebop(body, url);
     case 'livepass': return parseLivepass(body, url, source.options);
+    case 'tuentrada': return parseTuEntrada(body, url, source.options);
     case 'auto': return parseAuto(body, url);
     case 'jsonld': return parseJsonLd(body, url);
     case 'microdata': return parseMicrodata(body, url);
