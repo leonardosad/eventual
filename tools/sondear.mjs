@@ -60,6 +60,7 @@ for (const arg of urls) {
     const info = await page.evaluate(() => ({
       ld: [...document.querySelectorAll('script[type="application/ld+json"]')].map((s) => s.textContent.replace(/\s+/g, ' ').slice(0, 300)),
       links: [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href))].filter((h) => /event|evento|show|ticket/i.test(h)).slice(0, 25),
+      internos: [...new Set([...document.querySelectorAll('a[href]')].map((a) => a.href))].filter((h) => h.startsWith(location.origin)).slice(0, 80),
       texto: document.body.innerText.replace(/\s+/g, ' ').slice(0, 800),
       tarjeta: (() => {
         const a = [...document.querySelectorAll('a[href]')].find((x) => /comprar|entradas|ver m[aá]s|evento\/|event\/|\/e\//i.test(x.textContent + ' ' + x.getAttribute('href')) && !/login|ayuda|faq/i.test(x.href));
@@ -71,6 +72,7 @@ for (const arg of urls) {
     }));
     console.log('JSON-LD:', JSON.stringify(info.ld, null, 1));
     console.log('Links:', info.links.join('\n  '));
+    console.log('Links internos:', info.internos.join(' '));
     console.log('Texto:', info.texto);
     console.log('Tipos JSON-LD:', info.ldTipos.join(' | '));
     console.log('Tarjeta:', info.tarjeta);
