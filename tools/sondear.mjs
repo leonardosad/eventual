@@ -23,7 +23,11 @@ for (const url of urls) {
         for (const [route, data] of Object.entries(ld)) {
           console.log(`remix loaderData[${route}]: claves ${JSON.stringify(Object.keys(data || {}))}`);
           const findArr = (o, path = '') => { if (Array.isArray(o) && o.length && typeof o[0] === 'object') return [[path, o]]; if (o && typeof o === 'object') return Object.entries(o).flatMap(([k, v]) => findArr(v, path + '.' + k)); return []; };
-          for (const [path, arr] of findArr(data).slice(0, 6)) console.log(`  arreglo ${path} (${arr.length}): ${JSON.stringify(arr[0]).slice(0, 1500)}`);
+          for (const [path, arr] of findArr(data).slice(0, 6)) {
+            console.log(`  arreglo ${path} (${arr.length}): ${JSON.stringify(arr[0]).slice(0, 1500)}`);
+            const otro = arr.find((x) => /deseo/i.test(JSON.stringify(x.venue || '')));
+            if (otro) console.log(`  ejemplo Deseo: ${JSON.stringify(otro).slice(0, 2500)}`);
+          }
         }
       } catch (e) { console.log('remixContext no se pudo leer:', e.message, rm[1].slice(0, 200)); }
     }
