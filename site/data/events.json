@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11T16:19:37.749Z",
+ "generatedAt": "2026-11-11T16:25:17.421Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -85,6 +85,38 @@
    "id": "enigma",
    "name": "Enigma Tickets",
    "count": 21,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "jazz-voyeur",
+   "name": "Jazz Voyeur",
+   "count": 14,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "bebop",
+   "name": "Bebop Club",
+   "count": 53,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "ba-jazz-cafe",
+   "name": "Buenos Aires Jazz Café",
+   "count": 12,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "livepass",
+   "name": "Livepass",
+   "count": 90,
    "ok": true,
    "note": null,
    "errors": []
@@ -268,6 +300,28 @@
    ]
   },
   {
+   "id": "2466d6f0d018",
+   "title": "Darío Jalfin, el Dr. Música | Canciones por dentro: Selección Nacional",
+   "start": "2026-11-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0wOS0yOVQyMi0yNy0yNC05MDlaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/072baffc-5fb3-4a5f-bfa7-2484510d2820",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/072baffc-5fb3-4a5f-bfa7-2484510d2820"
+    }
+   ]
+  },
+  {
    "id": "bc20b85e4842",
    "title": "El brote",
    "start": "2026-11-11T20:00:00-03:00",
@@ -308,6 +362,50 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra97684-fronter"
+    }
+   ]
+  },
+  {
+   "id": "a03458f99c49",
+   "title": "Los Pablos Jazz trio en CCNU",
+   "start": "2026-11-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/53a15c30cfd65eaa303ec57b1b2a1fb96336f8da.png?1792592809",
+   "url": "https://livepass.com.ar/events/los-pablos-jazz-trio-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/los-pablos-jazz-trio-en-ccnu"
+    }
+   ]
+  },
+  {
+   "id": "39861d69c191",
+   "title": "MARINA RUIZ MATTA TRÍO",
+   "start": "2026-11-11T20:00:00-03:00",
+   "end": "2026-11-11T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "MARINA RUIZ MATTA TRÍO GRACIANO &#8211; GAONA &#8211; MASETTI &#8211; GIORDANO DISCOVERING NEW MUSIC promo 2&#215;1 en Tickets Miércoles de descubrir nueva música en Jazz Voyeur Club La pianista y compositora Marina Ruiz Matta presenta Perseverar en el absurdo , su sexto álbum y el segundo junto a Juan Bayón en contrabajo y Gabriel Spiller en batería. Un encuentro entre el jazz contemporáneo y las",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-05.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/marina-ruiz-matta-trio-3/",
+   "price": "$ 12.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/marina-ruiz-matta-trio-3/"
     }
    ]
   },
@@ -576,6 +674,28 @@
    ]
   },
   {
+   "id": "c30029950054",
+   "title": "Leo Garzón en Café Berlín",
+   "start": "2026-11-11T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/9aee90f854f688839b60d3eea5d6a70d663e51f3.jpg?1787664213",
+   "url": "https://livepass.com.ar/events/leo-garzon-en-cafe-berlin-2026-11-11-20",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/leo-garzon-en-cafe-berlin-2026-11-11-20"
+    }
+   ]
+  },
+  {
    "id": "89b0bdbcde84",
    "title": "Consultorio en Caos",
    "start": "2026-11-11T21:00:00-03:00",
@@ -796,6 +916,28 @@
    ]
   },
   {
+   "id": "2921314e091b",
+   "title": "RnB Collective Presenta REINAS DEL R&B Y EL SOUL",
+   "start": "2026-11-11T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNS00OS0zMy02NjJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/8e0d970f-428a-468a-83fe-4487c75f1262",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/8e0d970f-428a-468a-83fe-4487c75f1262"
+    }
+   ]
+  },
+  {
    "id": "44a6c5ee09ab",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-12T00:00:00-03:00",
@@ -814,6 +956,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "c3014ad531f9",
+   "title": "BOSSA & MÁS – “Campodarve y Rossger”",
+   "start": "2026-11-12T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "El Jueves 12 de Noviembre del 2026, concierto en Baires de Campodarve & Rossger Dúo.",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/07/NUEVO-POST-Y-A4-2026-07-31T120311.602.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/bossa-mas-campodarve-y-rossger/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/bossa-mas-campodarve-y-rossger/"
     }
    ]
   },
@@ -1280,6 +1444,28 @@
    ]
   },
   {
+   "id": "70cc0b8e14dc",
+   "title": "Arritmia en CCNU",
+   "start": "2026-11-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/835afda27f0551e42abb0ce727fb72eefe7fca4d.png?1793912325",
+   "url": "https://livepass.com.ar/events/arritmia-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/arritmia-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "f788d6565c4c",
    "title": "Café Japón",
    "start": "2026-11-12T20:00:00-03:00",
@@ -1544,6 +1730,28 @@
    ]
   },
   {
+   "id": "9f86bb93ec1a",
+   "title": "Sheryl Youngblood | Chicago Blues Woman",
+   "start": "2026-11-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yNFQxOC0xNS0yNS05OTVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/ffb2b730-7326-4889-8a46-c045cb33f5dd",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/ffb2b730-7326-4889-8a46-c045cb33f5dd"
+    }
+   ]
+  },
+  {
    "id": "6b1e4f803ae0",
    "title": "Somos 5",
    "start": "2026-11-12T20:00:00-03:00",
@@ -1738,6 +1946,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102969-el-fabricante-de-fantasmas"
+    }
+   ]
+  },
+  {
+   "id": "a19225a212bd",
+   "title": "ESCALANDRUM - PIAZZOLLA 74",
+   "start": "2026-11-12T20:30:00-03:00",
+   "end": "2026-11-12T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "ESCALANDRUM ☆ PIAZZOLLA 74 El universo de Astor, con el sonido de Escalandrum Jazz Voyeur Club se enorgullece de volver a recibir a Escalandrum con Piazzolla 74 , un homenaje a dos discos fundamentales de Astor Piazzolla: Libertango y Reunión cumbre , el histórico encuentro con el saxofonista Gerry Mulligan. Grabados en 1974, ambos trabajos abrieron nuevas posibilidades para la música del composit",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-06.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/escalandrum-piazzolla-74/",
+   "price": "$ 38.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/escalandrum-piazzolla-74/"
     }
    ]
   },
@@ -1958,6 +2188,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101796-la-previa-open-mic-de-stand-up"
+    }
+   ]
+  },
+  {
+   "id": "069d4d5bf694",
+   "title": "Paris Jazz Club en Café Berlín",
+   "start": "2026-11-12T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/3a09313f0816a2cb8262d8bbce7eeeea94694276.jpg?1788874231",
+   "url": "https://livepass.com.ar/events/paris-jazz-club-en-cafe-berlin-2026-11-12-20-45-00-0300",
+   "price": "$39.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/paris-jazz-club-en-cafe-berlin-2026-11-12-20-45-00-0300"
     }
    ]
   },
@@ -2292,6 +2544,28 @@
    ]
   },
   {
+   "id": "d1b5020de7c2",
+   "title": "Singers in Jam en CCNU",
+   "start": "2026-11-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e26c93ba9dc092bf3f6ca15b3dce28619b7c52e1.png?1794273789",
+   "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-11-12",
+   "price": "$8.050",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/singers-in-jam-en-ccnu-2026-11-12"
+    }
+   ]
+  },
+  {
    "id": "5a711e60366b",
    "title": "Todos los Dúos el Dúo + Dos Atahualpa para un Chango",
    "start": "2026-11-12T21:00:00-03:00",
@@ -2490,6 +2764,28 @@
    ]
   },
   {
+   "id": "eaed8db96348",
+   "title": "Arethas en Café Berlín",
+   "start": "2026-11-12T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e3801ba1b21b77cd594a6b349cf6d7155911a8f7.jpg?1789048667",
+   "url": "https://livepass.com.ar/events/arethas-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/arethas-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "b7886fa1fa37",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-13T00:00:00-03:00",
@@ -2508,6 +2804,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "c16243a510d4",
+   "title": "COVER ME",
+   "start": "2026-11-13T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "El Viernes 13 de Noviembre del 2026 a las 23:00hs, vuelve a Baires COVER ME Si",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-02-at-9.52.32-PM.jpeg",
+   "url": "https://buenosairesjazzcafe.com/eventos/cover-me-5/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/cover-me-5/"
     }
    ]
   },
@@ -2772,6 +3090,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/museo-de-la-subversion/"
+    }
+   ]
+  },
+  {
+   "id": "9ae58e08dca6",
+   "title": "SUPERNOVA",
+   "start": "2026-11-13T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Una noche para reencontrarse con esas canciones que forman parte de nuestra vida y que,",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/09/NUEVO-POST-Y-A4-2026-09-16T122745.048.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/supernova-2/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/supernova-2/"
     }
    ]
   },
@@ -3146,6 +3486,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/ciclo-desorden-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "0fa3ed5f94a4",
+   "title": "Combi en CCNU",
+   "start": "2026-11-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/21918d85c10e1dc3f020d19a2e618320ffb7e78b.png?1791393054",
+   "url": "https://livepass.com.ar/events/combi-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/combi-en-ccnu"
     }
    ]
   },
@@ -4070,6 +4432,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104035-enrique-v"
+    }
+   ]
+  },
+  {
+   "id": "5754a22e442b",
+   "title": "ESCALANDRUM - PIAZZOLLA 74",
+   "start": "2026-11-13T20:30:00-03:00",
+   "end": "2026-11-13T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "ESCALANDRUM ☆ PIAZZOLLA 74 El universo de Astor, con el sonido de Escalandrum Jazz Voyeur Club se enorgullece de volver a recibir a Escalandrum con Piazzolla 74 , un homenaje a dos discos fundamentales de Astor Piazzolla: Libertango y Reunión cumbre , el histórico encuentro con el saxofonista Gerry Mulligan. Grabados en 1974, ambos trabajos abrieron nuevas posibilidades para la música del composit",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-07.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/escalandrum-piazzolla-74-2/",
+   "price": "$ 38.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/escalandrum-piazzolla-74-2/"
     }
    ]
   },
@@ -5878,6 +6262,28 @@
    ]
   },
   {
+   "id": "449a7aeea5cd",
+   "title": "BI en CCNU",
+   "start": "2026-11-13T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f7ecea037e48eeb17cfa53720435f56fa76e48be.png?1791391997",
+   "url": "https://livepass.com.ar/events/bi-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/bi-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "7c5737283215",
    "title": "Ciclo Arco Iris 13-11",
    "start": "2026-11-13T22:30:00-03:00",
@@ -6384,6 +6790,28 @@
    ]
   },
   {
+   "id": "587ced67326f",
+   "title": "Los Abuelos- la música de Los Abuelos de La nada en Café Berlín",
+   "start": "2026-11-13T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/216ac5688d4c2050b19f53ce7f575f4e5a8df78a.jpg?1792591685",
+   "url": "https://livepass.com.ar/events/los-abuelos-la-musica-de-los-abuelos-de-la-nada-en-cafe-berlin",
+   "price": "$39.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/los-abuelos-la-musica-de-los-abuelos-de-la-nada-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "161801efb85b",
    "title": "Sin explicación #Jam de magia",
    "start": "2026-11-13T23:00:00-03:00",
@@ -6512,6 +6940,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "a7286bddb73e",
+   "title": "EL LOCO DE LA KALIMA",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "El Loco de la Kalima es una banda canaria especializada en rendir homenaje a The Beatles y a",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-28-at-14.14.47.jpeg",
+   "url": "https://buenosairesjazzcafe.com/eventos/el-loco-de-la-kalima/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/el-loco-de-la-kalima/"
     }
    ]
   },
@@ -6780,6 +7230,28 @@
    ]
   },
   {
+   "id": "99ccbfca67f6",
+   "title": "NAYABAND JEAN – CONCIERTOS BAIRES",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Buenos Aires Jazz Café, Sábado 14 de Noviembre a las 23:00h. Un viaje sonoro por",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-13.26.20.jpeg",
+   "url": "https://buenosairesjazzcafe.com/eventos/nayaband-jean-conciertos-baires-2/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/nayaband-jean-conciertos-baires-2/"
+    }
+   ]
+  },
+  {
    "id": "5a3a8a10b8d7",
    "title": "TODOS LOS ÁNGELES ALZARON EL VUELO",
    "start": "2026-11-14T00:00:00-03:00",
@@ -6842,6 +7314,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "375b14dc389d",
+   "title": "Beatles para chicos | Por Nube 9 | Sábados de Noviembre",
+   "start": "2026-11-14T13:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xM1QyMi0wMC0zNC05MTRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e"
     }
    ]
   },
@@ -8870,6 +9364,28 @@
    ]
   },
   {
+   "id": "b0c36c931b4f",
+   "title": "Elgarrista Lucero Agüero Benavides Thielen en CCNU",
+   "start": "2026-11-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/a2f2ee152ab107d7cf13d546fd2d6871b8f0383c.png?1793885864",
+   "url": "https://livepass.com.ar/events/elgarrista-lucero-aguero-benavides-thielen-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/elgarrista-lucero-aguero-benavides-thielen-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "1ddfddbe5eb2",
    "title": "Ella es tan Inusual",
    "start": "2026-11-14T20:00:00-03:00",
@@ -8976,6 +9492,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101047-hydra"
+    }
+   ]
+  },
+  {
+   "id": "defc782b5cf1",
+   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
+   "start": "2026-11-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
     }
    ]
   },
@@ -9728,6 +10266,28 @@
    ]
   },
   {
+   "id": "5e60b24f46fb",
+   "title": "MARIANO LOIÁCONO RECIBE A MONCEF GENOUD (SUIZA)",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": "2026-11-14T23:00:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "MARIANO LOIÁCONO RECIBE A 🇨🇭 MONCEF GENOUD (SUIZA) SHOW INTERNACIONAL El reconocido trompetista argentino Mariano Loiácono , una de las voces más destacadas del jazz local y de activa presencia en la escena neoyorquina, recibe en Jazz Voyeur Club al pianista suizo Moncef Genoud . Nacido en Túnez y criado en Suiza, Genoud desarrolló una carrera internacional de más de cuatro décadas, con actuacio",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-08.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/mariano-loiacono-recibe-a-moncef-genoud-suiza/",
+   "price": "$ 18.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/mariano-loiacono-recibe-a-moncef-genoud-suiza/"
+    }
+   ]
+  },
+  {
    "id": "d14c652158bb",
    "title": "Mi madre quería el paraíso",
    "start": "2026-11-14T20:30:00-03:00",
@@ -9790,6 +10350,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/oeisis-familiar-vibes-in-the-area-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "c77dae822427",
+   "title": "Pablo Sbaraglia en Café Berlín",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/47ef0d3caa971081380e343d80d83e090e6de625.jpg?1788789037",
+   "url": "https://livepass.com.ar/events/pablo-sbaraglia-en-cafe-berlin-2026-11-14-20-30-00-0300",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/pablo-sbaraglia-en-cafe-berlin-2026-11-14-20-30-00-0300"
     }
    ]
   },
@@ -11796,6 +12378,28 @@
    ]
   },
   {
+   "id": "d786d38db5ae",
+   "title": "Marruecos / Cromoforma Jazz Quartet en CCNU",
+   "start": "2026-11-14T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/25be5f678db0220927fb92f6fc96fc7a512091a2.png?1792600389",
+   "url": "https://livepass.com.ar/events/marruecos-cromoforma-jazz-quartet-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/marruecos-cromoforma-jazz-quartet-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "9940cd3628bb",
    "title": "No me dejes asi",
    "start": "2026-11-14T22:30:00-03:00",
@@ -11994,6 +12598,28 @@
    ]
   },
   {
+   "id": "857b68e478fd",
+   "title": "Do Neurona en Café Berlín",
+   "start": "2026-11-14T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/82480463579494459254550411f04e9a1b92d58e.jpg?1784729284",
+   "url": "https://livepass.com.ar/events/do-neurona-en-cafe-berlin-2026-11-14-23-00-00-0300",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/do-neurona-en-cafe-berlin-2026-11-14-23-00-00-0300"
+    }
+   ]
+  },
+  {
    "id": "81197c577193",
    "title": "EL JUEGO I -la herencia-",
    "start": "2026-11-14T23:00:00-03:00",
@@ -12104,6 +12730,28 @@
    ]
   },
   {
+   "id": "8e6e02448c3d",
+   "title": "SABRINA ARANDA SINGS CARMEN MCRAE",
+   "start": "2026-11-14T23:30:00-03:00",
+   "end": "2026-11-14T23:59:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "SABRINA ARANDA SINGS CARMEN MCRAE SABRINA ARANDA QUARTET &#8211; CARNIEL &#8211; RODRIGUEZ &#8211; VARELA TRASNOCHE! Round About Midnight 🌙: Sabrina Aranda y su cuarteto homenajean a Carmen McRae , una de las grandes intérpretes de la historia del jazz. Su timbre inconfundible, su inteligencia musical y ese fraseo que parecía conversar con cada canción hicieron de ella una artista excepcional. Ir",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/trasnoche14deNoviembre.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/sabrina-aranda-sings-carmen-mcrae/",
+   "price": "$ 12.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/sabrina-aranda-sings-carmen-mcrae/"
+    }
+   ]
+  },
+  {
    "id": "d676b34b2e86",
    "title": "Uriel Lozano",
    "start": "2026-11-14T23:30:00-03:00",
@@ -12122,6 +12770,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/uriel-lozano/tropitango"
+    }
+   ]
+  },
+  {
+   "id": "db6bf0c9b51c",
+   "title": "HAY PLAN - LA NOCTURNA: una fiesta de noche",
+   "start": "2026-11-14T23:55:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Saldías Polo Cultural, San Pedro de Jujuy 4, C1425 Cdad. Autónoma de Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/bbd829b3dbb4e8472415d91edb5fecf9fc0a14e3.png?1793286715",
+   "url": "https://livepass.com.ar/events/hay-plan-la-nocturna-una-fiesta-de-noche-2026-11-14-23-55-00-0300",
+   "price": "$21.300",
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/hay-plan-la-nocturna-una-fiesta-de-noche-2026-11-14-23-55-00-0300"
     }
    ]
   },
@@ -14414,6 +15084,28 @@
    ]
   },
   {
+   "id": "8f09c178864b",
+   "title": "FV3 & Cata Di Bella en CCNU",
+   "start": "2026-11-15T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/6796384ff2a2644aade37146d63eb5e2a52a2274.png?1793976032",
+   "url": "https://livepass.com.ar/events/fv3-cata-di-bella-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/fv3-cata-di-bella-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "3722492d0aa2",
    "title": "La distancia infinita",
    "start": "2026-11-15T19:00:00-03:00",
@@ -15910,6 +16602,28 @@
    ]
   },
   {
+   "id": "ce17796cd3d4",
+   "title": "Dchampions en Café Berlín",
+   "start": "2026-11-15T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ced992f41b87ee9431611c89e02694d34399a087.jpg?1792071466",
+   "url": "https://livepass.com.ar/events/dchampions-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/dchampions-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "6976d1706d5d",
    "title": "El ávido espectador",
    "start": "2026-11-15T20:30:00-03:00",
@@ -16126,6 +16840,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra65140-sex-vivi-tu-experiencia"
+    }
+   ]
+  },
+  {
+   "id": "3005e0796803",
+   "title": "SOL LIEBESKIND - SOUL STANDARDS",
+   "start": "2026-11-15T20:30:00-03:00",
+   "end": "2026-11-15T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "SOL LIEBESKIND ☆ SOUL STANDARDS SUNDAY FUNDAY! El domingo tiene otro pulso con Sol Liebeskind . La cantante y compositora argentina, cuya carrera conecta Buenos Aires con Nueva York, llega a Jazz Voyeur Club con un repertorio dedicado al soul, desde los años 60 hasta la actualidad. Su voz reúne la intensidad del soul, el fraseo del jazz y el groove del R&B. Esa combinación atraviesa sus discos Sou",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-09.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/sol-liebeskind-soul-standards/",
+   "price": "$ 14.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/sol-liebeskind-soul-standards/"
     }
    ]
   },
@@ -16434,6 +17170,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102171-a-brillar-mi-amor-peluqueria"
+    }
+   ]
+  },
+  {
+   "id": "f7bf45ad5fa6",
+   "title": "Liliana Araujo y banda en CCNU",
+   "start": "2026-11-15T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8f05eded20d4ff7db45d6905ff6688458cfd1ab5.png?1794275027",
+   "url": "https://livepass.com.ar/events/liliana-araujo-y-banda-en-ccnu-2026-11-15",
+   "price": "$20.700",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/liliana-araujo-y-banda-en-ccnu-2026-11-15"
     }
    ]
   },
@@ -16900,6 +17658,28 @@
    ]
   },
   {
+   "id": "5625871ed08b",
+   "title": "MATEUSZ SMOCZYŃSKI (POLONIA) & HERNAN JACINTO TRIO",
+   "start": "2026-11-16T20:30:00-03:00",
+   "end": "2026-11-16T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "MATEUSZ SMOCZYŃSKI (POLONIA) & HERNAN JACINTO TRIO LUNES ON! • Un lunes internacional El jazz polaco y la escena porteña se encuentran en Jazz Voyeur Club. El lunes 16 de noviembre, el violinista y compositor Mateusz Smoczyński abre su gira argentina junto al Trío de Hernán Jacinto, con Jerónimo Carmona en contrabajo y Jerónimo Quaglia en batería. El encuentro reúne dos lenguajes con identidad pro",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-03.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/mateusz-smoczynski-polonia-hernan-jacinto-trio/",
+   "price": "$ 10.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/mateusz-smoczynski-polonia-hernan-jacinto-trio/"
+    }
+   ]
+  },
+  {
    "id": "56bd4c82ec22",
    "title": "Menos Lunes - Stand Up Show",
    "start": "2026-11-16T20:30:00-03:00",
@@ -16984,6 +17764,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103954-quimera"
+    }
+   ]
+  },
+  {
+   "id": "d7fe512f3f10",
+   "title": "EMBA - Rock - Funk - Fusión en Café Berlín",
+   "start": "2026-11-16T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/0e2a90941f0c4bca77ff387a4a62579e578cddb1.jpg?1793641814",
+   "url": "https://livepass.com.ar/events/emba-rock-funk-fusion-en-cafe-berlin",
+   "price": "$11.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/emba-rock-funk-fusion-en-cafe-berlin"
     }
    ]
   },
@@ -17406,6 +18208,28 @@
    ]
   },
   {
+   "id": "729b617a1123",
+   "title": "CELEBRAMOS A ROXANA AMED | An Espil, Carto Brandán, Fernando Galimany, Sebastián Espósito y Claudio Iuliano",
+   "start": "2026-11-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy0yNC0yMy04NjRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/c437ecbe-3109-4d8a-a634-6002ccebd972",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/c437ecbe-3109-4d8a-a634-6002ccebd972"
+    }
+   ]
+  },
+  {
    "id": "e37c6f14d762",
    "title": "Civilización",
    "start": "2026-11-17T20:00:00-03:00",
@@ -17604,6 +18428,28 @@
    ]
   },
   {
+   "id": "2c5d8f5f35a5",
+   "title": "AMORRR - BAJO LAS GARRAS DE UNA PARISINA",
+   "start": "2026-11-17T20:30:00-03:00",
+   "end": "2026-11-17T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "AMORRR 💙 bajo las garras de una parisina 🇫🇷 ALEX PANDEV ALWAYS COOL Martes : el día más Cool de la semana 2&#215;1 en 🍸 Dry Martini toda la noche 🍸 Entre 🇫🇷 Paris y BAires Alex con voz grave y alma feroz transforma el amor en un incendio. En cada canción la pasión, la herida y la risa se mezcla sin pudor. Es un viaje emocional para quienes aman demasiado, se caen, se levantan y vuelven a am",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-04.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/amorrr-bajo-las-garras-de-una-parisina-4/",
+   "price": "$ 12.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/amorrr-bajo-las-garras-de-una-parisina-4/"
+    }
+   ]
+  },
+  {
    "id": "f06df5d3b172",
    "title": "Carambola el musical",
    "start": "2026-11-17T20:30:00-03:00",
@@ -17692,6 +18538,28 @@
    ]
   },
   {
+   "id": "783d3f567a9a",
+   "title": "Momo Rey en Café Berlín",
+   "start": "2026-11-17T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/25934cda130cd69dc3a7092b87e9d83c03a0e8cb.jpg?1790015588",
+   "url": "https://livepass.com.ar/events/momo-rey-en-cafe-berlin-2026-11-17-20-45-00-0300",
+   "price": "$21.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/momo-rey-en-cafe-berlin-2026-11-17-20-45-00-0300"
+    }
+   ]
+  },
+  {
    "id": "c1d16d863797",
    "title": "Argenti-Lab (Juremos por la empresa morir)",
    "start": "2026-11-17T21:00:00-03:00",
@@ -17776,6 +18644,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103889-homenaje-a-teatro-abierto-45-anos-19812026-papa-querido-gris-de-ausencia"
+    }
+   ]
+  },
+  {
+   "id": "de45f2be8634",
+   "title": "Secches presenta ELLAS POR ELLAS | Paraíso de canciones de mujeres, a duos de piano y voz - Con Carolina de la Muela",
+   "start": "2026-11-17T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNC01Mi0wOS02OTlaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/6dfbbc20-5866-4715-a7e8-1fe638a4200e",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/6dfbbc20-5866-4715-a7e8-1fe638a4200e"
     }
    ]
   },
@@ -18022,6 +18912,28 @@
    ]
   },
   {
+   "id": "58ecb0e141c2",
+   "title": "NUEVOS TALENTO BAIRES – MALDITOS MIÉRCOLES",
+   "start": "2026-11-18T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Nuevos Talentos: Cantar y Tocar Un show en vivo donde las nuevas voces y músicos",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/10/Cartel-neon-de-jazz_-11.a-edicion.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/nuevos-talento-baires-malditos-miercoles-2/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/nuevos-talento-baires-malditos-miercoles-2/"
+    }
+   ]
+  },
+  {
    "id": "dc2977869ad1",
    "title": "TODOS LOS ÁNGELES ALZARON EL VUELO",
    "start": "2026-11-18T00:00:00-03:00",
@@ -18084,6 +18996,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/mario-alonso-puig/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "3101ae0f44fc",
+   "title": "ACID JAZZ NIGHT - SEGUNDO PRINCIPIO",
+   "start": "2026-11-18T20:00:00-03:00",
+   "end": "2026-11-18T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "ACID JAZZ NIGHT SEGUNDO PRINCIPIO DISCOVERING NEW MUSIC promo 2&#215;1 en Tickets Miércoles de descubrir nueva música en Jazz Voyeur Club El jazz, el soul, el funk y la neopsicodelia se cruzan en la música de Segundo Principio , un trío de Buenos Aires que explora la convivencia entre el sonido acústico y la electrónica. Con Abigail Rozenblit en piano y sintetizadores, Leandro Provera en bajo y Pa",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-05.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/acid-jazz-night-segundo-principio/",
+   "price": "$ 12.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/acid-jazz-night-segundo-principio/"
     }
    ]
   },
@@ -18352,6 +19286,28 @@
    ]
   },
   {
+   "id": "ab0fc9d0baaf",
+   "title": "Villalba - Loza - Unzu - Canzio - Nawi LS en CCNU",
+   "start": "2026-11-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/9ce7fdf8e373b0fc4abdaa679c81caea72fcea8f.png?1792590833",
+   "url": "https://livepass.com.ar/events/villalba-loza-unzu-canzio-nawi-ls-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/villalba-loza-unzu-canzio-nawi-ls-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "6311ab05945e",
    "title": "A la vera del Maldonado",
    "start": "2026-11-18T20:30:00-03:00",
@@ -18572,6 +19528,28 @@
    ]
   },
   {
+   "id": "e896347a75f1",
+   "title": "Santi Martínez (El Kuelgue) en Café Berlín",
+   "start": "2026-11-18T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/5882d329a717b60f436859e868c7276c3250c75f.jpg?1789996711",
+   "url": "https://livepass.com.ar/events/santi-martinez-el-kuelgue-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/santi-martinez-el-kuelgue-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "7a24d19ee60f",
    "title": "Habitación 01 Disponible",
    "start": "2026-11-18T21:00:00-03:00",
@@ -18748,6 +19726,50 @@
    ]
   },
   {
+   "id": "1d3cbdeb1f9f",
+   "title": "RnB Collective Presenta R&B Y SOUL X MARI POLÉ",
+   "start": "2026-11-18T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNS01Ni0wMi01NTFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/8c61b576-01df-419e-b444-fd503b23f458",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/8c61b576-01df-419e-b444-fd503b23f458"
+    }
+   ]
+  },
+  {
+   "id": "31dfb166e491",
+   "title": "The Notaloco 5tet en CCNU",
+   "start": "2026-11-18T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d8b4767debc58eaa6f5d25999d2e08471f2c48ce.png?1792591194",
+   "url": "https://livepass.com.ar/events/the-notaloco-5tet-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/the-notaloco-5tet-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "4cb63b1f5865",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-19T00:00:00-03:00",
@@ -18788,6 +19810,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/"
+    }
+   ]
+  },
+  {
+   "id": "07f2ae33dff2",
+   "title": "ELÍAS UCHE – MIS BOLEROS PREFERIDOS",
+   "start": "2026-11-19T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Mis Boleros Preferidos Elias Uche & Marvin Prado Jueves 19 de NoviembreHora: 21:00 Déjate envolver",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-13.04.15.jpeg",
+   "url": "https://buenosairesjazzcafe.com/eventos/elias-uche-mis-boleros-preferidos-3/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/elias-uche-mis-boleros-preferidos-3/"
     }
    ]
   },
@@ -19232,6 +20276,28 @@
    ]
   },
   {
+   "id": "77a2869c7be3",
+   "title": "Arias, Induini, Quevedo en CCNU",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/3c42ab8c2ae7e04280ab434cb9e93e581756392c.png?1793194411",
+   "url": "https://livepass.com.ar/events/arias-induini-quevedo-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/arias-induini-quevedo-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "493e9c320f26",
    "title": "Café Japón",
    "start": "2026-11-19T20:00:00-03:00",
@@ -19299,6 +20365,28 @@
      "id": "konex",
      "name": "Ciudad Cultural Konex",
      "url": "https://entradas.cckonex.org/event/dancing-mood"
+    }
+   ]
+  },
+  {
+   "id": "fb453406ab5d",
+   "title": "Dara Starr Tucker Sextet | Dara Starr Tucker - Mariano Loiacono - Sebastian Loiacono - Russell Kranes - Greg Bryant - Santiago Lacabe",
+   "start": "2026-11-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMlQwMS00MC01NS01OTNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/0fb4a89d-5dd7-46f3-a43c-bc140d388eee",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/0fb4a89d-5dd7-46f3-a43c-bc140d388eee"
     }
    ]
   },
@@ -19941,6 +21029,28 @@
    ]
   },
   {
+   "id": "594da19ea216",
+   "title": "SADE & JAZZ",
+   "start": "2026-11-19T20:30:00-03:00",
+   "end": "2026-11-19T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "SADE & JAZZ DARINKA &#8211; FLORES &#8211; KOROSEC &#8211; DÍAZ BLACKIE NIGHTS A pedido del público, que agotó las entradas en su presentación anterior, vuelve Sade & Jazz a Jazz Voyeur Club en una Blackie Night. Las canciones de Sade en versiones que ponen en primer plano el jazz, la sutileza y el pulso de su música. «Smooth Operator» y «Paradise» forman parte de un repertorio que el grupo lleva ",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-06.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/sade-jazz-2/",
+   "price": "$ 13.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/sade-jazz-2/"
+    }
+   ]
+  },
+  {
    "id": "29e3015bda53",
    "title": "Un paraiso a orillas del río",
    "start": "2026-11-19T20:30:00-03:00",
@@ -19981,6 +21091,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra100610-yo-solo-queria-bailar-una-tanda-troilo-interactivo"
+    }
+   ]
+  },
+  {
+   "id": "4847a3a69305",
+   "title": "Pipo Cipolatti en Café Berlín",
+   "start": "2026-11-19T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/203d745bb737714a526bf7aabeaef3a826d38322.jpg?1789503212",
+   "url": "https://livepass.com.ar/events/pipo-cipolatti-en-cafe-berlin-2026-11-19-20-45-00-0300",
+   "price": "$61.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/pipo-cipolatti-en-cafe-berlin-2026-11-19-20-45-00-0300"
     }
    ]
   },
@@ -20403,6 +21535,28 @@
    ]
   },
   {
+   "id": "3494936d3941",
+   "title": "Black Radio: La música de Glasper en CCNU",
+   "start": "2026-11-19T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/90f1cc89477f9c59d8f62f661f0eee0bdd0c1107.png?1792591823",
+   "url": "https://livepass.com.ar/events/black-radio-la-musica-de-glasper-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/black-radio-la-musica-de-glasper-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "77159d7d08d3",
    "title": "Jardin de Otoño",
    "start": "2026-11-19T22:30:00-03:00",
@@ -20447,6 +21601,28 @@
    ]
   },
   {
+   "id": "743d5f368cb3",
+   "title": "Sofía P.J en Café Berlín",
+   "start": "2026-11-19T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1262601d461244373e917dacd70db6a7bb7e929b.jpg?1788962614",
+   "url": "https://livepass.com.ar/events/sofia-p-j-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/sofia-p-j-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "af86384ea320",
    "title": "A CIELO ABIERTO",
    "start": "2026-11-20T00:00:00-03:00",
@@ -20465,6 +21641,50 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "bd815d9fb5bb",
+   "title": "BEA VAN – BAILAR SOBRE LA CICATRIZ",
+   "start": "2026-11-20T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "BAILAR SOBRE LA CICATRIZ BeaVan llega a Buenos Aires Jazz Café el día 20 de",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/03/NUEVO-POST-Y-A4-2026-08-27T142319.107.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/bea-van-bailar-sobre-la-cicatriz/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/bea-van-bailar-sobre-la-cicatriz/"
+    }
+   ]
+  },
+  {
+   "id": "d9fb6a7eba05",
+   "title": "DESCENTRADOS Y LOS SIBARITAS",
+   "start": "2026-11-20T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Descentrado y Los Sibaritas surge de la unión en 2023 entre Nacho Díaz “Descentrado” (voz",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/09/NUEVO-POST-Y-A4-2026-10-14T103839.082.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/descentrados-y-los-sibaritas/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/descentrados-y-los-sibaritas/"
     }
    ]
   },
@@ -21706,6 +22926,28 @@
    ]
   },
   {
+   "id": "e640c96f4d29",
+   "title": "Orillas jazz ensamble en CCNU",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d9978a98cfef520a50710eb8513d1b790e44b5da.png?1792597171",
+   "url": "https://livepass.com.ar/events/orillas-jazz-ensamble-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/orillas-jazz-ensamble-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "9cd5e1146139",
    "title": "Osamenta y patria",
    "start": "2026-11-20T20:00:00-03:00",
@@ -22322,6 +23564,28 @@
    ]
   },
   {
+   "id": "165b0f940191",
+   "title": "FÉNIX JAZZ BAND",
+   "start": "2026-11-20T20:30:00-03:00",
+   "end": "2026-11-20T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "FÉNIX JAZZ BAND CLASSICS! La legendaria Fenix Jazz Band vuelve al Jazz Voyeur Club para celebrar el espíritu del jazz tradicional con la vitalidad, el swing y la alegría que la convirtieron en una referencia imprescindible de la escena argentina. Fundada en 1973 , es una de las agrupaciones más emblemáticas del país en el estilo Nueva Orleans , Dixieland y hot jazz . Con más de cincuenta años de t",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-07.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/fenix-jazz-band-5/",
+   "price": "$ 14.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/fenix-jazz-band-5/"
+    }
+   ]
+  },
+  {
    "id": "3779678f19e4",
    "title": "Humedal",
    "start": "2026-11-20T20:30:00-03:00",
@@ -22604,6 +23868,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra37265-torres-gemelas-dramaturgia-con-el-destino"
+    }
+   ]
+  },
+  {
+   "id": "aa0e76b9d1c5",
+   "title": "Gran Martell en Café Berlín",
+   "start": "2026-11-20T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/01ed493beed36f71163979a7489ac6f5b31fd38b.jpg?1787154249",
+   "url": "https://livepass.com.ar/events/gran-martell-en-cafe-berlin-20-11",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/gran-martell-en-cafe-berlin-20-11"
     }
    ]
   },
@@ -24038,6 +25324,28 @@
    ]
   },
   {
+   "id": "47b42c44dec8",
+   "title": "Carcamo Sexteto en CCNU",
+   "start": "2026-11-20T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8d812d076b137566aa085df7b257b1cd073c1f38.png?1789140404",
+   "url": "https://livepass.com.ar/events/carcamo-sexteto-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/carcamo-sexteto-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "ffae50f4bb41",
    "title": "Ciclo Arco Iris 20-11",
    "start": "2026-11-20T22:30:00-03:00",
@@ -24302,6 +25610,28 @@
    ]
   },
   {
+   "id": "4c01f29372f2",
+   "title": "Sofía Viola en Café Berlín",
+   "start": "2026-11-20T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1feeb8b8c90da5e211a10e5176e2bc6146dfb386.jpg?1792417476",
+   "url": "https://livepass.com.ar/events/sofia-viola-en-cafe-berlin-2026-11-20-23-00-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/sofia-viola-en-cafe-berlin-2026-11-20-23-00-00-0300"
+    }
+   ]
+  },
+  {
    "id": "110ae18ea86a",
    "title": "KLAV PRES. PRIKU",
    "start": "2026-11-20T23:30:00-03:00",
@@ -24562,6 +25892,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/invasiones-1/"
+    }
+   ]
+  },
+  {
+   "id": "cc09e20a7b70",
+   "title": "JAM SESSION ARGENTINA",
+   "start": "2026-11-21T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Explora la riqueza musical de Argentina con una Jam, protagonizada por talentosos músicos argentinos. Desde",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-11-04-at-16.53.52.jpeg",
+   "url": "https://buenosairesjazzcafe.com/eventos/jam-session-argentina-16/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/jam-session-argentina-16/"
     }
    ]
   },
@@ -26595,6 +27947,28 @@
    ]
   },
   {
+   "id": "b6e0eb5c4823",
+   "title": "JOHN & PAUL THE BEATLES EXPERIENCE en CCNU",
+   "start": "2026-11-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f796c0cdf5c4ee4335017ca3a3812261ce8505e9.png?1794275998",
+   "url": "https://livepass.com.ar/events/john-paul-the-beatles-experience-en-ccnu-2026-11-21",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/john-paul-the-beatles-experience-en-ccnu-2026-11-21"
+    }
+   ]
+  },
+  {
    "id": "a44aa8f45126",
    "title": "La cultura es la sonrisa",
    "start": "2026-11-21T20:00:00-03:00",
@@ -26855,6 +28229,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104117-mandatos"
+    }
+   ]
+  },
+  {
+   "id": "a91f1841c943",
+   "title": "Maria Joao | Abundancia",
+   "start": "2026-11-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC0yNS0zMS02NjNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/e8b44ed7-5a92-4022-8a13-198db03c7012",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/e8b44ed7-5a92-4022-8a13-198db03c7012"
     }
    ]
   },
@@ -27409,6 +28805,28 @@
    ]
   },
   {
+   "id": "673ca782a07a",
+   "title": "LA MÚSICA DE CHARLIE PARKER",
+   "start": "2026-11-21T20:30:00-03:00",
+   "end": "2026-11-21T23:00:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "LA MÚSICA DE CHARLIE PARKER CLASSICS! Carlos Michelini cuarteto Un homenaje a la obra genial de Charlie Parker , saxofonista, compositor y figura central en la historia del jazz moderno. Carlos Michelini Cuarteto revisita el universo Parker desde una mirada actual: el bebop como punto de partida, la improvisación como lenguaje y nuevas lecturas que expanden su música hacia otros ritmos y climas. E",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-08.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/la-musica-de-charlie-parker-9/",
+   "price": "$ 14.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/la-musica-de-charlie-parker-9/"
+    }
+   ]
+  },
+  {
    "id": "e0b9ac1ff9d7",
    "title": "La verdad de los mentirosos",
    "start": "2026-11-21T20:30:00-03:00",
@@ -27603,6 +29021,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra91603-pulsion"
+    }
+   ]
+  },
+  {
+   "id": "38299a912e0c",
+   "title": "Santiago Molina en Café Berlín",
+   "start": "2026-11-21T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8fc16607240fcc020b83c1841a16a927cd628f30.jpg?1789997166",
+   "url": "https://livepass.com.ar/events/santiago-molina-en-cafe-berlin-2026-11-21-20-30-00-0300",
+   "price": "$31.360",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/santiago-molina-en-cafe-berlin-2026-11-21-20-30-00-0300"
     }
    ]
   },
@@ -29543,6 +30983,28 @@
    ]
   },
   {
+   "id": "8e59b169ef5d",
+   "title": "Raro Diamante - Hotel Olvido en Café Berlín",
+   "start": "2026-11-21T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/3bb596bf85e479594216bfbf84c20d561ba61e9b.jpg?1790688661",
+   "url": "https://livepass.com.ar/events/raro-diamante-hotel-olvido-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/raro-diamante-hotel-olvido-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "78f24b9ceaf5",
    "title": "Guillotina 21 de nov a las 23.15- Hasta que el clásico + No incluye beso + Sesión final",
    "start": "2026-11-21T23:15:00-03:00",
@@ -29561,6 +31023,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103947-guillotina-21-de-nov-a-las-2315-hasta-que-el-clasico-no-incluye-beso-sesion-final"
+    }
+   ]
+  },
+  {
+   "id": "9b78711cf9c9",
+   "title": "SOUL DELUXE",
+   "start": "2026-11-21T23:30:00-03:00",
+   "end": "2026-11-21T23:59:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "SOUL DELUXE CLÁSICOS DE SOUL, FUNK Y ÁCID JAZZ TRASNOCHE! Round About Midnight 🌙: Un viaje desde el soul de los 70&#8242;, el funk de los 80´, hasta el acid-jazz de los 90´, lleno de energia y groove, como elemento distintivo. Voces potentes y una banda que va para adelante, con todo, con 6 musicos en escena. Aretha, Stevie Wonder, Jamiroquai, Sade, Bill Withers, Donna Summer, Prince, son solo al",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/trasnoche22deNoviembre-01.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/soul-deluxe/",
+   "price": "$ 12.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/soul-deluxe/"
     }
    ]
   },
@@ -30067,6 +31551,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra93113-santa-mesa"
+    }
+   ]
+  },
+  {
+   "id": "86bcd602170c",
+   "title": "#BRAZIL | Un viaje musical por Brasil | BA Jazz Experience presenta a Iván Buraschi 4tet",
+   "start": "2026-11-22T13:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yNFQwMS0wMC00NC04NThaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/78b3a805-d29f-45dd-af40-3726e9a4e06f",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/78b3a805-d29f-45dd-af40-3726e9a4e06f"
     }
    ]
   },
@@ -32804,6 +34310,28 @@
    ]
   },
   {
+   "id": "beeb96392800",
+   "title": "Homenaje Al Buena Vista Social Club y la Música Cubana | Habana Tropic All Star",
+   "start": "2026-11-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yNFQxOC0xNi01NS05MDBaLmpwZWcifQ==",
+   "url": "https://ticketera.bebopclub.com.ar/evento/52bc6827-76b4-4d68-a79d-395e7c686851",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/52bc6827-76b4-4d68-a79d-395e7c686851"
+    }
+   ]
+  },
+  {
    "id": "9b426a822c0e",
    "title": "INDIOS EN BUENOS AIRES",
    "start": "2026-11-22T20:00:00-03:00",
@@ -33376,6 +34904,28 @@
    ]
   },
   {
+   "id": "5753af0ff1fd",
+   "title": "GRETA KOHAN - JAZZ & BLUES ALCHEMY",
+   "start": "2026-11-22T20:30:00-03:00",
+   "end": "2026-11-22T23:30:00-03:00",
+   "whenText": null,
+   "place": "Jazz Voyeur Club",
+   "address": "Posadas 1557, C1112ADA CABA",
+   "description": "GRETA KOHAN JAZZ & BLUES ALCHEMY SUNDAY FUNDAY Un show de jazz, blues que combina grandes clásicos con un sonido moderno y personal. Una propuesta llena de fuerza, sensibilidad y groove, donde cada canción encuentra su propia identidad. El espectáculo propone una experiencia intensa y emotiva, donde cada canción revive el espíritu profundo del género desde una mirada contemporánea y personal. Blue",
+   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel16al22deNOVIEMBRE-09.jpg",
+   "url": "https://jazzvoyeur.com.ar/events/greta-kohan-jazz-blues-alchemy/",
+   "price": "$ 14.000",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "jazz-voyeur",
+     "name": "Jazz Voyeur",
+     "url": "https://jazzvoyeur.com.ar/events/greta-kohan-jazz-blues-alchemy/"
+    }
+   ]
+  },
+  {
    "id": "9a7fc6fd4469",
    "title": "Haroldo en la Luz",
    "start": "2026-11-22T20:30:00-03:00",
@@ -33904,6 +35454,28 @@
    ]
   },
   {
+   "id": "390356626ee1",
+   "title": "Caleb Monte Quintet plays Ballads en CCNU",
+   "start": "2026-11-22T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/09408e5399b753fc95bdcfbe1b3e50e59a34daa9.png?1793974808",
+   "url": "https://livepass.com.ar/events/caleb-monte-quintet-plays-ballads-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/caleb-monte-quintet-plays-ballads-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "cddea325039a",
    "title": "Perfiles Enredados",
    "start": "2026-11-22T21:30:00-03:00",
@@ -34010,6 +35582,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra99274-la-caverna"
+    }
+   ]
+  },
+  {
+   "id": "606049db6d89",
+   "title": "MARIÚ FERNÁNDEZ | AMY, CLASSICS & ME",
+   "start": "2026-11-22T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yOVQyMi0wNi0xNC0wMTRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/50037599-daa4-4d15-bf88-b99bd660baa9",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/50037599-daa4-4d15-bf88-b99bd660baa9"
     }
    ]
   },
@@ -34208,6 +35802,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra99927-los-habitantes-de-mor"
+    }
+   ]
+  },
+  {
+   "id": "3e82070a5dfa",
+   "title": "Bebop Big Band | Lunes de Noviembre",
+   "start": "2026-11-23T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0wOS0yOVQxNS0wOC01NS00NDhaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/d78f0818-c6cc-4868-b59b-c86280b085f6",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/d78f0818-c6cc-4868-b59b-c86280b085f6"
     }
    ]
   },
@@ -34432,6 +36048,28 @@
    ]
   },
   {
+   "id": "59b534d28738",
+   "title": "Tinka Roup - Presenta Radar en Café Berlín",
+   "start": "2026-11-23T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f6d58a38db455625f0c6216b1d7e6f261ce93943.jpg?1789997375",
+   "url": "https://livepass.com.ar/events/tinka-roup-presenta-radar-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/tinka-roup-presenta-radar-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "dfed4f24e194",
    "title": "La anteúltima aventura de Carlos Rey",
    "start": "2026-11-23T21:00:00-03:00",
@@ -34538,6 +36176,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101890-los-malcasados"
+    }
+   ]
+  },
+  {
+   "id": "594efeb42b22",
+   "title": "Grito Sagrado | Canciones indispensables del rock nacional | Luna Sujatovich y Lucas Heredia",
+   "start": "2026-11-23T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMVQxNy0wNS01OS05NTFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/a37fec6a-17de-4fb3-95e7-785416b31422",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/a37fec6a-17de-4fb3-95e7-785416b31422"
     }
    ]
   },
@@ -34982,6 +36642,28 @@
    ]
   },
   {
+   "id": "b9ebd2168fc6",
+   "title": "Yo no soy Amy | Todos los martes de Octubre",
+   "start": "2026-11-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0zMFQyMi0wNS0xNy00NDhaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/5754e7b8-d846-4c79-91d7-a1ad422d01e0",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/5754e7b8-d846-4c79-91d7-a1ad422d01e0"
+    }
+   ]
+  },
+  {
    "id": "0771f1dd3186",
    "title": "Carambola el musical",
    "start": "2026-11-24T20:30:00-03:00",
@@ -35048,6 +36730,28 @@
    ]
   },
   {
+   "id": "3d82b59f25b7",
+   "title": "Devotos del Rock en Café Berlín",
+   "start": "2026-11-24T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/85e440c26b70e2d6181900aeb0cfda5e77c7d80d.png?1788545370",
+   "url": "https://livepass.com.ar/events/devotos-del-rock-en-cafe-berlin-2026-11-24-20-45-00-0300",
+   "price": "$16.800",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/devotos-del-rock-en-cafe-berlin-2026-11-24-20-45-00-0300"
+    }
+   ]
+  },
+  {
    "id": "a45a808a67fa",
    "title": "Argenti-Lab (Juremos por la empresa morir)",
    "start": "2026-11-24T21:00:00-03:00",
@@ -35110,6 +36814,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/moyka-en-niceto-humboldt-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "bf7d0dee9fd8",
+   "title": "Secches presenta ELLAS POR ELLAS | Paraíso de canciones de mujeres, a duos de piano y voz - Con Paula Maffia",
+   "start": "2026-11-24T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNC01NC0wNC05OTJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/477f46ee-34a0-4b3f-9b4b-cf7eb46bb19b",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/477f46ee-34a0-4b3f-9b4b-cf7eb46bb19b"
     }
    ]
   },
@@ -35264,6 +36990,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/jorge-lavelli-el-gesto-inconformista/"
+    }
+   ]
+  },
+  {
+   "id": "ad16d228786a",
+   "title": "KAYSEY MEDINA",
+   "start": "2026-11-25T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Kaysey Medina en concierto – Una noche íntima y especial Kaysey Medina llega a Buenos",
+   "image": "https://buenosairesjazzcafe.com/wp-content/uploads/2026/10/NUEVO-POST-Y-A4-2026-10-07T095310.272.png",
+   "url": "https://buenosairesjazzcafe.com/eventos/kaysey-medina/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://buenosairesjazzcafe.com/eventos/kaysey-medina/"
     }
    ]
   },
@@ -35594,6 +37342,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra80184-el-brote"
+    }
+   ]
+  },
+  {
+   "id": "3e8b108b1071",
+   "title": "ELLA SINGS GERSHWIN en CCNU",
+   "start": "2026-11-25T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e7d999354adfa10630c842d86181ee1e1e7b77cb.png?1792593301",
+   "url": "https://livepass.com.ar/events/ella-sings-gershwin-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/ella-sings-gershwin-en-ccnu"
     }
    ]
   },
@@ -35994,6 +37764,28 @@
    ]
   },
   {
+   "id": "a1b118344336",
+   "title": "German Kaly en Café Berlín",
+   "start": "2026-11-25T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/77caad491d139937f4d1066c7f8a9c4d4311ecda.jpg?1789751216",
+   "url": "https://livepass.com.ar/events/german-kaly-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/german-kaly-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "879b7c134f60",
    "title": "Habitación 01 Disponible",
    "start": "2026-11-25T21:00:00-03:00",
@@ -36170,6 +37962,28 @@
    ]
   },
   {
+   "id": "65946a2913b2",
+   "title": "Gerez, Dartes & Romeo Trío en CCNU",
+   "start": "2026-11-25T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/c0b4a6ab3bea9d5499b1a300f1ef635f52310029.png?1792592322",
+   "url": "https://livepass.com.ar/events/gerez-dartes-romeo-trio-en-ccnu",
+   "price": "$17.250",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/gerez-dartes-romeo-trio-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "414b39bcee82",
    "title": "El vecindario",
    "start": "2026-11-26T19:00:00-03:00",
@@ -36258,6 +38072,28 @@
    ]
   },
   {
+   "id": "b665bbb4ad3c",
+   "title": "Contreras Gramigna Gerez re en CCNU",
+   "start": "2026-11-26T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/fabfe37edadcea94b1699d1d2dea9bd5fb22c23f.png?1793626623",
+   "url": "https://livepass.com.ar/events/contreras-gramigna-gerez-re-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/contreras-gramigna-gerez-re-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "335f567f8d30",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-11-26T20:00:00-03:00",
@@ -36280,6 +38116,28 @@
    ]
   },
   {
+   "id": "2a5f6ac14a1a",
+   "title": "Woddy Allen Night | Paris Jazz Club",
+   "start": "2026-11-26T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0wOS0yOVQyMi0zMS01Ny04NzJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/15fa45cd-cb75-4ee7-8339-da08de8e8ace",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/15fa45cd-cb75-4ee7-8339-da08de8e8ace"
+    }
+   ]
+  },
+  {
    "id": "c50a210dca29",
    "title": "La Verbena de la Paloma",
    "start": "2026-11-26T20:30:00-03:00",
@@ -36298,6 +38156,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida"
+    }
+   ]
+  },
+  {
+   "id": "e45940688307",
+   "title": "Serie 2 en Café Berlín",
+   "start": "2026-11-26T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/76696c345ce9a3c47efd1943e2757912e2df515d.jpg?1791467591",
+   "url": "https://livepass.com.ar/events/serie-2-en-cafe-berlin-2026-11-26-20-45-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/serie-2-en-cafe-berlin-2026-11-26-20-45-00-0300"
     }
    ]
   },
@@ -36342,6 +38222,50 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/from-fjords-to-andes-tour-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "2c54c6b1978d",
+   "title": "Glasé | presenta su álbum Almíbar + inéditos | Aimé Cantilo, Cuki López, Juana Gramigna, Noelia Sarquiz, Candela Delorenzi Orlandini y Mari Polé",
+   "start": "2026-11-26T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0wOS0yOVQyMi0zMi0zMi0zMTNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/9e870a8d-1da3-43d2-ac4f-7e21db9ae17a",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/9e870a8d-1da3-43d2-ac4f-7e21db9ae17a"
+    }
+   ]
+  },
+  {
+   "id": "f74f85cadb9b",
+   "title": "Música No Disponible en Internet en Café Berlín",
+   "start": "2026-11-26T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/221863ad22f8e3b30f5a315bc923479d20ac8543.jpg?1792591948",
+   "url": "https://livepass.com.ar/events/musica-no-disponible-en-internet-en-cafe-berlin",
+   "price": "$22.400",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/musica-no-disponible-en-internet-en-cafe-berlin"
     }
    ]
   },
@@ -36500,6 +38424,28 @@
    ]
   },
   {
+   "id": "25ec54f5a474",
+   "title": "Nora Sarmoria & Victoria Zotalis en CCNU",
+   "start": "2026-11-27T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8cd8157b09d0197dae2a0941bcb3b7f39b4b8e25.png?1793627020",
+   "url": "https://livepass.com.ar/events/nora-sarmoria-victoria-zotalis-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/nora-sarmoria-victoria-zotalis-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "5c79cfd38ac2",
    "title": "La Verbena de la Paloma",
    "start": "2026-11-27T20:30:00-03:00",
@@ -36518,6 +38464,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida"
+    }
+   ]
+  },
+  {
+   "id": "59919189e6b5",
+   "title": "Queteimporta en Café Berlín",
+   "start": "2026-11-27T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7eca38072e30811a25f70dad315e3b2a71e22a5e.jpg?1789047538",
+   "url": "https://livepass.com.ar/events/queteimporta-en-cafe-berlin-2026-11-27-20-45-00-0300",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/queteimporta-en-cafe-berlin-2026-11-27-20-45-00-0300"
     }
    ]
   },
@@ -36606,6 +38574,72 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/universo-tupay/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "1a2c91a7c5e3",
+   "title": "BRUNO VARELA ORGAN TRÍO en CCNU",
+   "start": "2026-11-27T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/c835f9cda5f59912076a01ea7c9525d0cefa50d2.png?1793627291",
+   "url": "https://livepass.com.ar/events/bruno-varela-organ-trio-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/bruno-varela-organ-trio-en-ccnu"
+    }
+   ]
+  },
+  {
+   "id": "618cd60711ef",
+   "title": "Gillespi & Tango Jazz Quartet",
+   "start": "2026-11-27T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy0yOC0zOC00NzFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/fea355a1-7659-4472-99f9-e83f661d6b0c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/fea355a1-7659-4472-99f9-e83f661d6b0c"
+    }
+   ]
+  },
+  {
+   "id": "3e3f079f8e60",
+   "title": "Marían Inver en Café Berlín",
+   "start": "2026-11-27T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1dc8a8a1b612c3f0e1d9c5018b14aa438343aee4.jpg?1790688954",
+   "url": "https://livepass.com.ar/events/marian-inver-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/marian-inver-en-cafe-berlin"
     }
    ]
   },
@@ -36830,6 +38864,28 @@
    ]
   },
   {
+   "id": "96161c6d03ad",
+   "title": "Dómine-González en CCNU",
+   "start": "2026-11-28T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/036966b57f58bf92ba7e046f39cda46f7989dc3d.png?1793627915",
+   "url": "https://livepass.com.ar/events/domine-gonzalez-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/domine-gonzalez-en-ccnu"
+    }
+   ]
+  },
+  {
    "id": "7ae522e24e53",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-11-28T20:00:00-03:00",
@@ -36848,6 +38904,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "de1496641203",
+   "title": "Fernando Cabrera - Hugo Fattoruso en Café Berlín",
+   "start": "2026-11-28T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/de57fcf6e6b0d96fb6d38d5bfe67ef15ec41fb8e.jpg?1786550038",
+   "url": "https://livepass.com.ar/events/fernando-cabrera-hugo-fattoruso-en-cafe-berlin",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/fernando-cabrera-hugo-fattoruso-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "87c92042bac6",
+   "title": "A PERFECT CIRCLE + PUSCIFER en Buenos Aires",
+   "start": "2026-11-28T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Gutenberg 350, Ciudad Autónoma de Buenos Aires, Argentina",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/95b28160fce0e2250cfb6c0d81895424958217d0.jpg?1778073738",
+   "url": "https://livepass.com.ar/events/a-perfect-circle",
+   "price": "$138.000",
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/a-perfect-circle"
     }
    ]
   },
@@ -36914,6 +39014,72 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/quetzal-cheb-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "698e174a88fd",
+   "title": "Maia Korosec & Victoria Scioli en CCNU",
+   "start": "2026-11-28T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/0f3c57c95636fb38553b7dc21819ebc0b347d808.png?1793627654",
+   "url": "https://livepass.com.ar/events/maia-korosec-victoria-scioli-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/maia-korosec-victoria-scioli-en-ccnu"
+    }
+   ]
+  },
+  {
+   "id": "03b52a8e58c9",
+   "title": "SOL LIEBESKIND | LA MUSICA DE DONNY HATHAWAY | JUANMA TORRES - RUSSELL KRANES - VALENTINO SAMPAOLI - FACUNDO GUEVARA - PABLO BIANCHETTO",
+   "start": "2026-11-28T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0wOS0yOVQyMi0wOC0wMi05MzVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/fa5fae10-bbf7-48fc-874c-0c7f285bba62",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/fa5fae10-bbf7-48fc-874c-0c7f285bba62"
+    }
+   ]
+  },
+  {
+   "id": "ff2afde21ccf",
+   "title": "Plan Divino en Café Berlín",
+   "start": "2026-11-28T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/33556c557eba6672104aa87d2e11c213771db477.jpg?1791900104",
+   "url": "https://livepass.com.ar/events/plan-divino-en-cafe-berlin-2026-11-28-23-00-00-0300",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/plan-divino-en-cafe-berlin-2026-11-28-23-00-00-0300"
     }
    ]
   },
@@ -37028,6 +39194,28 @@
    ]
   },
   {
+   "id": "44bdaa066d2f",
+   "title": "Getz & Gilberto | Cámara-Mastrostéfano-Melero-Rogantini-Iovino",
+   "start": "2026-11-29T13:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy01MS00NS00MjNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/033d9f4b-3b03-4f04-ac59-1b9da563310c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/033d9f4b-3b03-4f04-ac59-1b9da563310c"
+    }
+   ]
+  },
+  {
    "id": "16a47f54087e",
    "title": "HANSORI STAGE · EN C ART MEDIA",
    "start": "2026-11-29T13:00:00-03:00",
@@ -37072,6 +39260,28 @@
    ]
   },
   {
+   "id": "32f0f7794799",
+   "title": "Argentum Jazz Quinteto | Festival de Jazz Argentino | Juan Cruz de Urquiza, Ricardo Cavalli, Guillermo Romero, Jerónimo Carmona, Oscar Giunta",
+   "start": "2026-11-29T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNVQyMi00OS00OS01NjFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/fe8fe9bc-b56f-402f-bf31-d6f54b91c85b",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/fe8fe9bc-b56f-402f-bf31-d6f54b91c85b"
+    }
+   ]
+  },
+  {
    "id": "5e32d0f73e48",
    "title": "El Profe Borda presenta: Antes era mejor",
    "start": "2026-11-29T19:00:00-03:00",
@@ -37112,6 +39322,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "82760633d83e",
+   "title": "PELLICAN JAZZ DUO en CCNU",
+   "start": "2026-11-29T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/a1bcbb086db24ef4ebd35089ef409c294625c43a.png?1793628493",
+   "url": "https://livepass.com.ar/events/pellican-jazz-duo-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/pellican-jazz-duo-en-ccnu"
     }
    ]
   },
@@ -37182,6 +39414,28 @@
    ]
   },
   {
+   "id": "d89e90735930",
+   "title": "Fernando Cabrera - Hugo Fattoruso en Café Berlín",
+   "start": "2026-11-29T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/3e36bd5584b727548a3bfbbece6a72a1515475b7.jpg?1791910297",
+   "url": "https://livepass.com.ar/events/fernando-cabrera-hugo-fattoruso-en-cafe-berlin-2026-11-29-20-45-00-0300",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/fernando-cabrera-hugo-fattoruso-en-cafe-berlin-2026-11-29-20-45-00-0300"
+    }
+   ]
+  },
+  {
    "id": "e322416b749a",
    "title": "Ballet de San Petersburgo",
    "start": "2026-11-29T21:00:00-03:00",
@@ -37200,6 +39454,72 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/ballet-de-san-petersburgo/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "262ecbfd1ff8",
+   "title": "ED SHEERAN en Huracán",
+   "start": "2026-11-29T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Av. Amancio Alcorta 2544, Ciudad Autónoma de Buenos Aires, Argentina",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d0b7969532bac72a6b74505e764470dc078880bb.jpg?1793725101",
+   "url": "https://livepass.com.ar/events/ed-sheeran-en-huracan",
+   "price": "$143.750",
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/ed-sheeran-en-huracan"
+    }
+   ]
+  },
+  {
+   "id": "75f2ed3d1363",
+   "title": "Jenn Jade & Friends | Festival de Jazz Argentino | Jenn Jade junto a Carlos Michelini, Dante Picca, Sebastián de Urquiza y Fernando Martínez.",
+   "start": "2026-11-29T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNlQxNC0zNi00NC02OTFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/883398cf-e55d-49a0-9a05-2074945ec783",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/883398cf-e55d-49a0-9a05-2074945ec783"
+    }
+   ]
+  },
+  {
+   "id": "c14eca811b4f",
+   "title": "Lara Fichera & Andrés Martínez en CCNU",
+   "start": "2026-11-29T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Uriarte 1289",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/48bff5a819ac4ba79dd6d0a24a38ffa80f6ab27e.png?1793628134",
+   "url": "https://livepass.com.ar/events/lara-fichera-andres-martinez-en-ccnu",
+   "price": "$20.700",
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/lara-fichera-andres-martinez-en-ccnu"
     }
    ]
   },
@@ -37292,6 +39612,28 @@
    ]
   },
   {
+   "id": "426b75343a9e",
+   "title": "Emba - Noche de las voces en Café Berlín",
+   "start": "2026-11-30T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/10b2f802fbe933d102ebe4c6bd8355a1ecf9d98f.jpg?1792676522",
+   "url": "https://livepass.com.ar/events/emba-noche-de-las-voces-en-cafe-berlin",
+   "price": "$22.400",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/emba-noche-de-las-voces-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "c5aa92ba453f",
    "title": "BABYMETAL",
    "start": "2026-12-01T00:00:00-03:00",
@@ -37336,6 +39678,28 @@
    ]
   },
   {
+   "id": "16257861cad5",
+   "title": "Mariano Otero | Presentación de su disco \"Baladas rotas, Vol. 1\" | Con Patricio Carpossi, Juan Pablo Arredondo y Carto Brandán",
+   "start": "2026-12-01T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yNFQwMS0xMi0yNy0yNDBaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/9dcace42-4edd-4e9e-80f7-dccd7d40264a",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/9dcace42-4edd-4e9e-80f7-dccd7d40264a"
+    }
+   ]
+  },
+  {
    "id": "54d837be1cda",
    "title": "underscores B2B umru & Sophia Stel",
    "start": "2026-12-01T20:00:00-03:00",
@@ -37354,6 +39718,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/273ce73c-e9b3-4940-aca4-ce2e10e9ec96"
+    }
+   ]
+  },
+  {
+   "id": "6970cb3f583b",
+   "title": "Dennis Chambers & Christian Gálvez Quartet en Café Berlín",
+   "start": "2026-12-01T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/ed47783fff6ab46f1223f26f406bdf96f2347a72.jpg?1790285993",
+   "url": "https://livepass.com.ar/events/dennis-chambers-christian-galvez-quartet-en-cafe-berlin-2026-12-01-20-45-00-0300",
+   "price": "$123.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/dennis-chambers-christian-galvez-quartet-en-cafe-berlin-2026-12-01-20-45-00-0300"
     }
    ]
   },
@@ -37424,6 +39810,28 @@
    ]
   },
   {
+   "id": "35c655bd6426",
+   "title": "CROONERS | BA JAZZ EXPERIENCE | Sinatra · Nat King Cole · Dean Martin · Tony Bennett",
+   "start": "2026-12-02T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNlQxNS0wNy00My0yNzhaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/98da0dba-db2c-4a97-94a0-87b62bcbfb31",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/98da0dba-db2c-4a97-94a0-87b62bcbfb31"
+    }
+   ]
+  },
+  {
    "id": "e51d1036382d",
    "title": "Genesis presenta: Metrika, Cimarrón & más invitados",
    "start": "2026-12-02T20:00:00-03:00",
@@ -37464,6 +39872,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "e56fae823108",
+   "title": "Dennis Chambers & Christian Gálvez Quartet en Café Berlín",
+   "start": "2026-12-02T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d2338a47da70b9b1787ea8407e3a0efb32c31483.jpg?1787684087",
+   "url": "https://livepass.com.ar/events/dennis-chambers-christian-galvez-quartet-en-cafe-berlin",
+   "price": "$123.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/dennis-chambers-christian-galvez-quartet-en-cafe-berlin"
     }
    ]
   },
@@ -37556,6 +39986,28 @@
    ]
   },
   {
+   "id": "7590b3720a82",
+   "title": "SOULVILLE | Homenaje a Aretha Franklin",
+   "start": "2026-12-03T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQxOS0yNi00OS05OTRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/949b5005-8e42-4741-be75-f4602c0abb93",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/949b5005-8e42-4741-be75-f4602c0abb93"
+    }
+   ]
+  },
+  {
    "id": "d286a00e69f2",
    "title": "Zubipalloza",
    "start": "2026-12-03T20:00:00-03:00",
@@ -37600,6 +40052,28 @@
    ]
   },
   {
+   "id": "5d15e8ccd272",
+   "title": "Juan Falú & Clara Cantore en Café Berlín",
+   "start": "2026-12-03T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/de9fcc70e50de074e78a95d50d6831011e7603fd.jpg?1792080032",
+   "url": "https://livepass.com.ar/events/juan-falu-clara-cantore-en-cafe-berlin",
+   "price": "$39.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/juan-falu-clara-cantore-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "48aa851c70ac",
    "title": "ARKADIA PRESENTA: EL FIN DE LA NOSTALGIA",
    "start": "2026-12-03T21:00:00-03:00",
@@ -37640,6 +40114,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/6df5b858-43ad-4f36-8ccd-48acbf2ac440"
+    }
+   ]
+  },
+  {
+   "id": "75eb7728fded",
+   "title": "Daniel Raffo & Amigos en Café Berlín",
+   "start": "2026-12-03T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/13bca9ed30deeccad060626f13eebb09e8855a9c.jpg?1792592365",
+   "url": "https://livepass.com.ar/events/daniel-raffo-amigos-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/daniel-raffo-amigos-en-cafe-berlin"
     }
    ]
   },
@@ -37732,6 +40228,28 @@
    ]
   },
   {
+   "id": "55a5e948e89f",
+   "title": "MALOSETTI TRIO | BRUNO DI LORENZO | MATEO OTTONELLO",
+   "start": "2026-12-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNy0zMi00Ny0yNDNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/fb53cc68-2c11-4368-9f4e-f945901f7190",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/fb53cc68-2c11-4368-9f4e-f945901f7190"
+    }
+   ]
+  },
+  {
    "id": "fc36ff2d4073",
    "title": "Mi Amigo Invencible Regresa a Niceto Club",
    "start": "2026-12-04T20:00:00-03:00",
@@ -37776,6 +40294,28 @@
    ]
   },
   {
+   "id": "d1a66407b501",
+   "title": "GYT - Es por amor 40 años en Café Berlín",
+   "start": "2026-12-04T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/cfe1c6d541d0c3276e3e67727635ffb7624be429.jpg?1791577440",
+   "url": "https://livepass.com.ar/events/gyt-es-por-amor-40-anos-en-cafe-berlin",
+   "price": "$72.800",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/gyt-es-por-amor-40-anos-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "3992dd9dc552",
    "title": "Emanero",
    "start": "2026-12-04T21:00:00-03:00",
@@ -37816,6 +40356,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/lua-lucyd-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "0175a618226d",
+   "title": "Vértigo en Café Berlín",
+   "start": "2026-12-04T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/5bd9dd1caf9726d6d036c06e7d92d9af98de2849.jpg?1793201798",
+   "url": "https://livepass.com.ar/events/vertigo-en-cafe-berlin-2026-12-04-23-00-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/vertigo-en-cafe-berlin-2026-12-04-23-00-00-0300"
     }
    ]
   },
@@ -37974,6 +40536,28 @@
    ]
   },
   {
+   "id": "ba7803ad7808",
+   "title": "ADRIAN IAIES CUARTETO | Iaies / Caliva / Bayón / Brandán | Invitada especial: Milagros Caliva",
+   "start": "2026-12-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMVQxOC00OC0zMi00MTdaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/66c42be1-070e-470f-8134-ec7c4222ff9c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/66c42be1-070e-470f-8134-ec7c4222ff9c"
+    }
+   ]
+  },
+  {
    "id": "242853a4b03e",
    "title": "DESORDEN con OPINEL, ISLA TUCAN, JTF",
    "start": "2026-12-05T20:00:00-03:00",
@@ -38062,6 +40646,28 @@
    ]
   },
   {
+   "id": "f6055ac54ac1",
+   "title": "Diego Capusotto presenta Lado C en Café Berlín",
+   "start": "2026-12-05T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/4e642aee2132c11cbcefacb0554939600413fd7a.jpg?1789409946",
+   "url": "https://livepass.com.ar/events/diego-capusotto-presenta-lado-c-en-cafe-berlin",
+   "price": "$67.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/diego-capusotto-presenta-lado-c-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "8e7ea7a2a27b",
    "title": "Ciclo Void 5 DIC",
    "start": "2026-12-05T21:00:00-03:00",
@@ -38080,6 +40686,50 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/ciclo-void-5-dic-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "41d1e297fa0b",
+   "title": "Funky Torinos",
+   "start": "2026-12-05T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy0yOC0xMy0xODBaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/2f051ae9-b7f6-4328-bf22-e3bfc7133240",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/2f051ae9-b7f6-4328-bf22-e3bfc7133240"
+    }
+   ]
+  },
+  {
+   "id": "de1520dec255",
+   "title": "Luis Salinas en Café Berlín",
+   "start": "2026-12-05T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/cdefef96224083a0e0e30145d9ee0a90fb17e690.jpg?1792773778",
+   "url": "https://livepass.com.ar/events/luis-salinas-en-cafe-berlin-2026-12-05-23-00-00-0300",
+   "price": "$44.800",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/luis-salinas-en-cafe-berlin-2026-12-05-23-00-00-0300"
     }
    ]
   },
@@ -38238,6 +40888,50 @@
    ]
   },
   {
+   "id": "ea74006fbf18",
+   "title": "Más Música en Café Berlín",
+   "start": "2026-12-06T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/5b59ef0c4cbee3fef422c43186e6770dc721c543.jpg?1790887205",
+   "url": "https://livepass.com.ar/events/mas-musica-en-cafe-berlin-2026-12-06-20-00-00-0300",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/mas-musica-en-cafe-berlin-2026-12-06-20-00-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "0af0be11b4ed",
+   "title": "SOL FEIGE 102.3 CLASSICS DELUXE | 10° ANIVERSARIO EN BEBOP CLUB",
+   "start": "2026-12-06T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy01Ni0xNS03MTFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/f9bde290-5327-4019-8039-41d8a0787ec9",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/f9bde290-5327-4019-8039-41d8a0787ec9"
+    }
+   ]
+  },
+  {
    "id": "bb421226073c",
    "title": "YOKO CLERC",
    "start": "2026-12-06T22:00:00-03:00",
@@ -38348,6 +41042,28 @@
    ]
   },
   {
+   "id": "fdd18e9d1a7a",
+   "title": "Bebop Big Band | Lunes de diciembre",
+   "start": "2026-12-07T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wOFQyMy0xMy0wNS0yMDRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/e13a831d-67fa-4b0a-b870-b444d9dd785f",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/e13a831d-67fa-4b0a-b870-b444d9dd785f"
+    }
+   ]
+  },
+  {
    "id": "57ae4371948f",
    "title": "EL CLUB DE LA CUMBIA · ULTIMA DEL AÑO",
    "start": "2026-12-07T20:00:00-03:00",
@@ -38392,6 +41108,28 @@
    ]
   },
   {
+   "id": "6c43e9616b4b",
+   "title": "Martín Carrillo en Café Berlín",
+   "start": "2026-12-07T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/1728f9b9404dbfb13cb8f0eb821b1edfe7bf81ac.jpg?1789752979",
+   "url": "https://livepass.com.ar/events/martin-carrillo-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/martin-carrillo-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "545e43e5a3fd",
    "title": "Thofa SSJ",
    "start": "2026-12-07T21:00:00-03:00",
@@ -38410,6 +41148,50 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/thofa-ssj-en-humboldt-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "d90706513141",
+   "title": "Woddy Allen Night | Paris Jazz Club",
+   "start": "2026-12-07T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNVQwMC0wMS0wOS04MDRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/42861fa9-6cc2-4414-bdd6-5e20ea6b27a4",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/42861fa9-6cc2-4414-bdd6-5e20ea6b27a4"
+    }
+   ]
+  },
+  {
+   "id": "ca3b1c978a17",
+   "title": "Segunda Dosis Rock en Café Berlín",
+   "start": "2026-12-07T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f10056a04ec041a740a680ead69be72be1bdf450.jpg?1794406032",
+   "url": "https://livepass.com.ar/events/segunda-dosis-rock-en-cafe-berlin-2026-12-07-23-00-00-0300",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/segunda-dosis-rock-en-cafe-berlin-2026-12-07-23-00-00-0300"
     }
    ]
   },
@@ -38436,6 +41218,28 @@
    ]
   },
   {
+   "id": "72f3ac7e8244",
+   "title": "BAPTISTE HERBIN / MININO GARAY | PRESENTAN: LOS ARREGLADORES | EN EL MARCO DEL DIVINO MUSIC FESTIVAL",
+   "start": "2026-12-08T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xM1QyMi00My0xOC02ODJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/64b30a23-fe63-4610-bd45-c9205e6ff2cd",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/64b30a23-fe63-4610-bd45-c9205e6ff2cd"
+    }
+   ]
+  },
+  {
    "id": "8d48c60877a3",
    "title": "Shintaro Sakamoto",
    "start": "2026-12-08T20:00:00-03:00",
@@ -38454,6 +41258,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/shintaro-sakamoto-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "abdd4a893ef5",
+   "title": "Devotos del Rock en Café Berlín",
+   "start": "2026-12-08T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/5731318768aa0a46a16444a7d3695c4041cb94d6.png?1793294147",
+   "url": "https://livepass.com.ar/events/devotos-del-rock-en-cafe-berlin-2026-12-08",
+   "price": "$20.160",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/devotos-del-rock-en-cafe-berlin-2026-12-08"
     }
    ]
   },
@@ -38502,6 +41328,28 @@
    ]
   },
   {
+   "id": "878b5c4471b8",
+   "title": "Andrés Pellican Plays Jaco Pastorius | con Álvaro Torres, Facundo y Tomás Babjaczuk",
+   "start": "2026-12-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMVQxOC01Ni00Ni05NDJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/61856310-9936-45a1-b0ac-8b02d618597e",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/61856310-9936-45a1-b0ac-8b02d618597e"
+    }
+   ]
+  },
+  {
    "id": "b0713ad885a9",
    "title": "FELIPE BALDOMIR EN BUENOS AIRES",
    "start": "2026-12-09T20:00:00-03:00",
@@ -38542,6 +41390,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "0872426ae07a",
+   "title": "Latencia en Café Berlín",
+   "start": "2026-12-09T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/187eaa815c671935729caf2e343d9f7069c377a0.jpg?1789410292",
+   "url": "https://livepass.com.ar/events/latencia-en-cafe-berlin",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/latencia-en-cafe-berlin"
     }
    ]
   },
@@ -38656,6 +41526,28 @@
    ]
   },
   {
+   "id": "3f5ba2c92148",
+   "title": "TRIO ORIENTAL | Hugo Fattoruso - Daniel Maza - Fabian \"Sapo\" Miodownik",
+   "start": "2026-12-10T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy00My00My0yODVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/7029e92a-a0a4-4761-806e-d6fa23bb5e4c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/7029e92a-a0a4-4761-806e-d6fa23bb5e4c"
+    }
+   ]
+  },
+  {
    "id": "62cc847ec3e7",
    "title": "Nuevas Historias Argentinas",
    "start": "2026-12-10T20:30:00-03:00",
@@ -38674,6 +41566,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/nuevas-historias-argentinas/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "b5cb6dbe65b1",
+   "title": "Horacio Lavandera en Café Berlín",
+   "start": "2026-12-10T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f6df97bbd5ba5cf2bfede0c37cac0f35849f03ce.jpg?1789565950",
+   "url": "https://livepass.com.ar/events/horacio-lavandera-en-cafe-berlin-2026-12-10-20-45-00-0300",
+   "price": "$50.400",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/horacio-lavandera-en-cafe-berlin-2026-12-10-20-45-00-0300"
     }
    ]
   },
@@ -38788,6 +41702,28 @@
    ]
   },
   {
+   "id": "ca80000e2535",
+   "title": "Elizabeth Karayekov Big Band | Clásicos del pop y el rock a ritmo de swing!",
+   "start": "2026-12-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xM1QyMi01MS0zNi03NTBaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/2d04ff6d-59d1-4368-a1a8-23434f6b0882",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/2d04ff6d-59d1-4368-a1a8-23434f6b0882"
+    }
+   ]
+  },
+  {
    "id": "38344cc575f4",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-11T20:00:00-03:00",
@@ -38872,6 +41808,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/db3b5ae3-e9ce-42d0-9680-c28991be3643"
+    }
+   ]
+  },
+  {
+   "id": "9ac37e428381",
+   "title": "Memphis La Blusera en Café Berlín",
+   "start": "2026-12-11T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/c756653480a99ca32b14768924c8f84405806c29.jpg?1793810536",
+   "url": "https://livepass.com.ar/events/memphis-la-blusera-en-cafe-berlin-2026-12-11-20-45-00-0300",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/memphis-la-blusera-en-cafe-berlin-2026-12-11-20-45-00-0300"
     }
    ]
   },
@@ -39118,6 +42076,50 @@
    ]
   },
   {
+   "id": "4756570632ad",
+   "title": "El Reloj Zabala & Frezza en Café Berlín",
+   "start": "2026-12-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8f23d1e1b3f80482fedb2716233cd5b30f867797.jpg?1794405558",
+   "url": "https://livepass.com.ar/events/el-reloj-zabala-frezza-en-cafe-berlin-2026-12-12-20-00-00-0300",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/el-reloj-zabala-frezza-en-cafe-berlin-2026-12-12-20-00-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "8f2f78efd7c7",
+   "title": "Elis & Tom | BA Jazz Experience | x Josi Dias + Iván Buraschi",
+   "start": "2026-12-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNlQxNy0yMC0yNC04OTdaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/1545fdc9-acc1-44e5-92ec-9be03c3c9333",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/1545fdc9-acc1-44e5-92ec-9be03c3c9333"
+    }
+   ]
+  },
+  {
    "id": "63740d00cf05",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-12T20:00:00-03:00",
@@ -39228,6 +42230,72 @@
    ]
   },
   {
+   "id": "1d1f2c87b52c",
+   "title": "La Fundación de Funk | Prince Experience",
+   "start": "2026-12-12T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQxOS0wNS0xNC00ODRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/c6136f7f-8759-443d-8dd9-f83a7dbaee7a",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/c6136f7f-8759-443d-8dd9-f83a7dbaee7a"
+    }
+   ]
+  },
+  {
+   "id": "4095a9fba532",
+   "title": "Ariel “Zurdo” Araoz en Café Berlín",
+   "start": "2026-12-12T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/9b9f9de19c0b7a292b5f8ee5b12de1dee9b08fca.jpg?1792071593",
+   "url": "https://livepass.com.ar/events/ariel-zurdo-araoz-en-cafe-berlin-2026-12-12-23-00-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/ariel-zurdo-araoz-en-cafe-berlin-2026-12-12-23-00-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "6d5d86fc7442",
+   "title": "The Frank Sinatra Experiencie | Por Ivan Papetti & Band | Un recorrido por los hits más relevantes de \"La Voz\" del Jazz",
+   "start": "2026-12-13T13:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNS0yNy0wMy00MDZaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/8ed00efa-57f6-4c06-93e2-46046f29f4b6",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/8ed00efa-57f6-4c06-93e2-46046f29f4b6"
+    }
+   ]
+  },
+  {
    "id": "377d8b5a45ff",
    "title": "BANDALOS CHINOS · CHAU 2026",
    "start": "2026-12-13T19:00:00-03:00",
@@ -39294,6 +42362,28 @@
    ]
   },
   {
+   "id": "d57cbc1619cb",
+   "title": "Más Música en Café Berlín",
+   "start": "2026-12-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/5a3ce24d284178c068ec64bc84f7b369a70ed377.jpg?1789566372",
+   "url": "https://livepass.com.ar/events/mas-musica-en-cafe-berlin-2026-12-13-20-00-00-0300",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/mas-musica-en-cafe-berlin-2026-12-13-20-00-00-0300"
+    }
+   ]
+  },
+  {
    "id": "dc511b3b19b3",
    "title": "Gallo Criollo celebra su 1er año",
    "start": "2026-12-13T21:00:00-03:00",
@@ -39316,6 +42406,28 @@
    ]
   },
   {
+   "id": "c383de2baefd",
+   "title": "Leo Simavorian en Café Berlín",
+   "start": "2026-12-13T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d857d5d7608b88f4f2c13161d4354b392deb0d46.jpg?1793799081",
+   "url": "https://livepass.com.ar/events/leo-simavorian-en-cafe-berlin-2026-12-13-22-30-00-0300",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/leo-simavorian-en-cafe-berlin-2026-12-13-22-30-00-0300"
+    }
+   ]
+  },
+  {
    "id": "4289374978b5",
    "title": "Slayer",
    "start": "2026-12-14T00:00:00-03:00",
@@ -39334,6 +42446,28 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/bed6943f-6662-4aa2-a507-781a8d6a643c"
+    }
+   ]
+  },
+  {
+   "id": "264b7caa78d2",
+   "title": "Las Lobas & Astroarmonía en Café Berlín",
+   "start": "2026-12-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/563e977bcd7079606e3cacdb184e11c66bd6a183.jpg?1793107205",
+   "url": "https://livepass.com.ar/events/las-lobas-astroarmonia-en-cafe-berlin",
+   "price": "$25.760",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/las-lobas-astroarmonia-en-cafe-berlin"
     }
    ]
   },
@@ -39404,6 +42538,28 @@
    ]
   },
   {
+   "id": "42fc7f522489",
+   "title": "LEO GARCIA | CELEBRA MAR 25 AÑOS",
+   "start": "2026-12-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNlQxNy0xNS0xMy01NjBaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/a0f47330-cab5-46cd-987e-a99ab1336304",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/a0f47330-cab5-46cd-987e-a99ab1336304"
+    }
+   ]
+  },
+  {
    "id": "f1569ac4bbfb",
    "title": "Ballet Hispania",
    "start": "2026-12-16T19:00:00-03:00",
@@ -39422,6 +42578,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/ballet-hispania/teatro-santa-maria"
+    }
+   ]
+  },
+  {
+   "id": "c9ea9a51048b",
+   "title": "Mel Muñiz | Edición Deluxe",
+   "start": "2026-12-16T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yOVQyMS0wOS0xMC04NDNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/cd2849c0-4c48-4d23-8659-63d65f19e088",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/cd2849c0-4c48-4d23-8659-63d65f19e088"
     }
    ]
   },
@@ -39492,6 +42670,28 @@
    ]
   },
   {
+   "id": "fea40a795e47",
+   "title": "James Carter Quintet | James Carter - Mariano Loiacono - Ernesto Jodos - Santiago Lamisovski - Tommy Campbell",
+   "start": "2026-12-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC0zMi0zMS02OTlaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/09cd3b6f-d080-40dc-932c-373e456ad700",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/09cd3b6f-d080-40dc-932c-373e456ad700"
+    }
+   ]
+  },
+  {
    "id": "af8d7659c272",
    "title": "OCTAFONIC",
    "start": "2026-12-17T20:00:00-03:00",
@@ -39510,6 +42710,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/octafonic-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "a6207680e0d3",
+   "title": "Sobredosis de Soda - íntimo y a la carta Vol 2 en Café Berlín",
+   "start": "2026-12-17T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/e4ef6d8a1d51ddbcaf66a0735a5d0e0c6cb78a3d.jpg?1790689179",
+   "url": "https://livepass.com.ar/events/sobredosis-de-soda-intimo-y-a-la-carta-vol-2-en-cafe-berlin",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/sobredosis-de-soda-intimo-y-a-la-carta-vol-2-en-cafe-berlin"
     }
    ]
   },
@@ -39624,6 +42846,28 @@
    ]
   },
   {
+   "id": "1bab91cc7496",
+   "title": "Johnny Tedesco en Café Berlín",
+   "start": "2026-12-18T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/646b00eae34c4e972f89955b4ab47b491c01ac1e.jpg?1789498827",
+   "url": "https://livepass.com.ar/events/johnny-tedesco-en-cafe-berlin-18-12-26",
+   "price": "$44.800",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/johnny-tedesco-en-cafe-berlin-18-12-26"
+    }
+   ]
+  },
+  {
    "id": "d18a7d1386d6",
    "title": "ALEX ANWANDTER EN DESEO CLUB",
    "start": "2026-12-18T21:00:00-03:00",
@@ -39712,6 +42956,28 @@
    ]
   },
   {
+   "id": "1c4c580e4444",
+   "title": "Klan en Café Berlín",
+   "start": "2026-12-18T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/31c1195960d593242ac6a193f11ece0b6af0ffae.jpg?1793798804",
+   "url": "https://livepass.com.ar/events/klan-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/klan-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "f905af8235be",
    "title": "SIX SEX · PRESENTA ULTRA",
    "start": "2026-12-19T19:00:00-03:00",
@@ -39756,6 +43022,28 @@
    ]
   },
   {
+   "id": "1ce8f55c8d12",
+   "title": "SADE | Sol Feige, Lolita Fiamma & Invitados Deluxe",
+   "start": "2026-12-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wNFQyMy00OC0xNC0xMzFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/5c459cb5-11b5-4d9e-91fc-93f6ead961d1",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/5c459cb5-11b5-4d9e-91fc-93f6ead961d1"
+    }
+   ]
+  },
+  {
    "id": "9019c411325c",
    "title": "Sara Hebe Presenta Negocionismo en Bs As",
    "start": "2026-12-19T20:00:00-03:00",
@@ -39796,6 +43084,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/57e6a8b8-26b7-4871-a92f-70dc6b67827d"
+    }
+   ]
+  },
+  {
+   "id": "29a7c75c1cbe",
+   "title": "The End en Café Berlín",
+   "start": "2026-12-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/34af115be7a39c4b9f2e12d4c08ce21823e49f4f.jpg?1793736436",
+   "url": "https://livepass.com.ar/events/the-end-en-cafe-berlin-2026-12-19-20-00-00-0300",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/the-end-en-cafe-berlin-2026-12-19-20-00-00-0300"
     }
    ]
   },
@@ -39888,6 +43198,50 @@
    ]
   },
   {
+   "id": "859739b553a3",
+   "title": "La impertinente señorita Orquesta | \"Contigo a la distance\" | Un océano no alcanza para separarnos",
+   "start": "2026-12-20T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQxOS0zNS01Mi0xNzFaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/e8951adb-ca15-4fd9-8a55-802af96d602e",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/e8951adb-ca15-4fd9-8a55-802af96d602e"
+    }
+   ]
+  },
+  {
+   "id": "ade998e0e27f",
+   "title": "JAF en Café Berlín",
+   "start": "2026-12-20T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f1d9e2dded631e550ad33a8f0e605e25f0d27368.jpg?1793113009",
+   "url": "https://livepass.com.ar/events/jaf-en-cafe-berlin-2026-12-20-20-30-00-0300",
+   "price": "$39.200",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/jaf-en-cafe-berlin-2026-12-20-20-30-00-0300"
+    }
+   ]
+  },
+  {
    "id": "215dc8dc9cad",
    "title": "DISNEY",
    "start": "2026-12-22T00:00:00-03:00",
@@ -39906,6 +43260,72 @@
      "id": "movistar-arena",
      "name": "Movistar Arena",
      "url": "https://www.movistararena.com.ar/show/1a6f8aec-ffcc-45f6-bed1-7558e02ca206"
+    }
+   ]
+  },
+  {
+   "id": "4b16aab66ecd",
+   "title": "Gingersoul Soul & Funk | Del soul clásico al funk contemporáneo",
+   "start": "2026-12-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wOFQyMy0wNi00OS03ODJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/90c24015-eb56-4d76-a0ec-b4c612583750",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/90c24015-eb56-4d76-a0ec-b4c612583750"
+    }
+   ]
+  },
+  {
+   "id": "7ead4f4314ab",
+   "title": "Miguel Botafogo en Café Berlín",
+   "start": "2026-12-22T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/7f6c954faa0530a54149f6db6ae7e8806e4b7d8c.jpg?1793973980",
+   "url": "https://livepass.com.ar/events/miguel-botafogo-en-cafe-berlin-2026-12-22-20-45-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/miguel-botafogo-en-cafe-berlin-2026-12-22-20-45-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "6f7505b4303f",
+   "title": "Sergio Pangaro & Baccarat en Café Berlín",
+   "start": "2026-12-23T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/2967021f00b69627453f53088a835509297a476e.jpg?1793886767",
+   "url": "https://livepass.com.ar/events/sergio-pangaro-baccarat-en-cafe-berlin-2026-12-23-20-45-00-0300",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/sergio-pangaro-baccarat-en-cafe-berlin-2026-12-23-20-45-00-0300"
     }
    ]
   },
@@ -39950,6 +43370,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/self-titled-sunset-festival-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "dbabc7eb45a1",
+   "title": "Trio sin tiempo | Genovese - Otero - Verdinelli | New York Sessions, Vol. 2",
+   "start": "2026-12-26T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yOVQyMS0wOC00Ni03MzVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/9385270d-8dcd-4e2a-84dc-a8b7fa152d21",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/9385270d-8dcd-4e2a-84dc-a8b7fa152d21"
     }
    ]
   },
@@ -40064,6 +43506,28 @@
    ]
   },
   {
+   "id": "6be0a82077de",
+   "title": "BURIN/DE URQUIZA - GIUNTA - DE URQUIZA | JAVIER BURIN, JUAN CRUZ DE URQUIZA, OSCAR GIUNTA Y SEBASTIÁN DE URQZUIA",
+   "start": "2026-12-30T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yN1QxNS0zNi00MC00MjJaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/13c9a4a1-067c-470e-a03c-96ad564d3f24",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/13c9a4a1-067c-470e-a03c-96ad564d3f24"
+    }
+   ]
+  },
+  {
    "id": "109f9d55a662",
    "title": "La revista del Cervantes",
    "start": "2026-12-30T21:00:00-03:00",
@@ -40104,6 +43568,50 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/los-charros/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "c589b66820eb",
+   "title": "The Ella Fitzgerald Songbook | Barbie Martinez + Román Ostrowski Trío | Con Ezequiel Dutil y Bruno Varela",
+   "start": "2027-01-06T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wOFQyMy0xOS01My0xNDNaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/87c6bc30-7731-4ebf-a1d6-4110d3cf09c2",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/87c6bc30-7731-4ebf-a1d6-4110d3cf09c2"
+    }
+   ]
+  },
+  {
+   "id": "9c8083995b97",
+   "title": "Deborah Dixon & Luciana Palacios | JUNTAS | JUAN PANCINO - NACHO PORQUERES - JUANITO MORO - ADRIAN PIRO - SILVIO MARZOLINI",
+   "start": "2027-01-08T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMVQyMC01MS0zMS01NTVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/348a49a7-a036-4972-a2a5-485c5a9eb7be",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/348a49a7-a036-4972-a2a5-485c5a9eb7be"
     }
    ]
   }
