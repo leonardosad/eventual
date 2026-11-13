@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-13T10:14:41.248Z",
+ "generatedAt": "2026-11-13T21:58:54.825Z",
  "sources": [
   {
    "id": "alternativa-teatral",
    "name": "Alternativa Teatral",
-   "count": 1674,
+   "count": 1673,
    "ok": true,
    "note": null,
    "errors": []
@@ -20,7 +20,7 @@
   {
    "id": "ticketek",
    "name": "Ticketek",
-   "count": 158,
+   "count": 160,
    "ok": true,
    "note": null,
    "errors": []
@@ -28,7 +28,7 @@
   {
    "id": "complejo-teatral",
    "name": "Complejo Teatral de Buenos Aires",
-   "count": 157,
+   "count": 159,
    "ok": true,
    "note": null,
    "errors": []
@@ -44,7 +44,7 @@
   {
    "id": "konex",
    "name": "Ciudad Cultural Konex",
-   "count": 18,
+   "count": 19,
    "ok": true,
    "note": null,
    "errors": []
@@ -52,7 +52,7 @@
   {
    "id": "c-art-media",
    "name": "C Art Media",
-   "count": 31,
+   "count": 33,
    "ok": true,
    "note": null,
    "errors": []
@@ -60,7 +60,7 @@
   {
    "id": "niceto",
    "name": "Niceto Club",
-   "count": 104,
+   "count": 110,
    "ok": true,
    "note": null,
    "errors": []
@@ -100,7 +100,7 @@
   {
    "id": "bebop",
    "name": "Bebop Club",
-   "count": 54,
+   "count": 53,
    "ok": true,
    "note": null,
    "errors": []
@@ -116,7 +116,7 @@
   {
    "id": "livepass",
    "name": "Livepass",
-   "count": 84,
+   "count": 85,
    "ok": true,
    "note": null,
    "errors": []
@@ -124,7 +124,7 @@
   {
    "id": "tuentrada",
    "name": "TuEntrada",
-   "count": 7,
+   "count": 6,
    "ok": true,
    "note": null,
    "errors": []
@@ -207,50 +207,6 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    }
-   ]
-  },
-  {
-   "id": "a74031187b04",
-   "title": "VISITÁ EL MUSEO DEL AGUA",
-   "start": "2026-11-13T00:00:00-03:00",
-   "end": "2026-12-29T23:59:00-03:00",
-   "whenText": "Del 13-11-2026 al 29-12-2026",
-   "place": "Palacio De Las Aguas Corrientes",
-   "address": null,
-   "description": null,
-   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-el-museo-del-agua/visita-el-museo-del-agua-image-main-1765384530.png",
-   "url": "https://www.tuentrada.com/museodelagua",
-   "price": null,
-   "free": false,
-   "category": "Arte y muestras",
-   "sources": [
-    {
-     "id": "tuentrada",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/museodelagua"
-    }
-   ]
-  },
-  {
-   "id": "bc78a563ae68",
-   "title": "VISITA GUIADA AMIA",
-   "start": "2026-11-13T00:00:00-03:00",
-   "end": "2027-12-30T23:59:00-03:00",
-   "whenText": "Del 13-11-2026 al 30-12-2027",
-   "place": "Amia - Asociación Mutual Israelita Argentina",
-   "address": null,
-   "description": null,
-   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-guiada-amia/visita-guiada-amia-image-main-1764706577.png",
-   "url": "https://www.tuentrada.com/visita-guiada-amia",
-   "price": null,
-   "free": false,
-   "category": "Otros",
-   "sources": [
-    {
-     "id": "tuentrada",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/visita-guiada-amia"
     }
    ]
   },
@@ -483,7 +439,7 @@
    "place": "TEATRO REGIO",
    "address": "Avda. Córdoba 6056, Chacarita",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/00/000324500.jpg",
    "url": "https://www.alternativateatral.com/obra104376-a-cielo-abierto",
    "price": null,
    "free": false,
@@ -3578,7 +3534,7 @@
    "place": "ÍTACA, COMPLEJO TEATRAL",
    "address": "Humahuaca 4027, Almagro",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000273598.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/94/000273594.jpg",
    "url": "https://www.alternativateatral.com/obra56257-queres-ser-feliz-o-tener-poder",
    "price": null,
    "free": false,
@@ -4301,6 +4257,50 @@
    ]
   },
   {
+   "id": "bc261cf2945d",
+   "title": "Big Blues Ensamble",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "COLEGIO DE ESCRIBANOS",
+   "address": "Av. Callao 1542, Recoleta",
+   "description": "Blues",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104334-big-blues-ensamble",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104334-big-blues-ensamble"
+    }
+   ]
+  },
+  {
+   "id": "ecd60aeb4710",
+   "title": "Canciones inmortales",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": "00:00 y 22:00 y 23:00 h",
+   "place": "MUSEO CASA CARLOS GARDEL",
+   "address": "Jean Jaurés 735, Balvanera",
+   "description": "Tango",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales"
+    }
+   ]
+  },
+  {
    "id": "a7286bddb73e",
    "title": "EL LOCO DE LA KALIMA",
    "start": "2026-11-14T00:00:00-03:00",
@@ -4341,6 +4341,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/el-san-martin-en-los-80-refugio-resistencia-y-libertad/"
+    }
+   ]
+  },
+  {
+   "id": "445bd737cc0e",
+   "title": "FESTIVAL EL TORNILLO",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 28 de noviembre, 14 a 19 horas",
+   "place": "Teatro de la Ribera",
+   "address": null,
+   "description": null,
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/11/image_El-Tornillo-1.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/festival-el-tornillo-2/",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/festival-el-tornillo-2/"
     }
    ]
   },
@@ -4455,6 +4477,28 @@
    ]
   },
   {
+   "id": "fa3b1a8bfb34",
+   "title": "Kevin Pereyra, el ángel de la chacarera",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "MUSEO DE ARTE POPULAR JOSÉ HERNÁNDEZ",
+   "address": "Av. Libertador 2373, Palermo",
+   "description": "Folklore",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104313-kevin-pereyra-el-angel-de-la-chacarera",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104313-kevin-pereyra-el-angel-de-la-chacarera"
+    }
+   ]
+  },
+  {
    "id": "0edee083b260",
    "title": "LA ISLA EL TEATRO SAN MARTÍN EN DICTADURAS",
    "start": "2026-11-14T00:00:00-03:00",
@@ -4543,6 +4587,28 @@
    ]
   },
   {
+   "id": "e610efedab84",
+   "title": "Lucas Gálvez",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL DE JUBILADOS NUESTRA SEÑORA DE LOS BUENOS AIRES",
+   "address": "Paysandú 1221, Caballito",
+   "description": null,
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104285-lucas-galvez",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104285-lucas-galvez"
+    }
+   ]
+  },
+  {
    "id": "5b0252314a30",
    "title": "Museo de la subversión",
    "start": "2026-11-14T00:00:00-03:00",
@@ -4587,6 +4653,72 @@
    ]
   },
   {
+   "id": "92b76ef0fba5",
+   "title": "Odisea Tango XXII",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "CENTRO CULTURAL BORGES",
+   "address": "Viamonte 525, San Nicolas",
+   "description": "Tango",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104284-odisea-tango-xxii",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104284-odisea-tango-xxii"
+    }
+   ]
+  },
+  {
+   "id": "a8b9c93a8664",
+   "title": "Orquesta Porteña de Mandolinas",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": "00:00 y 01:00 y 23:00 h",
+   "place": "MUSEO DE ARTE HISPANOAMERICANO ISAAC FERNÁNDEZ BLANCO",
+   "address": "Suipacha 1422, Retiro",
+   "description": "Popular",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas"
+    }
+   ]
+  },
+  {
+   "id": "a7869d6e90d3",
+   "title": "Tangos en vivo: Marcela Sinclair y Alejandro Montaldo",
+   "start": "2026-11-14T00:00:00-03:00",
+   "end": null,
+   "whenText": "00:00 y 23:00 h",
+   "place": "MUSEO EDUARDO SIVORI",
+   "address": "Av. Infanta Isabel 555 (frente al Rosedal), Palermo",
+   "description": "Tango",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo"
+    }
+   ]
+  },
+  {
    "id": "794f6dda7f5a",
    "title": "Sex, viví tu experiencia",
    "start": "2026-11-14T00:30:00-03:00",
@@ -4605,6 +4737,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra65140-sex-vivi-tu-experiencia"
+    }
+   ]
+  },
+  {
+   "id": "0839d751a24d",
+   "title": "Una noche en el museo (Museo Saavedra)",
+   "start": "2026-11-14T00:30:00-03:00",
+   "end": null,
+   "whenText": "00:30 y 19:30 y 21:00 h",
+   "place": "MUSEO HISTÓRICO CORNELIO SAAVEDRA",
+   "address": "Crisólogo Larralde 6309, Villa Urquiza",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra"
     }
    ]
   },
@@ -5023,6 +5177,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103140-ensayo-sobre-la-vejez"
+    }
+   ]
+  },
+  {
+   "id": "85eb465d2610",
+   "title": "FLUENCIAS - El viaje del agua - MESTURA",
+   "start": "2026-11-14T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "EL SÁBATO ESPACIO CULTURAL ECONÓMICAS UBA",
+   "address": "José Evaristo Uriburu 763, Balvanera",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/66/000324466.jpg",
+   "url": "https://www.alternativateatral.com/obra104425-fluencias-el-viaje-del-agua-mestura",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104425-fluencias-el-viaje-del-agua-mestura"
     }
    ]
   },
@@ -5705,28 +5881,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103209-senderos"
-    }
-   ]
-  },
-  {
-   "id": "666af43e0622",
-   "title": "Sexualizarte",
-   "start": "2026-11-14T18:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "BAROKA BAR",
-   "address": "Costa Rica 5551, Palermo",
-   "description": "Humor · Stand up",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/06/000301706.jpg",
-   "url": "https://www.alternativateatral.com/obra96572-sexualizarte",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra96572-sexualizarte"
     }
    ]
   },
@@ -6853,28 +7007,6 @@
    ]
   },
   {
-   "id": "0839d751a24d",
-   "title": "Una noche en el museo (Museo Saavedra)",
-   "start": "2026-11-14T19:30:00-03:00",
-   "end": null,
-   "whenText": "19:30 y 21:00 h",
-   "place": "MUSEO HISTÓRICO CORNELIO SAAVEDRA",
-   "address": "Crisólogo Larralde 6309, Villa Urquiza",
-   "description": "Teatro",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra"
-    }
-   ]
-  },
-  {
    "id": "40c9a2d3b394",
    "title": "Hay un desfile de extrañas figuras",
    "start": "2026-11-14T19:45:00-03:00",
@@ -6927,7 +7059,7 @@
    "place": "TEATRO REGIO",
    "address": "Avda. Córdoba 6056, Chacarita",
    "description": "Teatro",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/iGrl4t5JqkacKl2MhwKR.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/00/000324500.jpg",
    "url": "https://www.alternativateatral.com/obra104376-a-cielo-abierto",
    "price": null,
    "free": false,
@@ -11141,28 +11273,6 @@
    ]
   },
   {
-   "id": "ecd60aeb4710",
-   "title": "Canciones inmortales",
-   "start": "2026-11-14T22:00:00-03:00",
-   "end": null,
-   "whenText": "22:00 y 23:00 h",
-   "place": "MUSEO CASA CARLOS GARDEL",
-   "address": "Jean Jaurés 735, Balvanera",
-   "description": "Tango",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales"
-    }
-   ]
-  },
-  {
    "id": "8ac001346b0c",
    "title": "Coro del Banco Ciudad",
    "start": "2026-11-14T22:00:00-03:00",
@@ -11977,28 +12087,6 @@
    ]
   },
   {
-   "id": "defc782b5cf1",
-   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
-   "start": "2026-11-14T22:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Bebop Club",
-   "address": "Moreno 364, San Telmo",
-   "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
-   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "bebop",
-     "name": "Bebop Club",
-     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
-    }
-   ]
-  },
-  {
    "id": "3d07c97019b0",
    "title": "La casa Ache",
    "start": "2026-11-14T22:30:00-03:00",
@@ -12593,28 +12681,6 @@
    ]
   },
   {
-   "id": "a8b9c93a8664",
-   "title": "Orquesta Porteña de Mandolinas",
-   "start": "2026-11-14T23:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO DE ARTE HISPANOAMERICANO ISAAC FERNÁNDEZ BLANCO",
-   "address": "Suipacha 1422, Retiro",
-   "description": "Popular",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas"
-    }
-   ]
-  },
-  {
    "id": "86716935aa12",
    "title": "Pantaleone",
    "start": "2026-11-14T23:00:00-03:00",
@@ -12655,28 +12721,6 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/see-saw-14-nov-en-niceto-bar"
-    }
-   ]
-  },
-  {
-   "id": "a7869d6e90d3",
-   "title": "Tangos en vivo: Marcela Sinclair y Alejandro Montaldo",
-   "start": "2026-11-14T23:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO EDUARDO SIVORI",
-   "address": "Av. Infanta Isabel 555 (frente al Rosedal), Palermo",
-   "description": "Tango",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo"
     }
    ]
   },
@@ -12967,36 +13011,14 @@
    ]
   },
   {
-   "id": "8cf9954d1490",
-   "title": "Big Blues Ensamble",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "COLEGIO DE ESCRIBANOS",
-   "address": "Av. Callao 1542, Recoleta",
-   "description": "Blues",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104334-big-blues-ensamble",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104334-big-blues-ensamble"
-    }
-   ]
-  },
-  {
    "id": "7adf00ee63bb",
    "title": "CADA 30 HORAS",
    "start": "2026-11-15T00:00:00-03:00",
    "end": null,
-   "whenText": "Domingo 15 de noviembre, 18 h",
+   "whenText": "Domingo 15 de noviembre, 17 horas",
    "place": "Cine Teatro El Plata",
    "address": null,
-   "description": "cine · Única función: 15 de noviembre Entrada gratuita",
+   "description": "cine",
    "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-12-at-20.05.14.jpeg",
    "url": "https://complejoteatral.gob.ar/produccion/cada-30-horas/",
    "price": null,
@@ -13007,28 +13029,6 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/cada-30-horas/"
-    }
-   ]
-  },
-  {
-   "id": "c73a354af100",
-   "title": "Canciones inmortales",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO CASA CARLOS GARDEL",
-   "address": "Jean Jaurés 735, Balvanera",
-   "description": "Tango",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104309-canciones-inmortales"
     }
    ]
   },
@@ -13187,28 +13187,6 @@
    ]
   },
   {
-   "id": "df42935e4827",
-   "title": "Kevin Pereyra, el ángel de la chacarera",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO DE ARTE POPULAR JOSÉ HERNÁNDEZ",
-   "address": "Av. Libertador 2373, Palermo",
-   "description": "Folklore",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104313-kevin-pereyra-el-angel-de-la-chacarera",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104313-kevin-pereyra-el-angel-de-la-chacarera"
-    }
-   ]
-  },
-  {
    "id": "5712e914b6fc",
    "title": "LA POESÍA DE LO COTIDIANO",
    "start": "2026-11-15T00:00:00-03:00",
@@ -13253,28 +13231,6 @@
    ]
   },
   {
-   "id": "836eb204666c",
-   "title": "Lucas Gálvez",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CENTRO CULTURAL DE JUBILADOS NUESTRA SEÑORA DE LOS BUENOS AIRES",
-   "address": "Paysandú 1221, Caballito",
-   "description": null,
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104285-lucas-galvez",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104285-lucas-galvez"
-    }
-   ]
-  },
-  {
    "id": "f2a926227939",
    "title": "Museo de la subversión",
    "start": "2026-11-15T00:00:00-03:00",
@@ -13293,94 +13249,6 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/museo-de-la-subversion/"
-    }
-   ]
-  },
-  {
-   "id": "39a663a6b633",
-   "title": "Odisea Tango XXII",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CENTRO CULTURAL BORGES",
-   "address": "Viamonte 525, San Nicolas",
-   "description": "Tango",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104284-odisea-tango-xxii",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104284-odisea-tango-xxii"
-    }
-   ]
-  },
-  {
-   "id": "2d2b3b82f595",
-   "title": "Orquesta Porteña de Mandolinas",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": "00:00 y 01:00 h",
-   "place": "MUSEO DE ARTE HISPANOAMERICANO ISAAC FERNÁNDEZ BLANCO",
-   "address": "Suipacha 1422, Retiro",
-   "description": "Popular",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104329-orquesta-portena-de-mandolinas"
-    }
-   ]
-  },
-  {
-   "id": "806f9333f64d",
-   "title": "Tangos en vivo: Marcela Sinclair y Alejandro Montaldo",
-   "start": "2026-11-15T00:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO EDUARDO SIVORI",
-   "address": "Av. Infanta Isabel 555 (frente al Rosedal), Palermo",
-   "description": "Tango",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104346-tangos-en-vivo-marcela-sinclair-y-alejandro-montaldo"
-    }
-   ]
-  },
-  {
-   "id": "2073ebaab66a",
-   "title": "Una noche en el museo (Museo Saavedra)",
-   "start": "2026-11-15T00:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO HISTÓRICO CORNELIO SAAVEDRA",
-   "address": "Crisólogo Larralde 6309, Villa Urquiza",
-   "description": "Teatro",
-   "image": null,
-   "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra104249-una-noche-en-el-museo-museo-saavedra"
     }
    ]
   },
@@ -15933,7 +15801,7 @@
    "place": "TEATRO REGIO",
    "address": "Avda. Córdoba 6056, Chacarita",
    "description": "Teatro",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/09/iGrl4t5JqkacKl2MhwKR.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/00/000324500.jpg",
    "url": "https://www.alternativateatral.com/obra104376-a-cielo-abierto",
    "price": null,
    "free": false,
@@ -17695,6 +17563,28 @@
    ]
   },
   {
+   "id": "cc8f7e796ba9",
+   "title": "VISITÁ EL MUSEO DEL AGUA",
+   "start": "2026-11-16T00:00:00-03:00",
+   "end": "2026-12-29T23:59:00-03:00",
+   "whenText": "Del 16-11-2026 al 29-12-2026",
+   "place": "Palacio De Las Aguas Corrientes",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-el-museo-del-agua/visita-el-museo-del-agua-image-main-1765384530.png",
+   "url": "https://www.tuentrada.com/museodelagua",
+   "price": null,
+   "free": false,
+   "category": "Arte y muestras",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/museodelagua"
+    }
+   ]
+  },
+  {
    "id": "2d525eef4230",
    "title": "Las adoro",
    "start": "2026-11-16T19:00:00-03:00",
@@ -18307,6 +18197,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra101890-los-malcasados"
+    }
+   ]
+  },
+  {
+   "id": "54ea3b6b7a0d",
+   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
+   "start": "2026-11-16T22:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
     }
    ]
   },
@@ -19918,7 +19830,7 @@
    "place": "TEATRO NACIONAL CERVANTES",
    "address": "Libertad 815, San Nicolas",
    "description": "Otros géneros",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/07/000324507.jpg",
    "url": "https://www.alternativateatral.com/obra104372-concierto-musica-contemporanea-v",
    "price": null,
    "free": false,
@@ -23306,6 +23218,28 @@
    ]
   },
   {
+   "id": "b5dcf764306a",
+   "title": "ISLA DE CARAS presenta cosquilla",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Deseo Club",
+   "address": null,
+   "description": null,
+   "image": "https://assetsv2.enigma.art/enigmatickets/IsladeCaras2_desktop.jpg",
+   "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302"
+    }
+   ]
+  },
+  {
    "id": "1d953a0910c4",
    "title": "La educación sentimental",
    "start": "2026-11-20T20:00:00-03:00",
@@ -25450,28 +25384,6 @@
    ]
   },
   {
-   "id": "b5dcf764306a",
-   "title": "ISLA DE CARAS presenta cosquilla",
-   "start": "2026-11-20T21:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Deseo Club",
-   "address": null,
-   "description": null,
-   "image": "https://assetsv2.enigma.art/enigmatickets/IsladeCaras2_desktop.jpg",
-   "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "enigma",
-     "name": "Enigma Tickets",
-     "url": "https://www.enigmatickets.com/event/35d483d9-5c5d-4e71-937f-f9f8a59bd302"
-    }
-   ]
-  },
-  {
    "id": "063a7c5607ab",
    "title": "La Catalina del Riachuelo presenta La Baraja Manda",
    "start": "2026-11-20T21:30:00-03:00",
@@ -26008,7 +25920,7 @@
    "place": "ÍTACA, COMPLEJO TEATRAL",
    "address": "Humahuaca 4027, Almagro",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000273598.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/94/000273594.jpg",
    "url": "https://www.alternativateatral.com/obra56257-queres-ser-feliz-o-tener-poder",
    "price": null,
    "free": false,
@@ -26502,6 +26414,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/el-tren-fluvial-2/"
+    }
+   ]
+  },
+  {
+   "id": "6914cc26c997",
+   "title": "FESTIVAL EL TORNILLO",
+   "start": "2026-11-21T00:00:00-03:00",
+   "end": null,
+   "whenText": "Sábado 28 de noviembre, 14 a 19 horas",
+   "place": "Teatro de la Ribera",
+   "address": null,
+   "description": null,
+   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/11/image_El-Tornillo-1.jpg",
+   "url": "https://complejoteatral.gob.ar/produccion/festival-el-tornillo-2/",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "complejo-teatral",
+     "name": "Complejo Teatral de Buenos Aires",
+     "url": "https://complejoteatral.gob.ar/produccion/festival-el-tornillo-2/"
     }
    ]
   },
@@ -27240,7 +27174,7 @@
    "place": "ÍTACA, COMPLEJO TEATRAL",
    "address": "Humahuaca 4027, Almagro",
    "description": "Teatro",
-   "image": null,
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/90/000324490.jpg",
    "url": "https://www.alternativateatral.com/obra104195-cuidado-brujas",
    "price": null,
    "free": false,
@@ -32009,6 +31943,28 @@
    ]
   },
   {
+   "id": "d5babed5512b",
+   "title": "SELF-TITLED FASHION POP-UP [AFTERPARTY]",
+   "start": "2026-11-21T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794574826379-lg.jpg",
+   "url": "https://venti.live/evento/self-titled-fashion-pop-up-afterparty-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/self-titled-fashion-pop-up-afterparty-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "78f24b9ceaf5",
    "title": "Guillotina 21 de nov a las 23.15- Hasta que el clásico + No incluye beso + Sesión final",
    "start": "2026-11-21T23:15:00-03:00",
@@ -32699,7 +32655,7 @@
    "place": "EL VITRAL",
    "address": "Rodriguez Peña 344, San Nicolas",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000307751.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/67/000324467.jpg",
    "url": "https://www.alternativateatral.com/obra98534-tarantonga",
    "price": null,
    "free": false,
@@ -34620,6 +34576,28 @@
    ]
   },
   {
+   "id": "031dafaad737",
+   "title": "Monólogos enrarecidos",
+   "start": "2026-11-22T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ENTRETELONES - ESPACIO TEATRAL",
+   "address": "Enrique Martinez 1427, Colegiales",
+   "description": "Teatro",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/19/000324519.jpg",
+   "url": "https://www.alternativateatral.com/obra104421-monologos-enrarecidos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104421-monologos-enrarecidos"
+    }
+   ]
+  },
+  {
    "id": "4ff9f79d5d96",
    "title": "Ricky Behrens más",
    "start": "2026-11-22T19:00:00-03:00",
@@ -35369,28 +35347,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103383-historias-de-alcoba"
-    }
-   ]
-  },
-  {
-   "id": "beeb96392800",
-   "title": "Homenaje Al Buena Vista Social Club y la Música Cubana | Habana Tropic All Star",
-   "start": "2026-11-22T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Bebop Club",
-   "address": "Moreno 364, San Telmo",
-   "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yNFQxOC0xNi01NS05MDBaLmpwZWcifQ==",
-   "url": "https://ticketera.bebopclub.com.ar/evento/52bc6827-76b4-4d68-a79d-395e7c686851",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "bebop",
-     "name": "Bebop Club",
-     "url": "https://ticketera.bebopclub.com.ar/evento/52bc6827-76b4-4d68-a79d-395e7c686851"
     }
    ]
   },
@@ -37718,7 +37674,7 @@
    "place": "TEATRO SAN MARTIN",
    "address": "Av. Corrientes 1530, San Nicolas",
    "description": "Jazz",
-   "image": "https://complejoteatral.gob.ar/wp-content/uploads/2026/10/PORTADA-WEB-Christian-Sands-01.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/13/000324513.jpg",
    "url": "https://www.alternativateatral.com/obra104384-christian-sands-quartet",
    "price": null,
    "free": false,
@@ -40979,16 +40935,16 @@
    ]
   },
   {
-   "id": "40e6d02c1715",
-   "title": "DEMIAN DOMÍNGUEZ Y RUBÉN BERTRANDS",
+   "id": "d2ace0845a27",
+   "title": "DEMASIADOS SECRETOS",
    "start": "2026-11-27T00:00:00-03:00",
    "end": null,
    "whenText": null,
    "place": "Buenos Aires Jazz Café",
    "address": null,
-   "description": "NOCHE DE BLUES El Viernes 27 de Noviembre a las 23h, disfruta de una Noche",
-   "image": "https://www.buenosairesjazzcafe.com/wp-content/uploads/2026/08/NUEVO-POST-Y-A4-2026-08-26T143932.533.png",
-   "url": "https://www.buenosairesjazzcafe.com/eventos/demian-dominguez-y-ruben-bertrands/",
+   "description": "Demasiados Secretos es un grupo que convierte cada directo en una experiencia intensa y cercana, donde",
+   "image": "https://www.buenosairesjazzcafe.com/wp-content/uploads/2026/09/NUEVO-POST-Y-A4-2026-09-17T140211.661.png",
+   "url": "https://www.buenosairesjazzcafe.com/eventos/demasiados-secretos-2/",
    "price": null,
    "free": false,
    "category": "Música",
@@ -40996,7 +40952,7 @@
     {
      "id": "ba-jazz-cafe",
      "name": "Buenos Aires Jazz Café",
-     "url": "https://www.buenosairesjazzcafe.com/eventos/demian-dominguez-y-ruben-bertrands/"
+     "url": "https://www.buenosairesjazzcafe.com/eventos/demasiados-secretos-2/"
     }
    ]
   },
@@ -43810,6 +43766,28 @@
    ]
   },
   {
+   "id": "1c079cecf31f",
+   "title": "Varieté de Victorianas",
+   "start": "2026-11-27T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "TEATRO ESPIRITU MAMUT",
+   "address": "Warnes 616, Villa Crespo",
+   "description": "Varieté",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104430-variete-de-victorianas",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104430-variete-de-victorianas"
+    }
+   ]
+  },
+  {
    "id": "f5c04c148997",
    "title": "Victorianas - Lo que ella nunca tuvo",
    "start": "2026-11-27T21:00:00-03:00",
@@ -44272,6 +44250,28 @@
    ]
   },
   {
+   "id": "3d1f0a1f05fd",
+   "title": "Monologuitos",
+   "start": "2026-11-27T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "EL ARCHIBRAZO",
+   "address": "Mario Bravo 441, Almagro",
+   "description": "Teatro",
+   "image": null,
+   "url": "https://www.alternativateatral.com/obra104433-monologuitos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra104433-monologuitos"
+    }
+   ]
+  },
+  {
    "id": "8a188e88218c",
    "title": "Seré",
    "start": "2026-11-27T22:00:00-03:00",
@@ -44368,7 +44368,7 @@
    "place": "ÍTACA, COMPLEJO TEATRAL",
    "address": "Humahuaca 4027, Almagro",
    "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/98/000273598.jpg",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/94/000273594.jpg",
    "url": "https://www.alternativateatral.com/obra56257-queres-ser-feliz-o-tener-poder",
    "price": null,
    "free": false,
@@ -44844,6 +44844,28 @@
    ]
   },
   {
+   "id": "aac9defdc734",
+   "title": "C BAILA · CON DAMAS GRATIS",
+   "start": "2026-11-28T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": null,
+   "image": "https://centroc.s3.amazonaws.com/77088508590458820901072026030943p.%C2%A0m..jpg",
+   "url": "https://www.passline.com/eventos/c-baila-2811",
+   "price": "Gratis",
+   "free": true,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/c-baila-2811"
+    }
+   ]
+  },
+  {
    "id": "15a4bcfc4230",
    "title": "Paulo Londra",
    "start": "2026-11-28T00:00:00-03:00",
@@ -44928,6 +44950,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
+   "id": "87c92042bac6",
+   "title": "A PERFECT CIRCLE + PUSCIFER en Buenos Aires",
+   "start": "2026-11-28T18:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Gutenberg 350, Ciudad Autónoma de Buenos Aires, Argentina",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/95b28160fce0e2250cfb6c0d81895424958217d0.jpg?1778073738",
+   "url": "https://livepass.com.ar/events/a-perfect-circle",
+   "price": "$138.000",
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/a-perfect-circle"
     }
    ]
   },
@@ -45170,28 +45214,6 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/fernando-cabrera-hugo-fattoruso-en-cafe-berlin"
-    }
-   ]
-  },
-  {
-   "id": "87c92042bac6",
-   "title": "A PERFECT CIRCLE + PUSCIFER en Buenos Aires",
-   "start": "2026-11-28T21:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Gutenberg 350, Ciudad Autónoma de Buenos Aires, Argentina",
-   "address": null,
-   "description": null,
-   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/95b28160fce0e2250cfb6c0d81895424958217d0.jpg?1778073738",
-   "url": "https://livepass.com.ar/events/a-perfect-circle",
-   "price": "$138.000",
-   "free": false,
-   "category": "Otros",
-   "sources": [
-    {
-     "id": "livepass",
-     "name": "Livepass",
-     "url": "https://livepass.com.ar/events/a-perfect-circle"
     }
    ]
   },
@@ -47198,6 +47220,28 @@
    ]
   },
   {
+   "id": "e9d4b00de2b3",
+   "title": "ACUSTICO TEMPORADA / TYUBA",
+   "start": "2026-12-06T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794577255166-lg.jpg",
+   "url": "https://venti.live/evento/acustico-temporada-tyuba-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/acustico-temporada-tyuba-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "ced46bd45778",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-06T19:00:00-03:00",
@@ -47304,6 +47348,28 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/f9bde290-5327-4019-8039-41d8a0787ec9"
+    }
+   ]
+  },
+  {
+   "id": "e616670b2987",
+   "title": "SYNCTETICA - OPEN AIR",
+   "start": "2026-12-06T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794574550494-lg.jpg",
+   "url": "https://venti.live/evento/synctetica-open-air-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/synctetica-open-air-en-niceto-bar"
     }
    ]
   },
@@ -47568,6 +47634,28 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/42861fa9-6cc2-4414-bdd6-5e20ea6b27a4"
+    }
+   ]
+  },
+  {
+   "id": "5cf7961dfc12",
+   "title": "NAVAJA SHOWCASE - SOCIEDAD ANÓNIMA - GAREN - ROMO",
+   "start": "2026-12-07T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794575478465-lg.jpg",
+   "url": "https://venti.live/evento/navaja-showcase-sociedad-an-nima-garen-romo-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/navaja-showcase-sociedad-an-nima-garen-romo-en-niceto-bar"
     }
    ]
   },
@@ -47968,6 +48056,28 @@
    ]
   },
   {
+   "id": "9058d13ee0f3",
+   "title": "SLIMESANTI",
+   "start": "2026-12-10T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794576680995-lg.jpg",
+   "url": "https://venti.live/evento/slimesanti-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/slimesanti-en-niceto-club"
+    }
+   ]
+  },
+  {
    "id": "4b9a30f7dd7d",
    "title": "La verdadera historia de Ricardo III",
    "start": "2026-12-10T20:00:00-03:00",
@@ -48320,28 +48430,6 @@
    ]
   },
   {
-   "id": "f5bd4da65237",
-   "title": "Agus Bernasconi",
-   "start": "2026-12-11T21:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Teatro Opera On",
-   "address": "Av. Corrientes 860, Capital Federal",
-   "description": null,
-   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/agus_bernasconi_teatro_opera_artista.jpg",
-   "url": "https://www.ticketek.com.ar/agus-bernasconi/teatro-opera",
-   "price": "$39.550",
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "ticketek",
-     "name": "Ticketek",
-     "url": "https://www.ticketek.com.ar/agus-bernasconi/teatro-opera"
-    }
-   ]
-  },
-  {
    "id": "82b257f01186",
    "title": "Hasta que me olvides",
    "start": "2026-12-11T21:00:00-03:00",
@@ -48448,6 +48536,28 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/5edb94b2-e566-4cfc-a9d5-94c27c27d7b9"
+    }
+   ]
+  },
+  {
+   "id": "60a1d367c83c",
+   "title": "POLENTA · NO ES CUALQUIER FIESTA",
+   "start": "2026-12-11T23:59:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "La última del año, no es cualquier fiesta.",
+   "image": "https://centroc.s3.amazonaws.com/null",
+   "url": "https://www.passline.com/eventos/polenta-578850",
+   "price": null,
+   "free": false,
+   "category": "Fiestas",
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/polenta-578850"
     }
    ]
   },
@@ -48672,6 +48782,28 @@
    ]
   },
   {
+   "id": "d6c18cb3ed39",
+   "title": "Un ratito De conga 12 DIC",
+   "start": "2026-12-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794578089683-lg.jpg",
+   "url": "https://venti.live/evento/un-ratito-de-conga-12-dic-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/un-ratito-de-conga-12-dic-en-niceto-bar"
+    }
+   ]
+  },
+  {
    "id": "91580dffc148",
    "title": "Elena Roger",
    "start": "2026-12-12T20:30:00-03:00",
@@ -48806,17 +48938,17 @@
   {
    "id": "04aa312d46d9",
    "title": "Bingo Drag presenta Binguísima",
-   "start": "2026-12-13T18:00:00-03:00",
+   "start": "2026-12-13T17:30:00-03:00",
    "end": null,
-   "whenText": "Domingo 13 de diciembre 18 hs",
+   "whenText": "Domingo 13 de diciembre Puerta 17:30 hs | Show 18:30 hs",
    "place": "Konex ·",
    "address": "Sarmiento 3131, Abasto",
-   "description": null,
-   "image": "https://www.cckonex.org/wp-content/uploads/2026/11/cuadrado-konex-BD-900x900-1-400x400.jpg",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/11/cuadrado-konex-BD-900x900-2-400x400.jpg",
    "url": "https://entradas.cckonex.org/event/bingusima",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "konex",
@@ -49098,7 +49230,7 @@
    "place": "Bebop Club",
    "address": "Moreno 364, San Telmo",
    "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xNlQxNy0xNS0xMy01NjBaLnBuZyJ9",
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0xM1QxOC0zMS01Ny02ODJaLnBuZyJ9",
    "url": "https://ticketera.bebopclub.com.ar/evento/a0f47330-cab5-46cd-987e-a99ab1336304",
    "price": null,
    "free": false,
@@ -49310,6 +49442,28 @@
    ]
   },
   {
+   "id": "508c3c57b1d5",
+   "title": "Gabriel Carámbula en Café Berlín",
+   "start": "2026-12-17T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/6d000012241d99df0f10792e35ba3812812af7ff.jpg?1794599326",
+   "url": "https://livepass.com.ar/events/gabriel-carambula-en-cafe-berlin",
+   "price": "$22.400",
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/gabriel-carambula-en-cafe-berlin"
+    }
+   ]
+  },
+  {
    "id": "f30537b7dc61",
    "title": "El Síndrome de Peter en Teatro Vorterix",
    "start": "2026-12-18T00:00:00-03:00",
@@ -49394,6 +49548,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/octafonic-18-dic-en-niceto-club-18-a-os"
+    }
+   ]
+  },
+  {
+   "id": "2cb0c4c5ba92",
+   "title": "Robot Zonda Ultimo show del Año",
+   "start": "2026-12-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Bar",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794594934607-lg.jpg",
+   "url": "https://venti.live/evento/robot-zonda-ultimo-show-del-a-o-en-niceto-bar",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/robot-zonda-ultimo-show-del-a-o-en-niceto-bar"
     }
    ]
   },
@@ -49820,7 +49996,7 @@
    "title": "DISNEY",
    "start": "2026-12-22T00:00:00-03:00",
    "end": null,
-   "whenText": "22 diciembre 2026 y 1 fecha más",
+   "whenText": "22 diciembre 2026 y 2 fechas más",
    "place": "Movistar Arena",
    "address": "Humboldt 450, Villa Crespo",
    "description": null,
@@ -50164,6 +50340,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/los-charros/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "34483434e551",
+   "title": "DM Experience",
+   "start": "2027-01-05T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "RADIO CITY / ROXY / MELANY",
+   "address": "San Luis 1750, Buenos Aires",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/dmexp440.jpg",
+   "url": "https://www.ticketek.com.ar/dm-experience/radio-city-roxy-melany",
+   "price": "$39.550",
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/dm-experience/radio-city-roxy-melany"
     }
    ]
   },
