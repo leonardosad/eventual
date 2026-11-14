@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T23:24:45.024Z",
+ "generatedAt": "2026-11-14T23:36:36.827Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -236,82 +236,6 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta"
-    }
-   ]
-  },
-  {
-   "id": "20d6efdab873",
-   "title": "Abel Pintos",
-   "start": "2026-11-14T00:00:00-03:00",
-   "end": "2026-11-20T23:59:00-03:00",
-   "whenText": "Del 14-11-2026 al 20-11-2026",
-   "place": "Teatro Gran Rex",
-   "address": "Av. Corrientes 857, Centro",
-   "description": null,
-   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/abel-pintos/abel-pintos-image-main-1781039005.jpg",
-   "url": "https://www.tuentrada.com/abel-pintos-tgr",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "tuentrada",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    },
-    {
-     "id": "tuentrada-salas",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    },
-    {
-     "id": "tuentrada-musica",
-     "name": "TuEntrada",
-     "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    }
-   ]
-  },
-  {
-   "id": "cac280926609",
-   "title": "El salpicon",
-   "start": "2026-11-14T16:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "NÜN TEATRO BAR",
-   "address": "Juan Ramirez de Velasco 419, Villa Crespo",
-   "description": "Teatro · Musical · Infantiles",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/44/000317544.jpg",
-   "url": "https://www.alternativateatral.com/obra101678-el-salpicon",
-   "price": null,
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra101678-el-salpicon"
-    }
-   ]
-  },
-  {
-   "id": "85dfd8822aa4",
-   "title": "Los cuentos de la Andariega",
-   "start": "2026-11-14T16:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CENTRO CULTURAL DE LA COOPERACIÓN",
-   "address": "Corrientes 1543, San Nicolas",
-   "description": "Títeres",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/68/000322568.jpg",
-   "url": "https://www.alternativateatral.com/obra103578-los-cuentos-de-la-andariega",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103578-los-cuentos-de-la-andariega"
     }
    ]
   },
@@ -8191,6 +8115,38 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/bf155505-838f-42fc-9a38-9031101399ec"
+    }
+   ]
+  },
+  {
+   "id": "bc0e8d0afea6",
+   "title": "Abel Pintos",
+   "start": "2026-11-15T00:00:00-03:00",
+   "end": "2026-11-20T23:59:00-03:00",
+   "whenText": "Del 15-11-2026 al 20-11-2026",
+   "place": "Teatro Gran Rex",
+   "address": "Av. Corrientes 857, Centro",
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/abel-pintos/abel-pintos-image-main-1781039005.jpg",
+   "url": "https://www.tuentrada.com/abel-pintos-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
+    },
+    {
+     "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
     }
    ]
   },
