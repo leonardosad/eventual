@@ -5,6 +5,24 @@ import { chromium } from 'playwright';
 const urls = process.argv.slice(2);
 const browser = await chromium.launch({ channel: 'chrome' }).catch(() => chromium.launch());
 for (const arg of urls) {
+  // "capturar:https://pagina|fragmento-de-url": abre la página y muestra la estructura del JSON que la página recibe
+  if (arg.startsWith('capturar:')) {
+    const [pagina, frag] = arg.slice(9).split('|');
+    console.log(`\n===== captura de ${frag} en ${pagina}`);
+    const page = await browser.newPage({ locale: 'es-AR' });
+    const got = new Promise((resolve) => page.on('response', async (r) => { if (r.url().includes(frag)) { try { resolve(await r.text()); } catch {} } }));
+    await page.goto(pagina, { waitUntil: 'domcontentloaded', timeout: 60000 }).catch(() => {});
+    const txt = await Promise.race([got, new Promise((r) => setTimeout(() => r(null), 40000))]);
+    if (!txt) { console.log('no llegó'); await page.close(); continue; }
+    const j = JSON.parse(txt);
+    const arr = Array.isArray(j) ? j : (j.objeto || j.data || Object.values(j).find(Array.isArray) || []);
+    console.log(`tipo: ${Array.isArray(j) ? 'arreglo' : 'objeto ' + JSON.stringify(Object.keys(j))}, elementos: ${arr.length}`);
+    const pick = arr.find((x) => /premier/i.test(JSON.stringify(x))) || arr[0];
+    console.log('ejemplo:', JSON.stringify(pick, null, 1).slice(0, 5000));
+    console.log('zonas:', JSON.stringify(arr.reduce((a, x) => { const z = x.cZona || x.Zona || '?'; a[z] = (a[z] || 0) + 1; return a; }, {})));
+    await page.close();
+    continue;
+  }
   // "url|texto": además muestra el HTML crudo alrededor de "texto"
   const [url, needle] = arg.split('|');
   console.log(`\n===== ${url}`);
