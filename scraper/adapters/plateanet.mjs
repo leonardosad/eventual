@@ -31,9 +31,11 @@ export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
     const nombre = titleCase(sala?.Name || o.cTeatroNombre);
     const tipo = sala?.cTipo || 'Teatro';
     const place = /(teatro|sala|auditorio|centro|club|espacio|complejo|multi|cine|anfiteatro)/i.test(nombre) || /^(la|el) /i.test(nombre) ? nombre : `${tipo} ${nombre}`;
-    const direccion = String(sala?.Direccion || '').replace(/,\s*(Buenos Aires,\s*)?Argentina$/i, '').trim();
-    // Localidad para el GBA: la última parte de la dirección ("Calle 123, Lomas de Zamora")
-    const partes = direccion.split(',').map((p) => p.trim()).filter(Boolean);
+    // Dirección sin "Provincia de Buenos Aires", "Buenos Aires" ni "Argentina" al final
+    const partes = String(sala?.Direccion || '').split(',').map((p) => p.trim()).filter(Boolean);
+    while (partes.length > 1 && /^(argentina|(provincia de |prov\.? )?buenos aires|bs\.? ?as\.?|caba|c\.?p\.? ?\d+|\d{4})$/i.test(partes[partes.length - 1])) partes.pop();
+    const direccion = partes.join(', ');
+    // Localidad para el GBA: la última parte que queda ("Calle 123, Lomas de Zamora")
     const localidad = zona === 'GBA' ? localidadDe(partes.length > 1 ? partes[partes.length - 1] : o.cZona.replace(/^GBA\s*/i, 'GBA ')) : null;
     for (const fecha of o.cFechas || []) {
       out.push({
@@ -55,7 +57,11 @@ export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
 }
 
 export async function plateanet(body, url) {
-  const r = await captureResponses(url, ['obtenerobrasencartel2', 'getTeatros']);
-  if (!r.obtenerobrasencartel2) throw new Error('la página no cargó las obras (¿cambió el sitio?)');
+  // La lista de obras pesa ~800 KB y a veces tarda: hasta dos intentos de 90 segundos
+  let r = {};
+  for (let intento = 0; intento < 2 && !r.obtenerobrasencartel2; intento++) {
+    r = await captureResponses(url, ['obtenerobrasencartel2', 'getTeatros'], 90_000);
+  }
+  if (!r.obtenerobrasencartel2) throw new Error('la página no cargó las obras después de dos intentos');
   return parsePlateanet(r.obtenerobrasencartel2, r.getTeatros, url);
 }

@@ -395,7 +395,7 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
   ];
   const teatros = { success: true, objeto: [
     { Id: 32, Name: 'PREMIER', cTipo: 'Teatro', Direccion: 'Av. Corrientes 1565, Buenos Aires, Argentina', Zona: 'CABA' },
-    { Id: 90, Name: 'GRAN TEATRO MORON', cTipo: 'Teatro', Direccion: 'Alte. Brown 1200, Morón, Argentina', Zona: 'GBA Oeste' },
+    { Id: 90, Name: 'GRAN TEATRO MORON', cTipo: 'Teatro', Direccion: 'Alte. Brown 1200, Morón, Provincia de Buenos Aires, Argentina', Zona: 'GBA Oeste' },
   ] };
   const raw = parsePlateanet(JSON.stringify(obras), JSON.stringify(teatros), 'https://www.plateanet.com/');
   assert.equal(raw.length, 3);
@@ -408,6 +408,7 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
   assert.equal(b.start, '2026-12-13T20:00:00-03:00');
   assert.equal(c.zona, 'GBA');
   assert.equal(c.localidad, 'Morón');
+  assert.equal(c.address, 'Alte. Brown 1200');
   assert.equal(c.place, 'Gran Teatro Moron');
 });
 
