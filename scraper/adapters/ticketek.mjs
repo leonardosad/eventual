@@ -36,6 +36,7 @@ export function eventsFromNode(json, path) {
       address: addr.streetAddress || null,
       zona,
       localidad: zona === 'GBA' ? localidadDe(ciudad) : null,
+      _region: region, _ciudad: ciudad,
       image: first(d.image),
       price: offer.price != null ? String(offer.price) : '',
       currency: offer.priceCurrency,
@@ -66,13 +67,18 @@ export async function ticketek(body, url, source, ctx) {
     }
   }
   const out = [];
+  const descartes = new Map();
   for (const path of [...paths].slice(0, source.maxLinks ?? 200)) {
     try {
       const json = JSON.parse(await ctx.fetch(NODE + path.replace(/\//g, '--')));
-      out.push(...eventsFromNode(json, path));
+      for (const ev of eventsFromNode(json, path)) {
+        if (ev.zona === 'fuera') { const k = `${ev.place} | ${ev._region} | ${ev._ciudad}`; descartes.set(k, (descartes.get(k) || 0) + 1); }
+        out.push(ev);
+      }
     } catch (err) {
       ctx.warn(`${path}: ${err.message}`);
     }
   }
+  if (descartes.size) console.log('   Ticketek fuera de zona:', [...descartes].map(([k, n]) => `${k} (${n})`).join(' · '));
   return out;
 }
