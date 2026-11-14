@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T21:50:58.576Z",
+ "generatedAt": "2026-11-14T23:24:45.024Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -92,7 +92,7 @@
   {
    "id": "jazz-voyeur",
    "name": "Jazz Voyeur",
-   "count": 11,
+   "count": 10,
    "ok": true,
    "note": null,
    "errors": []
@@ -134,6 +134,62 @@
    "name": "TuEntrada",
    "count": 34,
    "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-teatro",
+   "name": "TuEntrada",
+   "count": 6,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-musica",
+   "name": "TuEntrada",
+   "count": 47,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-familia",
+   "name": "TuEntrada",
+   "count": 1,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-cultura",
+   "name": "TuEntrada",
+   "count": 1,
+   "ok": true,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-comedia",
+   "name": "TuEntrada",
+   "count": 0,
+   "ok": false,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-exposicion",
+   "name": "TuEntrada",
+   "count": 0,
+   "ok": false,
+   "note": null,
+   "errors": []
+  },
+  {
+   "id": "tuentrada-deportes",
+   "name": "TuEntrada",
+   "count": 0,
+   "ok": false,
    "note": null,
    "errors": []
   }
@@ -207,160 +263,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    }
-   ]
-  },
-  {
-   "id": "0fb301daf4f1",
-   "title": "Nada de Carne Sobre Nosotras",
-   "start": "2026-11-14T15:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CEMENTERIO DE LA CHACARITA",
-   "address": "Guzmán 680, Chacarita",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/56/000254156.jpg",
-   "url": "https://www.alternativateatral.com/obra80303-nada-de-carne-sobre-nosotras",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
+    },
     {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra80303-nada-de-carne-sobre-nosotras"
-    }
-   ]
-  },
-  {
-   "id": "2e9c9d356cad",
-   "title": "ODISEA: Bajo el Mar",
-   "start": "2026-11-14T15:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CENTRO CULTURAL 25 DE MAYO",
-   "address": "Av Triunvirato 4444, Villa Urquiza",
-   "description": "Teatro · Infantiles · Títeres · Teatro negro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/20/000322520.jpg",
-   "url": "https://www.alternativateatral.com/obra96700-odisea-bajo-el-mar",
-   "price": null,
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra96700-odisea-bajo-el-mar"
-    }
-   ]
-  },
-  {
-   "id": "7bd39fa0d778",
-   "title": "Suite Juárez",
-   "start": "2026-11-14T15:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ÍTACA, COMPLEJO TEATRAL",
-   "address": "Humahuaca 4027, Almagro",
-   "description": "Cine",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/86/000319586.jpg",
-   "url": "https://www.alternativateatral.com/obra102696-suite-juarez",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra102696-suite-juarez"
-    }
-   ]
-  },
-  {
-   "id": "18df0dc34865",
-   "title": "¿Quién Se Llevó La Navidad?",
-   "start": "2026-11-14T16:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUY TEATRO",
-   "address": "Humahuaca 4310, Almagro",
-   "description": "Teatro · Infantiles",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/88/000323088.jpg",
-   "url": "https://www.alternativateatral.com/obra103687-quien-se-llevo-la-navidad",
-   "price": null,
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103687-quien-se-llevo-la-navidad"
-    }
-   ]
-  },
-  {
-   "id": "0e408c9bd255",
-   "title": "Mi amiga la oscuridad",
-   "start": "2026-11-14T16:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "TEATRO CIEGO",
-   "address": "Borges 1974, Balvanera",
-   "description": "Teatro · Infantiles",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/62/000317562.jpg",
-   "url": "https://www.alternativateatral.com/obra32241-mi-amiga-la-oscuridad",
-   "price": null,
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra32241-mi-amiga-la-oscuridad"
-    }
-   ]
-  },
-  {
-   "id": "fdc8c883a09a",
-   "title": "Petifur Varieté",
-   "start": "2026-11-14T16:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "MUSEO ARGENTINO DEL TITERE",
-   "address": "Estados Unidos 802, San Telmo",
-   "description": "Teatro · Varieté · Infantiles · Títeres",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/43/000285243.jpg",
-   "url": "https://www.alternativateatral.com/obra90452-petifur-variete",
-   "price": null,
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra90452-petifur-variete"
-    }
-   ]
-  },
-  {
-   "id": "9143f9c0dd25",
-   "title": "Raiz expandida",
-   "start": "2026-11-14T16:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "SALA DE LOS POMPAPETRIYASOS",
-   "address": "Brasil 2640, Parque Patricios",
-   "description": "Danza",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/82/000322982.jpg",
-   "url": "https://www.alternativateatral.com/obra103706-raiz-expandida",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103706-raiz-expandida"
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/abel-pintos-tgr"
     }
    ]
   },
@@ -2707,7 +2614,7 @@
    "description": null,
    "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/a2f2ee152ab107d7cf13d546fd2d6871b8f0383c.png?1793885864",
    "url": "https://livepass.com.ar/events/elgarrista-lucero-aguero-benavides-thielen-en-ccnu",
-   "price": "$17.250",
+   "price": "$20.700",
    "free": false,
    "category": "Arte y muestras",
    "sources": [
@@ -4066,28 +3973,6 @@
    ]
   },
   {
-   "id": "5e60b24f46fb",
-   "title": "MARIANO LOIÁCONO RECIBE A MONCEF GENOUD (SUIZA)",
-   "start": "2026-11-14T20:30:00-03:00",
-   "end": "2026-11-14T23:00:00-03:00",
-   "whenText": null,
-   "place": "Jazz Voyeur Club",
-   "address": "Posadas 1557, C1112ADA CABA",
-   "description": "MARIANO LOIÁCONO RECIBE A 🇨🇭 MONCEF GENOUD (SUIZA) SHOW INTERNACIONAL El reconocido trompetista argentino Mariano Loiácono , una de las voces más destacadas del jazz local y de activa presencia en la escena neoyorquina, recibe en Jazz Voyeur Club al pianista suizo Moncef Genoud . Nacido en Túnez y criado en Suiza, Genoud desarrolló una carrera internacional de más de cuatro décadas, con actuacio",
-   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/SEMANAdel9al15deNOVIEMBRE-08.jpg",
-   "url": "https://jazzvoyeur.com.ar/events/mariano-loiacono-recibe-a-moncef-genoud-suiza/",
-   "price": "$18.000",
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "jazz-voyeur",
-     "name": "Jazz Voyeur",
-     "url": "https://jazzvoyeur.com.ar/events/mariano-loiacono-recibe-a-moncef-genoud-suiza/"
-    }
-   ]
-  },
-  {
    "id": "d14c652158bb",
    "title": "Mi madre quería el paraíso",
    "start": "2026-11-14T20:30:00-03:00",
@@ -5095,7 +4980,7 @@
    "url": "https://www.tuentrada.com/fernando-blanco-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada",
@@ -5104,6 +4989,11 @@
     },
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/fernando-blanco-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/fernando-blanco-rondeman"
     }
@@ -12341,10 +12231,15 @@
    "url": "https://www.tuentrada.com/leo-borrelli-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/leo-borrelli-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/leo-borrelli-rondeman"
     }
@@ -12853,6 +12748,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/la-isla-el-teatro-san-martin-en-dictaduras/"
+    }
+   ]
+  },
+  {
+   "id": "de2ea44a4632",
+   "title": "VISITA GUIADA AMIA",
+   "start": "2026-11-16T00:00:00-03:00",
+   "end": "2027-12-30T23:59:00-03:00",
+   "whenText": "Del 16-11-2026 al 30-12-2027",
+   "place": "Amia - Asociación Mutual Israelita Argentina",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/visita-guiada-amia/visita-guiada-amia-image-main-1764706577.png",
+   "url": "https://www.tuentrada.com/visita-guiada-amia",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "sources": [
+    {
+     "id": "tuentrada-cultura",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/visita-guiada-amia"
     }
    ]
   },
@@ -20250,10 +20167,15 @@
    "url": "https://www.tuentrada.com/nico-favio-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nico-favio-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/nico-favio-rondeman"
     }
@@ -21448,6 +21370,28 @@
    ]
   },
   {
+   "id": "e30b83202874",
+   "title": "Johnny Clarke",
+   "start": "2026-11-20T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Gier Music Club",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/johnny-clarke/johnny-clarke-image-main-1792509994.jpg",
+   "url": "https://www.tuentrada.com/johnny-clarke-gier",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/johnny-clarke-gier"
+    }
+   ]
+  },
+  {
    "id": "8cf105d4b2be",
    "title": "La Caverna",
    "start": "2026-11-20T23:00:00-03:00",
@@ -21598,6 +21542,28 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/a-cielo-abierto/"
+    }
+   ]
+  },
+  {
+   "id": "88f5fffa65dc",
+   "title": "Arturo Puig en Buenas Palabras",
+   "start": "2026-11-21T00:00:00-03:00",
+   "end": "2026-11-22T23:59:00-03:00",
+   "whenText": "Del 21-11-2026 al 22-11-2026",
+   "place": "Teatro El Plata",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/arturo-puig-en-buenas-palabras/arturo-puig-en-buenas-palabras-image-main-1791560596.JPG",
+   "url": "https://www.tuentrada.com/arturo-puig-elplata",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/arturo-puig-elplata"
     }
    ]
   },
@@ -22214,6 +22180,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra74191-bergman-y-liv-correspondencia-amorosa"
+    }
+   ]
+  },
+  {
+   "id": "01de1bf13f08",
+   "title": "Egberto Gismonti",
+   "start": "2026-11-21T17:00:00-03:00",
+   "end": null,
+   "whenText": "Últimas Entradas",
+   "place": "Teatro Colón",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/egberto-gismonti/egberto-gismonti-image-main-1784901432.jpg",
+   "url": "https://www.tuentrada.com/egberto-gismonti-tc",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/egberto-gismonti-tc"
     }
    ]
   },
@@ -24989,6 +24977,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/miguel-mateos-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/miguel-mateos-tgr"
     }
    ]
   },
@@ -25163,6 +25156,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/adrianiaies3-prez"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/adrianiaies3-prez"
     }
@@ -25709,10 +25707,15 @@
    "url": "https://www.tuentrada.com/living-rondewine-sumo-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Teatro",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/living-rondewine-sumo-rondeman"
+    },
+    {
+     "id": "tuentrada-teatro",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/living-rondewine-sumo-rondeman"
     }
@@ -27079,6 +27082,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/coltranes-sound-prez"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/coltranes-sound-prez"
     }
    ]
   },
@@ -27781,6 +27789,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/boda-lyniel-tgr"
+    },
+    {
+     "id": "tuentrada-familia",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/boda-lyniel-tgr"
     }
@@ -31146,10 +31159,15 @@
    "url": "https://www.tuentrada.com/vocal-sessions-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/vocal-sessions-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/vocal-sessions-rondeman"
     }
@@ -31546,6 +31564,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nbmv-prez"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/nbmv-prez"
     }
@@ -31986,6 +32009,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/farbgamallo4-prez"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/farbgamallo4-prez"
     }
@@ -32714,6 +32742,11 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/jazz_buenos_aires/"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/jazz-bsas-ctba"
     }
    ]
   },
@@ -33201,6 +33234,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/djavan-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/djavan-tgr"
     }
@@ -35587,6 +35625,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/greeicy-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/greeicy-tgr"
     }
    ]
   },
@@ -37708,10 +37751,15 @@
    "url": "https://www.tuentrada.com/almanegra-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/almanegra-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/almanegra-rondeman"
     }
@@ -41967,7 +42015,7 @@
    "id": "e3d068f1fae9",
    "title": "Paraíso",
    "start": "2026-11-28T19:00:00-03:00",
-   "end": null,
+   "end": "2026-11-29T23:59:00-03:00",
    "whenText": null,
    "place": "CINE TEATRO EL PLATA",
    "address": "Avda. Juan Bautista Alberdi 5765, Mataderos",
@@ -41987,6 +42035,11 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/paraiso/"
+    },
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/paraiso-elplata"
     }
    ]
   },
@@ -43410,6 +43463,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/god-save-the-queen-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/god-save-the-queen-tgr"
     }
    ]
   },
@@ -43668,10 +43726,15 @@
    "url": "https://www.tuentrada.com/tregua-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/tregua-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/tregua-rondeman"
     }
@@ -46314,6 +46377,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/lauchas-eternas-tgr"
+    },
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/lauchas-eternas-tgr"
     }
    ]
   },
@@ -47012,10 +47080,15 @@
    "url": "https://www.tuentrada.com/david-telson-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/david-telson-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/david-telson-rondeman"
     }
@@ -47038,6 +47111,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/la-misa-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/la-misa-tgr"
     }
@@ -47084,6 +47162,28 @@
      "id": "livepass",
      "name": "Livepass",
      "url": "https://livepass.com.ar/events/gyt-es-por-amor-40-anos-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "d07ba5b7089f",
+   "title": "PABLO LEDESMA HENDERSON QUARTET",
+   "start": "2026-12-04T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/pablo-ledesma-henderson-quartet/pablo-ledesma-henderson-quartet-image-main-1793798555.jpg",
+   "url": "https://www.tuentrada.com/pledesmahq-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/pledesmahq-prez"
     }
    ]
   },
@@ -47326,6 +47426,11 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/daniel-agostini-amigos-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/daniel-agostini-amigos-tgr"
     }
    ]
   },
@@ -47462,6 +47567,28 @@
    ]
   },
   {
+   "id": "27bf48413de1",
+   "title": "MARCO SANGUINETTI TRIO",
+   "start": "2026-12-05T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/marco-sanguinetti-trio/marco-sanguinetti-trio-image-main-1793798697.jpg",
+   "url": "https://www.tuentrada.com/msanguinetti3-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/msanguinetti3-prez"
+    }
+   ]
+  },
+  {
    "id": "8e7ea7a2a27b",
    "title": "Ciclo Void 5 DIC",
    "start": "2026-12-05T21:00:00-03:00",
@@ -47496,10 +47623,15 @@
    "url": "https://www.tuentrada.com/elvis-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/elvis-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/elvis-rondeman"
     }
@@ -48166,6 +48298,28 @@
    ]
   },
   {
+   "id": "314640912697",
+   "title": "Grandes Intérpretes Internacionales",
+   "start": "2026-12-08T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colón",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/grandes-interpretes-internacionales/grandes-interpretes-internacionales-image-main-1793123234.jpg",
+   "url": "https://www.tuentrada.com/grandes-interpretes-teatrocolon",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/grandes-interpretes-teatrocolon"
+    }
+   ]
+  },
+  {
    "id": "8d48c60877a3",
    "title": "Shintaro Sakamoto",
    "start": "2026-12-08T20:00:00-03:00",
@@ -48204,6 +48358,11 @@
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/agarrate-catalina-tgr"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/agarrate-catalina-tgr"
     }
@@ -48342,6 +48501,28 @@
    ]
   },
   {
+   "id": "2fb62a0c23a0",
+   "title": "Ney Matogrosso",
+   "start": "2026-12-09T20:30:00-03:00",
+   "end": null,
+   "whenText": "Últimas Entradas",
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/ney-matogrosso/ney-matogrosso-image-main-1793111953.jpg",
+   "url": "https://www.tuentrada.com/ney-matogroso-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/ney-matogroso-tgr"
+    }
+   ]
+  },
+  {
    "id": "f64d913b623f",
    "title": "Sergio Sacoto",
    "start": "2026-12-09T21:00:00-03:00",
@@ -48354,10 +48535,15 @@
    "url": "https://www.tuentrada.com/sergio-sacoto-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/sergio-sacoto-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/sergio-sacoto-rondeman"
     }
@@ -48536,6 +48722,28 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/7029e92a-a0a4-4761-806e-d6fa23bb5e4c"
+    }
+   ]
+  },
+  {
+   "id": "59a9b7f6ced5",
+   "title": "Gerónimo Rauch",
+   "start": "2026-12-10T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/geronimo-rauch/geronimo-rauch-image-main-1773171961.jpg",
+   "url": "https://www.tuentrada.com/geronimo-rauch-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/geronimo-rauch-tgr"
     }
    ]
   },
@@ -48826,6 +49034,28 @@
    ]
   },
   {
+   "id": "fe95177fcb25",
+   "title": "CARLOS MICHELINI CUARTETO",
+   "start": "2026-12-11T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Prez Jazz & Music Club",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/carlos-michelini-cuarteto/carlos-michelini-cuarteto-image-main-1794575024.jpg",
+   "url": "https://www.tuentrada.com/cmichelini4-prez",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/cmichelini4-prez"
+    }
+   ]
+  },
+  {
    "id": "9ac37e428381",
    "title": "Memphis La Blusera en Café Berlín",
    "start": "2026-12-11T20:45:00-03:00",
@@ -49020,6 +49250,50 @@
      "id": "enigma",
      "name": "Enigma Tickets",
      "url": "https://www.enigmatickets.com/event/0fbd1c9b-8ac6-4060-a984-4f75476c1905"
+    }
+   ]
+  },
+  {
+   "id": "967d7a5b5923",
+   "title": "Go Vive a tu Manera",
+   "start": "2026-12-12T00:00:00-03:00",
+   "end": "2026-12-13T23:59:00-03:00",
+   "whenText": "Del 12-12-2026 al 13-12-2026 · Últimas Entradas",
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/go-vive-a-tu-manera/go-vive-a-tu-manera-image-main-1790614914.jpg",
+   "url": "https://www.tuentrada.com/go-vive-a-tu-manera-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/go-vive-a-tu-manera-tgr"
+    }
+   ]
+  },
+  {
+   "id": "a6a8769ef751",
+   "title": "Go Vive a tu Manera - Meet & Greet",
+   "start": "2026-12-12T00:00:00-03:00",
+   "end": "2026-12-13T23:59:00-03:00",
+   "whenText": "Del 12-12-2026 al 13-12-2026",
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/go-vive-a-tu-manera-meet-greet/go-vive-a-tu-manera-meet-greet-image-main-1790614948.jpg",
+   "url": "https://www.tuentrada.com/go-vive-a-tu-manera-m&g-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/go-vive-a-tu-manera-m&g-tgr"
     }
    ]
   },
@@ -49240,6 +49514,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/elena-roger/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "652a938d25b0",
+   "title": "ÑENGO FLOW",
+   "start": "2026-12-12T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Autodromo De Buenos Aires",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/nengo-flow/nengo-flow-image-main-1791314725.jpg",
+   "url": "https://www.tuentrada.com/nengo-flow",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/nengo-flow"
     }
    ]
   },
@@ -49476,10 +49772,15 @@
    "url": "https://www.tuentrada.com/show-de-canto-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/show-de-canto-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/show-de-canto-rondeman"
     }
@@ -49552,6 +49853,28 @@
    ]
   },
   {
+   "id": "d4ad213250de",
+   "title": "Los Palmeras",
+   "start": "2026-12-14T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/los-palmeras/los-palmeras-image-main-1791490103.jpg",
+   "url": "https://www.tuentrada.com/los-palmeras-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/los-palmeras-tgr"
+    }
+   ]
+  },
+  {
    "id": "264b7caa78d2",
    "title": "Las Lobas & Astroarmonía en Café Berlín",
    "start": "2026-12-14T20:30:00-03:00",
@@ -49614,6 +49937,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/escuela-experimental-de-musica-popular/teatro-santa-maria"
+    }
+   ]
+  },
+  {
+   "id": "ac504ecfa452",
+   "title": "Corazón Serrano",
+   "start": "2026-12-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/corazon-serrano/corazon-serrano-image-main-1787598763.jpg",
+   "url": "https://www.tuentrada.com/corazon-serrano-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/corazon-serrano-tgr"
     }
    ]
   },
@@ -49816,6 +50161,28 @@
    ]
   },
   {
+   "id": "c0b514914ba4",
+   "title": "Kevin Johansen + Liniers",
+   "start": "2026-12-17T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/kevin-johansen-liniers/kevin-johansen-liniers-image-main-1790100231.jpg",
+   "url": "https://www.tuentrada.com/kevin-johansen-liniers-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/kevin-johansen-liniers-tgr"
+    }
+   ]
+  },
+  {
    "id": "a6207680e0d3",
    "title": "Sobredosis de Soda - íntimo y a la carta Vol 2 en Café Berlín",
    "start": "2026-12-17T20:45:00-03:00",
@@ -49944,6 +50311,28 @@
      "id": "konex",
      "name": "Ciudad Cultural Konex",
      "url": "https://entradas.cckonex.org/event/los-totora"
+    }
+   ]
+  },
+  {
+   "id": "020be83f8d1b",
+   "title": "DM Experience",
+   "start": "2026-12-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/dm-experience/dm-experience-image-main-1773171711.jpg",
+   "url": "https://www.tuentrada.com/dm-experience-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/dm-experience-tgr"
     }
    ]
   },
@@ -50268,10 +50657,15 @@
    "url": "https://www.tuentrada.com/monte-adentro-rondeman",
    "price": null,
    "free": false,
-   "category": "Otros",
+   "category": "Música",
    "sources": [
     {
      "id": "tuentrada-salas",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/monte-adentro-rondeman"
+    },
+    {
+     "id": "tuentrada-musica",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/monte-adentro-rondeman"
     }
@@ -50296,6 +50690,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/navidad-sinfonica/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "97318a55f88a",
+   "title": "Uriel Lozano",
+   "start": "2026-12-19T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/uriel-lozano/uriel-lozano-image-main-1781099931.jpg",
+   "url": "https://www.tuentrada.com/uriel-lozano-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/uriel-lozano-tgr"
     }
    ]
   },
@@ -50362,6 +50778,28 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/2h-fiesta-19-dic-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "a97244a20f1a",
+   "title": "Terminal 26 - La Estacion",
+   "start": "2026-12-20T15:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/terminal-26-la-estacion/terminal-26-la-estacion-image-main-1794587692.jpg",
+   "url": "https://www.tuentrada.com/terminal26-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/terminal26-tgr"
     }
    ]
   },
@@ -50846,6 +51284,28 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/348a49a7-a036-4972-a2a5-485c5a9eb7be"
+    }
+   ]
+  },
+  {
+   "id": "f169464b256e",
+   "title": "The Billie Holiday Songbook | Barbie Martinez + Román Ostrowski Trío | Con Ezequiel Dutil y Bruno Varela",
+   "start": "2027-01-13T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMS0wOFQyMy0yMy0wMi0zMzBaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/63caed83-1017-4859-a246-778d836ca635",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/63caed83-1017-4859-a246-778d836ca635"
     }
    ]
   }
