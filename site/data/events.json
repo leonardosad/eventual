@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T23:41:10.968Z",
+ "generatedAt": "2026-11-14T23:46:54.939Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -28,10 +28,12 @@
   {
    "id": "complejo-teatral",
    "name": "Complejo Teatral de Buenos Aires",
-   "count": 160,
-   "ok": true,
-   "note": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "note": "sin datos nuevos: se muestran los de la última actualización",
+   "errors": [
+    "https://complejoteatral.gob.ar/: The operation was aborted due to timeout"
+   ]
   },
   {
    "id": "movistar-arena",
@@ -196,10 +198,12 @@
   {
    "id": "plateanet",
    "name": "Plateanet",
-   "count": 868,
-   "ok": true,
-   "note": null,
-   "errors": []
+   "count": 0,
+   "ok": false,
+   "note": "sin datos nuevos: se muestran los de la última actualización",
+   "errors": [
+    "https://www.plateanet.com/: la página no cargó las obras (¿cambió el sitio?) (respuesta de 5486 caracteres: \"<!doctype html>\\r\\n<html lang=\\\"es\\\">\\r\\n<head>\\r\\n<!-- Google Tag Manager -->\\r\\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l\")"
+   ]
   }
  ],
  "events": [
