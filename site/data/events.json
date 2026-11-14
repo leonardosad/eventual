@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T09:58:34.207Z",
+ "generatedAt": "2026-11-14T21:50:58.576Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -20,7 +20,7 @@
   {
    "id": "ticketek",
    "name": "Ticketek",
-   "count": 156,
+   "count": 155,
    "ok": true,
    "note": null,
    "errors": []
@@ -60,7 +60,7 @@
   {
    "id": "niceto",
    "name": "Niceto Club",
-   "count": 105,
+   "count": 104,
    "ok": true,
    "note": null,
    "errors": []
@@ -100,7 +100,7 @@
   {
    "id": "bebop",
    "name": "Bebop Club",
-   "count": 52,
+   "count": 51,
    "ok": true,
    "note": null,
    "errors": []
@@ -207,138 +207,6 @@
      "id": "tuentrada-salas",
      "name": "TuEntrada",
      "url": "https://www.tuentrada.com/abel-pintos-tgr"
-    }
-   ]
-  },
-  {
-   "id": "0cc6edf20921",
-   "title": "Wish and Act",
-   "start": "2026-11-14T10:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Auditorio de Belgrano",
-   "address": "Virrey Loreto 2348, Capital Federal",
-   "description": null,
-   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/waa_a26.png",
-   "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano",
-   "price": "$84.000",
-   "free": false,
-   "category": "Otros",
-   "sources": [
-    {
-     "id": "ticketek",
-     "name": "Ticketek",
-     "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano"
-    }
-   ]
-  },
-  {
-   "id": "375b14dc389d",
-   "title": "Beatles para chicos | Por Nube 9 | Sábados de Noviembre",
-   "start": "2026-11-14T13:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Bebop Club",
-   "address": "Moreno 364, San Telmo",
-   "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xM1QyMi0wMC0zNC05MTRaLnBuZyJ9",
-   "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "bebop",
-     "name": "Bebop Club",
-     "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e"
-    }
-   ]
-  },
-  {
-   "id": "167bd665251e",
-   "title": "Triple Corona",
-   "start": "2026-11-14T13:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Campo Argentino de Polo",
-   "address": "Av. Libertador 4096, Buenos Aires",
-   "description": null,
-   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
-   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
-   "price": "$6.200",
-   "free": false,
-   "category": "Deportes",
-   "sources": [
-    {
-     "id": "ticketek",
-     "name": "Ticketek",
-     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
-    }
-   ]
-  },
-  {
-   "id": "cd5375ae118d",
-   "title": "Los ríos que corren",
-   "start": "2026-11-14T14:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "ESPACIO PUNTA ARENAS",
-   "address": "Punta Arenas 1420, Paternal",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/55/000321955.jpg",
-   "url": "https://www.alternativateatral.com/obra103364-los-rios-que-corren",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra103364-los-rios-que-corren"
-    }
-   ]
-  },
-  {
-   "id": "119ef3007180",
-   "title": "Topa",
-   "start": "2026-11-14T14:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Teatro Devoto",
-   "address": "Av. Lincoln 3815, Buenos Aires",
-   "description": null,
-   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/umdc-_v2_-_400x600.jpg",
-   "url": "https://www.ticketek.com.ar/topa/teatro-devoto",
-   "price": "$3.920",
-   "free": false,
-   "category": "Infantil",
-   "sources": [
-    {
-     "id": "ticketek",
-     "name": "Ticketek",
-     "url": "https://www.ticketek.com.ar/topa/teatro-devoto"
-    }
-   ]
-  },
-  {
-   "id": "39d12b16f481",
-   "title": "Una obra más real que la del mundo",
-   "start": "2026-11-14T14:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CEMENTERIO DE LA CHACARITA",
-   "address": "Guzmán 680, Chacarita",
-   "description": null,
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/51/000321451.jpg",
-   "url": "https://www.alternativateatral.com/obra68105-una-obra-mas-real-que-la-del-mundo",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra68105-una-obra-mas-real-que-la-del-mundo"
     }
    ]
   },
@@ -3023,28 +2891,6 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104327-gardel-vive-en-nosotros"
-    }
-   ]
-  },
-  {
-   "id": "bde8b65abc41",
-   "title": "Gurka",
-   "start": "2026-11-14T20:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "CULTURAL DE LA REPÚBLICA",
-   "address": "Larrazabal 1346, Mataderos",
-   "description": "Teatro",
-   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/38/000311238.jpg",
-   "url": "https://www.alternativateatral.com/obra99840-gurka",
-   "price": null,
-   "free": false,
-   "category": "Teatro",
-   "sources": [
-    {
-     "id": "alternativa-teatral",
-     "name": "Alternativa Teatral",
-     "url": "https://www.alternativateatral.com/obra99840-gurka"
     }
    ]
   },
@@ -13627,28 +13473,6 @@
    ]
   },
   {
-   "id": "54ea3b6b7a0d",
-   "title": "KENNY GARRETT AND SOUNDS FROM THE ANCESTORS",
-   "start": "2026-11-16T22:30:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Bebop Club",
-   "address": "Moreno 364, San Telmo",
-   "description": null,
-   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0yMFQyMC00Ny0zNi02ODVaLnBuZyJ9",
-   "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c",
-   "price": null,
-   "free": false,
-   "category": "Música",
-   "sources": [
-    {
-     "id": "bebop",
-     "name": "Bebop Club",
-     "url": "https://ticketera.bebopclub.com.ar/evento/d7ed6829-b9d4-4b8a-812f-e3cf3e9c986c"
-    }
-   ]
-  },
-  {
    "id": "ffb47cbf625e",
    "title": "Alexisonfire en Argentina",
    "start": "2026-11-17T00:00:00-03:00",
@@ -20392,28 +20216,6 @@
    ]
   },
   {
-   "id": "57b8f2329672",
-   "title": "Lito Costa Febre",
-   "start": "2026-11-20T21:00:00-03:00",
-   "end": null,
-   "whenText": null,
-   "place": "Auditorio de Belgrano",
-   "address": "Virrey Loreto 2348, Capital Federal",
-   "description": null,
-   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/febre440.jpg",
-   "url": "https://www.ticketek.com.ar/lito-costa-febre/auditorio-de-belgrano",
-   "price": "$33.600",
-   "free": false,
-   "category": "Deportes",
-   "sources": [
-    {
-     "id": "ticketek",
-     "name": "Ticketek",
-     "url": "https://www.ticketek.com.ar/lito-costa-febre/auditorio-de-belgrano"
-    }
-   ]
-  },
-  {
    "id": "8d75cffda7fa",
    "title": "Mi más (sin)Sentido Pésame",
    "start": "2026-11-20T21:00:00-03:00",
@@ -22104,6 +21906,28 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/wish-and-act/auditorio-de-belgrano"
+    }
+   ]
+  },
+  {
+   "id": "8a901be2dbfa",
+   "title": "Beatles para chicos | Por Nube 9 | Sábados de Noviembre",
+   "start": "2026-11-21T13:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Bebop Club",
+   "address": "Moreno 364, San Telmo",
+   "description": null,
+   "image": "https://d14prguu9n0pyz.cloudfront.net/eyJidWNrZXQiOiJ0aWNrZXRlcmEtYmVib3AtMDI2OTU1ODc5MzgxLXNhLWVhc3QtMS1hbiIsImtleSI6InVwbG9hZHMvMjAyNi0xMC0xM1QyMi0wMC0zNC05MTRaLnBuZyJ9",
+   "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "sources": [
+    {
+     "id": "bebop",
+     "name": "Bebop Club",
+     "url": "https://ticketera.bebopclub.com.ar/evento/b55e647f-7d4c-4992-805c-06f794a7ba3e"
     }
    ]
   },
@@ -35851,6 +35675,28 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103768-muestra-delay-grupo-teatro-adultos-jueves"
+    }
+   ]
+  },
+  {
+   "id": "c9e81edb2cd9",
+   "title": "Querida Danza, dos puntos",
+   "start": "2026-11-26T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "EL PORTON DE SANCHEZ",
+   "address": "Sánchez de Bustamante 1034, Almagro",
+   "description": "Danza",
+   "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/39/000298239.jpg",
+   "url": "https://www.alternativateatral.com/obra84290-querida-danza-dos-puntos",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "sources": [
+    {
+     "id": "alternativa-teatral",
+     "name": "Alternativa Teatral",
+     "url": "https://www.alternativateatral.com/obra84290-querida-danza-dos-puntos"
     }
    ]
   },
