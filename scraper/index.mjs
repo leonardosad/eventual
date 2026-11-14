@@ -14,7 +14,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
-import { parseTuEntrada, tuentradaVenues } from './adapters/tuentrada.mjs';
+import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe } from './normalize.mjs';
 
@@ -41,7 +41,7 @@ async function fetchText(url, tries = 2, extraHeaders = {}) {
 }
 
 // Tipos que necesitan pedir más páginas además de la inicial
-const MULTI = { follow, ticketek, complejo, 'tuentrada-salas': tuentradaVenues };
+const MULTI = { follow, ticketek, complejo, 'tuentrada-salas': tuentradaVenues, 'tuentrada-busqueda': tuentradaSearch };
 
 async function runAdapter(source, body, url, ctx) {
   if (MULTI[source.type]) return MULTI[source.type](body, url, source, ctx);

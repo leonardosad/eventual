@@ -258,6 +258,110 @@
     }
   },
   {
+    "id": "tuentrada-teatro",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=teatro"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Teatro"
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-musica",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=m%C3%BAsica"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Música"
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-familia",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=familia"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Infantil"
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-cultura",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=cultura"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-comedia",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=comedia"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Teatro"
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-exposicion",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=exposici%C3%B3n"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Arte y muestras"
+    },
+    "delayMs": 700
+  },
+  {
+    "id": "tuentrada-deportes",
+    "name": "TuEntrada",
+    "enabled": true,
+    "type": "tuentrada-busqueda",
+    "urls": [
+      "https://www.tuentrada.com/busqueda?categoria=deportes"
+    ],
+    "options": {
+      "city": "^Buenos Aires$",
+      "maxPages": 15,
+      "category": "Deportes"
+    },
+    "delayMs": 700
+  },
+  {
     "id": "passline",
     "name": "Passline",
     "enabled": false,

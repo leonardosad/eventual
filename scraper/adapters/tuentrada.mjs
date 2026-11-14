@@ -1,3 +1,4 @@
+import * as cheerio from 'cheerio';
 // TuEntrada (tuentrada.com): ticketera del Teatro Gran Rex, el Colón y otras salas.
 // La portada (Next.js) trae en su "flight data" un objeto por evento:
 // {"id":…,"model":"event","slug":"…","name":"…","venue":"…","imageMainNew":{"src":…},"dateRange":"12-11-2026 21:00 hs"}
@@ -99,6 +100,64 @@ export async function tuentradaVenues(body, url, source, ctx) {
       if (!next || next === cursor || !(json?.data?.events || []).length) break;
       cursor = next;
     }
+  }
+  return out;
+}
+
+// Búsqueda por categoría (/busqueda?categoria=teatro): tarjetas con "Sala, Ciudad".
+// Se pagina con &cursor=… (un JSON en base64 con _pointsToNextItems:true para "Siguiente").
+export function parseTuEntradaSearch(html, baseUrl) {
+  const $ = cheerio.load(html);
+  const events = [];
+  $('a[href]').each((_, a) => {
+    const $a = $(a);
+    if (!$a.find('h2').length || !$a.find('svg.lucide-calendar-days').length) return;
+    const title = $a.find('h2').first().text().replace(/\s+/g, ' ').trim();
+    const dateRange = $a.find('svg.lucide-calendar-days').first().parent().text().replace(/\s+/g, ' ').trim();
+    const where = $a.find('svg.lucide-map-pin').first().parent().text().replace(/\s+/g, ' ').trim();
+    const status = $a.find('span.rounded-full').first().text().trim();
+    const i = where.lastIndexOf(',');
+    events.push({
+      slug: $a.attr('href'),
+      title, dateRange, status,
+      venue: i > 0 ? where.slice(0, i).trim() : where,
+      city: i > 0 ? where.slice(i + 1).trim() : '',
+      image: $a.find('img').first().attr('src') || null,
+    });
+  });
+  let next = null;
+  $('a[href*="cursor="]').each((_, a) => {
+    const href = $(a).attr('href');
+    const c = new URL(href, baseUrl).searchParams.get('cursor');
+    try {
+      if (JSON.parse(Buffer.from(c, 'base64').toString('utf8'))._pointsToNextItems) next = new URL(href, baseUrl).href;
+    } catch { /* cursor raro */ }
+  });
+  return { events, next };
+}
+
+export async function tuentradaSearch(body, url, source, ctx) {
+  const cities = new RegExp(source.options?.city || '^Buenos Aires$', 'i');
+  const out = [];
+  const seen = new Set();
+  let pageUrl = url, html = body;
+  for (let page = 0; page < (source.options?.maxPages ?? 15); page++) {
+    const { events, next } = parseTuEntradaSearch(html, pageUrl);
+    for (const e of events) {
+      if (seen.has(e.slug) || !cities.test(e.city) || /cancel|suspend/i.test(e.status)) continue;
+      seen.add(e.slug);
+      const { start, end } = parseDateRange(e.dateRange);
+      if (!start) continue;
+      out.push({
+        title: e.title, start, end,
+        whenText: [/^del\b/i.test(e.dateRange) ? e.dateRange : null, /agotad|[uú]ltimas/i.test(e.status) ? e.status : null].filter(Boolean).join(' · ') || null,
+        place: e.venue, image: e.image, url: new URL(e.slug, url).href,
+        category: source.options?.category, baseUrl: url,
+      });
+    }
+    if (!next || !events.length) break;
+    pageUrl = next;
+    html = await ctx.fetch(next);
   }
   return out;
 }

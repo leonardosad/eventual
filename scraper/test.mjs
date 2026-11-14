@@ -12,7 +12,7 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
-import { parseTuEntrada, eventsFromVenueApi } from './adapters/tuentrada.mjs';
+import { parseTuEntrada, eventsFromVenueApi, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
@@ -336,6 +336,26 @@ test('TuEntrada: API de sala (Gran Rex)', () => {
   assert.equal(b.start, '2026-11-24T20:30:00-03:00');
   assert.equal(b.place, 'Teatro Gran Rex');
   assert.equal(b.url, 'https://www.tuentrada.com/djavan-tgr');
+});
+
+const tuCard = (slug, t, estado, fecha, donde) => `<a class="block w-full" href="${slug}"><div><img alt="${t}" src="https://bucket/${slug}.jpg"></div><div><h2>${t}</h2>
+  <span class="inline-flex rounded-full">${estado}</span><span><svg class="lucide lucide-calendar-days"></svg>${fecha}</span><span><svg class="lucide lucide-map-pin"></svg>${donde}</span></div></a>`;
+await testAsync('TuEntrada: búsqueda paginada, solo CABA', async () => {
+  const cur = Buffer.from(JSON.stringify({ date_start: '2026-11-21 21:00:00', id: 1718, _pointsToNextItems: true })).toString('base64');
+  const prev = Buffer.from(JSON.stringify({ id: 1, _pointsToNextItems: false })).toString('base64');
+  const p1 = tuCard('puig-plata', 'Arturo Puig en Buenas Palabras', 'Disponible', 'Del 21-11-2026 al 22-11-2026', 'Teatro El Plata, Buenos Aires')
+    + tuCard('lajenny-escobar', 'LA JENNY', 'Últimas Entradas', '15-11-2026 19:00 hs', 'Teatro Seminari, Belén De Escobar')
+    + `<a href="busqueda?categoria=teatro&cursor=${prev}">Anterior</a><a href="busqueda?categoria=teatro&cursor=${cur}">Siguiente</a>`;
+  const p2 = tuCard('sumo-rondeman', 'Living Rondewine - Sumo', 'Últimas Entradas', '21-11-2026 21:00 hs', 'Rondeman Abasto, Buenos Aires');
+  const ctx = { fetch: async (u) => { assert.ok(u.includes(cur)); return p2; }, warn: () => {} };
+  const raw = await tuentradaSearch(p1, 'https://www.tuentrada.com/busqueda?categoria=teatro', { options: { category: 'Teatro' } }, ctx);
+  assert.equal(raw.length, 2);
+  const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.place, 'Teatro El Plata');
+  assert.equal(a.category, 'Teatro');
+  assert.equal(b.start, '2026-11-21T21:00:00-03:00');
+  assert.equal(b.whenText, 'Últimas Entradas');
+  assert.equal(b.url, 'https://www.tuentrada.com/sumo-rondeman');
 });
 
 console.log(`\n${passed} pruebas OK`);
