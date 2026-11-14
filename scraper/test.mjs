@@ -178,6 +178,12 @@ test('Ticketek: datos del nodo', () => {
   assert.equal(e.price, '$124.300');
   const [t] = eventsFromNode({ category: { parent: 'Teatro' }, google_structured_data: [{ '@type': 'MusicEvent', name: 'Esperando a Godot', startDate: '2026-11-12T20:00:00-03:00' }] }, 'x/y');
   assert.equal(t.category, 'Teatro');
+  const mdq = eventsFromNode({ google_structured_data: [{ '@type': 'MusicEvent', name: 'Show', startDate: '2026-12-01T21:00:00-03:00',
+    location: { name: 'RADIO CITY', address: { addressRegion: 'Buenos Aires', addressLocality: 'Mar del Plata' } } }] }, 'a/b');
+  assert.equal(mdq[0].zona, 'fuera');
+  const pal = eventsFromNode({ google_structured_data: [{ '@type': 'MusicEvent', name: 'Show', startDate: '2026-12-01T21:00:00-03:00',
+    location: { name: 'Hipódromo de Palermo', address: { addressRegion: 'Buenos Aires', addressLocality: 'Palermo' } } }] }, 'a/b');
+  assert.equal(pal[0].zona, 'CABA');
   assert.deepEqual(showsFromSearch({ resultados: [{ url: 'a/b' }, { url: 'c/d' }] }), ['a/b', 'c/d']);
 });
 
@@ -370,6 +376,10 @@ test('Zonas: CABA, GBA y fuera del AMBA', () => {
   assert.equal(zonaDe('San Justo'), 'GBA');
   assert.equal(zonaDe('Belén De Escobar'), 'GBA');
   assert.equal(zonaDe('La Plata'), null);
+  assert.equal(zonaDe('Palermo'), 'CABA');
+  assert.equal(zonaDe('Barrio San Nicolas'), 'CABA');
+  assert.equal(zonaDe('Microcentro'), 'CABA');
+  assert.equal(zonaDe('Ciudad Autonoma de Buenos Aires'), 'CABA');
   assert.equal(zonaDe('Mar del Plata'), null);
   assert.deepEqual(livepassZona('Paunero 1500, San Miguel, Provincia de Buenos Aires, Argentina'), { zona: 'GBA', localidad: 'San Miguel', place: 'Paunero 1500' });
   assert.equal(livepassZona('Avenida 44, La Plata, Provincia de Buenos Aires, Argentina').zona, 'fuera');

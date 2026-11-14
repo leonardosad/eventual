@@ -6,6 +6,17 @@ const norm = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-
 
 const CABA = /^(caba|c\.a\.b\.a\.?|capital federal|capital|ciudad (autonoma )?de buenos aires|buenos aires|bs\.? ?as\.?|ciudad de bs\.? ?as\.?)$/;
 
+// Barrios porteños (y nombres de zona que usan las ticketeras)
+const BARRIOS = new RegExp('\\b(' + [
+  'agronomia', 'almagro', 'balvanera', 'barracas', 'belgrano', 'boedo', 'caballito', 'chacarita', 'coghlan', 'colegiales',
+  'constitucion', 'flores', 'floresta', 'la boca', 'boca', 'la paternal', 'paternal', 'liniers', 'mataderos', 'monte castro',
+  'monserrat', 'montserrat', 'nueva pompeya', 'pompeya', 'nunez', 'palermo', 'parque avellaneda', 'parque chacabuco', 'parque chas',
+  'parque patricios', 'puerto madero', 'recoleta', 'retiro', 'saavedra', 'san cristobal', 'san nicolas', 'san telmo',
+  'velez sarsfield', 'versalles', 'villa crespo', 'villa del parque', 'villa devoto', 'devoto', 'villa general mitre',
+  'villa lugano', 'lugano', 'villa luro', 'villa ortuzar', 'villa pueyrredon', 'villa real', 'villa riachuelo',
+  'villa santa rita', 'villa soldati', 'villa urquiza', 'abasto', 'microcentro', 'centro', 'once', 'congreso', 'tribunales',
+].join('|') + ')\\b');
+
 // Partidos del GBA y sus localidades más comunes
 const GBA = new RegExp('\\b(' + [
   'gba', 'gran buenos aires', 'conurbano',
@@ -31,7 +42,7 @@ const GBA = new RegExp('\\b(' + [
 ].join('|') + ')\\b');
 
 // Lugares que NO son AMBA (se descartan aunque la fuente diga "Provincia de Buenos Aires")
-const LEJOS = /\b(la plata|mar del plata|bahia blanca|junin|tandil|pinamar|villa gesell|necochea|olavarria|azul|lujan|campana|zarate|san nicolas|pergamino|chascomus|cordoba|rosario|santa fe|mendoza|tucuman|salta|jujuy|neuquen|bariloche|san juan|la pampa|villa carlos paz|montevideo|santiago|chubut|corrientes|misiones|parana|entre rios)\b/;
+const LEJOS = /\b(la plata|mar del plata|bahia blanca|junin|tandil|pinamar|villa gesell|necochea|olavarria|azul|lujan|campana|zarate|san nicolas de los arroyos|pergamino|chascomus|cordoba|rosario|santa fe|mendoza|tucuman|salta|jujuy|neuquen|bariloche|san juan|la pampa|villa carlos paz|montevideo|santiago|chubut|corrientes|misiones|parana|entre rios)\b/;
 
 /**
  * Devuelve 'CABA', 'GBA' o null (fuera del AMBA o desconocido) a partir de campos
@@ -41,6 +52,7 @@ export function zonaDe(...localidades) {
   const vals = localidades.flat().map(norm).filter(Boolean);
   if (!vals.length) return null;
   if (vals.some((v) => LEJOS.test(v))) return null;
+  if (vals.some((v) => CABA.test(v) || BARRIOS.test(v))) return 'CABA';
   if (vals.some((v) => GBA.test(v))) return 'GBA';
   if (vals.some((v) => CABA.test(v) || /capital federal|ciudad (autonoma )?de buenos aires|\bcaba\b/.test(v))) return 'CABA';
   return null;

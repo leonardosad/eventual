@@ -23,10 +23,13 @@ export function eventsFromNode(json, path) {
     const addr = loc.address || {};
     const region = String(addr.addressRegion || '');
     const ciudad = addr.addressLocality || json?.venue?.city || json?.venue?.field_city || '';
-    const zona = /capital|caba|ciudad aut/i.test(region) ? 'CABA'
-      : zonaDe(ciudad) === 'GBA' ? 'GBA'
-      : (!region && !ciudad) ? 'CABA'
-      : zonaDe(ciudad, region) === 'CABA' && !/^buenos aires$/i.test(region) ? 'CABA' : 'fuera';
+    // Ticketek usa región "Buenos Aires" tanto para CABA como para la provincia:
+    // decide la ciudad (barrio porteño, partido del GBA o ciudad del interior).
+    const zc = zonaDe(ciudad);
+    const zona = zc ? zc
+      : /capital|caba|ciudad aut/i.test(region) ? 'CABA'
+      : !ciudad && (!region || /^buenos aires$/i.test(region)) ? 'CABA'
+      : 'fuera';
     const offer = first(d.offers) || {};
     return {
       title: d.name,
