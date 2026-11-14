@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T23:46:54.939Z",
+ "generatedAt": "2026-11-14T23:53:35.938Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -20,7 +20,7 @@
   {
    "id": "ticketek",
    "name": "Ticketek",
-   "count": 63,
+   "count": 139,
    "ok": true,
    "note": null,
    "errors": []
@@ -28,12 +28,10 @@
   {
    "id": "complejo-teatral",
    "name": "Complejo Teatral de Buenos Aires",
-   "count": 0,
-   "ok": false,
-   "note": "sin datos nuevos: se muestran los de la última actualización",
-   "errors": [
-    "https://complejoteatral.gob.ar/: The operation was aborted due to timeout"
-   ]
+   "count": 160,
+   "ok": true,
+   "note": null,
+   "errors": []
   },
   {
    "id": "movistar-arena",
@@ -207,6 +205,54 @@
   }
  ],
  "events": [
+  {
+   "id": "0a377a4360b0",
+   "title": "Esperando a Godot",
+   "start": "2026-11-04T20:00:00-03:00",
+   "end": "2026-12-13T19:00:00-03:00",
+   "whenText": null,
+   "place": "Teatro Presidente Alvear",
+   "address": "Av. Corrientes 1659",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/godot_a26.png",
+   "url": "https://www.ticketek.com.ar/esperando-godot/teatro-presidente-alvear",
+   "price": "$25.990",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/esperando-godot/teatro-presidente-alvear"
+    }
+   ]
+  },
+  {
+   "id": "2e333f21a0dc",
+   "title": "Mafalda Inmersiva",
+   "start": "2026-11-10T12:00:00-03:00",
+   "end": "2026-11-29T12:00:00-03:00",
+   "whenText": null,
+   "place": "Centro Cultural Recoleta",
+   "address": "Junin 1930",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/maf440.jpg",
+   "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta",
+   "price": "$24.000",
+   "free": false,
+   "category": "Otros",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/mafalda-inmersiva/centro-cultural-recoleta"
+    }
+   ]
+  },
   {
    "id": "0fb89a783e80",
    "title": "Adriana Beltrán presenta: Canciones Urbanas Rioplatenses - Y algo mas...",
@@ -3242,7 +3288,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -3252,6 +3298,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -4816,6 +4867,30 @@
    ]
   },
   {
+   "id": "b88032ca7fe1",
+   "title": "Zarzuela & Flamenco",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Avenida",
+   "address": "Av. de Mayo 1222",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/zyf_a.png",
+   "url": "https://www.ticketek.com.ar/zarzuela-flamenco/teatro-avenida",
+   "price": "$25.300",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/zarzuela-flamenco/teatro-avenida"
+    }
+   ]
+  },
+  {
    "id": "75b082a819c9",
    "title": "BENOIT DELBECQ SOLO PIANO",
    "start": "2026-11-14T20:45:00-03:00",
@@ -5984,6 +6059,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102838-la-imagen-presunta"
+    }
+   ]
+  },
+  {
+   "id": "e7269354b38f",
+   "title": "La Luna que te Parió",
+   "start": "2026-11-14T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Devoto",
+   "address": "Av. Lincoln 3815",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/lqtpario-web_busquedas_440x600.png",
+   "url": "https://www.ticketek.com.ar/la-luna-que-te-pario/teatro-devoto",
+   "price": "$28.000",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-luna-que-te-pario/teatro-devoto"
     }
    ]
   },
@@ -10645,6 +10744,30 @@
    ]
   },
   {
+   "id": "9408ff6e4a45",
+   "title": "Triple Corona",
+   "start": "2026-11-15T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "3a595cf4172d",
    "title": "FUTCON | Festival de Cultura Futbolera",
    "start": "2026-11-15T14:00:00-03:00",
@@ -13118,7 +13241,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -13128,6 +13251,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -17563,6 +17691,30 @@
    ]
   },
   {
+   "id": "8eac05f697d6",
+   "title": "Triple Corona",
+   "start": "2026-11-17T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "b027a9399adb",
    "title": "Programa de Cortos",
    "start": "2026-11-17T18:00:00-03:00",
@@ -18677,6 +18829,30 @@
    ]
   },
   {
+   "id": "3f91645346da",
+   "title": "Triple Corona",
+   "start": "2026-11-18T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "8826eb336da2",
    "title": "Mario Alonso Puig",
    "start": "2026-11-18T19:00:00-03:00",
@@ -19153,7 +19329,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -19163,6 +19339,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -20569,6 +20750,30 @@
    ]
   },
   {
+   "id": "2873d732078f",
+   "title": "Festival de Danzas Armenias",
+   "start": "2026-11-19T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Avenida",
+   "address": "Av. de Mayo 1222",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/masis_a26.png",
+   "url": "https://www.ticketek.com.ar/festival-de-danzas-armenias/teatro-avenida",
+   "price": "$28.750",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/festival-de-danzas-armenias/teatro-avenida"
+    }
+   ]
+  },
+  {
    "id": "b68131318f94",
    "title": "Ricky Behrens más",
    "start": "2026-11-19T19:00:00-03:00",
@@ -21237,7 +21442,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -21247,6 +21452,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -24516,7 +24726,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -24526,6 +24736,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -25174,6 +25389,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra103933-the-fifth-step-national-theatre-live"
+    }
+   ]
+  },
+  {
+   "id": "9f7c5a7ddbe3",
+   "title": "Tobías Arizio",
+   "start": "2026-11-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Santa María",
+   "address": "Montevideo 842",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/tobias_a26.png",
+   "url": "https://www.ticketek.com.ar/tobias-arizio/teatro-santa-maria",
+   "price": "$46.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/tobias-arizio/teatro-santa-maria"
     }
    ]
   },
@@ -29585,6 +29824,30 @@
    ]
   },
   {
+   "id": "044bf15bbeb5",
+   "title": "Triple Corona",
+   "start": "2026-11-21T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "e3e4e0b375fe",
    "title": "Una obra más real que la del mundo",
    "start": "2026-11-21T14:30:00-03:00",
@@ -30301,6 +30564,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/27719?obra=HABITACION-MACBETH_"
+    }
+   ]
+  },
+  {
+   "id": "1b732d68fc80",
+   "title": "All Shook Up",
+   "start": "2026-11-21T17:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Devoto",
+   "address": "Av. Lincoln 3815",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/web_2.png",
+   "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto",
+   "price": "$42.600",
+   "free": false,
+   "category": "Infantil",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto"
     }
    ]
   },
@@ -31438,6 +31725,30 @@
    ]
   },
   {
+   "id": "ac5473ac399e",
+   "title": "Shine On",
+   "start": "2026-11-21T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Palacio de la Reconquista",
+   "address": "Reconquista 100",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/echoes440.jpg",
+   "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista",
+   "price": "$203.400",
+   "free": false,
+   "category": "Otros",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista"
+    }
+   ]
+  },
+  {
    "id": "5adcc1f0cf28",
    "title": "Tres mundos, dos pianistas",
    "start": "2026-11-21T19:00:00-03:00",
@@ -32562,7 +32873,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -32572,6 +32883,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -38035,6 +38351,30 @@
    ]
   },
   {
+   "id": "2b8394a88cfa",
+   "title": "Triple Corona",
+   "start": "2026-11-22T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "ec7107c39c25",
    "title": "Frecuencia – Es Hora de Brillar",
    "start": "2026-11-22T14:00:00-03:00",
@@ -38367,6 +38707,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104091-la-casa-se-acuerda"
+    }
+   ]
+  },
+  {
+   "id": "4ea6bebb2672",
+   "title": "La Crossover La Bombonerita",
+   "start": "2026-11-22T16:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "ESTADIO LUIS CONDE - LA BOMBONERITA",
+   "address": "Arzobispo Espinosa 600",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/440_x_600-2.jpg",
+   "url": "https://www.ticketek.com.ar/la-crossover-la-bombonerita/estadio-luis-conde-la-bombonerita",
+   "price": "$11.500",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-crossover-la-bombonerita/estadio-luis-conde-la-bombonerita"
     }
    ]
   },
@@ -40374,7 +40738,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -40384,6 +40748,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -43236,6 +43605,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra102171-a-brillar-mi-amor-peluqueria"
+    }
+   ]
+  },
+  {
+   "id": "4ea8e1edffcd",
+   "title": "All Shook Up",
+   "start": "2026-11-22T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Devoto",
+   "address": "Av. Lincoln 3815",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/web_2.png",
+   "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto",
+   "price": "$42.600",
+   "free": false,
+   "category": "Infantil",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/all-shook/teatro-devoto"
     }
    ]
   },
@@ -46573,7 +46966,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -46583,6 +46976,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -48532,7 +48930,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -48542,6 +48940,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -49272,6 +49675,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/34881?obra=LA-JENNY---CACHICALIENTAS-TOUR_"
+    }
+   ]
+  },
+  {
+   "id": "c50a210dca29",
+   "title": "La Verbena de la Paloma",
+   "start": "2026-11-26T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Avenida",
+   "address": "Av. de Mayo 1222",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/etdlp_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida",
+   "price": "$34.500",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida"
     }
    ]
   },
@@ -51547,7 +51974,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -51557,6 +51984,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -52628,6 +53060,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104386-la-inconclusa-de-stefano"
+    }
+   ]
+  },
+  {
+   "id": "5c79cfd38ac2",
+   "title": "La Verbena de la Paloma",
+   "start": "2026-11-27T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Avenida",
+   "address": "Av. de Mayo 1222",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/etdlp_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida",
+   "price": "$34.500",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verbena-de-la-paloma/teatro-avenida"
     }
    ]
   },
@@ -56376,6 +56832,30 @@
    ]
   },
   {
+   "id": "746c498f70f1",
+   "title": "Triple Corona",
+   "start": "2026-11-28T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "c53fbe484188",
    "title": "Los ríos que corren",
    "start": "2026-11-28T14:00:00-03:00",
@@ -58186,6 +58666,30 @@
    ]
   },
   {
+   "id": "3ecc9a07101a",
+   "title": "Shine On",
+   "start": "2026-11-28T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Palacio de la Reconquista",
+   "address": "Reconquista 100",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/echoes440.jpg",
+   "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista",
+   "price": "$203.400",
+   "free": false,
+   "category": "Otros",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/shine/palacio-de-la-reconquista"
+    }
+   ]
+  },
+  {
    "id": "beada8e0d148",
    "title": "Tridente Aroldi",
    "start": "2026-11-28T19:00:00-03:00",
@@ -59353,7 +59857,7 @@
    "description": "Teatro",
    "image": "https://img.alternativateatral.com/scripts/es/fotos/obras/resumen/84/000324384.jpg",
    "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii",
-   "price": null,
+   "price": "$13.560",
    "free": false,
    "category": "Teatro",
    "zona": "CABA",
@@ -59363,6 +59867,11 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra104375-la-verdadera-historia-de-ricardo-iii"
+    },
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -63851,6 +64360,30 @@
    ]
   },
   {
+   "id": "d6ba3e69b240",
+   "title": "Triple Corona",
+   "start": "2026-11-29T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "f57ee4ec1811",
    "title": "Casamiento En el Campo",
    "start": "2026-11-29T15:00:00-03:00",
@@ -64207,6 +64740,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35122?obra=LA-RATONERA"
+    }
+   ]
+  },
+  {
+   "id": "1ddddf13d4ea",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-11-29T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -65800,6 +66357,30 @@
    ]
   },
   {
+   "id": "712f3a2d14d3",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-02T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
    "id": "8e2162025f50",
    "title": "Noelia Pace – la Medium.",
    "start": "2026-12-02T20:00:00-03:00",
@@ -66040,6 +66621,30 @@
    ]
   },
   {
+   "id": "5658f4e09c1f",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-03T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
    "id": "85ac0269fbd7",
    "title": "Las Gratitudes",
    "start": "2026-12-03T20:00:00-03:00",
@@ -66132,6 +66737,30 @@
      "id": "bebop",
      "name": "Bebop Club",
      "url": "https://ticketera.bebopclub.com.ar/evento/949b5005-8e42-4741-be75-f4602c0abb93"
+    }
+   ]
+  },
+  {
+   "id": "d286a00e69f2",
+   "title": "Zubipalloza",
+   "start": "2026-12-03T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Devoto",
+   "address": "Av. Lincoln 3815",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/02_vertical_440x600.jpg",
+   "url": "https://www.ticketek.com.ar/zubipalloza/teatro-devoto",
+   "price": "$27.600",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/zubipalloza/teatro-devoto"
     }
    ]
   },
@@ -66516,6 +67145,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/30848?obra=FLOR-SICHEL---TODAS-LAS-EXIGENCIAS-DEL-MUNDO"
+    }
+   ]
+  },
+  {
+   "id": "297817bfc6d8",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -67250,6 +67903,30 @@
    ]
   },
   {
+   "id": "cc61bcf1db08",
+   "title": "Triple Corona",
+   "start": "2026-12-05T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "c0fc514255c0",
    "title": "FABRICATON · EN C ART MEDIA",
    "start": "2026-12-05T14:00:00-03:00",
@@ -67563,6 +68240,30 @@
      "id": "ticketek",
      "name": "Ticketek",
      "url": "https://www.ticketek.com.ar/katseye-tribute-experience/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "9044b43c7703",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -68292,6 +68993,30 @@
    ]
   },
   {
+   "id": "7c5d20551aba",
+   "title": "Triple Corona",
+   "start": "2026-12-06T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
    "id": "49552e8b237e",
    "title": "La Ultima Sesion de Freud",
    "start": "2026-12-06T18:00:00-03:00",
@@ -68384,6 +69109,30 @@
      "id": "niceto",
      "name": "Niceto Club",
      "url": "https://venti.live/evento/acustico-temporada-tyuba-en-niceto-bar"
+    }
+   ]
+  },
+  {
+   "id": "ced46bd45778",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-06T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -69569,6 +70318,30 @@
    ]
   },
   {
+   "id": "dffb62271d7c",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
    "id": "2fb62a0c23a0",
    "title": "Ney Matogrosso",
    "start": "2026-12-09T20:30:00-03:00",
@@ -69810,6 +70583,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35454?obra=GUITARREROS-EN-VIVO"
+    }
+   ]
+  },
+  {
+   "id": "4b9a30f7dd7d",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-10T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -70270,6 +71067,30 @@
    ]
   },
   {
+   "id": "38344cc575f4",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-11T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
    "id": "f30308f33cea",
    "title": "MIR NICOLAS en Club Re Quilmes",
    "start": "2026-12-11T20:00:00-03:00",
@@ -70482,6 +71303,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35511?obra=CUTI-CARABAJAL---INTIMO"
+    }
+   ]
+  },
+  {
+   "id": "82b257f01186",
+   "title": "Hasta que me olvides",
+   "start": "2026-12-11T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Santa María",
+   "address": "Montevideo 842",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/hqmo_a26.png",
+   "url": "https://www.ticketek.com.ar/hasta-que-me-olvides/teatro-santa-maria",
+   "price": "$51.750",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/hasta-que-me-olvides/teatro-santa-maria"
     }
    ]
   },
@@ -70846,6 +71691,54 @@
    ]
   },
   {
+   "id": "f9651f3fb63e",
+   "title": "Triple Corona",
+   "start": "2026-12-12T13:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Campo Argentino de Polo",
+   "address": "Av. Libertador 4096",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/pieza2_440x600px.jpg",
+   "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo",
+   "price": "$6.200",
+   "free": false,
+   "category": "Deportes",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/triple-corona/campo-argentino-de-polo"
+    }
+   ]
+  },
+  {
+   "id": "c9f7dd1e3be9",
+   "title": "Festival La Porteña",
+   "start": "2026-12-12T15:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Hipódromo de Palermo",
+   "address": "Av. del Libertador 4101",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/la_portena_2026_hipodromo_440x600_1.jpg",
+   "url": "https://www.ticketek.com.ar/festival-la-portena/hipodromo-de-palermo",
+   "price": "$57.500",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/festival-la-portena/hipodromo-de-palermo"
+    }
+   ]
+  },
+  {
    "id": "4c51469b317b",
    "title": "Julieta Otero – No Me Acuerdo las Cosas .",
    "start": "2026-12-12T18:00:00-03:00",
@@ -71058,6 +71951,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35835?obra=FABIANA-CANTILO---EN-EL-REGINA"
+    }
+   ]
+  },
+  {
+   "id": "63740d00cf05",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-12T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
     }
    ]
   },
@@ -71782,6 +72699,30 @@
    ]
   },
   {
+   "id": "8e6c584f19d5",
+   "title": "La verdadera historia de Ricardo III",
+   "start": "2026-12-13T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/ricardo3_a26.png",
+   "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/la-verdadera-historia-de-ricardo-iii/teatro-san-martin"
+    }
+   ]
+  },
+  {
    "id": "d8bd21360b49",
    "title": "Festival Plasma 4ta edición",
    "start": "2026-12-13T19:30:00-03:00",
@@ -72171,6 +73112,30 @@
    ]
   },
   {
+   "id": "eb85a8aafdf8",
+   "title": "Escuela Experimental de Musica Popular",
+   "start": "2026-12-15T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Santa María",
+   "address": "Montevideo 842",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/eemp_a26.png",
+   "url": "https://www.ticketek.com.ar/escuela-experimental-de-musica-popular/teatro-santa-maria",
+   "price": "$28.750",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/escuela-experimental-de-musica-popular/teatro-santa-maria"
+    }
+   ]
+  },
+  {
    "id": "ac504ecfa452",
    "title": "Corazón Serrano",
    "start": "2026-12-15T20:00:00-03:00",
@@ -72263,6 +73228,30 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35634?obra=MAZEL-TOC---MI-VIDA-CON-TOURETTE"
+    }
+   ]
+  },
+  {
+   "id": "f1569ac4bbfb",
+   "title": "Ballet Hispania",
+   "start": "2026-12-16T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Santa María",
+   "address": "Montevideo 842",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/th_a26.png",
+   "url": "https://www.ticketek.com.ar/ballet-hispania/teatro-santa-maria",
+   "price": "$28.750",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/ballet-hispania/teatro-santa-maria"
     }
    ]
   },
