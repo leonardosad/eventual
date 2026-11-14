@@ -11,7 +11,9 @@ import { parseComplejoDay } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
-import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
+import { parseBebop, parseLivepass, livepassZona } from './adapters/jazz.mjs';
+import { zonaDe } from './region.mjs';
+import { parsePlateanet } from './adapters/plateanet.mjs';
 import { parseTuEntrada, eventsFromVenueApi, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
 
@@ -349,13 +351,54 @@ await testAsync('TuEntrada: búsqueda paginada, solo CABA', async () => {
   const p2 = tuCard('sumo-rondeman', 'Living Rondewine - Sumo', 'Últimas Entradas', '21-11-2026 21:00 hs', 'Rondeman Abasto, Buenos Aires');
   const ctx = { fetch: async (u) => { assert.ok(u.includes(cur)); return p2; }, warn: () => {} };
   const raw = await tuentradaSearch(p1, 'https://www.tuentrada.com/busqueda?categoria=teatro', { options: { category: 'Teatro' } }, ctx);
-  assert.equal(raw.length, 2);
-  const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(raw.length, 3); // El Plata (CABA), La Jenny (Escobar, GBA) y Sumo (CABA)
+  const [a, j, b] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.zona, 'CABA');
+  assert.equal(j.zona, 'GBA');
+  assert.equal(j.localidad, 'Belén de Escobar');
   assert.equal(a.place, 'Teatro El Plata');
   assert.equal(a.category, 'Teatro');
   assert.equal(b.start, '2026-11-21T21:00:00-03:00');
   assert.equal(b.whenText, 'Últimas Entradas');
   assert.equal(b.url, 'https://www.tuentrada.com/sumo-rondeman');
+});
+
+test('Zonas: CABA, GBA y fuera del AMBA', () => {
+  assert.equal(zonaDe('Capital Federal'), 'CABA');
+  assert.equal(zonaDe('Buenos Aires'), 'CABA');
+  assert.equal(zonaDe('Lomas de Zamora'), 'GBA');
+  assert.equal(zonaDe('San Justo'), 'GBA');
+  assert.equal(zonaDe('Belén De Escobar'), 'GBA');
+  assert.equal(zonaDe('La Plata'), null);
+  assert.equal(zonaDe('Mar del Plata'), null);
+  assert.deepEqual(livepassZona('Paunero 1500, San Miguel, Provincia de Buenos Aires, Argentina'), { zona: 'GBA', localidad: 'San Miguel', place: 'Paunero 1500' });
+  assert.equal(livepassZona('Avenida 44, La Plata, Provincia de Buenos Aires, Argentina').zona, 'fuera');
+  assert.equal(livepassZona('Uriarte 1289, Buenos Aires, Argentina').zona, 'CABA');
+});
+
+test('Plateanet: obras con funciones, CABA y GBA', () => {
+  const obras = [
+    { Id: '35310', cNombre: '1000 HORAS - TRIBUTO LOS ABUELOS DE LA NADA', cCategoria: 'RECITAL', cZona: 'CABA', cUrl: 'https://www.plateanet.com/obra/35310', cImagenBusqueda: 'https://m/1000.jpg',
+      cDescripcion: 'Llega al Teatro Premier.&lt;|&gt;Un recorrido', cFechas: ['sábado, 12 diciembre 2026 21:00', 'domingo, 13 diciembre 2026 20:00'], cTeatroID: '32', cTeatroNombre: 'PREMIER' },
+    { Id: '2', cNombre: 'OBRA DEL OESTE', cCategoria: 'COMEDIA', cZona: 'GBA Oeste', cUrl: 'https://www.plateanet.com/obra/2', cFechas: ['viernes, 20 noviembre 2026 21:30'], cTeatroID: '90', cTeatroNombre: 'GRAN TEATRO MORON' },
+    { Id: '3', cNombre: 'EN LA COSTA', cZona: 'Mar del Plata', cFechas: ['viernes, 20 noviembre 2026 21:30'], cTeatroID: '7', cTeatroNombre: 'ROXY' },
+  ];
+  const teatros = { success: true, objeto: [
+    { Id: 32, Name: 'PREMIER', cTipo: 'Teatro', Direccion: 'Av. Corrientes 1565, Buenos Aires, Argentina', Zona: 'CABA' },
+    { Id: 90, Name: 'GRAN TEATRO MORON', cTipo: 'Teatro', Direccion: 'Alte. Brown 1200, Morón, Argentina', Zona: 'GBA Oeste' },
+  ] };
+  const raw = parsePlateanet(JSON.stringify(obras), JSON.stringify(teatros), 'https://www.plateanet.com/');
+  assert.equal(raw.length, 3);
+  const [a, b, c] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.title, '1000 Horas – Tributo los Abuelos de la Nada');
+  assert.equal(a.place, 'Teatro Premier');
+  assert.equal(a.start, '2026-12-12T21:00:00-03:00');
+  assert.equal(a.category, 'Música');
+  assert.equal(a.zona, 'CABA');
+  assert.equal(b.start, '2026-12-13T20:00:00-03:00');
+  assert.equal(c.zona, 'GBA');
+  assert.equal(c.localidad, 'Morón');
+  assert.equal(c.place, 'Gran Teatro Moron');
 });
 
 console.log(`\n${passed} pruebas OK`);

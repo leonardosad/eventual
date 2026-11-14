@@ -11,7 +11,8 @@
       "provincias": [
         "CABA"
       ],
-      "daysAhead": 14
+      "daysAhead": 14,
+      "incluirGBA": true
     },
     "headers": {
       "Referer": "https://www.alternativateatral.com/cartelera.asp",
@@ -52,8 +53,7 @@
       "https://prod-cms-search.ticketek.com.ar/api/1.1/search/"
     ],
     "delayMs": 400,
-    "maxLinks": 200,
-    "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires"
+    "maxLinks": 200
   },
   {
     "id": "complejo-teatral",
@@ -213,8 +213,7 @@
       "https://livepass.com.ar/events/search.json?q="
     ],
     "options": {
-      "locationInclude": "Buenos Aires, Argentina$",
-      "locationExclude": "Provincia de Buenos Aires|La Plata"
+      "incluirGBA": true
     }
   },
   {
@@ -360,6 +359,16 @@
       "category": "Deportes"
     },
     "delayMs": 700
+  },
+  {
+    "id": "plateanet",
+    "name": "Plateanet",
+    "enabled": true,
+    "type": "plateanet",
+    "urls": [
+      "https://www.plateanet.com/"
+    ],
+    "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos."
   },
   {
     "id": "passline",

@@ -2,7 +2,7 @@
 (() => {
   const TZ = 'America/Argentina/Buenos_Aires';
   const $ = (id) => document.getElementById(id);
-  const state = { q: '', free: false, when: 'all', cat: null };
+  const state = { q: '', free: false, when: 'all', cat: null, zona: 'all' };
   const PAGE = 120;
   let limit = PAGE;
   let data = { events: [], sources: [] };
@@ -47,8 +47,9 @@
     return data.events.filter((e) =>
       overlaps(e, from, to) &&
       (!state.free || e.free) &&
+      (state.zona === 'all' || (e.zona || 'CABA') === state.zona) &&
       (!state.cat || e.category === state.cat) &&
-      (!q || norm(`${e.title} ${e.place} ${e.address} ${e.description}`).includes(q)));
+      (!q || norm(`${e.title} ${e.place} ${e.address} ${e.localidad} ${e.description}`).includes(q)));
   }
 
   function card(e) {
@@ -62,7 +63,7 @@
         <div class="meta"><span class="time">${esc(when)}</span><span class="tag">${esc(e.category)}</span>
           ${e.price ? `<span class="price ${e.free ? 'free' : ''}">${esc(e.price)}</span>` : ''}</div>
         <h3>${esc(e.title)}</h3>
-        ${e.place ? `<p class="place">📍 ${esc(e.place)}${e.address && e.address !== e.place ? ` · ${esc(e.address)}` : ''}</p>` : ''}
+        ${e.place || e.localidad ? `<p class="place">📍 ${esc(e.place || '')}${e.address && e.address !== e.place ? ` · ${esc(e.address)}` : ''}${e.localidad ? `${e.place ? ' · ' : ''}<span class="loc">${esc(e.localidad)}</span>` : ''}</p>` : ''}
         ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}
         <div class="links">${links}</div>
       </div></article>`;
@@ -120,6 +121,12 @@
     const b = ev.target.closest('button'); if (!b) return;
     state.when = b.dataset.when;
     $('when').querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
+    render();
+  });
+  $('zona').addEventListener('click', (ev) => {
+    const b = ev.target.closest('button'); if (!b) return;
+    state.zona = b.dataset.zona;
+    $('zona').querySelectorAll('button').forEach((x) => x.classList.toggle('on', x === b));
     render();
   });
   $('cats').addEventListener('click', (ev) => {

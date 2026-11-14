@@ -2,6 +2,7 @@
 // get-json.php?t=novedades&r=cartelera, que trae todas las obras con sus salas
 // y funciones semanales (día, hora, desde/hasta). Acá expandimos esas funciones
 // a fechas concretas para los próximos días.
+import { zonaDe, localidadDe } from '../region.mjs';
 
 const TZ_OFFSET = '-03:00';
 const pad = (n) => String(n).padStart(2, '0');
@@ -32,7 +33,12 @@ export function parseAlternativa(text, baseUrl, opts = {}, now = new Date()) {
     const musica = clas.some((c) => /música|musica|recital|concierto|banda/i.test(c)) && !clas.includes('Teatro');
 
     for (const lugar of Object.values(obra.lugares || {})) {
-      if (provincias.length && !provincias.includes(String(lugar.provincia || '').toLowerCase())) continue;
+      const prov = String(lugar.provincia || '').toLowerCase();
+      let zona = null;
+      if (prov === 'caba') zona = 'CABA';
+      else if (opts.incluirGBA !== false && /buenos aires/.test(prov) && zonaDe(lugar.zona) === 'GBA') zona = 'GBA';
+      if (!zona && !(provincias.length && provincias.includes(prov))) continue;
+      zona ||= 'CABA';
       const funs = Object.values(lugar.funciones || {});
       for (let i = 0; i <= daysAhead; i++) {
         const key = addDays(today, i);
@@ -48,7 +54,9 @@ export function parseAlternativa(text, baseUrl, opts = {}, now = new Date()) {
           start: `${key}T${unicas[0]}:00${TZ_OFFSET}`,
           whenText: unicas.length > 1 ? `${unicas.join(' y ')} h` : null,
           place: lugar.nombre,
-          address: [lugar.direccion, lugar.zona].filter(Boolean).join(', '),
+          address: [lugar.direccion, zona === 'CABA' ? lugar.zona : null].filter(Boolean).join(', '),
+          zona,
+          localidad: zona === 'GBA' ? localidadDe(lugar.zona) : null,
           url,
           image,
           description: clas.filter((c) => !/^(Adultos|Presencial|Artes Escénicas)$/.test(c)).join(' · '),

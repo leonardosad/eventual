@@ -2,7 +2,7 @@
 // 1) El buscador (prod-cms-search) lista los shows filtrando por sala.
 // 2) Cada show (prod-cms-api /node?path=) trae "google_structured_data",
 //    que son los datos schema.org con fecha, sala, dirección y precio.
-import { filterByPlace } from './follow.mjs';
+import { zonaDe, localidadDe } from '../region.mjs';
 
 const SEARCH = 'https://prod-cms-search.ticketek.com.ar/api/1.1/';
 const NODE = 'https://prod-cms-api.ticketek.com.ar/api/1.0/node%3Fpath%3D';
@@ -21,13 +21,21 @@ export function eventsFromNode(json, path) {
   return (json?.google_structured_data || []).filter((d) => /Event$/.test(String(d['@type']))).map((d) => {
     const loc = first(d.location) || {};
     const addr = loc.address || {};
+    const region = String(addr.addressRegion || '');
+    const ciudad = addr.addressLocality || json?.venue?.city || json?.venue?.field_city || '';
+    const zona = /capital|caba|ciudad aut/i.test(region) ? 'CABA'
+      : zonaDe(ciudad) === 'GBA' ? 'GBA'
+      : (!region && !ciudad) ? 'CABA'
+      : zonaDe(ciudad, region) === 'CABA' && !/^buenos aires$/i.test(region) ? 'CABA' : 'fuera';
     const offer = first(d.offers) || {};
     return {
       title: d.name,
       start: d.startDate,
       end: d.endDate && d.endDate !== d.startDate ? d.endDate : null,
       place: loc.name,
-      address: [addr.streetAddress, addr.addressLocality, addr.addressRegion].filter(Boolean).join(', '),
+      address: addr.streetAddress || null,
+      zona,
+      localidad: zona === 'GBA' ? localidadDe(ciudad) : null,
       image: first(d.image),
       price: offer.price != null ? String(offer.price) : '',
       currency: offer.priceCurrency,
@@ -66,5 +74,5 @@ export async function ticketek(body, url, source, ctx) {
       ctx.warn(`${path}: ${err.message}`);
     }
   }
-  return filterByPlace(out, source.placeInclude);
+  return out;
 }

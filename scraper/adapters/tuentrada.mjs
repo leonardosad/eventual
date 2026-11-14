@@ -1,3 +1,4 @@
+import { zonaDe, localidadDe } from '../region.mjs';
 import * as cheerio from 'cheerio';
 // TuEntrada (tuentrada.com): ticketera del Teatro Gran Rex, el Colón y otras salas.
 // La portada (Next.js) trae en su "flight data" un objeto por evento:
@@ -144,7 +145,8 @@ export async function tuentradaSearch(body, url, source, ctx) {
   for (let page = 0; page < (source.options?.maxPages ?? 15); page++) {
     const { events, next } = parseTuEntradaSearch(html, pageUrl);
     for (const e of events) {
-      if (seen.has(e.slug) || !cities.test(e.city) || /cancel|suspend/i.test(e.status)) continue;
+      const zona = cities.test(e.city) ? 'CABA' : zonaDe(e.city) === 'GBA' ? 'GBA' : null;
+      if (seen.has(e.slug) || !zona || /cancel|suspend/i.test(e.status)) continue;
       seen.add(e.slug);
       const { start, end } = parseDateRange(e.dateRange);
       if (!start) continue;
@@ -153,6 +155,7 @@ export async function tuentradaSearch(body, url, source, ctx) {
         whenText: [/^del\b/i.test(e.dateRange) ? e.dateRange : null, /agotad|[uú]ltimas/i.test(e.status) ? e.status : null].filter(Boolean).join(' · ') || null,
         place: e.venue, image: e.image, url: new URL(e.slug, url).href,
         category: source.options?.category, baseUrl: url,
+        zona, localidad: zona === 'GBA' ? localidadDe(e.city) : null,
       });
     }
     if (!next || !events.length) break;

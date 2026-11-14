@@ -53,3 +53,28 @@ export async function rendered(body, url, source) {
     await page.close();
   }
 }
+
+/**
+ * Abre una página con el navegador automático y devuelve el texto de las respuestas
+ * que la propia página pide y cuya URL contiene cada fragmento (las APIs internas).
+ */
+export async function captureResponses(url, fragments, timeoutMs = 45_000) {
+  const browser = await getBrowser();
+  const page = await browser.newPage({ locale: 'es-AR' });
+  const found = {};
+  const done = new Promise((resolve) => {
+    page.on('response', async (res) => {
+      const frag = fragments.find((f) => res.url().includes(f) && !(f in found));
+      if (!frag) return;
+      try { found[frag] = await res.text(); } catch { /* respuesta cortada */ }
+      if (fragments.every((f) => f in found)) resolve();
+    });
+  });
+  try {
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
+    await Promise.race([done, new Promise((r) => setTimeout(r, timeoutMs))]);
+    return found;
+  } finally {
+    await page.close();
+  }
+}

@@ -159,6 +159,8 @@ export function normalizeEvent(raw, source, now = new Date()) {
     price: free ? 'Gratis' : (price ? formatPrice(price, raw.currency) : null),
     free,
     category,
+    zona: raw.zona === 'GBA' ? 'GBA' : 'CABA',
+    localidad: raw.zona === 'GBA' ? clean(raw.localidad) || null : null,
     sources: [{ id: source.id, name: source.name, url: absolutize(raw.url, raw.baseUrl) || raw.baseUrl }],
   };
 }
@@ -184,7 +186,7 @@ export function dedupe(events) {
     const prev = map.get(e.id);
     if (!prev) { map.set(e.id, e); continue; }
     for (const s of e.sources) if (!prev.sources.some((p) => p.id === s.id)) prev.sources.push(s);
-    for (const k of ['place', 'address', 'description', 'image', 'price', 'end']) prev[k] ??= e[k];
+    for (const k of ['place', 'address', 'description', 'image', 'price', 'end', 'localidad']) prev[k] ??= e[k];
     prev.free ||= e.free;
     if (prev.category === 'Otros') prev.category = e.category;
   }

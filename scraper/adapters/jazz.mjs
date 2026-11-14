@@ -1,5 +1,6 @@
 // Lectores para clubes de jazz y la ticketera Livepass.
 import * as cheerio from 'cheerio';
+import { zonaDe, localidadDe } from '../region.mjs';
 
 const MESES = { ene: 1, feb: 2, mar: 3, abr: 4, may: 5, jun: 6, jul: 7, ago: 8, sep: 9, set: 9, oct: 10, nov: 11, dic: 12 };
 const pad = (n) => String(n).padStart(2, '0');
@@ -41,12 +42,27 @@ export function parseBebop(html, baseUrl) {
 
 // Livepass (plataforma Ticketplus): el buscador del sitio devuelve JSON con todos
 // los eventos. La fecha viene como texto ("Sábado 14 de Noviembre 20:00").
+export function livepassZona(location) {
+  const parts = String(location || '').split(',').map((p) => p.trim()).filter(Boolean);
+  if (!parts.length) return { zona: 'fuera' };
+  if (/^argentina$/i.test(parts[parts.length - 1])) parts.pop();
+  const region = parts.pop() || '';
+  if (/^(buenos aires|caba|capital federal|ciudad aut[oó]noma de buenos aires)$/i.test(region)) {
+    return { zona: 'CABA', place: parts.join(', ') };
+  }
+  if (/provincia de buenos aires/i.test(region)) {
+    const ciudad = parts.pop() || '';
+    return zonaDe(ciudad) === 'GBA' ? { zona: 'GBA', localidad: localidadDe(ciudad), place: parts.join(', ') } : { zona: 'fuera' };
+  }
+  return { zona: 'fuera' };
+}
+
 export function parseLivepass(text, baseUrl, opts = {}) {
   const data = JSON.parse(text);
   const include = new RegExp(opts.locationInclude || 'Buenos Aires, Argentina$', 'i');
   const exclude = opts.locationExclude ? new RegExp(opts.locationExclude, 'i') : null;
   return (data.results || [])
-    .filter((e) => e.location && include.test(e.location.trim()) && !(exclude && exclude.test(e.location)))
+    .filter((e) => e.location && (opts.incluirGBA !== false || (include.test(e.location.trim()) && !(exclude && exclude.test(e.location)))))
     .filter((e) => !/merchandising|membres[ií]a|prueba/i.test(e.title))
     .map((e) => {
       // Algunos ids terminan con la fecha completa: …-2026-11-14-20-30-00-0300
@@ -54,7 +70,7 @@ export function parseLivepass(text, baseUrl, opts = {}) {
       return {
         title: e.title,
         start: m ? `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:00-03:00` : e.date,
-        place: e.location.replace(/,\s*Buenos Aires, Argentina$/i, ''),
+        ...livepassZona(e.location),
         image: e.img,
         price: Number(e.price) > 0 ? String(Math.round(Number(e.price))) : '',
         currency: e.currency,
@@ -62,5 +78,6 @@ export function parseLivepass(text, baseUrl, opts = {}) {
         category: /teatro/i.test(e.category) ? 'Teatro' : /fiesta/i.test(e.category) ? 'Fiestas' : undefined,
         baseUrl,
       };
-    });
+    })
+    .filter((e) => e.zona !== 'fuera');
 }

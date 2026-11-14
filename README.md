@@ -45,6 +45,10 @@ Una fuente con **0 eventos** significa que ese sitio no publica sus datos en un 
 - cambiá la fuente a `"type": "html"` con selectores CSS (ver abajo), o
 - desactivala con `"enabled": false`.
 
+## Zonas: CABA y Gran Buenos Aires
+
+Cada evento lleva una zona, `CABA` o `GBA`, y en el GBA también la localidad. La zona se decide con la ciudad o el partido que informa cada sitio, no con la dirección (para no confundir calles como "Moreno" o "Florida" con partidos). La lista de partidos y localidades del conurbano está en `scraper/region.mjs`; si falta alguna, se agrega ahí. Lo que es de otras ciudades (La Plata, Mar del Plata, el interior) queda afuera.
+
 ## Agregar o cambiar fuentes
 
 Todo se configura en `sources.json`. Las dos fuentes activas usan lectores propios:

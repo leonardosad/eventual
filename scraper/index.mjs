@@ -12,6 +12,7 @@ import { ticketek } from './adapters/ticketek.mjs';
 import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
+import { plateanet } from './adapters/plateanet.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tuentrada.mjs';
@@ -41,7 +42,7 @@ async function fetchText(url, tries = 2, extraHeaders = {}) {
 }
 
 // Tipos que necesitan pedir más páginas además de la inicial
-const MULTI = { follow, ticketek, complejo, 'tuentrada-salas': tuentradaVenues, 'tuentrada-busqueda': tuentradaSearch };
+const MULTI = { follow, ticketek, complejo, 'tuentrada-salas': tuentradaVenues, 'tuentrada-busqueda': tuentradaSearch, plateanet };
 
 async function runAdapter(source, body, url, ctx) {
   if (MULTI[source.type]) return MULTI[source.type](body, url, source, ctx);
@@ -107,7 +108,11 @@ async function scrapeSource(source, now) {
     errors.push(...warnings.slice(0, 5));
     if (warnings.length > 5) errors.push(`… y ${warnings.length - 5} avisos más`);
   }
+  // Un adaptador marca zona 'fuera' cuando el evento no es de CABA ni del GBA
+  const enZona = raw.filter((r) => r.zona !== 'fuera');
+  raw.length = 0; raw.push(...enZona);
   for (const r of raw) {
+    r.zona ||= source.zona || 'CABA';
     // Algunos sitios (Jazz Voyeur) marcan la hora local como si fuera UTC: se ignora la zona
     if (source.localTime && typeof r.start === 'string') r.start = r.start.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
     if (source.localTime && typeof r.end === 'string') r.end = r.end.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
