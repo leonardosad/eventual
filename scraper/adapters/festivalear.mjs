@@ -45,7 +45,7 @@ export function parseFestivalear(html, baseUrl) {
       start: r.start,
       end: r.end,
       whenText: r.end ? fecha : null,
-      place: ub || null,
+      place: null, // Festivalear no informa la sala; la ubicación va en localidad y provincia
       image: $a.find('img').first().attr('src') || null,
       url: $a.attr('href'),
       category: /festival|serenata|chacarera|folklore|folclore|rock|jazz|tango|canto/i.test(title) ? 'Música' : 'Fiestas',

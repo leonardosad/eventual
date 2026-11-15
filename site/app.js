@@ -156,7 +156,8 @@
     const counts = {};
     for (const e of data.events) counts[e.category] = (counts[e.category] || 0) + 1;
     const cats = Object.keys(counts).sort((a, b) => (a === 'Otros') - (b === 'Otros') || counts[b] - counts[a]);
-    $('cats').innerHTML = cats.map((c) => `<button data-cat="${esc(c)}">${esc(c)} <small>${counts[c]}</small></button>`).join('');
+    $('cats').innerHTML = `<button data-cat="" class="on">Todos <small>${data.events.length.toLocaleString('es-AR')}</small></button>`
+      + cats.map((c) => `<button data-cat="${esc(c)}">${esc(c)} <small>${counts[c].toLocaleString('es-AR')}</small></button>`).join('');
   }
 
   function renderMeses() {
@@ -198,8 +199,9 @@
   });
   $('cats').addEventListener('click', (ev) => {
     const b = ev.target.closest('button'); if (!b) return;
-    state.cat = state.cat === b.dataset.cat ? null : b.dataset.cat;
-    $('cats').querySelectorAll('button').forEach((x) => x.classList.toggle('on', x.dataset.cat === state.cat));
+    state.cat = !b.dataset.cat || state.cat === b.dataset.cat ? null : b.dataset.cat;
+    $('cats').querySelectorAll('button').forEach((x) => x.classList.toggle('on', (x.dataset.cat || null) === state.cat));
+    if (window.matchMedia('(min-width: 900px)').matches) window.scrollTo({ top: Math.min(window.scrollY, document.querySelector('.layout').offsetTop - 140), behavior: 'smooth' });
     render();
   });
 

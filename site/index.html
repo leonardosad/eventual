@@ -55,14 +55,19 @@
         <button data-when="week">Próximos 7 días</button>
         <select id="mes" class="mes" aria-label="Mes"><option value="">Elegir mes…</option></select>
       </div>
-      <div class="chips cats" id="cats" role="group" aria-label="Categorías"></div>
     </div>
   </section>
 
-  <main class="wrap">
-    <p id="offline" class="offline" hidden>Sin conexión: estás viendo los últimos eventos guardados.</p>
-    <p id="count" class="count" aria-live="polite"></p>
-    <div id="list"></div>
+  <main class="wrap layout">
+    <aside class="side" aria-label="Tipo de evento">
+      <h2 class="side-title">Tipo</h2>
+      <div class="cats" id="cats" role="group" aria-label="Tipo de evento"></div>
+    </aside>
+    <div class="content">
+      <p id="offline" class="offline" hidden>Sin conexión: estás viendo los últimos eventos guardados.</p>
+      <p id="count" class="count" aria-live="polite"></p>
+      <div id="list"></div>
+    </div>
   </main>
 
   <footer class="wrap foot">
