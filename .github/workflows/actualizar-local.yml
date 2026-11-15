@@ -20,6 +20,9 @@ jobs:
   local:
     runs-on: [self-hosted, Windows]
     timeout-minutes: 30
+    defaults:
+      run:
+        shell: cmd   # en Windows, PowerShell bloquea npm.ps1 por la política de ejecución
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
