@@ -42,7 +42,7 @@ const GBA = new RegExp('\\b(' + [
 ].join('|') + ')\\b');
 
 // Lugares que NO son AMBA (se descartan aunque la fuente diga "Provincia de Buenos Aires")
-const LEJOS = /\b(la plata|mar del plata|bahia blanca|junin|tandil|pinamar|villa gesell|necochea|olavarria|azul|lujan|campana|zarate|san nicolas de los arroyos|pergamino|chascomus|cordoba|rosario|santa fe|mendoza|tucuman|salta|jujuy|neuquen|bariloche|san juan|la pampa|villa carlos paz|montevideo|santiago|chubut|corrientes|misiones|parana|entre rios)\b/;
+const LEJOS = /\b(la plata|san andres de giles|general rodriguez|canuelas|brandsen|exaltacion de la cruz|mar del plata|bahia blanca|junin|tandil|pinamar|villa gesell|necochea|olavarria|azul|lujan|campana|zarate|san nicolas de los arroyos|pergamino|chascomus|cordoba|rosario|santa fe|mendoza|tucuman|salta|jujuy|neuquen|bariloche|san juan|la pampa|villa carlos paz|montevideo|santiago|chubut|corrientes|misiones|parana|entre rios)\b/;
 
 /**
  * Devuelve 'CABA', 'GBA' o null (fuera del AMBA o desconocido) a partir de campos
