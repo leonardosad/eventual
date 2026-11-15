@@ -130,7 +130,8 @@ async function scrapeSource(source, now) {
     }
     // Sin ubicación propia: la de la fuente (por defecto, una sala de CABA)
     if (r.provincia === undefined && r.zona === undefined) {
-      r.provincia = source.provincia || 'CABA';
+      // "provincia": null en la fuente = sin ubicación conocida (mejor vacío que equivocado)
+      r.provincia = source.provincia !== undefined ? source.provincia : 'CABA';
       r.zona = source.zona !== undefined ? source.zona : (r.provincia === 'CABA' ? 'CABA' : null);
     }
     // Algunos sitios (Jazz Voyeur) marcan la hora local como si fuera UTC: se ignora la zona

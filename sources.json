@@ -378,7 +378,8 @@
     "maxLinks": 150,
     "delayMs": 1000,
     "nota": "Bloquea conexiones desde fuera de Argentina: se lee desde la compu local (runner self-hosted).",
-    "provinciaPorDefecto": "Córdoba"
+    "provinciaPorDefecto": "Córdoba",
+    "provincia": null
   },
   {
     "id": "passline",

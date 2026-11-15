@@ -57,7 +57,7 @@ const CIUDADES = [
     'general rodriguez', 'canuelas', 'brandsen', 'exaltacion de la cruz', 'mar de ajo', 'san clemente del tuyu', 'miramar',
     'tres arroyos', 'chivilcoy', 'ensenada', 'berisso', 'city bell', 'gonnet', 'cariló', 'carilo', 'villa gesel', 'san pedro',
     'baradero', 'tigre delta', 'costa del este', 'santa teresita', 'balcarce', 'bragado', 'nueve de julio', '9 de julio']],
-  ['Córdoba', ['cordoba', 'villa carlos paz', 'carlos paz', 'rio cuarto', 'villa maria', 'alta gracia', 'cosquin', 'jesus maria', 'la falda']],
+  ['Córdoba', ['cordoba', 'santa maria de punilla', 'rio primero', 'la palestina', 'villa carlos paz', 'carlos paz', 'rio cuarto', 'villa maria', 'alta gracia', 'cosquin', 'jesus maria', 'la falda']],
   ['Santa Fe', ['rosario', 'santa fe', 'santa fe de la vera cruz', 'rafaela', 'venado tuerto', 'reconquista', 'funes']],
   ['Mendoza', ['mendoza', 'godoy cruz', 'guaymallen', 'lujan de cuyo', 'san rafael', 'las heras', 'maipu']],
   ['San Juan', ['san juan', 'pocito', 'rivadavia']],
