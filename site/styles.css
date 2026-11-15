@@ -63,6 +63,7 @@ h1 em { font-style: normal; color: var(--accent); }
 
 .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
 .empty strong { display: block; font-family: 'Fraunces', Georgia, serif; font-size: 1.4rem; color: var(--ink); margin-bottom: 6px; }
+.reintentar { font: inherit; color: var(--accent-2); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
 
 .foot { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; padding-bottom: 40px; color: var(--muted); font-size: .88rem; }
 .foot summary { cursor: pointer; font-weight: 600; color: var(--ink); }

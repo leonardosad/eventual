@@ -224,8 +224,34 @@
     render();
   });
 
-  fetch('data/events.json', { cache: 'no-cache' })
-    .then((r) => (r.ok ? r.json() : { events: [] }))
-    .catch(() => ({ events: [] }))
-    .then((d) => { data = { events: [], sources: [], ...d }; buildLugares(); renderMeses(); renderCats(); renderFooter(); render(); });
+  // Carga los eventos. Si falla (mala conexión, o justo se estaba publicando
+  // una actualización) reintenta solo; si igual no puede, avisa en vez de mostrar "0 eventos".
+  const espera = (ms) => new Promise((r) => setTimeout(r, ms));
+  async function bajar() {
+    for (let i = 0; i < 4; i++) {
+      try {
+        const url = 'data/events.json' + (i ? '?r=' + Date.now() : '');
+        const r = await fetch(url, { cache: i ? 'reload' : 'no-cache' });
+        if (r.ok) {
+          const d = await r.json();
+          if (d && Array.isArray(d.events) && d.events.length) return d;
+        }
+      } catch (e) { /* reintenta */ }
+      await espera(1500 * (i + 1));
+    }
+    return null;
+  }
+  function cargar() {
+    $('count').textContent = 'Cargando eventos…';
+    bajar().then((d) => {
+      if (!d) {
+        $('count').textContent = '';
+        $('list').innerHTML = '<div class="empty">No se pudieron cargar los eventos. Revisá la conexión y <button type="button" id="reintentar" class="reintentar">volvé a intentar</button>.</div>';
+        $('reintentar').addEventListener('click', cargar);
+        return;
+      }
+      data = { events: [], sources: [], ...d }; buildLugares(); renderMeses(); renderCats(); renderFooter(); render();
+    });
+  }
+  cargar();
 })();
