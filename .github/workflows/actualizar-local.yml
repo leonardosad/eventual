@@ -1,0 +1,32 @@
+name: Actualizar fuentes locales
+
+# Corre en una compu en Argentina (runner "self-hosted" con la etiqueta eventual-local)
+# para los sitios que bloquean conexiones desde el exterior, como Eden Entradas.
+# Si la compu está apagada, la tarea queda en espera y la agenda sigue con los
+# últimos datos locales.
+on:
+  schedule:
+    - cron: "52 8,20 * * *"   # 05:52 y 17:52 de Argentina, antes de la actualización principal
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agenda-local
+  cancel-in-progress: true
+
+jobs:
+  local:
+    runs-on: [self-hosted, eventual-local]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - name: Juntar eventos de fuentes locales
+        run: node scraper/index.mjs --local
+      - name: Subir local.json
+        run: node tools/subir-local.mjs

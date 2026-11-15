@@ -361,6 +361,25 @@
     "nota": "Festivales y fiestas populares de todo el país."
   },
   {
+    "id": "eden",
+    "name": "Eden Entradas",
+    "enabled": true,
+    "runner": "local",
+    "type": "follow",
+    "urls": [
+      "https://www.edenentradas.com/",
+      "https://www.edenentradas.com/list/Recitales",
+      "https://www.edenentradas.com/list/Cuartetos",
+      "https://www.edenentradas.com/list/Teatros",
+      "https://www.edenentradas.com/list/Festivales",
+      "https://www.edenentradas.com/list/Feria%20y%20Exposiciones"
+    ],
+    "linkPattern": "edenentradas\\.com/event/",
+    "maxLinks": 150,
+    "delayMs": 1000,
+    "nota": "Bloquea conexiones desde fuera de Argentina: se lee desde la compu local (runner self-hosted)."
+  },
+  {
     "id": "passline",
     "name": "Passline",
     "enabled": false,

@@ -19,9 +19,15 @@ import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe, agrupar } from './normalize.mjs';
+import { ubicar } from './region.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const OUT = path.join(ROOT, 'site', 'data', 'events.json');
+// --local: corre solo las fuentes marcadas "runner": "local" (sitios que bloquean
+// conexiones desde fuera de Argentina) y guarda en site/data/local.json.
+// Lo ejecuta la tarea "Actualizar fuentes locales" en una compu en Argentina.
+const LOCAL = process.argv.includes('--local');
+const OUT = path.join(ROOT, 'site', 'data', LOCAL ? 'local.json' : 'events.json');
+const LOCAL_OUT = path.join(ROOT, 'site', 'data', 'local.json');
 // Se muestran los eventos hasta esta fecha (inclusive)
 export const HASTA = process.env.HASTA || '2027-12-31T23:59:59-03:00';
 const USER_AGENT = process.env.USER_AGENT ||
@@ -115,6 +121,11 @@ async function scrapeSource(source, now) {
   const enZona = raw.filter((r) => r.zona !== 'fuera' && !r.fuera);
   raw.length = 0; raw.push(...enZona);
   for (const r of raw) {
+    // Datos estándar con ciudad/región (JSON-LD): ubicar con eso
+    if (r.provincia === undefined && r.zona === undefined && (r.ciudad || r.region)) {
+      const u = ubicar({ ciudad: r.ciudad, provincia: r.region });
+      if (u) Object.assign(r, { provincia: u.provincia, zona: u.zona, localidad: u.localidad });
+    }
     // Sin ubicación propia: la de la fuente (por defecto, una sala de CABA)
     if (r.provincia === undefined && r.zona === undefined) {
       r.provincia = source.provincia || 'CABA';
@@ -147,7 +158,8 @@ async function loadPrevious() {
 async function main() {
   const now = new Date();
   const sources = JSON.parse(await readFile(path.join(ROOT, 'sources.json'), 'utf8'))
-    .filter((s) => s.enabled !== false);
+    .filter((s) => s.enabled !== false)
+    .filter((s) => (s.runner === 'local') === LOCAL);
   const previous = await loadPrevious();
 
   const all = [];
@@ -170,6 +182,16 @@ async function main() {
   }
 
   await closeBrowser();
+  // Eventos que trajo la compu local (si la tarea corrió alguna vez)
+  if (!LOCAL) {
+    try {
+      const local = JSON.parse(await readFile(LOCAL_OUT, 'utf8'));
+      const vigentes = (local.events || []).filter((e) => inWindow(e, now));
+      all.push(...vigentes);
+      for (const s of local.sources || []) report.push({ ...s, note: s.note || `actualizado desde la compu local el ${new Date(local.generatedAt).toLocaleDateString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' })}` });
+      console.log(`→ Fuentes locales (local.json): ${vigentes.length} eventos vigentes`);
+    } catch { /* todavía no corrió la tarea local */ }
+  }
   const events = dedupe(all.filter((e) => inWindow(e, now)))
     .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
 
@@ -183,7 +205,7 @@ async function main() {
   const hoy = new Date(now.getTime() - 4 * 3600e3).toISOString();
   for (const e of events) if (e.fechas) e.fechas = e.fechas.filter((f) => new Date(f).toISOString() >= hoy);
   await writeFile(OUT, JSON.stringify({ generatedAt: now.toISOString(), hasta: HASTA, sources: report, events }));
-  console.log(`\n✓ ${events.length} eventos guardados en site/data/events.json`);
+  console.log(`\n✓ ${events.length} eventos guardados en site/data/${path.basename(OUT)}`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

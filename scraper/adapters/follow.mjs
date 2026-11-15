@@ -30,7 +30,10 @@ export function filterByPlace(events, includePattern) {
 export async function follow(body, url, source, ctx) {
   const links = extractLinks(body, url, source.linkPattern).slice(0, source.maxLinks ?? 60);
   const out = [];
+  ctx.seen ??= new Set(); // no repetir eventos que aparecen en varias páginas de listado
   for (const link of links) {
+    if (ctx.seen.has(link)) continue;
+    ctx.seen.add(link);
     try {
       const html = await ctx.fetch(link);
       for (const ev of parseJsonLd(html, link)) {

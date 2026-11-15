@@ -27,7 +27,12 @@ function locationOf(loc) {
   const address = typeof addr === 'string'
     ? addr
     : [addr?.streetAddress, addr?.addressLocality].filter(Boolean).join(', ');
-  return { place: loc.name || address, address };
+  return {
+    place: loc.name || address,
+    address,
+    ciudad: typeof addr === 'object' ? addr?.addressLocality : undefined,
+    region: typeof addr === 'object' ? addr?.addressRegion : undefined,
+  };
 }
 
 function offerOf(offers) {
