@@ -1,6 +1,6 @@
 // Lectores para clubes de jazz y la ticketera Livepass.
 import * as cheerio from 'cheerio';
-import { zonaDe, localidadDe } from '../region.mjs';
+import { ubicar } from '../region.mjs';
 
 const MESES = { ene: 1, feb: 2, mar: 3, abr: 4, may: 5, jun: 6, jul: 7, ago: 8, sep: 9, set: 9, oct: 10, nov: 11, dic: 12 };
 const pad = (n) => String(n).padStart(2, '0');
@@ -43,18 +43,16 @@ export function parseBebop(html, baseUrl) {
 // Livepass (plataforma Ticketplus): el buscador del sitio devuelve JSON con todos
 // los eventos. La fecha viene como texto ("Sábado 14 de Noviembre 20:00").
 export function livepassZona(location) {
+  // "Calle 1, San Miguel, Provincia de Buenos Aires, Argentina" | "Uriarte 1289, Buenos Aires, Argentina"
   const parts = String(location || '').split(',').map((p) => p.trim()).filter(Boolean);
   if (!parts.length) return { zona: 'fuera' };
-  if (/^argentina$/i.test(parts[parts.length - 1])) parts.pop();
+  const pais = /^[a-záéíóúñ ]+$/i.test(parts[parts.length - 1]) && parts.length > 1 ? parts.pop() : '';
   const region = parts.pop() || '';
-  if (/^(buenos aires|caba|capital federal|ciudad aut[oó]noma de buenos aires)$/i.test(region)) {
-    return { zona: 'CABA', place: parts.join(', ') };
-  }
-  if (/provincia de buenos aires/i.test(region)) {
-    const ciudad = parts.pop() || '';
-    return zonaDe(ciudad) === 'GBA' ? { zona: 'GBA', localidad: localidadDe(ciudad), place: parts.join(', ') } : { zona: 'fuera' };
-  }
-  return { zona: 'fuera' };
+  let ciudad = '';
+  if (/provincia de|^(c[oó]rdoba|santa f[eé]|mendoza|tucum[aá]n|salta|jujuy|neuqu[eé]n|r[ií]o negro|entre r[ií]os|chubut|san juan|san luis|la pampa|misiones|corrientes|chaco|formosa|catamarca|la rioja|santiago del estero|santa cruz|tierra del fuego)$/i.test(region)) ciudad = parts.pop() || '';
+  const u = ubicar({ ciudad, provincia: region, pais });
+  if (!u) return { zona: 'fuera' };
+  return { provincia: u.provincia, zona: u.zona, ...(u.localidad ? { localidad: u.localidad } : {}), place: parts.join(', ') };
 }
 
 export function parseLivepass(text, baseUrl, opts = {}) {

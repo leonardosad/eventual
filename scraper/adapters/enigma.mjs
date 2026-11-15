@@ -3,7 +3,11 @@
 // loaderData["routes/_index"].nextEvents trae los próximos eventos con fechas
 // exactas (segundos Unix), sala, imagen y precio mínimo.
 
+import { ubicar } from '../region.mjs';
+
 const TZ_MS = 3 * 3600e3;
+// Salas de Enigma fuera de CABA (los títulos suelen decir "EN MENDOZA", pero no siempre)
+const SALAS = { foxy: 'Mendoza', kempes: 'Córdoba', 'mario alberto kempes': 'Córdoba' };
 const toIso = (sec) => new Date(sec * 1000 - TZ_MS).toISOString().slice(0, 19) + '-03:00';
 
 export function remixData(html) {
@@ -23,6 +27,13 @@ export function parseEnigma(html, baseUrl, opts = {}) {
     seen.add(e.uid);
     const venue = e.venue?.name || '';
     if (exclude && exclude.test(`${e.title} ${venue}`)) continue;
+    // Ubicación: "… EN MENDOZA" en el título, o la sala conocida; si no, CABA
+    const enCiudad = String(e.title || '').match(/\bEN\s+([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ .]+)$/i)?.[1];
+    let u = enCiudad ? ubicar({ ciudad: enCiudad }, { ambiguo: 'nada' }) : null;
+    if (!u?.provincia) {
+      const sala = Object.keys(SALAS).find((k) => venue.toLowerCase().includes(k));
+      u = sala ? ubicar({ provincia: SALAS[sala] }) : { provincia: 'CABA', zona: 'CABA', localidad: null };
+    }
     const dates = (e.eventDates || []).filter(Number.isFinite).sort((a, b) => a - b);
     if (!dates.length) continue;
     const label = Object.values(e.schedules || {}).map((s) => s?.labelForReplaceDate).find(Boolean) || '';
@@ -37,6 +48,7 @@ export function parseEnigma(html, baseUrl, opts = {}) {
       end: dates.length > 1 ? toIso(dates[dates.length - 1]) : null,
       whenText: (label && !simple ? label : null) || (e.isSoldOut ? 'Agotado' : null),
       place: venue && venue !== 'Argentina' ? venue : null,
+      provincia: u.provincia, zona: u.zona, localidad: u.localidad,
       image: e.imageUrl || e.smallImageUrl,
       price: e.minPrice > 0 ? String(e.minPrice) : '',
       url: new URL(`/event/${e.uid}`, baseUrl).href,

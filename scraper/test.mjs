@@ -12,10 +12,10 @@ import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass, livepassZona } from './adapters/jazz.mjs';
-import { zonaDe } from './region.mjs';
+import { zonaDe, ubicar } from './region.mjs';
 import { parsePlateanet } from './adapters/plateanet.mjs';
 import { parseTuEntrada, eventsFromVenueApi, tuentradaSearch } from './adapters/tuentrada.mjs';
-import { normalizeEvent, dedupe, parseDate, categorize } from './normalize.mjs';
+import { normalizeEvent, dedupe, parseDate, categorize, agrupar } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
 const src = { id: 'test', name: 'Test' };
@@ -117,15 +117,27 @@ test('Alternativa Teatral: expande funciones semanales', () => {
     5: { titulo: 'Obra en La Plata', url: 'obra5', clasificaciones: {},
       lugares: { 1: { nombre: 'Sala', provincia: 'Buenos Aires', funciones: { a: { nro_dia: 2, hora: '20:00', fecha_desde: '2026-11-01', fecha_hasta: '2026-12-01' } } } } },
   }, codigos: [] }) + ')';
-  const raw = parseAlternativa(body, 'https://www.alternativateatral.com/get-json.php', { daysAhead: 14 }, now2);
-  assert.equal(raw.length, 3); // lunes 9, 16 y 23; la de La Plata queda afuera
-  const e = normalizeEvent(raw[0], src, now2);
+  const raw = parseAlternativa(body, 'https://www.alternativateatral.com/get-json.php', {}, now2);
+  // Las adoro: lunes 9, 16, 23 y 30 de noviembre; la de La Plata: 4 lunes más (todo el país)
+  assert.equal(raw.length, 8);
+  const ev = raw.map((r) => normalizeEvent(r, src, now2));
+  const e = ev.find((x) => x.title === 'Las adoro');
   assert.equal(e.start, '2026-11-09T19:00:00-03:00');
-  assert.equal(e.whenText, '19:00 y 21:30 h');
+  assert.equal(e.whenText, 'Lun 19:00 y 21:30 h');
   assert.equal(e.place, 'EL GALPÓN DE GUEVARA');
+  assert.equal(e.provincia, 'CABA');
   assert.equal(e.url, 'https://www.alternativateatral.com/obra99976-las-adoro');
   assert.equal(e.image, 'https://img.alternativateatral.com/x.jpg');
   assert.equal(e.category, 'Teatro');
+  const lp = ev.find((x) => x.title === 'Obra en La Plata');
+  assert.equal(lp.provincia, 'Buenos Aires');
+  assert.equal(lp.zona, null);
+  // Agrupadas: una tarjeta por obra con sus funciones
+  const g = agrupar(ev);
+  assert.equal(g.length, 2);
+  const ga = g.find((x) => x.title === 'Las adoro');
+  assert.equal(ga.fechas.length, 4);
+  assert.equal(ga.end, '2026-11-30T19:00:00-03:00');
 });
 
 test('Turismo BA: semana del encabezado + texto ¿Cuándo?', () => {
@@ -180,10 +192,13 @@ test('Ticketek: datos del nodo', () => {
   assert.equal(t.category, 'Teatro');
   const mdq = eventsFromNode({ google_structured_data: [{ '@type': 'MusicEvent', name: 'Show', startDate: '2026-12-01T21:00:00-03:00',
     location: { name: 'RADIO CITY', address: { addressRegion: 'Buenos Aires', addressLocality: 'Mar del Plata' } } }] }, 'a/b');
-  assert.equal(mdq[0].zona, 'fuera');
+  assert.equal(mdq[0].provincia, 'Buenos Aires');
+  assert.equal(mdq[0].zona, null);
+  assert.equal(mdq[0].localidad, 'Mar del Plata');
   const pal = eventsFromNode({ google_structured_data: [{ '@type': 'MusicEvent', name: 'Show', startDate: '2026-12-01T21:00:00-03:00',
     location: { name: 'Hipódromo de Palermo', address: { addressRegion: 'Buenos Aires', addressLocality: 'Palermo' } } }] }, 'a/b');
   assert.equal(pal[0].zona, 'CABA');
+  assert.equal(pal[0].provincia, 'CABA');
   assert.deepEqual(showsFromSearch({ resultados: [{ url: 'a/b' }, { url: 'c/d' }] }), ['a/b', 'c/d']);
 });
 
@@ -296,8 +311,11 @@ test('Livepass: JSON del buscador, solo CABA', () => {
     { id: 'babasonicos', title: 'BABASONICOS en el Hipódromo', location: 'Hipodromo de la Plata, Avenida 44, La Plata, Provincia de Buenos Aires, Argentina', date: 'Sábado 14 de Noviembre 21:00' },
     { id: 'merch', title: 'Merchandising Tiago PZK', location: null, date: 'Martes 24 de Octubre 00:00' },
   ] });
-  const raw = parseLivepass(body, 'https://livepass.com.ar/', { locationExclude: 'Provincia de Buenos Aires|La Plata' });
-  assert.equal(raw.length, 2);
+  const raw = parseLivepass(body, 'https://livepass.com.ar/', {});
+  assert.equal(raw.length, 3); // Café Berlín y CCNU (CABA) y Babasónicos en La Plata; el merchandising no
+  const lp = normalizeEvent(raw.find((r) => /BABASONICOS/.test(r.title)), src, now);
+  assert.equal(lp.provincia, 'Buenos Aires');
+  assert.equal(lp.localidad, 'La Plata');
   const [a, b] = raw.map((r) => normalizeEvent(r, src, now));
   assert.equal(a.start, '2026-11-14T20:30:00-03:00');
   assert.equal(a.category, 'Teatro');
@@ -376,14 +394,18 @@ test('Zonas: CABA, GBA y fuera del AMBA', () => {
   assert.equal(zonaDe('San Justo'), 'GBA');
   assert.equal(zonaDe('Belén De Escobar'), 'GBA');
   assert.equal(zonaDe('La Plata'), null);
+  assert.equal(ubicar({ ciudad: 'Rosario', provincia: 'Santa Fé' }).provincia, 'Santa Fe');
+  assert.equal(ubicar({ ciudad: 'Montevideo' }), null);
   assert.equal(zonaDe('Palermo'), 'CABA');
   assert.equal(zonaDe('Barrio San Nicolas'), 'CABA');
   assert.equal(zonaDe('Microcentro'), 'CABA');
   assert.equal(zonaDe('Ciudad Autonoma de Buenos Aires'), 'CABA');
   assert.equal(zonaDe('Mar del Plata'), null);
-  assert.deepEqual(livepassZona('Paunero 1500, San Miguel, Provincia de Buenos Aires, Argentina'), { zona: 'GBA', localidad: 'San Miguel', place: 'Paunero 1500' });
-  assert.equal(livepassZona('Avenida 44, La Plata, Provincia de Buenos Aires, Argentina').zona, 'fuera');
+  assert.deepEqual(livepassZona('Paunero 1500, San Miguel, Provincia de Buenos Aires, Argentina'), { provincia: 'Buenos Aires', zona: 'GBA', localidad: 'San Miguel', place: 'Paunero 1500' });
+  assert.equal(livepassZona('Avenida 44, La Plata, Provincia de Buenos Aires, Argentina').localidad, 'La Plata');
   assert.equal(livepassZona('Uriarte 1289, Buenos Aires, Argentina').zona, 'CABA');
+  assert.equal(livepassZona('Bv. Oroño 100, Rosario, Santa Fe, Argentina').provincia, 'Santa Fe');
+  assert.equal(livepassZona('Rambla 1, Montevideo, Uruguay').zona, 'fuera');
 });
 
 test('Plateanet: obras con funciones, CABA y GBA', () => {
@@ -398,8 +420,10 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
     { Id: 90, Name: 'GRAN TEATRO MORON', cTipo: 'Teatro', Direccion: 'Alte. Brown 1200, Morón, Provincia de Buenos Aires, Argentina', Zona: 'GBA Oeste' },
   ] };
   const raw = parsePlateanet(JSON.stringify(obras), JSON.stringify(teatros), 'https://www.plateanet.com/');
-  assert.equal(raw.length, 3);
-  const [a, b, c] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(raw.length, 4);
+  const [a, b, c, d] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(d.provincia, 'Buenos Aires');
+  assert.equal(d.localidad, 'Mar del Plata');
   assert.equal(a.title, '1000 Horas – Tributo los Abuelos de la Nada');
   assert.equal(a.place, 'Teatro Premier');
   assert.equal(a.start, '2026-12-12T21:00:00-03:00');
@@ -407,6 +431,7 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
   assert.equal(a.zona, 'CABA');
   assert.equal(b.start, '2026-12-13T20:00:00-03:00');
   assert.equal(c.zona, 'GBA');
+  assert.equal(c.provincia, 'Buenos Aires');
   assert.equal(c.localidad, 'Morón');
   assert.equal(c.address, 'Alte. Brown 1200');
   assert.equal(c.place, 'Gran Teatro Moron');

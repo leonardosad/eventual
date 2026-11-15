@@ -2,7 +2,7 @@
 // 1) El buscador (prod-cms-search) lista los shows filtrando por sala.
 // 2) Cada show (prod-cms-api /node?path=) trae "google_structured_data",
 //    que son los datos schema.org con fecha, sala, dirección y precio.
-import { zonaDe, localidadDe } from '../region.mjs';
+import { ubicar } from '../region.mjs';
 
 const SEARCH = 'https://prod-cms-search.ticketek.com.ar/api/1.1/';
 const NODE = 'https://prod-cms-api.ticketek.com.ar/api/1.0/node%3Fpath%3D';
@@ -25,11 +25,7 @@ export function eventsFromNode(json, path) {
     const ciudad = addr.addressLocality || json?.venue?.city || json?.venue?.field_city || '';
     // Ticketek usa región "Buenos Aires" tanto para CABA como para la provincia:
     // decide la ciudad (barrio porteño, partido del GBA o ciudad del interior).
-    const zc = zonaDe(ciudad);
-    const zona = zc ? zc
-      : /capital|caba|ciudad aut/i.test(region) ? 'CABA'
-      : !ciudad && (!region || /^buenos aires$/i.test(region)) ? 'CABA'
-      : 'fuera';
+    const u = ubicar({ ciudad, provincia: region });
     const offer = first(d.offers) || {};
     return {
       title: d.name,
@@ -37,9 +33,9 @@ export function eventsFromNode(json, path) {
       end: d.endDate && d.endDate !== d.startDate ? d.endDate : null,
       place: loc.name,
       address: addr.streetAddress || null,
-      zona,
-      localidad: zona === 'GBA' ? localidadDe(ciudad) : null,
-      _region: region, _ciudad: ciudad,
+      provincia: u?.provincia ?? null,
+      zona: u ? u.zona : 'fuera',
+      localidad: u?.localidad ?? null,
       image: first(d.image),
       price: offer.price != null ? String(offer.price) : '',
       currency: offer.priceCurrency,
@@ -70,18 +66,15 @@ export async function ticketek(body, url, source, ctx) {
     }
   }
   const out = [];
-  const descartes = new Map();
   for (const path of [...paths].slice(0, source.maxLinks ?? 200)) {
     try {
       const json = JSON.parse(await ctx.fetch(NODE + path.replace(/\//g, '--')));
       for (const ev of eventsFromNode(json, path)) {
-        if (ev.zona === 'fuera') { const k = `${ev.place} | ${ev._region} | ${ev._ciudad}`; descartes.set(k, (descartes.get(k) || 0) + 1); }
         out.push(ev);
       }
     } catch (err) {
       ctx.warn(`${path}: ${err.message}`);
     }
   }
-  if (descartes.size) console.log('   Ticketek fuera de zona:', [...descartes].map(([k, n]) => `${k} (${n})`).join(' · '));
   return out;
 }

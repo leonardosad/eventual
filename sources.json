@@ -8,11 +8,7 @@
       "https://www.alternativateatral.com/get-json.php?t=novedades&r=cartelera&callback=jsoncallback"
     ],
     "options": {
-      "provincias": [
-        "CABA"
-      ],
-      "daysAhead": 14,
-      "incluirGBA": true
+      "hasta": "2027-12-31"
     },
     "headers": {
       "Referer": "https://www.alternativateatral.com/cartelera.asp",
@@ -42,8 +38,7 @@
     "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires",
     "browser": true,
     "delayMs": 1500,
-    "nota": "Desactivada: el sitio bloquea el acceso automatizado (protección antibots). Muchos de sus shows (Vorterix, Roxy) están también en otras ticketeras.",
-    "daysAhead": 365
+    "nota": "Desactivada: el sitio bloquea el acceso automatizado (protección antibots). Muchos de sus shows (Vorterix, Roxy) están también en otras ticketeras."
   },
   {
     "id": "ticketek",
@@ -54,8 +49,7 @@
       "https://prod-cms-search.ticketek.com.ar/api/1.1/search/"
     ],
     "delayMs": 400,
-    "maxLinks": 200,
-    "daysAhead": 365
+    "maxLinks": 400
   },
   {
     "id": "complejo-teatral",
@@ -66,7 +60,7 @@
       "https://complejoteatral.gob.ar/"
     ],
     "options": {
-      "daysAhead": 14
+      "daysAhead": 30
     }
   },
   {
@@ -88,8 +82,7 @@
     },
     "defaultPlace": "Movistar Arena",
     "defaultAddress": "Humboldt 450, Villa Crespo",
-    "defaultCategory": "Música",
-    "daysAhead": 365
+    "defaultCategory": "Música"
   },
   {
     "id": "konex",
@@ -110,8 +103,7 @@
       "description": ".categoria"
     },
     "placePrefix": "Konex",
-    "defaultAddress": "Sarmiento 3131, Abasto",
-    "daysAhead": 365
+    "defaultAddress": "Sarmiento 3131, Abasto"
   },
   {
     "id": "c-art-media",
@@ -120,8 +112,7 @@
     "type": "artmedia",
     "urls": [
       "https://ojtwazeqh7.execute-api.us-east-1.amazonaws.com/prod/events"
-    ],
-    "daysAhead": 365
+    ]
   },
   {
     "id": "niceto",
@@ -130,8 +121,7 @@
     "type": "niceto",
     "urls": [
       "https://nicetoclub.com/agenda/"
-    ],
-    "daysAhead": 365
+    ]
   },
   {
     "id": "indiehoy-vorterix",
@@ -143,8 +133,7 @@
     ],
     "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
     "maxLinks": 15,
-    "defaultCategory": "Música",
-    "daysAhead": 365
+    "defaultCategory": "Música"
   },
   {
     "id": "indiehoy-roxy",
@@ -156,8 +145,7 @@
     ],
     "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
     "maxLinks": 15,
-    "defaultCategory": "Música",
-    "daysAhead": 365
+    "defaultCategory": "Música"
   },
   {
     "id": "enigma",
@@ -167,11 +155,7 @@
     "urls": [
       "https://www.enigmatickets.com/"
     ],
-    "options": {
-      "exclude": "Mendoza|Foxy|C[oó]rdoba|Kempes|Rosario|Mar del Plata|La Plata|Vte\\.? ?L[oó]pez|alr[ií]o|Montevideo|Santiago|Tucum[aá]n|Salta|Neuqu[eé]n|Lago Puelo|Aonikenk|Bariloche|Chubut|Mendoza|San Juan|Jujuy|Corrientes|Misiones|Paraná|Santa Fe"
-    },
-    "defaultCategory": "Música",
-    "daysAhead": 365
+    "defaultCategory": "Música"
   },
   {
     "id": "jazz-voyeur",
@@ -220,11 +204,7 @@
     "type": "livepass",
     "urls": [
       "https://livepass.com.ar/events/search.json?q="
-    ],
-    "options": {
-      "incluirGBA": true
-    },
-    "daysAhead": 365
+    ]
   },
   {
     "id": "tuentrada",
@@ -233,11 +213,7 @@
     "type": "tuentrada",
     "urls": [
       "https://www.tuentrada.com/"
-    ],
-    "options": {
-      "venueInclude": "Gran Rex|Teatro Col[oó]n|Prez|Rondeman|Autodromo De Buenos Aires|AMIA|Palacio De Las Aguas"
-    },
-    "daysAhead": 365
+    ]
   },
   {
     "id": "tuentrada-salas",
@@ -265,8 +241,7 @@
           "address": "Lavalle 3177, Abasto"
         }
       ]
-    },
-    "daysAhead": 365
+    }
   },
   {
     "id": "tuentrada-teatro",
@@ -277,12 +252,10 @@
       "https://www.tuentrada.com/busqueda?categoria=teatro"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Teatro"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-musica",
@@ -293,12 +266,10 @@
       "https://www.tuentrada.com/busqueda?categoria=m%C3%BAsica"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Música"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-familia",
@@ -309,12 +280,10 @@
       "https://www.tuentrada.com/busqueda?categoria=familia"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Infantil"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-cultura",
@@ -325,11 +294,9 @@
       "https://www.tuentrada.com/busqueda?categoria=cultura"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15
+      "maxPages": 40
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-comedia",
@@ -340,12 +307,10 @@
       "https://www.tuentrada.com/busqueda?categoria=comedia"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Teatro"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-exposicion",
@@ -356,12 +321,10 @@
       "https://www.tuentrada.com/busqueda?categoria=exposici%C3%B3n"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Arte y muestras"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "tuentrada-deportes",
@@ -372,12 +335,10 @@
       "https://www.tuentrada.com/busqueda?categoria=deportes"
     ],
     "options": {
-      "city": "^Buenos Aires$",
-      "maxPages": 15,
+      "maxPages": 40,
       "category": "Deportes"
     },
-    "delayMs": 700,
-    "daysAhead": 365
+    "delayMs": 700
   },
   {
     "id": "plateanet",
@@ -387,8 +348,7 @@
     "urls": [
       "https://www.plateanet.com/"
     ],
-    "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos.",
-    "daysAhead": 120
+    "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos."
   },
   {
     "id": "passline",

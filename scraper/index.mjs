@@ -17,11 +17,12 @@ import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
-import { normalizeEvent, dedupe } from './normalize.mjs';
+import { normalizeEvent, dedupe, agrupar } from './normalize.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'site', 'data', 'events.json');
-const DAYS_AHEAD = Number(process.env.DAYS_AHEAD || 60);
+// Se muestran los eventos hasta esta fecha (inclusive)
+export const HASTA = process.env.HASTA || '2027-12-31T23:59:59-03:00';
 const USER_AGENT = process.env.USER_AGENT ||
   'AgendaCABA/1.0 (agregador de eventos sin fines de lucro; enlaza siempre a la fuente)';
 
@@ -108,11 +109,15 @@ async function scrapeSource(source, now) {
     errors.push(...warnings.slice(0, 5));
     if (warnings.length > 5) errors.push(`… y ${warnings.length - 5} avisos más`);
   }
-  // Un adaptador marca zona 'fuera' cuando el evento no es de CABA ni del GBA
-  const enZona = raw.filter((r) => r.zona !== 'fuera');
+  // Un adaptador marca zona 'fuera' cuando el evento es del exterior (o no se puede ubicar)
+  const enZona = raw.filter((r) => r.zona !== 'fuera' && !r.fuera);
   raw.length = 0; raw.push(...enZona);
   for (const r of raw) {
-    r.zona ||= source.zona || 'CABA';
+    // Sin ubicación propia: la de la fuente (por defecto, una sala de CABA)
+    if (r.provincia === undefined && r.zona === undefined) {
+      r.provincia = source.provincia || 'CABA';
+      r.zona = source.zona !== undefined ? source.zona : (r.provincia === 'CABA' ? 'CABA' : null);
+    }
     // Algunos sitios (Jazz Voyeur) marcan la hora local como si fuera UTC: se ignora la zona
     if (source.localTime && typeof r.start === 'string') r.start = r.start.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
     if (source.localTime && typeof r.end === 'string') r.end = r.end.replace(/(Z|[+-]\d{1,2}:?\d{2})$/, '');
@@ -121,15 +126,16 @@ async function scrapeSource(source, now) {
     if (source.placePrefix && r.place && !r.place.includes(source.placePrefix)) r.place = `${source.placePrefix} · ${r.place}`;
     else if (source.placePrefix && !r.place) r.place = source.placePrefix;
   }
-  const events = raw.map((r) => normalizeEvent(r, source, now)).filter(Boolean);
-  return { events, errors, ok: events.length > 0 };
+  const funciones = raw.map((r) => normalizeEvent(r, source, now)).filter((e) => e && inWindow(e, now));
+  const events = agrupar(funciones);
+  return { events, errors, ok: events.length > 0, funciones: funciones.length };
 }
 
-function inWindow(e, now, daysAhead = DAYS_AHEAD) {
+function inWindow(e, now) {
   const start = new Date(e.start);
-  const end = e.end ? new Date(e.end) : new Date(start.getTime() + 4 * 3600e3);
-  const limit = new Date(now.getTime() + daysAhead * 864e5);
-  return end >= now && start <= limit;
+  const last = e.fechas?.length ? new Date(e.fechas[e.fechas.length - 1]) : start;
+  const end = e.end ? new Date(Math.max(new Date(e.end), last)) : new Date(last.getTime() + 4 * 3600e3);
+  return end >= now && start <= new Date(HASTA);
 }
 
 async function loadPrevious() {
@@ -146,7 +152,7 @@ async function main() {
   const report = [];
   for (const source of sources) {
     process.stdout.write(`→ ${source.name}… `);
-    const { events, errors, ok } = await scrapeSource(source, now);
+    const { events, errors, ok, funciones } = await scrapeSource(source, now);
     let kept = events;
     let note = null;
     // Si una fuente falla o no devuelve nada, conservamos sus eventos anteriores
@@ -155,15 +161,14 @@ async function main() {
       kept = previous.events.filter((e) => e.sources.some((s) => s.id === source.id));
       if (kept.length) note = 'sin datos nuevos: se muestran los de la última actualización';
     }
-    // Cada fuente puede mirar más lejos (daysAhead): los festivales se anuncian con meses de anticipación
-    all.push(...kept.filter((e) => inWindow(e, now, source.daysAhead ?? DAYS_AHEAD)));
+    all.push(...kept.filter((e) => inWindow(e, now)));
     report.push({ id: source.id, name: source.name, count: events.length, ok: ok && events.length > 0, note, errors });
-    console.log(`${events.length} eventos${errors.length ? ` (${errors.length} error/es)` : ''}`);
+    console.log(`${events.length} eventos (${funciones || 0} funciones)${errors.length ? ` (${errors.length} error/es)` : ''}`);
     for (const e of errors) console.log(`   ⚠ ${e}`);
   }
 
   await closeBrowser();
-  const events = dedupe(all.filter((e) => inWindow(e, now, 400)))
+  const events = dedupe(all.filter((e) => inWindow(e, now)))
     .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
 
   if (!events.length && previous?.events?.length) {
@@ -172,7 +177,10 @@ async function main() {
   }
 
   await mkdir(path.dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify({ generatedAt: now.toISOString(), sources: report, events }, null, 1));
+  // Fechas ya pasadas fuera de la lista de funciones
+  const hoy = new Date(now.getTime() - 4 * 3600e3).toISOString();
+  for (const e of events) if (e.fechas) e.fechas = e.fechas.filter((f) => new Date(f).toISOString() >= hoy);
+  await writeFile(OUT, JSON.stringify({ generatedAt: now.toISOString(), hasta: HASTA, sources: report, events }));
   console.log(`\n✓ ${events.length} eventos guardados en site/data/events.json`);
 }
 

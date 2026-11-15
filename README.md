@@ -45,9 +45,11 @@ Una fuente con **0 eventos** significa que ese sitio no publica sus datos en un 
 - cambiá la fuente a `"type": "html"` con selectores CSS (ver abajo), o
 - desactivala con `"enabled": false`.
 
-## Zonas: CABA y Gran Buenos Aires
+## Todo el país, hasta diciembre de 2027
 
-Cada evento lleva una zona, `CABA` o `GBA`, y en el GBA también la localidad. La zona se decide con la ciudad o el partido que informa cada sitio, no con la dirección (para no confundir calles como "Moreno" o "Florida" con partidos). La lista de partidos y localidades del conurbano está en `scraper/region.mjs`; si falta alguna, se agrega ahí. Lo que es de otras ciudades (La Plata, Mar del Plata, el interior) queda afuera.
+La agenda junta eventos de todo el país hasta el 31/12/2027 (se cambia con la variable `HASTA`). Cada evento lleva su **provincia**, su **zona** (`CABA`, `GBA` o vacía para el resto) y la **localidad**. Se decide con la ciudad o provincia que informa cada sitio, no con la dirección (para no confundir calles como "Moreno" o "Florida" con partidos). Las listas de provincias, ciudades, partidos del conurbano y barrios porteños están en `scraper/region.mjs`; si falta alguna, se agrega ahí. Lo que es del exterior o solo por streaming queda afuera.
+
+Las funciones de una misma obra en la misma sala se juntan en **una sola tarjeta** con la lista de fechas (`fechas`), el horario de la temporada y la fecha de la última función. En la página, la tarjeta aparece en el primer día con función dentro del rango elegido.
 
 ## Agregar o cambiar fuentes
 

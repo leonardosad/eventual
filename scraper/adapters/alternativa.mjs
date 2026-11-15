@@ -2,7 +2,7 @@
 // get-json.php?t=novedades&r=cartelera, que trae todas las obras con sus salas
 // y funciones semanales (día, hora, desde/hasta). Acá expandimos esas funciones
 // a fechas concretas para los próximos días.
-import { zonaDe, localidadDe } from '../region.mjs';
+import { ubicar } from '../region.mjs';
 
 const TZ_OFFSET = '-03:00';
 const pad = (n) => String(n).padStart(2, '0');
@@ -20,9 +20,9 @@ const dow = (key) => new Date(`${key}T12:00:00Z`).getUTCDay(); // 0 = domingo
 export function parseAlternativa(text, baseUrl, opts = {}, now = new Date()) {
   const json = text.replace(/^[^(]*\(\s*﻿?/, '').replace(/\)\s*;?\s*$/, '');
   const data = JSON.parse(json);
-  const daysAhead = opts.daysAhead ?? 14;
-  const provincias = (opts.provincias ?? ['CABA']).map((p) => p.toLowerCase());
+  const hasta = String(opts.hasta || '2027-12-31').slice(0, 10);
   const today = baDateKey(now);
+  const DIAS = ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb'];
   const out = [];
 
   for (const [id, obra] of Object.entries(data.espectaculos || {})) {
@@ -33,15 +33,25 @@ export function parseAlternativa(text, baseUrl, opts = {}, now = new Date()) {
     const musica = clas.some((c) => /música|musica|recital|concierto|banda/i.test(c)) && !clas.includes('Teatro');
 
     for (const lugar of Object.values(obra.lugares || {})) {
-      const prov = String(lugar.provincia || '').toLowerCase();
-      let zona = null;
-      if (prov === 'caba') zona = 'CABA';
-      else if (opts.incluirGBA !== false && /buenos aires/.test(prov) && zonaDe(lugar.zona) === 'GBA') zona = 'GBA';
-      if (!zona && !(provincias.length && provincias.includes(prov))) continue;
-      zona ||= 'CABA';
+      // Ubicación: provincia y localidad que informa el sitio; fuera del país o streaming, afuera
+      // En Alternativa "Buenos Aires" es la provincia (a la Ciudad la llama "CABA")
+      const provincia = /^buenos aires$/i.test(String(lugar.provincia || '').trim()) ? 'Provincia de Buenos Aires' : lugar.provincia;
+      const u = ubicar({ ciudad: lugar.zona, provincia, pais: lugar.pais });
+      if (!u || /streaming|online/i.test(`${lugar.nombre} ${lugar.direccion}`)) continue;
       const funs = Object.values(lugar.funciones || {});
-      for (let i = 0; i <= daysAhead; i++) {
-        const key = addDays(today, i);
+      if (!funs.length) continue;
+      // Horario de la temporada: "Lun 19:00 y 21:30 · Sáb 20:00"
+      const porDia = new Map();
+      for (const f of funs) {
+        const d = (Number(f.nro_dia) - 1 + 7) % 7;
+        if (!porDia.has(d)) porDia.set(d, new Set());
+        if (f.hora) porDia.get(d).add(f.hora);
+      }
+      const horario = [...porDia].sort((x, y) => ((x[0] + 6) % 7) - ((y[0] + 6) % 7))
+        .map(([d, hs]) => `${DIAS[d]} ${[...hs].sort().join(' y ')}`).join(' · ');
+      const fin = funs.map((f) => f.fecha_hasta).sort().pop();
+      const limite = fin < hasta ? fin : hasta;
+      for (let i = 0, key = today; key <= limite && i < 800; i++, key = addDays(today, i)) {
         const horas = funs
           .filter((f) => f.fecha_desde <= key && key <= f.fecha_hasta && Number(f.nro_dia) - 1 === dow(key))
           .map((f) => f.hora)
@@ -52,11 +62,12 @@ export function parseAlternativa(text, baseUrl, opts = {}, now = new Date()) {
         out.push({
           title: obra.titulo,
           start: `${key}T${unicas[0]}:00${TZ_OFFSET}`,
-          whenText: unicas.length > 1 ? `${unicas.join(' y ')} h` : null,
+          whenText: horario ? `${horario} h` : null,
           place: lugar.nombre,
-          address: [lugar.direccion, zona === 'CABA' ? lugar.zona : null].filter(Boolean).join(', '),
-          zona,
-          localidad: zona === 'GBA' ? localidadDe(lugar.zona) : null,
+          address: [lugar.direccion, u.provincia === 'CABA' ? lugar.zona : null].filter(Boolean).join(', '),
+          provincia: u.provincia,
+          zona: u.zona,
+          localidad: u.localidad,
           url,
           image,
           description: clas.filter((c) => !/^(Adultos|Presencial|Artes Escénicas)$/.test(c)).join(' · '),

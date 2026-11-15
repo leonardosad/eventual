@@ -3,7 +3,7 @@
 // directos, pero responde a la propia página: se abre con el navegador automático y se
 // toman las respuestas de obtenerobrasencartel2 (obras con sus funciones) y getTeatros (salas).
 import { captureResponses } from './rendered.mjs';
-import { localidadDe } from '../region.mjs';
+import { ubicar } from '../region.mjs';
 
 const clean = (s) => String(s || '').replace(/&lt;\|&gt;|<\|>/g, ' ').replace(/\s+/g, ' ').trim();
 const titleCase = (s) => String(s || '').toLowerCase().replace(/(^|[\s(/-])(\p{L})/gu, (m, a, b) => a + b.toUpperCase())
@@ -12,10 +12,20 @@ const titleCase = (s) => String(s || '').toLowerCase().replace(/(^|[\s(/-])(\p{L
 const CATS = { RECITAL: 'Música', INFANTILES: 'Infantil', INFANTIL: 'Infantil', 'STAND UP': 'Teatro', COMEDIA: 'Teatro',
   'COMEDIA DRAMATICA': 'Teatro', 'COMEDIA DRAMÁTICA': 'Teatro', DRAMA: 'Teatro', MUSICAL: 'Teatro' };
 
-export function zonaPlateanet(z) {
-  if (/^caba$/i.test(z)) return 'CABA';
-  if (/^gba/i.test(z)) return 'GBA';
-  return null; // Mar del Plata, La Plata, Junín, "Prov. Buenos Aires", etc.
+// cZona: "CABA", "GBA Norte/Sur/Oeste", "Mar del Plata", "La Plata", "Junín", "Villa Carlos Paz",
+// "La Pampa", "Prov. Buenos Aires"…
+export function ubicarPlateanet(cZona, localidadDireccion) {
+  const z = String(cZona || '').trim();
+  if (/^caba$/i.test(z)) return { provincia: 'CABA', zona: 'CABA', localidad: null };
+  if (/^gba/i.test(z)) {
+    const u = ubicar({ ciudad: localidadDireccion }, { ambiguo: 'nada' });
+    return { provincia: 'Buenos Aires', zona: 'GBA', localidad: u?.localidad || localidadDireccion || null };
+  }
+  if (/^prov\.? ?buenos aires$/i.test(z)) {
+    const u = ubicar({ ciudad: localidadDireccion, provincia: 'Provincia de Buenos Aires' });
+    return u || { provincia: 'Buenos Aires', zona: null, localidad: localidadDireccion || null };
+  }
+  return ubicar({ ciudad: z }, { ambiguo: 'nada' }) || ubicar({ provincia: z }, { ambiguo: 'nada' });
 }
 
 export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
@@ -25,8 +35,6 @@ export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
   const salas = new Map(teatros.map((t) => [String(t.Id), t]));
   const out = [];
   for (const o of Array.isArray(obras) ? obras : []) {
-    const zona = zonaPlateanet(o.cZona);
-    if (!zona) continue;
     const sala = salas.get(String(o.cTeatroID));
     const nombre = titleCase(sala?.Name || o.cTeatroNombre);
     const tipo = sala?.cTipo || 'Teatro';
@@ -36,7 +44,8 @@ export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
     while (partes.length > 1 && /^(argentina|(provincia de |prov\.? )?buenos aires|bs\.? ?as\.?|caba|c\.?p\.? ?\d+|\d{4})$/i.test(partes[partes.length - 1])) partes.pop();
     const direccion = partes.join(', ');
     // Localidad para el GBA: la última parte que queda ("Calle 123, Lomas de Zamora")
-    const localidad = zona === 'GBA' ? localidadDe(partes.length > 1 ? partes[partes.length - 1] : o.cZona.replace(/^GBA\s*/i, 'GBA ')) : null;
+    const u = ubicarPlateanet(o.cZona, partes.length > 1 ? partes[partes.length - 1] : '');
+    if (!u?.provincia) continue;
     for (const fecha of o.cFechas || []) {
       out.push({
         title: titleCase(o.cNombre).replace(/\s+-\s+/g, ' – '),
@@ -47,8 +56,9 @@ export function parsePlateanet(obrasJson, teatrosJson, baseUrl) {
         image: o.cImagenBusqueda || o.cImagenCompra,
         url: o.cUrl,
         category: CATS[String(o.cCategoria || '').toUpperCase()],
-        zona,
-        localidad,
+        provincia: u.provincia,
+        zona: u.zona,
+        localidad: u.localidad,
         baseUrl,
       });
     }

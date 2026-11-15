@@ -15,7 +15,7 @@
     <div class="wrap">
       <h1>Eventual</h1>
       <p class="subtitle">Eventos cerca tuyo</p>
-      <p class="lead">Recitales, teatro, muestras, ferias y planes gratis en la Ciudad y el Gran Buenos Aires, juntados de varias agendas en un solo lugar. Cada evento lleva a su fuente original.</p>
+      <p class="lead">Recitales, teatro, muestras, ferias y planes gratis en todo el país, juntados de varias agendas en un solo lugar. Cada evento lleva a su fuente original.</p>
     </div>
   </header>
 
@@ -26,14 +26,13 @@
           <span class="sr">Buscar</span>
           <input id="q" type="search" placeholder="Buscar por nombre, lugar o barrio…" autocomplete="off">
         </label>
+        <label class="sel">
+          <span class="sr">Lugar</span>
+          <select id="lugar" aria-label="Lugar"><option value="all">Todo el país</option></select>
+        </label>
         <label class="toggle">
           <input id="free" type="checkbox"> <span>Solo gratis</span>
         </label>
-      </div>
-      <div class="chips zona" id="zona" role="group" aria-label="Zona">
-        <button data-zona="all" class="on">CABA y GBA</button>
-        <button data-zona="CABA">CABA</button>
-        <button data-zona="GBA">Gran Buenos Aires</button>
       </div>
       <div class="chips" id="when" role="group" aria-label="Cuándo">
         <button data-when="all" class="on">Todo</button>
@@ -41,6 +40,7 @@
         <button data-when="tomorrow">Mañana</button>
         <button data-when="weekend">Este finde</button>
         <button data-when="week">Próximos 7 días</button>
+        <select id="mes" class="mes" aria-label="Mes"><option value="">Elegir mes…</option></select>
       </div>
       <div class="chips cats" id="cats" role="group" aria-label="Categorías"></div>
     </div>

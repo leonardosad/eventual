@@ -159,8 +159,9 @@ export function normalizeEvent(raw, source, now = new Date()) {
     price: free ? 'Gratis' : (price ? formatPrice(price, raw.currency) : null),
     free,
     category,
-    zona: raw.zona === 'GBA' ? 'GBA' : 'CABA',
-    localidad: raw.zona === 'GBA' ? clean(raw.localidad) || null : null,
+    provincia: raw.provincia || null,
+    zona: raw.zona === 'CABA' || raw.zona === 'GBA' ? raw.zona : null,
+    localidad: raw.provincia === 'CABA' ? null : clean(raw.localidad) || null,
     sources: [{ id: source.id, name: source.name, url: absolutize(raw.url, raw.baseUrl) || raw.baseUrl }],
   };
 }
@@ -179,14 +180,47 @@ function absolutize(u, base) {
   try { return new URL(u, base).href; } catch { return null; }
 }
 
-/** Une eventos repetidos (mismo título y día) que vienen de varias fuentes. */
+/**
+ * Junta las funciones de una misma obra en la misma sala en una sola entrada:
+ * start = primera función, end = última, fechas = todas las funciones (ISO).
+ */
+export function agrupar(events) {
+  const groups = new Map();
+  for (const e of events) {
+    const k = `${slug(e.title)}|${slug(e.place || '')}`;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(e);
+  }
+  const out = [];
+  for (const list of groups.values()) {
+    if (list.length === 1) { out.push(list[0]); continue; }
+    list.sort((a, b) => a.start.localeCompare(b.start));
+    const first = { ...list[0] };
+    const fechas = [...new Set(list.flatMap((e) => e.fechas || [e.start]))].sort();
+    first.fechas = fechas.slice(0, 500);
+    const ends = list.map((e) => e.end || e.start).sort();
+    first.end = ends[ends.length - 1] > first.start ? ends[ends.length - 1] : null;
+    const textos = new Set(list.map((e) => e.whenText || ''));
+    first.whenText = textos.size === 1 ? list[0].whenText : null;
+    for (const e of list) for (const k of ['image', 'description', 'price', 'address', 'localidad']) first[k] ??= e[k];
+    out.push(first);
+  }
+  return out;
+}
+
+/** Une eventos repetidos (mismo título y primer día) que vienen de varias fuentes. */
 export function dedupe(events) {
   const map = new Map();
   for (const e of events) {
     const prev = map.get(e.id);
     if (!prev) { map.set(e.id, e); continue; }
     for (const s of e.sources) if (!prev.sources.some((p) => p.id === s.id)) prev.sources.push(s);
-    for (const k of ['place', 'address', 'description', 'image', 'price', 'end', 'localidad']) prev[k] ??= e[k];
+    for (const k of ['place', 'address', 'description', 'image', 'price', 'end', 'localidad', 'provincia', 'zona', 'whenText']) prev[k] ??= e[k];
+    if (prev.fechas || e.fechas) {
+      prev.fechas = [...new Set([...(prev.fechas || [prev.start]), ...(e.fechas || [e.start])])].sort().slice(0, 500);
+      const last = prev.fechas[prev.fechas.length - 1];
+      if (!prev.end || last > prev.end) prev.end = last;
+    }
     prev.free ||= e.free;
     if (prev.category === 'Otros') prev.category = e.category;
   }
