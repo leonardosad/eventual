@@ -30,10 +30,67 @@ export function weekRange(text, now = new Date()) {
   };
 }
 
+const DOW = { domingo: 0, lunes: 1, martes: 2, miercoles: 3, jueves: 4, viernes: 5, sabado: 6, feriado: -1 };
+const CATS = { 'música': 'Música', musica: 'Música', teatro: 'Teatro', danza: 'Teatro', infantil: 'Infantil',
+  'artes visuales': 'Arte y muestras', 'exposición': 'Arte y muestras', exposicion: 'Arte y muestras', feria: 'Ferias',
+  deporte: 'Deportes', 'gastronomía': 'Gastronomía', gastronomia: 'Gastronomía' };
+
+/** Lista de actividades que la página guarda en `const json = \`[...]\`` (buscador oficial). */
+export function actividadesTurismo(html) {
+  const m = html.match(/const\s+json\s*=\s*`([\s\S]*?)`\s*;?/);
+  if (!m) return null;
+  try { return JSON.parse(m[1].trim()); } catch { return null; }
+}
+
+function horaDe(texto) {
+  const t = norm(texto);
+  const m = t.match(/\b(?:a las|de|desde las|desde)\s+(\d{1,2})(?:[:.](\d{2}))?\s*(?:a|h|hs|y)\b/) || t.match(/\b(\d{1,2})[:.](\d{2})\s*h/) || t.match(/\b(\d{1,2})\s*h\b/);
+  if (!m) return null;
+  const h = Number(m[1]);
+  return h <= 23 ? `${pad(h)}:${m[2] || '00'}` : null;
+}
+
 export function parseTurismoBA(html, baseUrl, now = new Date()) {
   const $ = cheerio.load(html);
-  const week = weekRange($('body').text(), now);
+  // Texto de la página con espacios entre etiquetas (para que "noviembre" no quede pegado a lo siguiente)
+  const week = weekRange(html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<[^>]+>/g, ' '), now);
   if (!week) return [];
+  const acts = actividadesTurismo(html);
+  if (acts?.length) {
+    // Días de la semana publicada con su día de la semana
+    const dias = [];
+    for (let d = new Date(week.start); d <= new Date(week.end); d = new Date(d.getTime() + 864e5)) {
+      const key = new Date(d.getTime() - 3 * 3600e3).toISOString().slice(0, 10);
+      dias.push({ key, dow: new Date(`${key}T12:00:00Z`).getUTCDay() });
+    }
+    const out = [];
+    for (const a of acts) {
+      const nombre = String(a.nombre_actividad || '').trim();
+      if (!nombre) continue;
+      const filtro = String(a.dias_filtro || '').split(',').map((x) => DOW[norm(x)]).filter((x) => x >= 0);
+      const hora = horaDe(a.dias_horarios);
+      const elegidos = filtro.length ? dias.filter((d) => filtro.includes(d.dow)) : [];
+      const base = {
+        title: nombre,
+        whenText: String(a.dias_horarios || '').trim() || null,
+        place: String(a.proveedor || '').trim() || null,
+        address: [a.calle_altura, a.barrio && a.barrio !== 'CABA' ? a.barrio : null].filter((x) => x && String(x).trim()).join(', ') || null,
+        description: a.descripcion,
+        image: a.foto,
+        url: a.url_boton || baseUrl,
+        free: String(a.precio_filtro).trim() === '0' || /gratis/i.test(a.tags || ''),
+        category: CATS[norm(a.categoria_actividad_filtro)] || undefined,
+        baseUrl,
+      };
+      if (elegidos.length) {
+        for (const d of elegidos) out.push({ ...base, start: `${d.key}T${hora || '00:00'}:00-03:00` });
+      } else {
+        out.push({ ...base, start: week.start, end: week.end });
+      }
+    }
+    return out;
+  }
+  // Formato anterior: JSON-LD + texto "¿Cuándo?" de cada tarjeta
 
   // Texto "¿Cuándo?" de cada tarjeta, por título
   const cuando = new Map();

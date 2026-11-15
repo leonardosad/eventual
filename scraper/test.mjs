@@ -465,4 +465,26 @@ test('Festivalear: festivales de todo el país', () => {
   assert.deepEqual(rangoFestivalear('30 de diciembre al 2 de enero de 2027'), { start: '2026-12-30T00:00:00-03:00', end: '2027-01-02T23:59:00-03:00' });
 });
 
+test('Turismo BA: buscador oficial (JSON de actividades)', () => {
+  const now3 = new Date('2026-11-13T12:00:00-03:00');
+  const acts = [
+    { nombre_actividad: 'La Noche de los Museos', proveedor: 'Distintos puntos', calle_altura: 'Ciudad de Buenos Aires', barrio: 'CABA', categoria_actividad_filtro: 'Evento', tags: 'Gratis', precio_filtro: '0', dias_filtro: 'sabado', dias_horarios: 'Sábado 14, de 19 a 02 h. ', url_boton: 'https://turismo/noche', foto: 'https://cdn/noche.webp' },
+    { nombre_actividad: 'Mafalda Inmersiva', proveedor: 'Centro Cultural Recoleta', calle_altura: 'Junín 1930', barrio: 'Recoleta', categoria_actividad_filtro: 'Evento', precio_filtro: ' ', dias_filtro: 'jueves,viernes,sabado,domingo', dias_horarios: 'De jueves a domingos' },
+    { nombre_actividad: 'Creamfields Argentina', proveedor: 'Parque de la Ciudad', categoria_actividad_filtro: 'Música', dias_filtro: 'sabado', dias_horarios: 'Sábado 14, desde las 15 h. ' },
+  ];
+  const html = `<body><p>Desde el jueves 12 al domingo 15 de noviembre</p><script type="text/javascript">const json = \` ${JSON.stringify(acts)}\`;</script></body>`;
+  const raw = parseTurismoBA(html, 'https://turismo.buenosaires.gob.ar/x', now3);
+  const ev = agrupar(raw.map((r) => normalizeEvent(r, src, now3)));
+  assert.equal(ev.length, 3);
+  const noche = ev.find((e) => e.title === 'La Noche de los Museos');
+  assert.equal(noche.start, '2026-11-14T19:00:00-03:00');
+  assert.equal(noche.free, true);
+  const mafalda = ev.find((e) => e.title === 'Mafalda Inmersiva');
+  assert.equal(mafalda.fechas.length, 4); // jueves 12 a domingo 15
+  assert.equal(mafalda.address, 'Junín 1930, Recoleta');
+  const cream = ev.find((e) => /Creamfields/.test(e.title));
+  assert.equal(cream.start, '2026-11-14T15:00:00-03:00');
+  assert.equal(cream.category, 'Música');
+});
+
 console.log(`\n${passed} pruebas OK`);
