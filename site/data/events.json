@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T00:07:53.192Z",
+ "generatedAt": "2026-11-15T00:29:43.625Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -196,7 +196,7 @@
   {
    "id": "plateanet",
    "name": "Plateanet",
-   "count": 868,
+   "count": 869,
    "ok": true,
    "note": null,
    "errors": []
@@ -3757,6 +3757,30 @@
      "id": "alternativa-teatral",
      "name": "Alternativa Teatral",
      "url": "https://www.alternativateatral.com/obra84376-divertrap"
+    }
+   ]
+  },
+  {
+   "id": "86dc7b7da0a0",
+   "title": "El Chat de Mamis – Una Comedia En el Cole",
+   "start": "2026-11-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Multitabaris",
+   "address": "Avenida Corrientes 831",
+   "description": "El disfraz de la \"nena nueva\" de séptimo B aparece destrozado, por lo cual la directora del colegio cita a las madres y padres a una reunión en el colegio, pero todo termina en acusaciones cruzadas, reclamos, audios de whatsapp y un caos difícil de resolver. Mientras intentan dilucidar qué pasó con",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-CHAT-DE-MAMIS---UNA-COMEDIA-EN-EL-COLE.jpg",
+   "url": "https://www.plateanet.com/obra/33741?obra=EL-CHAT-DE-MAMIS---UNA-COMEDIA-EN-EL-COLE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33741?obra=EL-CHAT-DE-MAMIS---UNA-COMEDIA-EN-EL-COLE"
     }
    ]
   },
@@ -75607,6 +75631,4206 @@
      "id": "plateanet",
      "name": "Plateanet",
      "url": "https://www.plateanet.com/obra/35856?obra=EXTREMOS"
+    }
+   ]
+  },
+  {
+   "id": "fcaf041a7601",
+   "title": "Geoff Tate en Argentina",
+   "start": "2027-01-14T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Vorterix",
+   "address": "Av. Federico Lacroze 3455, Buenos Aires",
+   "description": "Geoff Tate se presentará el jueves 14 de enero a las [...]",
+   "image": "https://indiehoy.com/wp-content/uploads/2026/08/geoff-tate-argentina.jpg",
+   "url": "https://indiehoy.com/agenda/geoff-tate-en-argentina/",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "indiehoy-vorterix",
+     "name": "Indie Hoy (Teatro Vorterix)",
+     "url": "https://indiehoy.com/agenda/geoff-tate-en-argentina/"
+    }
+   ]
+  },
+  {
+   "id": "1ca5b638d97a",
+   "title": "Las Gratitudes",
+   "start": "2027-01-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "89620d982d94",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "36e5981b638a",
+   "title": "Pablo Angeli Presenta Catarsis Con Carmen",
+   "start": "2027-01-14T22:15:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "%BFQué pasa cuando Carmen toma el control de la catarsis de la pareja? Que nadie sale ileso... pero todos salen riéndose! En este nuevo espectáculo de Pablo Angeli, Carmen conversa con las parejas del público y se mete, sin pedir permiso, en los grandes temas de la vida de a dos: la convivencia, las",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/PABLO-ANGELI-PRESENTA-CATARSIS-CON-CARMEN.jpg",
+   "url": "https://www.plateanet.com/obra/35944?obra=PABLO-ANGELI-PRESENTA-CATARSIS-CON-CARMEN",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35944?obra=PABLO-ANGELI-PRESENTA-CATARSIS-CON-CARMEN"
+    }
+   ]
+  },
+  {
+   "id": "687f6fb3f336",
+   "title": "Rush",
+   "start": "2027-01-15T00:00:00-03:00",
+   "end": null,
+   "whenText": "15 enero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/A5210_Rush_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/ca784f55-cd9c-43d0-9c2d-6009849007bf",
+   "price": "Desde $170.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/ca784f55-cd9c-43d0-9c2d-6009849007bf"
+    }
+   ]
+  },
+  {
+   "id": "1297caba0b8b",
+   "title": "El Escritor de Todas las Cosas.",
+   "start": "2027-01-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "El escritor de todas las cosas propone un viaje íntimo y conmovedor por la vida de un hombre que hizo de la escritura su manera de estar en el mundo. Desde un pasillo olvidado de un teatro, el protagonista reconstruye su historia mientras escucha, a la distancia, una obra que él mismo escribió y que",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESCRITOR-DE-TODAS-LAS-COSAS_.jpg",
+   "url": "https://www.plateanet.com/obra/35742?obra=EL-ESCRITOR-DE-TODAS-LAS-COSAS_",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35742?obra=EL-ESCRITOR-DE-TODAS-LAS-COSAS_"
+    }
+   ]
+  },
+  {
+   "id": "5913075ac0d1",
+   "title": "El Estado de la Union",
+   "start": "2027-01-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "ef2e349a29ba",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-15T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "af03885bd8a2",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-15T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "fa84f9c4bb10",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "08630a4bc8c1",
+   "title": "Casi Personal",
+   "start": "2027-01-15T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Para un ansioso, nada es casual...todo es casi personal. Casi Personal\" es un espectáculo que combina stand up, magia y mentalismo en un recorrido tan divertido como inesperado. A través del humor y experiencias personales, Luz Cosatti habla de la ansiedad, del intento constante de controlar todo y",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/CASI-PERSONAL.jpg",
+   "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL"
+    }
+   ]
+  },
+  {
+   "id": "ee4f7ac13bb5",
+   "title": "Las Gratitudes",
+   "start": "2027-01-15T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "bda44681a1d1",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-16T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "251cb192086e",
+   "title": "El Escritor de Todas las Cosas.",
+   "start": "2027-01-16T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "El escritor de todas las cosas propone un viaje íntimo y conmovedor por la vida de un hombre que hizo de la escritura su manera de estar en el mundo. Desde un pasillo olvidado de un teatro, el protagonista reconstruye su historia mientras escucha, a la distancia, una obra que él mismo escribió y que",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESCRITOR-DE-TODAS-LAS-COSAS_.jpg",
+   "url": "https://www.plateanet.com/obra/35742?obra=EL-ESCRITOR-DE-TODAS-LAS-COSAS_",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35742?obra=EL-ESCRITOR-DE-TODAS-LAS-COSAS_"
+    }
+   ]
+  },
+  {
+   "id": "6a519499be27",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-16T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "9f65b04711b3",
+   "title": "El Estado de la Union",
+   "start": "2027-01-16T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "5b43adf14381",
+   "title": "Adriana Varela en Café Berlín",
+   "start": "2027-01-16T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/b51448c102ce15906dc5a23d86c13665b9f60c02.jpg?1793715538",
+   "url": "https://livepass.com.ar/events/adriana-varela-en-cafe-berlin-2027-01-16-20-30-00-0300",
+   "price": "$56.000",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/adriana-varela-en-cafe-berlin-2027-01-16-20-30-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "e73235ddea03",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-16T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "b8f99867dc98",
+   "title": "Bardo",
+   "start": "2027-01-16T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "de3cb2a439e0",
+   "title": "Leo Masliah en Café Berlín",
+   "start": "2027-01-16T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/dd82ae04e719055f1314f61c2cfdb3e1f6abe525.jpg?1793716670",
+   "url": "https://livepass.com.ar/events/leo-masliah-en-cafe-berlin-2027-01-16-23-00-00-0300",
+   "price": "$33.600",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/leo-masliah-en-cafe-berlin-2027-01-16-23-00-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "839fee23a9c3",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-17T18:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "74a05e3ee269",
+   "title": "Bardo",
+   "start": "2027-01-17T18:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "5b5d9a8936cb",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-17T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "d21167265304",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-17T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "f76513399846",
+   "title": "Pundonor .",
+   "start": "2027-01-17T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Andrea Garrote y Rafael Spregelburd dirigen juntos Pundonor, un monólogo escrito por Garrote quien además interpreta a Claudia Pérez Espinosa: una profesora universitaria, Doctora en Sociología, que vuelve al aula después de tomarse unos meses de licencia. Pero la clase que debe dar, una introducció",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/PUNDONOR-_.jpg",
+   "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_"
+    }
+   ]
+  },
+  {
+   "id": "82a338f77c99",
+   "title": "Smor en Café Berlín",
+   "start": "2027-01-17T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/398a1bed70571d254e1a2c4e08b8d8afe5e8e4fe.jpg?1793368845",
+   "url": "https://livepass.com.ar/events/smor-en-cafe-berlin",
+   "price": "$25.760",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/smor-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "809640adf351",
+   "title": "Instrucciones Para Enseñarle A Volar A Mi Elefante Rosa",
+   "start": "2027-01-18T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "La obra teatral y musical, cuenta la historia entrañable de dos adolescentes cuyas vidas están atravesadas por contextos familiares complejos, a lo que se suman situaciones cotidianas dolorosas y difíciles de transitar. Se conocen por casualidad, se enamoran y se encuentran con el objetivo de suicid",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE.jpg",
+   "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE"
+    }
+   ]
+  },
+  {
+   "id": "c85edcfe2a72",
+   "title": "Ambiente",
+   "start": "2027-01-19T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Un joven visita a sus padres para pedirles que vendan su casa y con el dinero compren dos pequeños departamentos. Uno para ellos y otro para él. El planteo cae de sorpresa y desata un debate incómodo y dilemático entre los miembros de la familia, en el que se discuten cuestiones como las responsabil",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/AMBIENTE.jpg",
+   "url": "https://www.plateanet.com/obra/35927?obra=AMBIENTE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35927?obra=AMBIENTE"
+    }
+   ]
+  },
+  {
+   "id": "7624fe0cd7f3",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-19T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "ac79803ee33f",
+   "title": "Levitation",
+   "start": "2027-01-20T18:00:00-03:00",
+   "end": null,
+   "whenText": "Miércoles 20 de enero Desde las 18 hs",
+   "place": "Konex · Patio + Sala de las Columnas",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Festivales",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/10/LEVITATION-ARGENTINA-9X9-400x400.jpg",
+   "url": "https://venti.live/evento/levitation-festarg-2027",
+   "price": null,
+   "free": false,
+   "category": "Otros",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://venti.live/evento/levitation-festarg-2027"
+    }
+   ]
+  },
+  {
+   "id": "26effbc72c80",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-20T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "d8586f3d842c",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-20T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "eb4a7f1a3d4c",
+   "title": "Amaru",
+   "start": "2027-01-20T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Amaru, una joven cuyo nombre significa serpiente sagrada, irrumpe en las ruinas de una familia burguesa de clase media, revolucionando el estado de las cosas. Un pacto con el hijo para dejar de usar pantallas, una conversación con el padre que cambia su percepción del tiempo y el contacto afectivo c",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/AMARU.jpg",
+   "url": "https://www.plateanet.com/obra/35173?obra=AMARU",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35173?obra=AMARU"
+    }
+   ]
+  },
+  {
+   "id": "919534e380d9",
+   "title": "CHAPEAUX en vivo",
+   "start": "2027-01-21T00:00:00-03:00",
+   "end": null,
+   "whenText": "21 enero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/6444D_CHAPEAUXenvivo_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/0c6b0624-7278-425a-bc94-7eabb23a8f14",
+   "price": "Desde $50.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/0c6b0624-7278-425a-bc94-7eabb23a8f14"
+    }
+   ]
+  },
+  {
+   "id": "33e4cf022d76",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-21T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "f0dd84a60fae",
+   "title": "Las Gratitudes",
+   "start": "2027-01-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "41c7ea380ba7",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "dc7337b2f4c0",
+   "title": "Hilda Lizarazu en Café Berlín",
+   "start": "2027-01-21T20:45:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/dee357a68b31ccecba40a3c4a7bb92d86c480d2f.jpg?1793368436",
+   "url": "https://livepass.com.ar/events/hilda-lizarazu-en-cafe-berlin-2027-01-21-20-45-00-0300",
+   "price": "$50.400",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/hilda-lizarazu-en-cafe-berlin-2027-01-21-20-45-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "80e588ccc1de",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-22T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "a664c251ca61",
+   "title": "El Estado de la Union",
+   "start": "2027-01-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "53475942d984",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-22T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "0f97adbdcb8d",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-22T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "ea7432de72dc",
+   "title": "Casi Personal",
+   "start": "2027-01-22T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Para un ansioso, nada es casual...todo es casi personal. Casi Personal\" es un espectáculo que combina stand up, magia y mentalismo en un recorrido tan divertido como inesperado. A través del humor y experiencias personales, Luz Cosatti habla de la ansiedad, del intento constante de controlar todo y",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/CASI-PERSONAL.jpg",
+   "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL"
+    }
+   ]
+  },
+  {
+   "id": "a115ff5b108a",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-22T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "b869b44fb63a",
+   "title": "Las Gratitudes",
+   "start": "2027-01-22T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "4977183fd8fe",
+   "title": "De Caro a la Cacerola en Café Berlín",
+   "start": "2027-01-22T23:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/8d8b0f073f75ec6d2ebe8b30cd40835a8124c6c3.jpg?1794489433",
+   "url": "https://livepass.com.ar/events/de-caro-a-la-cacerola-en-cafe-berlin-2027-01-22-23-00-00-0300",
+   "price": "$44.800",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/de-caro-a-la-cacerola-en-cafe-berlin-2027-01-22-23-00-00-0300"
+    }
+   ]
+  },
+  {
+   "id": "3a023f4abcdb",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-23T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "b43daccdc08b",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-23T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "4c6bb90ae508",
+   "title": "El Estado de la Union",
+   "start": "2027-01-23T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "b610d10ef89b",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-23T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "040cd1524797",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-23T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "85da4f070150",
+   "title": "Bardo",
+   "start": "2027-01-23T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "3238bc252003",
+   "title": "Astor – Piazzolla Eterno",
+   "start": "2027-01-24T18:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Colon",
+   "address": "Cerrito 628",
+   "description": "En ese punto en que se entrelazan la realidad, la música y los sueños llega \"Astor, Piazzolla Eterno\" un espectáculo único en su tipo. Una celebración del gran artista argentino, en un recorrido por sus composiciones, su mundo y su legado, con gran impacto visual y la calidad artística de la cual el",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ASTOR---PIAZZOLLA-ETERNO.jpg",
+   "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33239?obra=ASTOR---PIAZZOLLA-ETERNO"
+    }
+   ]
+  },
+  {
+   "id": "79a79afd19b2",
+   "title": "Bardo",
+   "start": "2027-01-24T18:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "8f38b14871dd",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-24T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "4bc12bee1e4f",
+   "title": "Madame Bovary Soy Yo",
+   "start": "2027-01-24T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Politeama",
+   "address": "Paraná 353",
+   "description": "OSCAR MARTÍNEZ REGRESA AL TEATRO ARGENTINO DESPUÉS DE 14 AÑOS (Amadeus 2013) Y lo hace por partida triple: como autor, director y protagonista de \"MADAME BOVARY SOY YO\", una nueva comedia de su autoría, en un dúo actoral junto a Eduardo Blanco. Después de 14 años alejado de los escenarios de nuestro",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/MADAME-BOVARY-SOY-YO.jpg",
+   "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35870?obra=MADAME-BOVARY-SOY-YO"
+    }
+   ]
+  },
+  {
+   "id": "b2fbb39a583a",
+   "title": "Luis Zahera – Chungo",
+   "start": "2027-01-24T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Astral",
+   "address": "Av. Corrientes 1639",
+   "description": "El reconocido actor español Luis Zahera, ganador de dos Premios Goya y protagonista de grandes producciones internacionales llega a la Argentina para presentar su exitoso unipersonal de humor con el que recorre escenarios de España y distintos países. En el marco de una gira internacional, Zahera re",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LUIS-ZAHERA---CHUNGO.jpg",
+   "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33370?obra=LUIS-ZAHERA---CHUNGO"
+    }
+   ]
+  },
+  {
+   "id": "57bd6ed8401e",
+   "title": "Juliano Barreto & Eduardo Farías en Café Berlín",
+   "start": "2027-01-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Avenida San Martín 6656",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/f010454349bef4bd6d1fdd9364648d6d6ddd006f.jpg?1793385204",
+   "url": "https://livepass.com.ar/events/juliano-barreto-eduardo-farias-en-cafe-berlin",
+   "price": "$24.640",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/juliano-barreto-eduardo-farias-en-cafe-berlin"
+    }
+   ]
+  },
+  {
+   "id": "4834bddd0982",
+   "title": "Pundonor .",
+   "start": "2027-01-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Andrea Garrote y Rafael Spregelburd dirigen juntos Pundonor, un monólogo escrito por Garrote quien además interpreta a Claudia Pérez Espinosa: una profesora universitaria, Doctora en Sociología, que vuelve al aula después de tomarse unos meses de licencia. Pero la clase que debe dar, una introducció",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/PUNDONOR-_.jpg",
+   "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_"
+    }
+   ]
+  },
+  {
+   "id": "1fb3e7b9d00f",
+   "title": "FREYA SKYE · STARS ALIGNE TOUR",
+   "start": "2027-01-25T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "Freya Skye llega a C Art Media en su primera visita a Argentina. Por cada ticket vendido para el show de Freya Skye, se donará el equivalente a USD $1 a causas benéficas, destinando USD $0.50 a Maestro Cares Foundation y su trabajo para mejorar la calidad de vida de niños, niñas y comunidades en situación de vulnerabilidad en América Latina, y USD $0.50 a la iniciativa de PLUS1 para apoyar a organ",
+   "image": "https://centroc.s3.amazonaws.com/null",
+   "url": "https://www.passline.com/eventos/freya-skye",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/freya-skye"
+    }
+   ]
+  },
+  {
+   "id": "46055ac43363",
+   "title": "Instrucciones Para Enseñarle A Volar A Mi Elefante Rosa",
+   "start": "2027-01-25T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "La obra teatral y musical, cuenta la historia entrañable de dos adolescentes cuyas vidas están atravesadas por contextos familiares complejos, a lo que se suman situaciones cotidianas dolorosas y difíciles de transitar. Se conocen por casualidad, se enamoran y se encuentran con el objetivo de suicid",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE.jpg",
+   "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE"
+    }
+   ]
+  },
+  {
+   "id": "1b234ad8b756",
+   "title": "Ambiente",
+   "start": "2027-01-26T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Un joven visita a sus padres para pedirles que vendan su casa y con el dinero compren dos pequeños departamentos. Uno para ellos y otro para él. El planteo cae de sorpresa y desata un debate incómodo y dilemático entre los miembros de la familia, en el que se discuten cuestiones como las responsabil",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/AMBIENTE.jpg",
+   "url": "https://www.plateanet.com/obra/35927?obra=AMBIENTE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35927?obra=AMBIENTE"
+    }
+   ]
+  },
+  {
+   "id": "ede7a5140688",
+   "title": "Amaru",
+   "start": "2027-01-27T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Amaru, una joven cuyo nombre significa serpiente sagrada, irrumpe en las ruinas de una familia burguesa de clase media, revolucionando el estado de las cosas. Un pacto con el hijo para dejar de usar pantallas, una conversación con el padre que cambia su percepción del tiempo y el contacto afectivo c",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/AMARU.jpg",
+   "url": "https://www.plateanet.com/obra/35173?obra=AMARU",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35173?obra=AMARU"
+    }
+   ]
+  },
+  {
+   "id": "6ba8e15fb2e6",
+   "title": "Las Gratitudes",
+   "start": "2027-01-28T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "7c99a0c9bc9c",
+   "title": "Sottovoce",
+   "start": "2027-01-28T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "El Nacional Sancor Seguros",
+   "address": "Avenida Corrientes 960",
+   "description": "Sebastián y Claudio (Adrián Suar y Fernán Mirás), primos y socios, están a punto de vender la empresa textil heredada de sus padres. Es el día más feliz de sus vidas: van a cerrar un acuerdo con un grupo norteamericano que los volverá millonarios. Muy distintos entre sí, ambos ven en esta operación",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/SOTTOVOCE.jpg",
+   "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE"
+    }
+   ]
+  },
+  {
+   "id": "335357b04cfa",
+   "title": "El Estado de la Union",
+   "start": "2027-01-29T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "4000d55e9c69",
+   "title": "Sottovoce",
+   "start": "2027-01-29T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "El Nacional Sancor Seguros",
+   "address": "Avenida Corrientes 960",
+   "description": "Sebastián y Claudio (Adrián Suar y Fernán Mirás), primos y socios, están a punto de vender la empresa textil heredada de sus padres. Es el día más feliz de sus vidas: van a cerrar un acuerdo con un grupo norteamericano que los volverá millonarios. Muy distintos entre sí, ambos ven en esta operación",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/SOTTOVOCE.jpg",
+   "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE"
+    }
+   ]
+  },
+  {
+   "id": "04f40ad2bf61",
+   "title": "Casi Personal",
+   "start": "2027-01-29T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Para un ansioso, nada es casual...todo es casi personal. Casi Personal\" es un espectáculo que combina stand up, magia y mentalismo en un recorrido tan divertido como inesperado. A través del humor y experiencias personales, Luz Cosatti habla de la ansiedad, del intento constante de controlar todo y",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/CASI-PERSONAL.jpg",
+   "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35947?obra=CASI-PERSONAL"
+    }
+   ]
+  },
+  {
+   "id": "16c2c997f41a",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-29T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "e78a0d198935",
+   "title": "Las Gratitudes",
+   "start": "2027-01-29T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Escrita con un estilo contenido, casi austero, esta narración a dos voces nos habla de la memoria, el pasado, el envejecimiento, las palabras, la bondad y la gratitud hacia aquellos que fueron importantes en nuestras vidas. Son las respectivas gratitudes las que unen a los tres inolvidables personaj",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-GRATITUDES.jpg",
+   "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35131?obra=LAS-GRATITUDES"
+    }
+   ]
+  },
+  {
+   "id": "b1137e9ff422",
+   "title": "El Estado de la Union",
+   "start": "2027-01-30T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "El autor de \"Alta fidelidad\" se luce en esta comedia que retrata con maestría un matrimonio en crisis. Cada semana Matías y Ana Laura se citan en un bar antes de su sesión de terapia de pareja. Para salvar su relación es necesario repensarlo todo: el pasado, sus diferencias y complicidades, el sexo",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-ESTADO-DE-LA-UNION.jpg",
+   "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33909?obra=EL-ESTADO-DE-LA-UNION"
+    }
+   ]
+  },
+  {
+   "id": "6f830aa1445c",
+   "title": "Adrian Lacroix – Nomad",
+   "start": "2027-01-30T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Nd Teatro",
+   "address": "Paraguay 918",
+   "description": "El ilusionista favorito de las estrellas, que fascinó a magos como David Copperfield, David Blaine y Penn & Teller entre otros, da comienzo a una nueva gira mundial. Adrián Lacroix vuelve al ND! En sus espectáculos vas a experimentar la magia de una forma que nunca imaginaste. Es el pasaporte a",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/ADRIAN-LACROIX---NOMAD.jpg",
+   "url": "https://www.plateanet.com/obra/32046?obra=ADRIAN-LACROIX---NOMAD",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/32046?obra=ADRIAN-LACROIX---NOMAD"
+    }
+   ]
+  },
+  {
+   "id": "3ba9e76a06d9",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-30T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "da0c02ad6e22",
+   "title": "Bardo",
+   "start": "2027-01-30T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "cecfa571875a",
+   "title": "Sottovoce",
+   "start": "2027-01-30T22:15:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "El Nacional Sancor Seguros",
+   "address": "Avenida Corrientes 960",
+   "description": "Sebastián y Claudio (Adrián Suar y Fernán Mirás), primos y socios, están a punto de vender la empresa textil heredada de sus padres. Es el día más feliz de sus vidas: van a cerrar un acuerdo con un grupo norteamericano que los volverá millonarios. Muy distintos entre sí, ambos ven en esta operación",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/SOTTOVOCE.jpg",
+   "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE"
+    }
+   ]
+  },
+  {
+   "id": "dd7a6a463f55",
+   "title": "Bardo",
+   "start": "2027-01-31T18:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Afuera llueve sin parar. Adentro, Juan está decidido a ser feliz y se prepara para inaugurar su nuevo restaurante, \"Bardo\", junto a su novia Nina. Pero las calles se inundan, la electricidad no funciona y los planes se interrumpen: la inauguración va a tener que esperar. Mientras tanto, Pablo, el hi",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/BARDO.jpg",
+   "url": "https://www.plateanet.com/obra/35797?obra=BARDO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35797?obra=BARDO"
+    }
+   ]
+  },
+  {
+   "id": "42ea35691a9f",
+   "title": "El Jefe del Jefe",
+   "start": "2027-01-31T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Paseo la Plaza",
+   "address": "Avenida Corrientes 1660",
+   "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE.jpg",
+   "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/31141?obra=EL-JEFE-DEL-JEFE"
+    }
+   ]
+  },
+  {
+   "id": "2ccc1ea19520",
+   "title": "Sottovoce",
+   "start": "2027-01-31T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "El Nacional Sancor Seguros",
+   "address": "Avenida Corrientes 960",
+   "description": "Sebastián y Claudio (Adrián Suar y Fernán Mirás), primos y socios, están a punto de vender la empresa textil heredada de sus padres. Es el día más feliz de sus vidas: van a cerrar un acuerdo con un grupo norteamericano que los volverá millonarios. Muy distintos entre sí, ambos ven en esta operación",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/SOTTOVOCE.jpg",
+   "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/33888?obra=SOTTOVOCE"
+    }
+   ]
+  },
+  {
+   "id": "a05506a337f5",
+   "title": "Pundonor .",
+   "start": "2027-01-31T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Andrea Garrote y Rafael Spregelburd dirigen juntos Pundonor, un monólogo escrito por Garrote quien además interpreta a Claudia Pérez Espinosa: una profesora universitaria, Doctora en Sociología, que vuelve al aula después de tomarse unos meses de licencia. Pero la clase que debe dar, una introducció",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/PUNDONOR-_.jpg",
+   "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/28342?obra=PUNDONOR-_"
+    }
+   ]
+  },
+  {
+   "id": "3140c8273942",
+   "title": "Instrucciones Para Enseñarle A Volar A Mi Elefante Rosa",
+   "start": "2027-02-01T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "La obra teatral y musical, cuenta la historia entrañable de dos adolescentes cuyas vidas están atravesadas por contextos familiares complejos, a lo que se suman situaciones cotidianas dolorosas y difíciles de transitar. Se conocen por casualidad, se enamoran y se encuentran con el objetivo de suicid",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE.jpg",
+   "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE",
+   "price": null,
+   "free": false,
+   "category": "Infantil",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35963?obra=INSTRUCCIONES-PARA-ENSENARLE-A-VOLAR-A-MI-ELE"
+    }
+   ]
+  },
+  {
+   "id": "b92a48d890d0",
+   "title": "Jack Johnson",
+   "start": "2027-02-05T00:00:00-03:00",
+   "end": null,
+   "whenText": "05 febrero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/ED378_JackJohnson_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/d0c8868f-c75a-42e4-8dcc-8e7b0f64d519",
+   "price": "Desde $115.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/d0c8868f-c75a-42e4-8dcc-8e7b0f64d519"
+    }
+   ]
+  },
+  {
+   "id": "5000f894442c",
+   "title": "Las Adoro",
+   "start": "2027-02-06T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Metropolitan",
+   "address": "Avenida Corrientes 1343",
+   "description": "José y Herminia Adoro son hermanos. Las Adoro tienen un poco más de ochenta años y actúan. Son actrices. Actuaron una vida entera. Ahora son convocados a una última audición para una película. Ensayan, recuerdan, se sumergen en los mares de la memoria, cantan, dedican todo a su público. Los interrum",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-ADORO.jpg",
+   "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO"
+    }
+   ]
+  },
+  {
+   "id": "8a11360e6696",
+   "title": "Las Adoro",
+   "start": "2027-02-07T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Metropolitan",
+   "address": "Avenida Corrientes 1343",
+   "description": "José y Herminia Adoro son hermanos. Las Adoro tienen un poco más de ochenta años y actúan. Son actrices. Actuaron una vida entera. Ahora son convocados a una última audición para una película. Ensayan, recuerdan, se sumergen en los mares de la memoria, cantan, dedican todo a su público. Los interrum",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-ADORO.jpg",
+   "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO"
+    }
+   ]
+  },
+  {
+   "id": "ddaaaa82829a",
+   "title": "Tan Bionica",
+   "start": "2027-02-11T00:00:00-03:00",
+   "end": null,
+   "whenText": "11 febrero 2027 y 3 fechas más",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/100F5_TanBionica_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/148a7bae-bb0a-4efa-b4f8-aca6f46beb26",
+   "price": "Desde $60.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/148a7bae-bb0a-4efa-b4f8-aca6f46beb26"
+    }
+   ]
+  },
+  {
+   "id": "21c1b3ae99d5",
+   "title": "Pitbull",
+   "start": "2027-02-13T00:00:00-03:00",
+   "end": null,
+   "whenText": "13 febrero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/684B5_Pitbull_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/5eedb94f-b12d-4600-af0a-ee5211af2bae",
+   "price": "Desde $140.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/5eedb94f-b12d-4600-af0a-ee5211af2bae"
+    }
+   ]
+  },
+  {
+   "id": "ec2ea0767391",
+   "title": "Cesar Banana Pueyrredón",
+   "start": "2027-02-13T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/cesarbanana440.jpg",
+   "url": "https://www.ticketek.com.ar/cesar-banana-pueyrredon/teatro-opera",
+   "price": "$45.200",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/cesar-banana-pueyrredon/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "1746a0e5eb43",
+   "title": "Las Adoro",
+   "start": "2027-02-13T22:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Metropolitan",
+   "address": "Avenida Corrientes 1343",
+   "description": "José y Herminia Adoro son hermanos. Las Adoro tienen un poco más de ochenta años y actúan. Son actrices. Actuaron una vida entera. Ahora son convocados a una última audición para una película. Ensayan, recuerdan, se sumergen en los mares de la memoria, cantan, dedican todo a su público. Los interrum",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-ADORO.jpg",
+   "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO"
+    }
+   ]
+  },
+  {
+   "id": "605b21f353f2",
+   "title": "REIK",
+   "start": "2027-02-14T00:00:00-03:00",
+   "end": null,
+   "whenText": "14 febrero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/97602_REIK_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/0341ac71-3461-44cf-93d7-07cec5217712",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/0341ac71-3461-44cf-93d7-07cec5217712"
+    }
+   ]
+  },
+  {
+   "id": "07e0c9346e1c",
+   "title": "DONAVON",
+   "start": "2027-02-14T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1790546568745-lg.jpg",
+   "url": "https://venti.live/evento/donavon-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/donavon-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "07ba64b0c381",
+   "title": "Las Adoro",
+   "start": "2027-02-14T21:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Metropolitan",
+   "address": "Avenida Corrientes 1343",
+   "description": "José y Herminia Adoro son hermanos. Las Adoro tienen un poco más de ochenta años y actúan. Son actrices. Actuaron una vida entera. Ahora son convocados a una última audición para una película. Ensayan, recuerdan, se sumergen en los mares de la memoria, cantan, dedican todo a su público. Los interrum",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LAS-ADORO.jpg",
+   "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35240?obra=LAS-ADORO"
+    }
+   ]
+  },
+  {
+   "id": "6325260fa0b2",
+   "title": "Laura Pausini",
+   "start": "2027-02-17T00:00:00-03:00",
+   "end": null,
+   "whenText": "17 febrero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/06FE8_LauraPausini_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/3fb27135-7622-45e6-a54a-0b7de66250c2",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/3fb27135-7622-45e6-a54a-0b7de66250c2"
+    }
+   ]
+  },
+  {
+   "id": "5cc24d149fc5",
+   "title": "Maluma",
+   "start": "2027-02-19T00:00:00-03:00",
+   "end": null,
+   "whenText": "19 febrero 2027 y 1 fecha más",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/4A3D4_Maluma_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/33824c27-8190-44ef-b1a0-d83e6a57a0f2",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/33824c27-8190-44ef-b1a0-d83e6a57a0f2"
+    }
+   ]
+  },
+  {
+   "id": "12e3538a72ed",
+   "title": "SOCIAL DISTORTION · EN ARGENTINA",
+   "start": "2027-02-19T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "¡SOCIAL DISTORTION EN LA ARGENTINA!",
+   "image": "https://centroc.s3.amazonaws.com/42543089100298287226928072026014025p.%C2%A0m..jpg",
+   "url": "https://www.passline.com/eventos/sd-en-argentina",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/sd-en-argentina"
+    }
+   ]
+  },
+  {
+   "id": "f4428995cdd6",
+   "title": "Perras On The Beach",
+   "start": "2027-02-19T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1794411309274-lg.jpg",
+   "url": "https://venti.live/evento/perras-on-the-beach-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/perras-on-the-beach-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "170b51853d65",
+   "title": "San Luis",
+   "start": "2027-02-19T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/sluis440.jpg",
+   "url": "https://www.ticketek.com.ar/san-luis/teatro-opera",
+   "price": "$50.850",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/san-luis/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "d89248133589",
+   "title": "SOCIAL DISTORTION · NUEVA FUNCION",
+   "start": "2027-02-20T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "¡VUELVE SOCIAL DISTORTION A LA ARGENTINA! NUEVA FUNCION",
+   "image": "https://centroc.s3.amazonaws.com/9388239293805565897131072026013149p.%C2%A0m..jpg",
+   "url": "https://www.passline.com/eventos/social-distortion-en-argentina-nueva-fecha",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/social-distortion-en-argentina-nueva-fecha"
+    }
+   ]
+  },
+  {
+   "id": "b7f7787f29cf",
+   "title": "Dracula II Resurrección",
+   "start": "2027-02-26T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/drac440.jpg",
+   "url": "https://www.ticketek.com.ar/dracula-ii-resurreccion/teatro-opera",
+   "price": "$45.200",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/dracula-ii-resurreccion/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "7e6b13288e4a",
+   "title": "Sin Bandera",
+   "start": "2027-02-27T00:00:00-03:00",
+   "end": null,
+   "whenText": "27 febrero 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/C50C2_SinBandera_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/66a7cd0b-572d-42d8-bf00-d8a4e714f766",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/66a7cd0b-572d-42d8-bf00-d8a4e714f766"
+    }
+   ]
+  },
+  {
+   "id": "fabba5e922ed",
+   "title": "Noche del Recuerdo",
+   "start": "2027-02-27T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/noche-del-recuerdo/noche-del-recuerdo-image-main-1793046474.jpg",
+   "url": "https://www.tuentrada.com/noche-del-recuerdo-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/noche-del-recuerdo-tgr"
+    }
+   ]
+  },
+  {
+   "id": "c37738ed57bf",
+   "title": "Dracula II Resurrección",
+   "start": "2027-02-27T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/drac440.jpg",
+   "url": "https://www.ticketek.com.ar/dracula-ii-resurreccion/teatro-opera",
+   "price": "$45.200",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/dracula-ii-resurreccion/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "fda4e4ae7d22",
+   "title": "Ludovico Einaudi: Solo Piano en el Teatro Colón",
+   "start": "2027-03-01T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Libertad 621",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/d2555f2a1ffbaccc2c2a46b2ac15844c83227300.png?1786373925",
+   "url": "https://livepass.com.ar/events/ludovico-einaudi-solo-piano-en-el-teatro-colon",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/ludovico-einaudi-solo-piano-en-el-teatro-colon"
+    }
+   ]
+  },
+  {
+   "id": "326461848d34",
+   "title": "Ludovico Einaudi",
+   "start": "2027-03-03T00:00:00-03:00",
+   "end": null,
+   "whenText": "03 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/FD7D3_LudovicoEinaudi_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/c97f8e20-5eb1-4c8b-b30d-1c76cc565063",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/c97f8e20-5eb1-4c8b-b30d-1c76cc565063"
+    }
+   ]
+  },
+  {
+   "id": "cbb9123c1b44",
+   "title": "Cannons",
+   "start": "2027-03-03T19:00:00-03:00",
+   "end": null,
+   "whenText": "Miércoles 3 de marzo Puerta 19 hs | Show 20 hs",
+   "place": "Konex · Patio",
+   "address": "Sarmiento 3131, Abasto",
+   "description": "Música",
+   "image": "https://www.cckonex.org/wp-content/uploads/2026/11/900-x-900-400x400.jpg",
+   "url": "https://entradas.cckonex.org/event/cannons",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "konex",
+     "name": "Ciudad Cultural Konex",
+     "url": "https://entradas.cckonex.org/event/cannons"
+    }
+   ]
+  },
+  {
+   "id": "cb9ad26506be",
+   "title": "MOTIONLESS IN WHITE · THE COME TO LATIN AMERICA TOUR 2027",
+   "start": "2027-03-03T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "Motionless In White, la banda estadounidense de metal que combina hardcore, rock gótico, sonidos industriales y electrónica, llega a Buenos Aires.",
+   "image": "https://centroc.s3.amazonaws.com/null",
+   "url": "https://www.passline.com/eventos/motionless-in-white",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/motionless-in-white"
+    }
+   ]
+  },
+  {
+   "id": "3a6cb0b1f099",
+   "title": "CABARET VOLTAIRE",
+   "start": "2027-03-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1788466766886-lg.jpg",
+   "url": "https://venti.live/evento/cabaret-voltaire-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/cabaret-voltaire-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "6aa4656d06a6",
+   "title": "Lo Mucho Que Te Ame",
+   "start": "2027-03-04T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Premier",
+   "address": "Avenida Corrientes 1565",
+   "description": "Ambientada en el Palermo de las décadas del 50 y del 60, Lo mucho que te amé explora nuestra relación con el deseo , la monogamia y los mandatos familiares. A través de la mirada de Ofelia, la obra recorre más de treinta años de una historia argentina y familiar en la que el amor convive con la renu",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LO-MUCHO-QUE-TE-AME.jpg",
+   "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME"
+    }
+   ]
+  },
+  {
+   "id": "c33a6188704f",
+   "title": "Lo Mucho Que Te Ame",
+   "start": "2027-03-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Premier",
+   "address": "Avenida Corrientes 1565",
+   "description": "Ambientada en el Palermo de las décadas del 50 y del 60, Lo mucho que te amé explora nuestra relación con el deseo , la monogamia y los mandatos familiares. A través de la mirada de Ofelia, la obra recorre más de treinta años de una historia argentina y familiar en la que el amor convive con la renu",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LO-MUCHO-QUE-TE-AME.jpg",
+   "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME"
+    }
+   ]
+  },
+  {
+   "id": "dbe0f33d18a8",
+   "title": "Festival Ennio Morricone",
+   "start": "2027-03-06T16:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Una descripción musical y narrativa de la vida de este magnífico compositor a través de relatos y una selección de los temas más famosos de grandes films a los que les compuso música como \"Cinema Paradiso\", \"La Misión\", \"El bueno, el malo y el feo\", entre otros. Presentado con proyecciones y la part",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/FESTIVAL-ENNIO-MORRICONE.jpg",
+   "url": "https://www.plateanet.com/obra/35061?obra=FESTIVAL-ENNIO-MORRICONE",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35061?obra=FESTIVAL-ENNIO-MORRICONE"
+    }
+   ]
+  },
+  {
+   "id": "a62d4eb32125",
+   "title": "Fonseca",
+   "start": "2027-03-06T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/fonseca/fonseca-image-main-1792083693.jpg",
+   "url": "https://www.tuentrada.com/fonseca-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/fonseca-tgr"
+    }
+   ]
+  },
+  {
+   "id": "cf0517cb76fd",
+   "title": "Lo Mucho Que Te Ame",
+   "start": "2027-03-06T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Premier",
+   "address": "Avenida Corrientes 1565",
+   "description": "Ambientada en el Palermo de las décadas del 50 y del 60, Lo mucho que te amé explora nuestra relación con el deseo , la monogamia y los mandatos familiares. A través de la mirada de Ofelia, la obra recorre más de treinta años de una historia argentina y familiar en la que el amor convive con la renu",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LO-MUCHO-QUE-TE-AME.jpg",
+   "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME"
+    }
+   ]
+  },
+  {
+   "id": "55ce4ea1789d",
+   "title": "Lo Mucho Que Te Ame",
+   "start": "2027-03-07T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Premier",
+   "address": "Avenida Corrientes 1565",
+   "description": "Ambientada en el Palermo de las décadas del 50 y del 60, Lo mucho que te amé explora nuestra relación con el deseo , la monogamia y los mandatos familiares. A través de la mirada de Ofelia, la obra recorre más de treinta años de una historia argentina y familiar en la que el amor convive con la renu",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/LO-MUCHO-QUE-TE-AME.jpg",
+   "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35830?obra=LO-MUCHO-QUE-TE-AME"
+    }
+   ]
+  },
+  {
+   "id": "6395a720c44d",
+   "title": "Los Hijos de los Barrios",
+   "start": "2027-03-07T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/los-hijos-de-los-barrios/los-hijos-de-los-barrios-image-main-1785532690.jpg",
+   "url": "https://www.tuentrada.com/los-hijos-de-los-barrios-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/los-hijos-de-los-barrios-tgr"
+    }
+   ]
+  },
+  {
+   "id": "21e8f72d678e",
+   "title": "Undertale",
+   "start": "2027-03-09T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/undern440.jpg",
+   "url": "https://www.ticketek.com.ar/undertale/teatro-opera",
+   "price": "$99.440",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/undertale/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "91048746d15e",
+   "title": "Undertale",
+   "start": "2027-03-10T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/undern440.jpg",
+   "url": "https://www.ticketek.com.ar/undertale/teatro-opera",
+   "price": "$99.440",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/undertale/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "abfd9d3c8ca0",
+   "title": "VALERIA LYNCH",
+   "start": "2027-03-12T00:00:00-03:00",
+   "end": null,
+   "whenText": "12 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/C6B42_VALERIALYNCH_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/c7804086-b16f-4fa7-bffe-3ea2da520b9e",
+   "price": "Desde $70.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/c7804086-b16f-4fa7-bffe-3ea2da520b9e"
+    }
+   ]
+  },
+  {
+   "id": "d48ca1e480a8",
+   "title": "LOVE THE 90S",
+   "start": "2027-03-13T00:00:00-03:00",
+   "end": null,
+   "whenText": "13 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/EEA8C_LOVETHE90S_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/ea7bd2f3-7305-4383-b1bf-031ad53c4ff3",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/ea7bd2f3-7305-4383-b1bf-031ad53c4ff3"
+    }
+   ]
+  },
+  {
+   "id": "5befc5e2b7ee",
+   "title": "Festival Ennio Morricone",
+   "start": "2027-03-13T16:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Picadero",
+   "address": "Pasaje Enrique Santos Discépolo 1857",
+   "description": "Una descripción musical y narrativa de la vida de este magnífico compositor a través de relatos y una selección de los temas más famosos de grandes films a los que les compuso música como \"Cinema Paradiso\", \"La Misión\", \"El bueno, el malo y el feo\", entre otros. Presentado con proyecciones y la part",
+   "image": "https://mobile.plateanet.com/img/imagenes/220x220/FESTIVAL-ENNIO-MORRICONE.jpg",
+   "url": "https://www.plateanet.com/obra/35061?obra=FESTIVAL-ENNIO-MORRICONE",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "plateanet",
+     "name": "Plateanet",
+     "url": "https://www.plateanet.com/obra/35061?obra=FESTIVAL-ENNIO-MORRICONE"
+    }
+   ]
+  },
+  {
+   "id": "e916fdf1452d",
+   "title": "El Kanka",
+   "start": "2027-03-13T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/el-kanka/el-kanka-image-main-1787165550.jpg",
+   "url": "https://www.tuentrada.com/el-kanka-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/el-kanka-tgr"
+    }
+   ]
+  },
+  {
+   "id": "352221722252",
+   "title": "Ha*Ash",
+   "start": "2027-03-17T00:00:00-03:00",
+   "end": null,
+   "whenText": "17 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/7BA12_Ha*Ash_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/1ece33a6-1f30-4b45-82bf-5a12f44edb1c",
+   "price": "Desde $60.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/1ece33a6-1f30-4b45-82bf-5a12f44edb1c"
+    }
+   ]
+  },
+  {
+   "id": "8cf429d81de9",
+   "title": "Pedro Capó",
+   "start": "2027-03-17T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/pedro-capo/pedro-capo-image-main-1792524760.jpg",
+   "url": "https://www.tuentrada.com/pedro-capo-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/pedro-capo-tgr"
+    }
+   ]
+  },
+  {
+   "id": "5f17b9304a26",
+   "title": "Antonio Orozco",
+   "start": "2027-03-17T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/orozco440.jpg",
+   "url": "https://www.ticketek.com.ar/antonio-orozco/teatro-opera",
+   "price": "$67.800",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/antonio-orozco/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "5725029dc998",
+   "title": "La Oreja de Van Gogh",
+   "start": "2027-03-19T00:00:00-03:00",
+   "end": null,
+   "whenText": "19 marzo 2027 y 2 fechas más",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/3BE55_LaOrejadeVanGogh_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/b469e89b-dfcc-4531-8b15-682a46e3f442",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/b469e89b-dfcc-4531-8b15-682a46e3f442"
+    }
+   ]
+  },
+  {
+   "id": "8dec11cd4b84",
+   "title": "Jerry Rivera",
+   "start": "2027-03-19T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/jerry-rivera/jerry-rivera-image-main-1791387798.jpg",
+   "url": "https://www.tuentrada.com/jerry-rivera-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/jerry-rivera-tgr"
+    }
+   ]
+  },
+  {
+   "id": "967073286c2e",
+   "title": "Dalia Gutman",
+   "start": "2027-03-20T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Don Bosco San Isidro",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/dalia-gutman/dalia-gutman-image-main-1793728462.jpg",
+   "url": "https://www.tuentrada.com/dalia-gutman-tdb",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "GBA",
+   "localidad": "San Isidro",
+   "sources": [
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/dalia-gutman-tdb"
+    }
+   ]
+  },
+  {
+   "id": "b4bc53b2ed8f",
+   "title": "Alexis y Fido",
+   "start": "2027-03-21T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/alexis-y-fido/alexis-y-fido-image-main-1791477465.jpg",
+   "url": "https://www.tuentrada.com/alexis-y-fido-tgr",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-musica",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/alexis-y-fido-tgr"
+    }
+   ]
+  },
+  {
+   "id": "678d9c2ea5bf",
+   "title": "PARALAMAS NONPALIDECE",
+   "start": "2027-03-23T00:00:00-03:00",
+   "end": null,
+   "whenText": "23 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/E526F_PARALAMASNONPALIDECE_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/46ef1dbf-7353-4e1f-82c8-7ff2334f7ca5",
+   "price": "Desde $60.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/46ef1dbf-7353-4e1f-82c8-7ff2334f7ca5"
+    }
+   ]
+  },
+  {
+   "id": "31780f535954",
+   "title": "Ricardo Montaner",
+   "start": "2027-03-24T00:00:00-03:00",
+   "end": null,
+   "whenText": "24 marzo 2027 y 1 fecha más",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/4B410_RicardoMontaner_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/8b315418-c444-47e9-b7dc-235b3a36e9f6",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/8b315418-c444-47e9-b7dc-235b3a36e9f6"
+    }
+   ]
+  },
+  {
+   "id": "dc8be0ed0313",
+   "title": "Camila",
+   "start": "2027-03-30T00:00:00-03:00",
+   "end": null,
+   "whenText": "30 marzo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/8720D_Camila_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/c08cd965-43b9-4632-a077-d0f74d95c437",
+   "price": "Desde $85.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/c08cd965-43b9-4632-a077-d0f74d95c437"
+    }
+   ]
+  },
+  {
+   "id": "eae223652682",
+   "title": "INVASIONES I",
+   "start": "2027-03-31T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "c36c1ce8cdfb",
+   "title": "JUNGLE",
+   "start": "2027-04-01T00:00:00-03:00",
+   "end": null,
+   "whenText": "01 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/C4103_JUNGLE_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/dcfa7eff-1a0c-46e1-8168-fbd674982ff4",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/dcfa7eff-1a0c-46e1-8168-fbd674982ff4"
+    }
+   ]
+  },
+  {
+   "id": "22e4bdef5f7b",
+   "title": "Quilmes Rock 2027",
+   "start": "2027-04-01T00:00:00-03:00",
+   "end": null,
+   "whenText": "16, 17 y 18 DE ABRIL",
+   "place": null,
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/6832252d-60de-44f8-8329-b0cd3b6abcef/large/current.jpg",
+   "url": "https://www.enigmatickets.com/event/6832252d-60de-44f8-8329-b0cd3b6abcef",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/6832252d-60de-44f8-8329-b0cd3b6abcef"
+    }
+   ]
+  },
+  {
+   "id": "610e1acf46ef",
+   "title": "INVASIONES I",
+   "start": "2027-04-01T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "cf0b16b72527",
+   "title": "Louis Tomlinson",
+   "start": "2027-04-02T00:00:00-03:00",
+   "end": null,
+   "whenText": "02 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/CD9C6_LouisTomlinson_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/e54347b1-38ae-4d8f-952d-e96ffa248bb8",
+   "price": "Desde $85.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/e54347b1-38ae-4d8f-952d-e96ffa248bb8"
+    }
+   ]
+  },
+  {
+   "id": "ba195cf307ef",
+   "title": "PALITO ORTEGA",
+   "start": "2027-04-03T00:00:00-03:00",
+   "end": null,
+   "whenText": "03 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/FB8CA_PALITOORTEGA_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/352ddb92-c8dc-4ac3-a1db-cfa90a25383d",
+   "price": "Desde $60.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/352ddb92-c8dc-4ac3-a1db-cfa90a25383d"
+    }
+   ]
+  },
+  {
+   "id": "190246fb3ed2",
+   "title": "INVASIONES I",
+   "start": "2027-04-03T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "9430a4fec1e6",
+   "title": "PIXIES",
+   "start": "2027-04-04T00:00:00-03:00",
+   "end": null,
+   "whenText": "04 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/5A7EB_PIXIES_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/40a2e398-4362-44e7-b95d-f8a5007f5c12",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/40a2e398-4362-44e7-b95d-f8a5007f5c12"
+    }
+   ]
+  },
+  {
+   "id": "537bc2605d09",
+   "title": "INVASIONES I",
+   "start": "2027-04-04T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "31ca1e0a772b",
+   "title": "Ana Gabriel",
+   "start": "2027-04-05T00:00:00-03:00",
+   "end": null,
+   "whenText": "05 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/FA3F0_AnaGabriel_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/114bfa04-810a-434c-a8cc-00d3916d45d0",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/114bfa04-810a-434c-a8cc-00d3916d45d0"
+    }
+   ]
+  },
+  {
+   "id": "4c20815b2933",
+   "title": "Slash",
+   "start": "2027-04-07T00:00:00-03:00",
+   "end": null,
+   "whenText": "07 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/A108C_Slash_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/9afc9e0a-feef-4503-a66b-979406f0fa9d",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/9afc9e0a-feef-4503-a66b-979406f0fa9d"
+    }
+   ]
+  },
+  {
+   "id": "b861349bb61d",
+   "title": "INVASIONES I",
+   "start": "2027-04-07T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "55a21d69bcf6",
+   "title": "Gibran Alcocer",
+   "start": "2027-04-07T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Coliseo",
+   "address": "Marcelo T. de Alvear 1125",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/gibran_alcorcer_pieza_440x600.jpg",
+   "url": "https://www.ticketek.com.ar/gibran-alcocer/teatro-coliseo",
+   "price": "$69.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/gibran-alcocer/teatro-coliseo"
+    }
+   ]
+  },
+  {
+   "id": "d7f00e192903",
+   "title": "INVASIONES I",
+   "start": "2027-04-08T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "359dba71b997",
+   "title": "Santiago Cruz vuelve a la Argentina",
+   "start": "2027-04-09T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Niceto Club",
+   "address": "Niceto Vega 5510, Palermo",
+   "description": "Concierto",
+   "image": "https://images.venti.live/user-images/1792069573769-lg.jpg",
+   "url": "https://venti.live/evento/santiago-cruz-vuelve-a-la-argentina-en-niceto-club",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "niceto",
+     "name": "Niceto Club",
+     "url": "https://venti.live/evento/santiago-cruz-vuelve-a-la-argentina-en-niceto-club"
+    }
+   ]
+  },
+  {
+   "id": "967eae0e4d08",
+   "title": "INVASIONES I",
+   "start": "2027-04-09T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "8429b5d19aca",
+   "title": "INVASIONES I",
+   "start": "2027-04-10T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "04b128fd8b61",
+   "title": "INVASIONES I",
+   "start": "2027-04-11T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "e20e5e0b4fc7",
+   "title": "Luis Fonsi",
+   "start": "2027-04-13T00:00:00-03:00",
+   "end": null,
+   "whenText": "13 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/F5386_LuisFonsi_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/29942a91-2789-460a-b611-97426be04d12",
+   "price": "Desde $70.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/29942a91-2789-460a-b611-97426be04d12"
+    }
+   ]
+  },
+  {
+   "id": "daf67650f4b4",
+   "title": "INVASIONES I",
+   "start": "2027-04-14T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "b58084cd4ce2",
+   "title": "MELENDI",
+   "start": "2027-04-15T00:00:00-03:00",
+   "end": null,
+   "whenText": "15 abril 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/BE611_MELENDI_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/a2248853-4aab-4840-9500-72bd57adc0f5",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/a2248853-4aab-4840-9500-72bd57adc0f5"
+    }
+   ]
+  },
+  {
+   "id": "c8d694c3dfad",
+   "title": "INVASIONES I",
+   "start": "2027-04-15T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "dd452045dd5b",
+   "title": "INVASIONES I",
+   "start": "2027-04-16T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "cb87b87f411d",
+   "title": "Agus Bernasconi",
+   "start": "2027-04-16T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/berna440.jpg",
+   "url": "https://www.ticketek.com.ar/agus-bernasconi/teatro-opera",
+   "price": "$39.550",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/agus-bernasconi/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "f734c28e724e",
+   "title": "INVASIONES I",
+   "start": "2027-04-17T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "3e661118cdaf",
+   "title": "Ser como Blippi",
+   "start": "2027-04-18T17:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/blippi_a26.png",
+   "url": "https://www.ticketek.com.ar/ser-como-blippi/teatro-opera",
+   "price": "$11.300",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/ser-como-blippi/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "44cc6a816ef5",
+   "title": "INVASIONES I",
+   "start": "2027-04-18T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "7f65e2362410",
+   "title": "INVASIONES I",
+   "start": "2027-04-21T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "2bd2bb34d936",
+   "title": "Yerai Cortés",
+   "start": "2027-04-22T00:00:00-03:00",
+   "end": "2027-04-24T00:00:00-03:00",
+   "whenText": "Agotado",
+   "place": "Teatro Margarita Xirgu",
+   "address": null,
+   "description": null,
+   "image": "https://assets.prod.enigmatickets.com/events/images/cbe9e664-7899-4a76-afae-337572531ac0/large/current.png",
+   "url": "https://www.enigmatickets.com/event/cbe9e664-7899-4a76-afae-337572531ac0",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "enigma",
+     "name": "Enigma Tickets",
+     "url": "https://www.enigmatickets.com/event/cbe9e664-7899-4a76-afae-337572531ac0"
+    }
+   ]
+  },
+  {
+   "id": "34d883fcab05",
+   "title": "INVASIONES I",
+   "start": "2027-04-22T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "2a37d297fdd9",
+   "title": "INVASIONES I",
+   "start": "2027-04-23T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "7f94c4db8d4e",
+   "title": "INVASIONES I",
+   "start": "2027-04-24T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "9e42ecfd4aa8",
+   "title": "INVASIONES I",
+   "start": "2027-04-25T19:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "8dd6e82d9188",
+   "title": "INVASIONES I",
+   "start": "2027-04-28T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "d6fda899155c",
+   "title": "INVASIONES I",
+   "start": "2027-04-29T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "6f62faa83c41",
+   "title": "INVASIONES I",
+   "start": "2027-04-30T20:30:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro San Martín",
+   "address": "Av. Corrientes 1530",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/inva_27a.png",
+   "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin",
+   "price": "$13.560",
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/invasiones-i/teatro-san-martin"
+    }
+   ]
+  },
+  {
+   "id": "9c5a2690c685",
+   "title": "MARKY RAMONE en el Teatro Ópera LP",
+   "start": "2027-05-05T20:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Calle 58 770, B1900 La Plata",
+   "address": null,
+   "description": null,
+   "image": "https://livepass-com-ar.uploads.ticketplus.global/images/thumbs/289166e3fa0b0d13968d9a399877b45384e2a03f.jpg?1792770200",
+   "url": "https://livepass.com.ar/events/marky-ramone-en-el-teatro-opera-lp-2026-05-05",
+   "price": "$80.500",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "livepass",
+     "name": "Livepass",
+     "url": "https://livepass.com.ar/events/marky-ramone-en-el-teatro-opera-lp-2026-05-05"
+    }
+   ]
+  },
+  {
+   "id": "91498c94f65c",
+   "title": "KASE.O",
+   "start": "2027-05-07T00:00:00-03:00",
+   "end": null,
+   "whenText": "07 mayo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/3AC78_KASE.O_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/18ca4329-9dc8-4fb7-9c5e-ef498a5c98b6",
+   "price": "Desde $85.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/18ca4329-9dc8-4fb7-9c5e-ef498a5c98b6"
+    }
+   ]
+  },
+  {
+   "id": "700c9afe56d2",
+   "title": "Brad Mehldau Trio",
+   "start": "2027-05-15T21:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Teatro Opera On",
+   "address": "Av. Corrientes 860",
+   "description": null,
+   "image": "https://prod-cms-static.ticketek.com.ar/sites/default/files/images/artist/brad440.jpg",
+   "url": "https://www.ticketek.com.ar/brad-mehldau-trio/teatro-opera",
+   "price": "$84.750",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ticketek",
+     "name": "Ticketek",
+     "url": "https://www.ticketek.com.ar/brad-mehldau-trio/teatro-opera"
+    }
+   ]
+  },
+  {
+   "id": "e13d0d428f9c",
+   "title": "Jay Wheeler",
+   "start": "2027-05-19T00:00:00-03:00",
+   "end": null,
+   "whenText": "19 mayo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/A8F18_JayWheeler_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/255b713b-438c-4781-a850-e050bde226d0",
+   "price": "Desde $55.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/255b713b-438c-4781-a850-e050bde226d0"
+    }
+   ]
+  },
+  {
+   "id": "3cc8d3a779f3",
+   "title": "FROZEN",
+   "start": "2027-05-20T00:00:00-03:00",
+   "end": "2027-05-30T23:59:00-03:00",
+   "whenText": "Del 20-05-2027 al 30-05-2027",
+   "place": "Teatro Gran Rex",
+   "address": null,
+   "description": null,
+   "image": "https://bucket.tuentrada.com/cdn-cgi/image/width=590,height=548,format=auto,quality=85/bucket/events/frozen/frozen-image-main-1793890207.jpg",
+   "url": "https://www.tuentrada.com/frozen-tgr",
+   "price": null,
+   "free": false,
+   "category": "Teatro",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "tuentrada-teatro",
+     "name": "TuEntrada",
+     "url": "https://www.tuentrada.com/frozen-tgr"
+    }
+   ]
+  },
+  {
+   "id": "9ba0cc4c5f6c",
+   "title": "CUARTETO DE NOS",
+   "start": "2027-05-22T00:00:00-03:00",
+   "end": null,
+   "whenText": "22 mayo 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/B88B4_CUARTETODENOS_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/17e0a8cb-489a-402c-8e08-75c7414e045c",
+   "price": "Desde $55.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/17e0a8cb-489a-402c-8e08-75c7414e045c"
+    }
+   ]
+  },
+  {
+   "id": "4e3e45a7dd04",
+   "title": "BETH GIBBONS · EN C ART MEDIA",
+   "start": "2027-05-27T19:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "C Art Media · Nave Central",
+   "address": "Av. Corrientes 6271, Chacarita",
+   "description": "Beth Gibbons, la voz inconfundible de Portishead, se presentará en Buenos Aires el 27 de mayo de 2027, en el marco de su primera gira por Latinoamérica en más de dos décadas. La artista británica ofrecerá un único show en el C Art Media, como parte de una serie de conciertos que también la llevarán a San Pablo y a Santiago de Chile.",
+   "image": "https://centroc.s3.amazonaws.com/null",
+   "url": "https://www.passline.com/eventos/beth-gibbons-en-argentina",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "c-art-media",
+     "name": "C Art Media",
+     "url": "https://www.passline.com/eventos/beth-gibbons-en-argentina"
+    }
+   ]
+  },
+  {
+   "id": "ebae0454f6eb",
+   "title": "FiReMAJOR Buenos Aires",
+   "start": "2027-06-17T00:00:00-03:00",
+   "end": null,
+   "whenText": "17 junio 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/7AEEA_Counter-Strike2Major_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/9a07aeaf-2aed-4e3d-a02e-62843ff9208e",
+   "price": "Desde $240.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/9a07aeaf-2aed-4e3d-a02e-62843ff9208e"
+    }
+   ]
+  },
+  {
+   "id": "eef34bacedc2",
+   "title": "Hilary Duff",
+   "start": "2027-08-16T00:00:00-03:00",
+   "end": null,
+   "whenText": "16 agosto 2027 y 1 fecha más",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/4CF4D_HilaryDuff_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/f626738b-fc3f-42ec-83d4-77ad37bf591f",
+   "price": "Desde $90.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/f626738b-fc3f-42ec-83d4-77ad37bf591f"
+    }
+   ]
+  },
+  {
+   "id": "e3899daf086f",
+   "title": "David Bisbal",
+   "start": "2027-08-28T00:00:00-03:00",
+   "end": null,
+   "whenText": "28 agosto 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/B1359_DavidBisbal_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/f3b6943e-e25c-486a-8c61-078e7a71c64e",
+   "price": "Desde $75.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/f3b6943e-e25c-486a-8c61-078e7a71c64e"
+    }
+   ]
+  },
+  {
+   "id": "d24efd7f0f74",
+   "title": "Eros Ramazzotti",
+   "start": "2027-11-06T00:00:00-03:00",
+   "end": null,
+   "whenText": "06 noviembre 2027",
+   "place": "Movistar Arena",
+   "address": "Humboldt 450, Villa Crespo",
+   "description": null,
+   "image": "https://www.movistararena.com.ar/static/artistas/6CD6B_ErosRamazzotti_FileFotoFichaListado",
+   "url": "https://www.movistararena.com.ar/show/fc831d48-fbb5-4f8d-b25a-b031901e19ea",
+   "price": "Desde $80.000",
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "movistar-arena",
+     "name": "Movistar Arena",
+     "url": "https://www.movistararena.com.ar/show/fc831d48-fbb5-4f8d-b25a-b031901e19ea"
     }
    ]
   }
