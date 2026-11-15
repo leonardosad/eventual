@@ -43,8 +43,9 @@ export function actividadesTurismo(html) {
 }
 
 function horaDe(texto) {
+  // Primera hora que aparece: "10 a 19 h" → 10:00, "de 19 a 02 h" → 19:00, "19:30 h" → 19:30
   const t = norm(texto);
-  const m = t.match(/\b(?:a las|de|desde las|desde)\s+(\d{1,2})(?:[:.](\d{2}))?\s*(?:a|h|hs|y)\b/) || t.match(/\b(\d{1,2})[:.](\d{2})\s*h/) || t.match(/\b(\d{1,2})\s*h\b/);
+  const m = t.match(/\b(\d{1,2})(?:[:.](\d{2}))?\s*(?:hs?\b|a\s+\d)/);
   if (!m) return null;
   const h = Number(m[1]);
   return h <= 23 ? `${pad(h)}:${m[2] || '00'}` : null;

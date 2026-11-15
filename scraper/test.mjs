@@ -470,12 +470,14 @@ test('Turismo BA: buscador oficial (JSON de actividades)', () => {
   const acts = [
     { nombre_actividad: 'La Noche de los Museos', proveedor: 'Distintos puntos', calle_altura: 'Ciudad de Buenos Aires', barrio: 'CABA', categoria_actividad_filtro: 'Evento', tags: 'Gratis', precio_filtro: '0', dias_filtro: 'sabado', dias_horarios: 'Sábado 14, de 19 a 02 h. ', url_boton: 'https://turismo/noche', foto: 'https://cdn/noche.webp' },
     { nombre_actividad: 'Mafalda Inmersiva', proveedor: 'Centro Cultural Recoleta', calle_altura: 'Junín 1930', barrio: 'Recoleta', categoria_actividad_filtro: 'Evento', precio_filtro: ' ', dias_filtro: 'jueves,viernes,sabado,domingo', dias_horarios: 'De jueves a domingos' },
+    { nombre_actividad: 'Buenos Aires Market', proveedor: 'Plaza Zapiola', dias_filtro: 'sabado', dias_horarios: 'Sábado 14 y domingo 15, 10 a 19 h.' },
     { nombre_actividad: 'Creamfields Argentina', proveedor: 'Parque de la Ciudad', categoria_actividad_filtro: 'Música', dias_filtro: 'sabado', dias_horarios: 'Sábado 14, desde las 15 h. ' },
   ];
   const html = `<body><p>Desde el jueves 12 al domingo 15 de noviembre</p><script type="text/javascript">const json = \` ${JSON.stringify(acts)}\`;</script></body>`;
   const raw = parseTurismoBA(html, 'https://turismo.buenosaires.gob.ar/x', now3);
   const ev = agrupar(raw.map((r) => normalizeEvent(r, src, now3)));
-  assert.equal(ev.length, 3);
+  assert.equal(ev.length, 4);
+  assert.equal(ev.find((e) => e.title === 'Buenos Aires Market').start, '2026-11-14T10:00:00-03:00');
   const noche = ev.find((e) => e.title === 'La Noche de los Museos');
   assert.equal(noche.start, '2026-11-14T19:00:00-03:00');
   assert.equal(noche.free, true);
