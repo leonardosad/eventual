@@ -81,7 +81,7 @@ const CIUDADES = [
   ['Tierra del Fuego', ['ushuaia', 'rio grande']],
 ];
 const CIUDAD_PROV = new Map(CIUDADES.flatMap(([p, cs]) => cs.map((c) => [c, p])));
-const EXTRANJERO = /\b(montevideo|punta del este|uruguay|santiago de chile|chile|asuncion|paraguay|brasil|sao paulo|rio de janeiro|planeta tierra|online|streaming)\b/;
+const EXTRANJERO = /\b(montevideo|punta del este|santiago de chile|asuncion|sao paulo|rio de janeiro|planeta tierra|online|streaming)\b|^(uruguay|chile|paraguay|brasil|bolivia|peru|espana|mexico)$/;
 
 export function provinciaCanonica(p) {
   const v = norm(p).replace(/^(provincia de|prov\.?( de)?|pcia\.?( de)?)\s+/, '').replace(/\bfe\b/, 'fe');

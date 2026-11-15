@@ -30,7 +30,8 @@ export function parseFestivalear(html, baseUrl) {
   const out = [];
   $('a.fl-card').each((_, a) => {
     const $a = $(a);
-    const title = $a.find('.fl-card-tit').text().replace(/\s+/g, ' ').trim();
+    // La web marca los destacados con "★" delante del nombre
+    const title = $a.find('.fl-card-tit').text().replace(/[★☆✪⭐]/g, '').replace(/\s+/g, ' ').trim();
     const fecha = $a.find('.fl-card-fecha').text().replace(/\s+/g, ' ').trim();
     const ub = $a.find('.fl-card-ub').text().replace(/\s+/g, ' ').trim();
     const r = rangoFestivalear(fecha);

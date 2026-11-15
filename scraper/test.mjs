@@ -397,6 +397,8 @@ test('Zonas: CABA, GBA y fuera del AMBA', () => {
   assert.equal(zonaDe('La Plata'), null);
   assert.equal(ubicar({ ciudad: 'Rosario', provincia: 'Santa Fé' }).provincia, 'Santa Fe');
   assert.equal(ubicar({ ciudad: 'Montevideo' }), null);
+  assert.equal(ubicar({ ciudad: 'Concepción del Uruguay', provincia: 'Entre Ríos' }).provincia, 'Entre Ríos');
+  assert.equal(ubicar({ ciudad: 'Punta del Este' }), null);
   assert.equal(ubicar({ ciudad: 'Buenos Aires', provincia: 'Provincia de Buenos Aires' }).provincia, 'CABA');
   assert.equal(ubicar({ ciudad: 'Florida', provincia: 'Provincia de Buenos Aires' }).zona, 'GBA');
   assert.equal(zonaDe('Palermo'), 'CABA');
@@ -443,7 +445,7 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
 test('Festivalear: festivales de todo el país', () => {
   const card = (slug, fecha, tit, ub) => `<a class="fl-card" href="https://festivalear.com/ar/es/eventos/${slug}"><span class="fl-card-media"><img src="https://festivalear.com/img/${slug}.jpg"></span>
     <span class="fl-card-body"><span class="fl-card-fecha">${fecha}</span><span class="fl-card-tit">${tit}</span><span class="fl-card-ub">${ub}</span></span></a>`;
-  const html = card('serenata', '3 de enero de 2027', 'Festival de la Serenata', 'Villa de Soto, Córdoba')
+  const html = card('serenata', '3 de enero de 2027', '★Festival de la Serenata', 'Villa de Soto, Córdoba')
     + card('jesus-maria', '8 al 18 de enero de 2027', 'Festival de Jesús María', 'Jesús María, Córdoba')
     + card('vendimia', '28 de febrero al 7 de marzo de 2027', 'Fiesta Nacional de la Vendimia', 'Mendoza, Mendoza')
     + card('chaya', 'Fecha a confirmar', 'Chaya de los Mojones', 'Maimará, Jujuy')
@@ -452,6 +454,7 @@ test('Festivalear: festivales de todo el país', () => {
   assert.equal(raw.length, 4);
   const [a, b, c, d] = raw.map((r) => normalizeEvent(r, src, now));
   assert.equal(a.provincia, 'Córdoba');
+  assert.equal(a.title, 'Festival de la Serenata');
   assert.equal(a.localidad, 'Villa de Soto');
   assert.equal(b.start, '2027-01-08T00:00:00-03:00');
   assert.equal(b.end, '2027-01-18T23:59:00-03:00');
