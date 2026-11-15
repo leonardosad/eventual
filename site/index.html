@@ -43,15 +43,15 @@
           <span class="sr">Buscar</span>
           <input id="q" type="search" placeholder="Buscar por nombre, lugar o barrio…" autocomplete="off">
         </label>
-        <label class="sel">
+        <label class="sel solo-pc">
           <span class="sr">Lugar</span>
           <select id="lugar" aria-label="Lugar"><option value="all">Todo el país</option></select>
         </label>
-        <label class="toggle">
+        <label class="toggle solo-pc">
           <input id="free" type="checkbox"> <span>Solo gratis</span>
         </label>
       </div>
-      <div class="chips" id="when" role="group" aria-label="Cuándo">
+      <div class="chips solo-pc" id="when" role="group" aria-label="Cuándo">
         <button data-when="all" class="on">Todo</button>
         <button data-when="today">Hoy</button>
         <button data-when="tomorrow">Mañana</button>
@@ -82,6 +82,38 @@
     </details>
     <p class="small">Los datos se toman automáticamente de sitios públicos y pueden cambiar. Confirmá siempre fecha, horario y precio en la fuente original.</p>
   </footer>
+
+  <!-- Barra inferior (celular): Tipo, Zona, Fecha y Gratis -->
+  <nav class="tabbar" id="tabbar" aria-label="Filtros rápidos">
+    <button type="button" data-tab="tipo" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg>
+      <span class="tab-txt">Tipo</span>
+    </button>
+    <button type="button" data-tab="zona" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5c-4.1 0-7.5 3.2-7.5 7.3 0 5.3 6.4 11.1 6.7 11.4.5.4 1.1.4 1.6 0 .3-.3 6.7-6.1 6.7-11.4 0-4.1-3.4-7.3-7.5-7.3zm0 10.2a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8z"/></svg>
+      <span class="tab-txt">Zona</span>
+    </button>
+    <button type="button" data-tab="fecha" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2.5c.6 0 1 .4 1 1V5h8V3.5a1 1 0 1 1 2 0V5h1a2.5 2.5 0 0 1 2.5 2.5v11.5a2.5 2.5 0 0 1-2.5 2.5H5A2.5 2.5 0 0 1 2.5 19V7.5A2.5 2.5 0 0 1 5 5h1V3.5c0-.6.4-1 1-1zM4.5 10v9c0 .3.2.5.5.5h14c.3 0 .5-.2.5-.5v-9z"/></svg>
+      <span class="tab-txt">Fecha</span>
+    </button>
+    <button type="button" data-tab="gratis" aria-pressed="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h13A2.5 2.5 0 0 1 21 7.5V10a2 2 0 0 0 0 4v2.5a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 16.5V14a2 2 0 0 0 0-4zM9.5 8.5v1.6h1.6V8.5zm0 5.4v1.6h1.6v-1.6zm0-2.7v1.6h1.6v-1.6z"/></svg>
+      <span class="tab-txt">Gratis</span>
+    </button>
+  </nav>
+
+  <div class="sheet" id="sheet" hidden>
+    <div class="sheet-fondo" data-cerrar></div>
+    <div class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="sheet-titulo">
+      <div class="sheet-asa" aria-hidden="true"></div>
+      <div class="sheet-cab">
+        <h2 id="sheet-titulo"></h2>
+        <button type="button" class="sheet-x" data-cerrar aria-label="Cerrar">×</button>
+      </div>
+      <div class="sheet-lista" id="sheet-lista"></div>
+    </div>
+  </div>
 
   <script src="app.js?v=__V__"></script>
   <script src="pwa.js?v=__V__"></script>
