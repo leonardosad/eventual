@@ -118,14 +118,14 @@ select.mes { padding: 6px 30px 6px 13px; font-size: .88rem; }
 
 /* ---------- Modo oscuro (se elige con el botón; queda guardado en el navegador) ---------- */
 :root[data-theme="dark"] {
-  --bg: #0a1224;
-  --paper: #111d36;
-  --ink: #cfe8ff;
-  --muted: #8db3d6;
-  --line: #22355a;
-  --accent: #7cc4f5;
-  --accent-2: #5fb3ea;
-  --free: #7fe0c4;
+  --bg: #040914;
+  --paper: #0a1427;
+  --ink: #e0f4ff;
+  --muted: #9fd0f5;
+  --line: #1a2c4d;
+  --accent: #4fd2ff;
+  --accent-2: #2fbfff;
+  --free: #5ff0c8;
   color-scheme: dark;
 }
 :root[data-theme="dark"] .card:hover { box-shadow: 0 8px 24px rgb(0 0 0 / .35); }

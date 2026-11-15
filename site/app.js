@@ -193,7 +193,7 @@
     b.querySelector('.tema-ico').textContent = oscuro ? '☀️' : '🌙';
     b.querySelector('.tema-txt').textContent = oscuro ? 'Modo claro' : 'Modo oscuro';
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', oscuro ? '#0a1224' : '#4d7559'); // color de la barra del celular
+    if (meta) meta.setAttribute('content', oscuro ? '#040914' : '#4d7559'); // color de la barra del celular
   }
   aplicarTema(document.documentElement.dataset.theme === 'dark');
   $('tema').addEventListener('click', () => {
