@@ -351,6 +351,16 @@
     "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos."
   },
   {
+    "id": "festivalear",
+    "name": "Festivalear",
+    "enabled": true,
+    "type": "festivalear",
+    "urls": [
+      "https://festivalear.com/ar/es/eventos"
+    ],
+    "nota": "Festivales y fiestas populares de todo el país."
+  },
+  {
     "id": "passline",
     "name": "Passline",
     "enabled": false,

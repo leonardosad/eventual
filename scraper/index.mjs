@@ -13,6 +13,7 @@ import { complejo } from './adapters/complejo.mjs';
 import { parseArtMedia } from './adapters/artmedia.mjs';
 import { parseNiceto } from './adapters/niceto.mjs';
 import { plateanet } from './adapters/plateanet.mjs';
+import { parseFestivalear } from './adapters/festivalear.mjs';
 import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass } from './adapters/jazz.mjs';
 import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tuentrada.mjs';
@@ -50,6 +51,7 @@ async function runAdapter(source, body, url, ctx) {
   switch (source.type) {
     case 'artmedia': return parseArtMedia(body, url);
     case 'niceto': return parseNiceto(body, url);
+    case 'festivalear': return parseFestivalear(body, url);
     case 'enigma': return parseEnigma(body, url, source.options);
     case 'bebop': return parseBebop(body, url);
     case 'livepass': return parseLivepass(body, url, source.options);

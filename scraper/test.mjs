@@ -14,6 +14,7 @@ import { parseEnigma } from './adapters/enigma.mjs';
 import { parseBebop, parseLivepass, livepassZona } from './adapters/jazz.mjs';
 import { zonaDe, ubicar } from './region.mjs';
 import { parsePlateanet } from './adapters/plateanet.mjs';
+import { parseFestivalear, rangoFestivalear } from './adapters/festivalear.mjs';
 import { parseTuEntrada, eventsFromVenueApi, tuentradaSearch } from './adapters/tuentrada.mjs';
 import { normalizeEvent, dedupe, parseDate, categorize, agrupar } from './normalize.mjs';
 
@@ -437,6 +438,28 @@ test('Plateanet: obras con funciones, CABA y GBA', () => {
   assert.equal(c.localidad, 'Morón');
   assert.equal(c.address, 'Alte. Brown 1200');
   assert.equal(c.place, 'Gran Teatro Moron');
+});
+
+test('Festivalear: festivales de todo el país', () => {
+  const card = (slug, fecha, tit, ub) => `<a class="fl-card" href="https://festivalear.com/ar/es/eventos/${slug}"><span class="fl-card-media"><img src="https://festivalear.com/img/${slug}.jpg"></span>
+    <span class="fl-card-body"><span class="fl-card-fecha">${fecha}</span><span class="fl-card-tit">${tit}</span><span class="fl-card-ub">${ub}</span></span></a>`;
+  const html = card('serenata', '3 de enero de 2027', 'Festival de la Serenata', 'Villa de Soto, Córdoba')
+    + card('jesus-maria', '8 al 18 de enero de 2027', 'Festival de Jesús María', 'Jesús María, Córdoba')
+    + card('vendimia', '28 de febrero al 7 de marzo de 2027', 'Fiesta Nacional de la Vendimia', 'Mendoza, Mendoza')
+    + card('chaya', 'Fecha a confirmar', 'Chaya de los Mojones', 'Maimará, Jujuy')
+    + card('reyes', '2 al 5 de enero de 2027', 'Fiesta de Reyes Magos', 'Sierra de la Ventana, Buenos Aires');
+  const raw = parseFestivalear(html, 'https://festivalear.com/ar/es/eventos');
+  assert.equal(raw.length, 4);
+  const [a, b, c, d] = raw.map((r) => normalizeEvent(r, src, now));
+  assert.equal(a.provincia, 'Córdoba');
+  assert.equal(a.localidad, 'Villa de Soto');
+  assert.equal(b.start, '2027-01-08T00:00:00-03:00');
+  assert.equal(b.end, '2027-01-18T23:59:00-03:00');
+  assert.equal(c.start, '2027-02-28T00:00:00-03:00');
+  assert.equal(c.provincia, 'Mendoza');
+  assert.equal(d.provincia, 'Buenos Aires');
+  assert.equal(d.zona, null);
+  assert.deepEqual(rangoFestivalear('30 de diciembre al 2 de enero de 2027'), { start: '2026-12-30T00:00:00-03:00', end: '2027-01-02T23:59:00-03:00' });
 });
 
 console.log(`\n${passed} pruebas OK`);
