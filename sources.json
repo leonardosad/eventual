@@ -42,7 +42,8 @@
     "placeInclude": "CABA|Capital Federal|Ciudad Aut[oó]noma|Buenos Aires",
     "browser": true,
     "delayMs": 1500,
-    "nota": "Desactivada: el sitio bloquea el acceso automatizado (protección antibots). Muchos de sus shows (Vorterix, Roxy) están también en otras ticketeras."
+    "nota": "Desactivada: el sitio bloquea el acceso automatizado (protección antibots). Muchos de sus shows (Vorterix, Roxy) están también en otras ticketeras.",
+    "daysAhead": 365
   },
   {
     "id": "ticketek",
@@ -53,7 +54,8 @@
       "https://prod-cms-search.ticketek.com.ar/api/1.1/search/"
     ],
     "delayMs": 400,
-    "maxLinks": 200
+    "maxLinks": 200,
+    "daysAhead": 365
   },
   {
     "id": "complejo-teatral",
@@ -86,7 +88,8 @@
     },
     "defaultPlace": "Movistar Arena",
     "defaultAddress": "Humboldt 450, Villa Crespo",
-    "defaultCategory": "Música"
+    "defaultCategory": "Música",
+    "daysAhead": 365
   },
   {
     "id": "konex",
@@ -107,7 +110,8 @@
       "description": ".categoria"
     },
     "placePrefix": "Konex",
-    "defaultAddress": "Sarmiento 3131, Abasto"
+    "defaultAddress": "Sarmiento 3131, Abasto",
+    "daysAhead": 365
   },
   {
     "id": "c-art-media",
@@ -116,7 +120,8 @@
     "type": "artmedia",
     "urls": [
       "https://ojtwazeqh7.execute-api.us-east-1.amazonaws.com/prod/events"
-    ]
+    ],
+    "daysAhead": 365
   },
   {
     "id": "niceto",
@@ -125,7 +130,8 @@
     "type": "niceto",
     "urls": [
       "https://nicetoclub.com/agenda/"
-    ]
+    ],
+    "daysAhead": 365
   },
   {
     "id": "indiehoy-vorterix",
@@ -137,7 +143,8 @@
     ],
     "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
     "maxLinks": 15,
-    "defaultCategory": "Música"
+    "defaultCategory": "Música",
+    "daysAhead": 365
   },
   {
     "id": "indiehoy-roxy",
@@ -149,7 +156,8 @@
     ],
     "linkPattern": "indiehoy\\.com/agenda/[^/?#]+/?$",
     "maxLinks": 15,
-    "defaultCategory": "Música"
+    "defaultCategory": "Música",
+    "daysAhead": 365
   },
   {
     "id": "enigma",
@@ -162,7 +170,8 @@
     "options": {
       "exclude": "Mendoza|Foxy|C[oó]rdoba|Kempes|Rosario|Mar del Plata|La Plata|Vte\\.? ?L[oó]pez|alr[ií]o|Montevideo|Santiago|Tucum[aá]n|Salta|Neuqu[eé]n|Lago Puelo|Aonikenk|Bariloche|Chubut|Mendoza|San Juan|Jujuy|Corrientes|Misiones|Paraná|Santa Fe"
     },
-    "defaultCategory": "Música"
+    "defaultCategory": "Música",
+    "daysAhead": 365
   },
   {
     "id": "jazz-voyeur",
@@ -214,7 +223,8 @@
     ],
     "options": {
       "incluirGBA": true
-    }
+    },
+    "daysAhead": 365
   },
   {
     "id": "tuentrada",
@@ -226,7 +236,8 @@
     ],
     "options": {
       "venueInclude": "Gran Rex|Teatro Col[oó]n|Prez|Rondeman|Autodromo De Buenos Aires|AMIA|Palacio De Las Aguas"
-    }
+    },
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-salas",
@@ -254,7 +265,8 @@
           "address": "Lavalle 3177, Abasto"
         }
       ]
-    }
+    },
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-teatro",
@@ -269,7 +281,8 @@
       "maxPages": 15,
       "category": "Teatro"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-musica",
@@ -284,7 +297,8 @@
       "maxPages": 15,
       "category": "Música"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-familia",
@@ -299,7 +313,8 @@
       "maxPages": 15,
       "category": "Infantil"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-cultura",
@@ -313,7 +328,8 @@
       "city": "^Buenos Aires$",
       "maxPages": 15
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-comedia",
@@ -328,7 +344,8 @@
       "maxPages": 15,
       "category": "Teatro"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-exposicion",
@@ -343,7 +360,8 @@
       "maxPages": 15,
       "category": "Arte y muestras"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "tuentrada-deportes",
@@ -358,7 +376,8 @@
       "maxPages": 15,
       "category": "Deportes"
     },
-    "delayMs": 700
+    "delayMs": 700,
+    "daysAhead": 365
   },
   {
     "id": "plateanet",
@@ -368,7 +387,8 @@
     "urls": [
       "https://www.plateanet.com/"
     ],
-    "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos."
+    "nota": "Incluye CABA y Gran Buenos Aires (zonas GBA Norte/Sur/Oeste). Se lee con el navegador automático porque su API rechaza pedidos directos.",
+    "daysAhead": 120
   },
   {
     "id": "passline",

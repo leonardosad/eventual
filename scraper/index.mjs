@@ -125,10 +125,10 @@ async function scrapeSource(source, now) {
   return { events, errors, ok: events.length > 0 };
 }
 
-function inWindow(e, now) {
+function inWindow(e, now, daysAhead = DAYS_AHEAD) {
   const start = new Date(e.start);
   const end = e.end ? new Date(e.end) : new Date(start.getTime() + 4 * 3600e3);
-  const limit = new Date(now.getTime() + DAYS_AHEAD * 864e5);
+  const limit = new Date(now.getTime() + daysAhead * 864e5);
   return end >= now && start <= limit;
 }
 
@@ -155,14 +155,15 @@ async function main() {
       kept = previous.events.filter((e) => e.sources.some((s) => s.id === source.id));
       if (kept.length) note = 'sin datos nuevos: se muestran los de la última actualización';
     }
-    all.push(...kept);
+    // Cada fuente puede mirar más lejos (daysAhead): los festivales se anuncian con meses de anticipación
+    all.push(...kept.filter((e) => inWindow(e, now, source.daysAhead ?? DAYS_AHEAD)));
     report.push({ id: source.id, name: source.name, count: events.length, ok: ok && events.length > 0, note, errors });
     console.log(`${events.length} eventos${errors.length ? ` (${errors.length} error/es)` : ''}`);
     for (const e of errors) console.log(`   ⚠ ${e}`);
   }
 
   await closeBrowser();
-  const events = dedupe(all.filter((e) => inWindow(e, now)))
+  const events = dedupe(all.filter((e) => inWindow(e, now, 400)))
     .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title));
 
   if (!events.length && previous?.events?.length) {
