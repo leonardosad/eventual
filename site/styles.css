@@ -19,6 +19,7 @@ body { margin: 0; line-height: 1.5; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 .hero { padding: 56px 0 32px; border-bottom: 1px solid var(--line); }
+.hero .wrap { position: relative; }
 .kicker { text-transform: uppercase; letter-spacing: .18em; font-size: .75rem; font-weight: 600; color: var(--accent); margin: 0 0 10px; }
 h1 { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-size: clamp(2.4rem, 7vw, 4.6rem); line-height: .95; margin: 0 0 18px; letter-spacing: -.02em; }
 h1 em { font-style: normal; color: var(--accent); }
@@ -114,3 +115,24 @@ select.mes { padding: 6px 30px 6px 13px; font-size: .88rem; }
   .cats button.on { background: var(--accent-2); }
   .content .count { margin-top: 22px; }
 }
+
+/* ---------- Modo oscuro (se elige con el botón; queda guardado en el navegador) ---------- */
+:root[data-theme="dark"] {
+  --bg: #161d18;
+  --paper: #1f2922;
+  --ink: #e8eee5;
+  --muted: #a2afa4;
+  --line: #334038;
+  --accent: #9cc8a5;
+  --accent-2: #86bbb2;
+  --free: #8fd3a3;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] .card:hover { box-shadow: 0 8px 24px rgb(0 0 0 / .35); }
+:root[data-theme="dark"] .filters { background: color-mix(in srgb, var(--bg) 94%, transparent); }
+.tema { position: absolute; top: 0; right: 20px; display: inline-flex; align-items: center; gap: 8px; font: inherit; font-size: .85rem; font-weight: 500;
+  padding: 7px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; transition: border-color .15s; }
+.tema:hover { border-color: var(--ink); }
+.tema:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+.tema-ico { font-size: 1rem; line-height: 1; }
+@media (max-width: 600px) { .tema-txt { display: none; } .tema { padding: 8px 10px; } }

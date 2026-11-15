@@ -183,6 +183,25 @@
       `<li class="${s.ok ? '' : 'bad'}">${esc(s.name)}: ${s.count} eventos${s.note ? ` (${esc(s.note)})` : ''}${!s.ok && !s.note ? ' (sin respuesta en la última actualización)' : ''}</li>`).join('');
   }
 
+  // ---------- Modo claro / oscuro ----------
+  function aplicarTema(oscuro) {
+    document.documentElement.dataset.theme = oscuro ? 'dark' : '';
+    if (!oscuro) delete document.documentElement.dataset.theme;
+    const b = $('tema');
+    b.setAttribute('aria-pressed', String(oscuro));
+    b.title = oscuro ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+    b.querySelector('.tema-ico').textContent = oscuro ? '☀️' : '🌙';
+    b.querySelector('.tema-txt').textContent = oscuro ? 'Modo claro' : 'Modo oscuro';
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', oscuro ? '#161d18' : '#4d7559'); // color de la barra del celular
+  }
+  aplicarTema(document.documentElement.dataset.theme === 'dark');
+  $('tema').addEventListener('click', () => {
+    const oscuro = document.documentElement.dataset.theme !== 'dark';
+    aplicarTema(oscuro);
+    try { localStorage.setItem('eventual-tema', oscuro ? 'oscuro' : 'claro'); } catch (e) { /* sin almacenamiento: solo esta visita */ }
+  });
+
   $('q').addEventListener('input', (ev) => { state.q = ev.target.value; render(); });
   $('free').addEventListener('change', (ev) => { state.free = ev.target.checked; render(); });
   $('lugar').addEventListener('change', (ev) => { state.lugar = ev.target.value; render(); });

@@ -17,10 +17,14 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Eventual">
+  <script>try { if (localStorage.getItem('eventual-tema') === 'oscuro') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
+      <button id="tema" class="tema" type="button" aria-pressed="false" title="Cambiar a modo oscuro">
+        <span class="tema-ico" aria-hidden="true">🌙</span><span class="tema-txt">Modo oscuro</span>
+      </button>
       <h1>Eventual</h1>
       <p class="subtitle">Eventos cerca tuyo</p>
       <div id="install" class="install" hidden>
