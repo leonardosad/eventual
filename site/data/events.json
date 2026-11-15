@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14T23:53:35.938Z",
+ "generatedAt": "2026-11-14T23:59:50.463Z",
  "sources": [
   {
    "id": "alternativa-teatral",
@@ -28,7 +28,7 @@
   {
    "id": "complejo-teatral",
    "name": "Complejo Teatral de Buenos Aires",
-   "count": 160,
+   "count": 168,
    "ok": true,
    "note": null,
    "errors": []
@@ -92,7 +92,7 @@
   {
    "id": "jazz-voyeur",
    "name": "Jazz Voyeur",
-   "count": 10,
+   "count": 9,
    "ok": true,
    "note": null,
    "errors": []
@@ -196,12 +196,10 @@
   {
    "id": "plateanet",
    "name": "Plateanet",
-   "count": 0,
-   "ok": false,
-   "note": "sin datos nuevos: se muestran los de la última actualización",
-   "errors": [
-    "https://www.plateanet.com/: la página no cargó las obras (¿cambió el sitio?) (respuesta de 5486 caracteres: \"<!doctype html>\\r\\n<html lang=\\\"es\\\">\\r\\n<head>\\r\\n<!-- Google Tag Manager -->\\r\\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l\")"
-   ]
+   "count": 868,
+   "ok": true,
+   "note": null,
+   "errors": []
   }
  ],
  "events": [
@@ -6573,7 +6571,7 @@
    "end": null,
    "whenText": null,
    "place": "Multiespacio Fabrica de Arte San Miguel",
-   "address": "Madre Camila Rolón 1249, Muñiz",
+   "address": "Madre Camila Rolón 1249",
    "description": "Queen por Master Stroke llega con un espectáculo que revive toda la magia de una de las bandas más legendarias de la historia del Rock. Reconocida como la mejor banda tributo a Queen de Argentina y elogiada por el propio Brian May, la propuesta invita a disfrutar de un recorrido por los grandes clás",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/QUEEN-POR-MASTER-STROKE-_.jpg",
    "url": "https://www.plateanet.com/obra/30988?obra=QUEEN-POR-MASTER-STROKE-_",
@@ -6581,7 +6579,7 @@
    "free": false,
    "category": "Música",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Muñiz",
    "sources": [
     {
      "id": "plateanet",
@@ -9966,30 +9964,6 @@
    ]
   },
   {
-   "id": "8e6e02448c3d",
-   "title": "SABRINA ARANDA SINGS CARMEN MCRAE",
-   "start": "2026-11-14T23:30:00-03:00",
-   "end": "2026-11-14T23:59:00-03:00",
-   "whenText": null,
-   "place": "Jazz Voyeur Club",
-   "address": "Posadas 1557, C1112ADA CABA",
-   "description": "SABRINA ARANDA SINGS CARMEN MCRAE SABRINA ARANDA QUARTET &#8211; CARNIEL &#8211; RODRIGUEZ &#8211; VARELA TRASNOCHE! Round About Midnight 🌙: Sabrina Aranda y su cuarteto homenajean a Carmen McRae , una de las grandes intérpretes de la historia del jazz. Su timbre inconfundible, su inteligencia musical y ese fraseo que parecía conversar con cada canción hicieron de ella una artista excepcional. Ir",
-   "image": "https://jazzvoyeur.com.ar/wp-content/uploads/2026/11/trasnoche14deNoviembre.jpg",
-   "url": "https://jazzvoyeur.com.ar/events/sabrina-aranda-sings-carmen-mcrae/",
-   "price": "$12.000",
-   "free": false,
-   "category": "Música",
-   "zona": "CABA",
-   "localidad": null,
-   "sources": [
-    {
-     "id": "jazz-voyeur",
-     "name": "Jazz Voyeur",
-     "url": "https://jazzvoyeur.com.ar/events/sabrina-aranda-sings-carmen-mcrae/"
-    }
-   ]
-  },
-  {
    "id": "ab43227ee440",
    "title": "Club de Humoristas – Stand Up",
    "start": "2026-11-14T23:45:00-03:00",
@@ -10846,7 +10820,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Helios",
-   "address": "Blvd. San Martín 3076, Cdad. Jardin Lomas de Palomar",
+   "address": "Blvd. San Martín 3076",
    "description": "TOPA PRESENTA SU NUEVO ESPECTÁCULO PARA VOLVER A ENCONTRARSE CON LAS FAMILIAS DE TODO EL PAÍS Diego Topa, el artista infantil número uno de Latinoamérica, presenta en todo el territorio nacional su espectáculo \"Topa Un mundo de colores\", una propuesta musical y teatral que celebra el encuentro con l",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/TOPA--UN-MUNDO-DE-COLORES.jpg",
    "url": "https://www.plateanet.com/obra/35325?obra=TOPA--UN-MUNDO-DE-COLORES",
@@ -10854,7 +10828,7 @@
    "free": false,
    "category": "Infantil",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Cdad. Jardin Lomas de Palomar",
    "sources": [
     {
      "id": "plateanet",
@@ -15364,7 +15338,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Codere San Martin",
-   "address": "Félix Ballester 2157, San Martín",
+   "address": "Félix Ballester 2157",
    "description": "Roxana y Raúl atraviesan una crisis de pareja. Convencidos de que la vida del otro es mucho más fácil, una noche un hecho tan inesperado como inexplicable pondrá su relación patas para arriba. Una comedia llena de humor, enredos y emociones que demuestra que entender al otro nunca fue tan difícil.&n",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/UN-CAMBIO-INESPERADO_.jpg",
    "url": "https://www.plateanet.com/obra/35322?obra=UN-CAMBIO-INESPERADO_",
@@ -15372,7 +15346,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "San Martín",
    "sources": [
     {
      "id": "plateanet",
@@ -16329,7 +16303,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Gran Pilar",
-   "address": "San Martín 657, Pilar",
+   "address": "San Martín 657",
    "description": "Víctor Medina, mejor conocido como Nanutria, presenta su nuevo show de stand up: \"Opiniones Varias\". Durante más de una hora, el público se embarcará en una montaña rusa de reflexiones graciosas e inusuales sobre una infinidad de temas. A esto se le suman improvisaciones ingeniosas y dinámicas charl",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/NANUTRIA--OPINIONES-VARIAS---STAND-UP-COMEDY.jpg",
    "url": "https://www.plateanet.com/obra/35213?obra=NANUTRIA--OPINIONES-VARIAS---STAND-UP-COMEDY",
@@ -16337,7 +16311,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Pilar",
    "sources": [
     {
      "id": "plateanet",
@@ -22048,7 +22022,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Helios",
-   "address": "Blvd. San Martín 3076, Cdad. Jardin Lomas de Palomar",
+   "address": "Blvd. San Martín 3076",
    "description": "La Jenny presenta su nuevo show \"Cachicalientas Tour\" Después de conquistar Mar del Plata durante varias temporadas consecutivas y de recorrer escenarios de Europa, Estados Unidos y Latinoamérica, La Jenny regresa con un espectáculo completamente nuevo: Cachicalientas Tour. El personaje creado",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/LA-JENNY--CACHICALIENTAS-TOUR.jpg",
    "url": "https://www.plateanet.com/obra/35489?obra=LA-JENNY--CACHICALIENTAS-TOUR",
@@ -22056,7 +22030,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Cdad. Jardin Lomas de Palomar",
    "sources": [
     {
      "id": "plateanet",
@@ -22720,7 +22694,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Codere San Martin",
-   "address": "Félix Ballester 2157, San Martín",
+   "address": "Félix Ballester 2157",
    "description": "La comediante Sole Macchi - conocida por su frase \"es viernes y tu cuerpo lo sabe\"- llega con su unipersonal convirtiendo el humor en una herramienta tan filosa como liberadora. Con su estilo directo, auténtico y sin filtros, Sole propone una mirada honesta y desopilante sobre las relaciones, el amo",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/NOCHE-DE-STAND-UP-CON-SOLE-MACCHI.jpg",
    "url": "https://www.plateanet.com/obra/35785?obra=NOCHE-DE-STAND-UP-CON-SOLE-MACCHI",
@@ -22728,7 +22702,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "San Martín",
    "sources": [
     {
      "id": "plateanet",
@@ -26801,7 +26775,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Gran Pilar",
-   "address": "San Martín 657, Pilar",
+   "address": "San Martín 657",
    "description": "Gabriel (Federico D'Elia) es el dueño de una empresa en venta. El problema es que cuando fundó la empresa, Gabriel inventó a un presidente ficticio para quitarse de encima al peso de tomar decisiones incómodas o impopulares. De esta manera, Gabriel quedó siempre bien parado ante sus empleados. Pero",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/EL-JEFE-DEL-JEFE_.jpg",
    "url": "https://www.plateanet.com/obra/34780?obra=EL-JEFE-DEL-JEFE_",
@@ -26809,7 +26783,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Pilar",
    "sources": [
     {
      "id": "plateanet",
@@ -27041,7 +27015,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Cervantes Quilmes",
-   "address": "Peatonal Rivadavia 125, Quilmes",
+   "address": "Peatonal Rivadavia 125",
    "description": "Julián Bellese creció al calor de los aplausos en el mundo del stand up pero con los años se volvió un artista integral. Ahora, tras la despedida multitudinaria de Casi Adulto, llega con aire renovado y nuevo espectáculo a Quilmes. Bellese creció de golpe con su obra emblemática, ese espectáculo que",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/JULI-BELLESE---STAND-UP-COMEDY.jpg",
    "url": "https://www.plateanet.com/obra/35245?obra=JULI-BELLESE---STAND-UP-COMEDY",
@@ -27049,7 +27023,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Quilmes",
    "sources": [
     {
      "id": "plateanet",
@@ -30358,7 +30332,7 @@
    "end": null,
    "whenText": null,
    "place": "Multiespacio Fabrica de Arte San Miguel",
-   "address": "Madre Camila Rolón 1249, Muñiz",
+   "address": "Madre Camila Rolón 1249",
    "description": "La fiesta! Pequeño Pez, la banda de música en vivo para bebés, primera infancia que une generaciones de familias con su propuesta original y de alta calidad artística, se presenta el 21 de Noviembre en la Fábrica del arte, San MIguel, 17hs. Tras celebrar sus 15 años de trayectoria con dos shows inol",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/PEQUENO-PEZ-_-.jpg",
    "url": "https://www.plateanet.com/obra/35671?obra=PEQUENO-PEZ-_-",
@@ -30366,7 +30340,7 @@
    "free": false,
    "category": "Infantil",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Muñiz",
    "sources": [
     {
      "id": "plateanet",
@@ -34761,7 +34735,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Gran Pilar",
-   "address": "San Martín 657, Pilar",
+   "address": "San Martín 657",
    "description": "Divas and Soul es un espectáculo musical en vivo que rinde homenaje a las grandes voces femeninas del soul, el RYB, el pop y la música disco. Con una puesta en escena elegante y un repertorio lleno de clásicos inolvidables, el show celebra el talento, la fuerza y el legado de artistas icónicas como",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/DIVAS-AND-SOUL.jpg",
    "url": "https://www.plateanet.com/obra/35048?obra=DIVAS-AND-SOUL",
@@ -34769,7 +34743,7 @@
    "free": false,
    "category": "Música",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Pilar",
    "sources": [
     {
      "id": "plateanet",
@@ -49219,7 +49193,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Helios",
-   "address": "Blvd. San Martín 3076, Cdad. Jardin Lomas de Palomar",
+   "address": "Blvd. San Martín 3076",
    "description": "Presentamos una version libre del clasico griego de Aristofanes. Una comedia para reir y reflexionar.",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/TALLER-DE-ACTUACION-MAS-60-ANOS---MUESTRA-TEA.jpg",
    "url": "https://www.plateanet.com/obra/35989?obra=TALLER-DE-ACTUACION-MAS-60-ANOS---MUESTRA-TEA",
@@ -49227,7 +49201,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Cdad. Jardin Lomas de Palomar",
    "sources": [
     {
      "id": "plateanet",
@@ -56516,6 +56490,30 @@
      "id": "complejo-teatral",
      "name": "Complejo Teatral de Buenos Aires",
      "url": "https://complejoteatral.gob.ar/produccion/festival-el-tornillo-2/"
+    }
+   ]
+  },
+  {
+   "id": "dfae23930764",
+   "title": "GEN X",
+   "start": "2026-11-28T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "EL VIAJE DEFINITIVO AL ROCK DE LOS 90 Y 2000 Prepárate para volver a una",
+   "image": "https://www.buenosairesjazzcafe.com/wp-content/uploads/2026/08/NUEVO-POST-Y-A4-2026-08-26T151039.254.png",
+   "url": "https://www.buenosairesjazzcafe.com/eventos/gen-x-el-viaje-definitivo-al-rock-de-los-90-y-2000/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://www.buenosairesjazzcafe.com/eventos/gen-x-el-viaje-definitivo-al-rock-de-los-90-y-2000/"
     }
    ]
   },
@@ -64240,6 +64238,30 @@
    ]
   },
   {
+   "id": "55f699c46204",
+   "title": "MAR SANTANA",
+   "start": "2026-11-29T00:00:00-03:00",
+   "end": null,
+   "whenText": null,
+   "place": "Buenos Aires Jazz Café",
+   "address": null,
+   "description": "Domingo 29 de Noviembre | 15:00 h Mar Santana llega al escenario con un espectáculo",
+   "image": "https://www.buenosairesjazzcafe.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-28-at-16.23.52-1.jpeg",
+   "url": "https://www.buenosairesjazzcafe.com/eventos/mar-santana/",
+   "price": null,
+   "free": false,
+   "category": "Música",
+   "zona": "CABA",
+   "localidad": null,
+   "sources": [
+    {
+     "id": "ba-jazz-cafe",
+     "name": "Buenos Aires Jazz Café",
+     "url": "https://www.buenosairesjazzcafe.com/eventos/mar-santana/"
+    }
+   ]
+  },
+  {
    "id": "da457140456d",
    "title": "Power Up Orchestra",
    "start": "2026-11-29T00:00:00-03:00",
@@ -65710,7 +65732,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Helios",
-   "address": "Blvd. San Martín 3076, Cdad. Jardin Lomas de Palomar",
+   "address": "Blvd. San Martín 3076",
    "description": "Presentamos una versión libre de \"El Burgués Gentilhombre\" de Moliere. Una comedia para preguntarnos quiénes somos y qué queremos aparentar.",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/TALLER-DE-ACTUACION-MAS-12-ANOS---MUESTRA-TEA.jpg",
    "url": "https://www.plateanet.com/obra/35990?obra=TALLER-DE-ACTUACION-MAS-12-ANOS---MUESTRA-TEA",
@@ -65718,7 +65740,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Cdad. Jardin Lomas de Palomar",
    "sources": [
     {
      "id": "plateanet",
@@ -67501,7 +67523,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Cervantes Quilmes",
-   "address": "Peatonal Rivadavia 125, Quilmes",
+   "address": "Peatonal Rivadavia 125",
    "description": "Fernando Samartin, en la piel del GITANO, recorre los temas mas recordados e icónicos del Ídolo de América, acompañado por quienes fueron sus músicos. Fernando Samartin fue ganador de los Premios ACE y Hugo a revelación por la comedia musical \"Por amor a Sandro\". Ha recorrido los escenarios más pres",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/CULTO-GITANO---FERNANDO-SAMARTIN-_.jpg",
    "url": "https://www.plateanet.com/obra/30845?obra=CULTO-GITANO---FERNANDO-SAMARTIN-_",
@@ -67509,7 +67531,7 @@
    "free": false,
    "category": "Música",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Quilmes",
    "sources": [
     {
      "id": "plateanet",
@@ -70785,7 +70807,7 @@
    "end": null,
    "whenText": null,
    "place": "Multiespacio Fabrica de Arte San Miguel",
-   "address": "Madre Camila Rolón 1249, Muñiz",
+   "address": "Madre Camila Rolón 1249",
    "description": "\"Experiencia Dalia Gutmann, No me calmo nada\" es un show unipersonal que convierte la vida cotidiana en un show de comedia. Fiel a su estilo verborrágico y alocado, Dalia cuenta las vivencias de una señora que está llegando a los 50, madre de dos adolescentes, en pareja hace mil aunqu",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/EXPERIENCIA-DALIA-GUTMANN---NO-ME-CALMO-NADA.jpg",
    "url": "https://www.plateanet.com/obra/35344?obra=EXPERIENCIA-DALIA-GUTMANN---NO-ME-CALMO-NADA",
@@ -70793,7 +70815,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Muñiz",
    "sources": [
     {
      "id": "plateanet",
@@ -73358,7 +73380,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Helios",
-   "address": "Blvd. San Martín 3076, Cdad. Jardin Lomas de Palomar",
+   "address": "Blvd. San Martín 3076",
    "description": "UN MUSICAL DE LOCOS Muestra de Teatro Musical Danko. Helios miércoles 16/12 20:00H",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/REVOLTOSOS--MUESTRA-DE-TEATRO-MUSICAL--DANKO-.jpg",
    "url": "https://www.plateanet.com/obra/34931?obra=REVOLTOSOS--MUESTRA-DE-TEATRO-MUSICAL--DANKO-",
@@ -73366,7 +73388,7 @@
    "free": false,
    "category": "Música",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "Cdad. Jardin Lomas de Palomar",
    "sources": [
     {
      "id": "plateanet",
@@ -73406,7 +73428,7 @@
    "end": null,
    "whenText": null,
    "place": "Teatro Codere San Martin",
-   "address": "Félix Ballester 2157, San Martín",
+   "address": "Félix Ballester 2157",
    "description": "La comediante Sole Macchi - conocida por su frase \"es viernes y tu cuerpo lo sabe\"- llega con su unipersonal convirtiendo el humor en una herramienta tan filosa como liberadora. Con su estilo directo, auténtico y sin filtros, Sole propone una mirada honesta y desopilante sobre las relaciones, el amo",
    "image": "https://mobile.plateanet.com/img/imagenes/220x220/NOCHE-DE-STAND-UP-CON-SOLE-MACCHI.jpg",
    "url": "https://www.plateanet.com/obra/35785?obra=NOCHE-DE-STAND-UP-CON-SOLE-MACCHI",
@@ -73414,7 +73436,7 @@
    "free": false,
    "category": "Teatro",
    "zona": "GBA",
-   "localidad": "Provincia de Buenos Aires",
+   "localidad": "San Martín",
    "sources": [
     {
      "id": "plateanet",
