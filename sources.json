@@ -377,7 +377,8 @@
     "linkPattern": "edenentradas\\.com/event/",
     "maxLinks": 150,
     "delayMs": 1000,
-    "nota": "Bloquea conexiones desde fuera de Argentina: se lee desde la compu local (runner self-hosted)."
+    "nota": "Bloquea conexiones desde fuera de Argentina: se lee desde la compu local (runner self-hosted).",
+    "provinciaPorDefecto": "Córdoba"
   },
   {
     "id": "passline",

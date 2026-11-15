@@ -125,6 +125,8 @@ async function scrapeSource(source, now) {
     if (r.provincia === undefined && r.zona === undefined && (r.ciudad || r.region)) {
       const u = ubicar({ ciudad: r.ciudad, provincia: r.region });
       if (u) Object.assign(r, { provincia: u.provincia, zona: u.zona, localidad: u.localidad });
+      // Localidad desconocida en una fuente regional (Eden → Córdoba)
+      if (u && !u.provincia && source.provinciaPorDefecto) r.provincia = source.provinciaPorDefecto;
     }
     // Sin ubicación propia: la de la fuente (por defecto, una sala de CABA)
     if (r.provincia === undefined && r.zona === undefined) {

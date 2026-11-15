@@ -2,6 +2,7 @@
 // La mayoría de las ticketeras y agendas los incluyen para Google,
 // por eso es la forma más estable de leer otros sitios.
 import * as cheerio from 'cheerio';
+import { rangoDesdeTexto } from '../normalize.mjs';
 
 const isEventType = (t) => {
   const types = Array.isArray(t) ? t : [t];
@@ -53,10 +54,13 @@ export function parseJsonLd(html, baseUrl) {
     }
     for (const ev of walk(data)) {
       const img = first(ev.image);
+      // Sin startDate (p. ej. venta todavía no abierta): la fecha suele estar escrita en la descripción
+      const r = !ev.startDate && ev.description ? rangoDesdeTexto(ev.description) : null;
       out.push({
         title: ev.name,
-        start: ev.startDate,
-        end: ev.endDate,
+        start: ev.startDate || r?.start,
+        end: ev.endDate || r?.end,
+        whenText: r ? String(ev.description).trim() : undefined,
         url: first(ev.url) || ev['@id'],
         image: typeof img === 'string' ? img : img?.url,
         description: ev.description,

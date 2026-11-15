@@ -16,7 +16,7 @@ import { zonaDe, ubicar } from './region.mjs';
 import { parsePlateanet } from './adapters/plateanet.mjs';
 import { parseFestivalear, rangoFestivalear } from './adapters/festivalear.mjs';
 import { parseTuEntrada, eventsFromVenueApi, tuentradaSearch } from './adapters/tuentrada.mjs';
-import { normalizeEvent, dedupe, parseDate, categorize, agrupar } from './normalize.mjs';
+import { normalizeEvent, dedupe, parseDate, categorize, agrupar, rangoDesdeTexto } from './normalize.mjs';
 
 const now = new Date('2026-11-07T12:00:00-03:00');
 const src = { id: 'test', name: 'Test' };
@@ -487,6 +487,17 @@ test('Turismo BA: buscador oficial (JSON de actividades)', () => {
   const cream = ev.find((e) => /Creamfields/.test(e.title));
   assert.equal(cream.start, '2026-11-14T15:00:00-03:00');
   assert.equal(cream.category, 'Música');
+});
+
+test('Fechas escritas en texto (Eden sin startDate)', () => {
+  assert.deepEqual(rangoDesdeTexto('Sábado 6 y Domingo 7 de Febrero 2027', now), { start: '2027-02-06T00:00:00-03:00', end: '2027-02-07T23:59:00-03:00' });
+  assert.deepEqual(rangoDesdeTexto('Del 18 al 21 de Febrero 18:00Hs', now), { start: '2027-02-18T18:00:00-03:00', end: '2027-02-21T23:59:00-03:00' });
+  assert.deepEqual(rangoDesdeTexto('Martes 6 de Abril 20:00hs', now), { start: '2027-04-06T20:00:00-03:00', end: null });
+  const html = `<script type="application/ld+json">{"@context":"http://schema.org/","@type":"Event","name":"Cosquin Rock 2027","description":"Sábado 6 y Domingo 7 de Febrero 2027",
+    "location":{"@type":"Place","name":"Aeródromo de Santa Maria de Punilla","address":{"addressLocality":"Santa Maria de Punilla"}}}</script>`;
+  const [r] = parseAuto(html, 'https://www.edenentradas.com/event/cosquin');
+  assert.equal(r.start, '2027-02-06T00:00:00-03:00');
+  assert.equal(r.ciudad, 'Santa Maria de Punilla');
 });
 
 console.log(`\n${passed} pruebas OK`);

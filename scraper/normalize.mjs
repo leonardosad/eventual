@@ -97,6 +97,27 @@ function build(y, mo, d, time, now) {
   return `${y}-${pad(mo)}-${pad(d)}T${pad(h)}:${pad(mi)}:00${TZ_OFFSET}`;
 }
 
+/**
+ * Rango escrito en texto: "Sábado 6 y Domingo 7 de Febrero 2027", "Del 18 al 21 de Febrero 18:00Hs",
+ * "30 de enero al 2 de febrero de 2027". Devuelve { start, end } (ISO) o null.
+ */
+export function rangoDesdeTexto(texto, now = new Date()) {
+  const t = clean(texto).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const m = t.match(/(\d{1,2})(?:\s+de\s+([a-z]+))?\s*(?:y|al|a|-)\s*(?:[a-z]+\s+)?(\d{1,2})\s+de\s+([a-z]+)\.?(?:\s+(?:de\s+)?(\d{4}))?/);
+  if (m && MESES[m[4]] && (!m[2] || MESES[m[2]])) {
+    const hora = extractTime(t.replace(/([a-z])(\d)/g, '$1 $2').slice(m.index + m[0].length));
+    const anio = m[5] ? ` ${m[5]}` : '';
+    const ini = `${m[1]} de ${m[2] || m[4]}${anio}${hora ? ` ${hora[0]}:${pad(hora[1])}` : ''}`;
+    const fin = `${m[3]} de ${m[4]}${anio}`;
+    const start = parseDate(ini, now);
+    let end = parseDate(fin, now);
+    if (start && end) end = end.replace(/T00:00:00/, 'T23:59:00');
+    return start ? { start, end: end && end > start ? end : null } : null;
+  }
+  const start = parseDate(texto, now);
+  return start ? { start, end: null } : null;
+}
+
 /** Fecha en hora de Buenos Aires, formato ISO con -03:00 */
 export function toLocalIso(date) {
   if (Number.isNaN(date.getTime())) return null;
