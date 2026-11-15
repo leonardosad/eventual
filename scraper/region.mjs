@@ -45,7 +45,7 @@ const GBA = new RegExp('\\b(' + [
   'tigre', 'don torcuato', 'general pacheco', 'el talar', 'benavidez', 'nordelta', 'rincon de milberg',
   'san fernando', 'victoria', 'virreyes',
   'san isidro', 'beccar', 'martinez', 'acassuso', 'boulogne', 'villa adelina',
-  'vicente lopez', 'olivos', 'florida oeste', 'munro', 'villa martelli', 'carapachay', 'la lucila',
+  'vicente lopez', 'olivos', 'florida', 'florida oeste', 'munro', 'villa martelli', 'carapachay', 'la lucila',
   'escobar', 'belen de escobar', 'garin', 'maschwitz', 'ingeniero maschwitz', 'pilar', 'del viso',
 ].join('|') + ')\\b');
 
@@ -112,7 +112,8 @@ export function ubicar({ ciudad = '', provincia = '', pais = '' } = {}, { ambigu
   const prov = provinciaCanonica(provincia);
 
   if (prov === 'CABA') return { provincia: 'CABA', zona: 'CABA', localidad: null };
-  if (c && (!prov || prov === 'Buenos Aires') && (BARRIOS.test(c) || (CABA_TXT.test(c) && !/provincia/.test(pRaw)))) {
+  // Una ciudad llamada "Buenos Aires"/"CABA" es siempre la Capital, aunque la fuente diga "provincia"
+  if (c && (!prov || prov === 'Buenos Aires') && (BARRIOS.test(c) || CABA_TXT.test(c))) {
     return { provincia: 'CABA', zona: 'CABA', localidad: null };
   }
   if (c && CIUDAD_PROV.has(c)) {

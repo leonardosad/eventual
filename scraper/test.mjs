@@ -396,6 +396,8 @@ test('Zonas: CABA, GBA y fuera del AMBA', () => {
   assert.equal(zonaDe('La Plata'), null);
   assert.equal(ubicar({ ciudad: 'Rosario', provincia: 'Santa Fé' }).provincia, 'Santa Fe');
   assert.equal(ubicar({ ciudad: 'Montevideo' }), null);
+  assert.equal(ubicar({ ciudad: 'Buenos Aires', provincia: 'Provincia de Buenos Aires' }).provincia, 'CABA');
+  assert.equal(ubicar({ ciudad: 'Florida', provincia: 'Provincia de Buenos Aires' }).zona, 'GBA');
   assert.equal(zonaDe('Palermo'), 'CABA');
   assert.equal(zonaDe('Barrio San Nicolas'), 'CABA');
   assert.equal(zonaDe('Microcentro'), 'CABA');
