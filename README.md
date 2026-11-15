@@ -101,3 +101,12 @@ npm run serve     # abre la página en http://localhost:3000
 - La página siempre enlaza a la fuente original y no copia descripciones completas.
 - Se consulta cada sitio dos veces por día, con pausas entre pedidos.
 - Antes de agregar una fuente, revisá sus términos de uso y su `robots.txt`. Si un sitio pide que no se lo lea automáticamente, sacalo de la lista. Si es un sitio chico, lo mejor es pedirle permiso o su calendario `.ics`.
+
+## App para el celular (PWA)
+
+La página se puede instalar como app en Android, iPhone y PC, sin pasar por las tiendas:
+
+- **Android / Chrome en PC**: aparece el botón **Instalar app** arriba de todo (o en el menú ⋮ → *Instalar app*).
+- **iPhone / iPad**: en Safari, *Compartir* → *Agregar a inicio*. La página muestra estas instrucciones con el botón **Cómo instalarla**.
+
+Instalada, abre a pantalla completa con su ícono y funciona sin conexión mostrando los últimos eventos descargados. Los archivos son `site/manifest.webmanifest`, `site/sw.js` (guarda la página en el teléfono), `site/pwa.js` (botón de instalar) y los íconos en `site/icons/`. La versión del service worker se renueva sola en cada publicación.

@@ -2,19 +2,32 @@
 <html lang="es-AR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Eventual · Eventos cerca tuyo</title>
   <meta name="description" content="Eventos, recitales, teatro, muestras y actividades gratis en la Ciudad de Buenos Aires, reunidos de varias agendas en un solo lugar.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=__V__">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#4d7559">
+  <link rel="icon" type="image/png" href="icons/favicon.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Eventual">
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
       <h1>Eventual</h1>
       <p class="subtitle">Eventos cerca tuyo</p>
+      <div id="install" class="install" hidden>
+        <button id="install-btn" type="button" class="install-btn">Instalar app</button>
+        <button id="install-close" type="button" class="install-close" aria-label="No mostrar más">×</button>
+        <p id="install-help" class="install-help" hidden>En Safari, tocá <strong>Compartir</strong> <span aria-hidden="true">(el cuadrado con la flecha ↑)</span> y después <strong>Agregar a inicio</strong>. Eventual queda como una app más en tu iPhone.</p>
+      </div>
       <p class="lead">Recitales, teatro, muestras, ferias y planes gratis en todo el país, juntados de varias agendas en un solo lugar. Cada evento lleva a su fuente original.</p>
     </div>
   </header>
@@ -47,6 +60,7 @@
   </section>
 
   <main class="wrap">
+    <p id="offline" class="offline" hidden>Sin conexión: estás viendo los últimos eventos guardados.</p>
     <p id="count" class="count" aria-live="polite"></p>
     <div id="list"></div>
   </main>
@@ -61,5 +75,6 @@
   </footer>
 
   <script src="app.js?v=__V__"></script>
+  <script src="pwa.js?v=__V__"></script>
 </body>
 </html>

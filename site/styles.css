@@ -83,3 +83,13 @@ h1 em { font-style: normal; color: var(--accent); }
 select.mes { padding: 6px 30px 6px 13px; font-size: .88rem; }
 .sel select:focus, select.mes:focus { outline: 2px solid var(--accent-2); outline-offset: 1px; }
 .card .funciones { margin: 0; font-size: .82rem; color: var(--accent); font-weight: 500; line-height: 1.35; }
+
+/* Instalar como app (PWA) */
+.install { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 18px; }
+.install[hidden], .install-help[hidden], .offline[hidden] { display: none; }
+.install-btn { font: inherit; font-weight: 600; font-size: .95rem; background: var(--accent); color: var(--paper); border: 0; border-radius: 999px; padding: 9px 18px; cursor: pointer; }
+.install-btn:hover { filter: brightness(1.08); }
+.install-close { font: inherit; font-size: 1.2rem; line-height: 1; background: transparent; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; width: 34px; height: 34px; cursor: pointer; }
+.install-help { flex-basis: 100%; max-width: 560px; margin: 4px 0 0; padding: 12px 14px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); font-size: .92rem; color: var(--ink); }
+.offline { margin: 16px 0 0; padding: 10px 14px; background: var(--paper); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: var(--radius); font-size: .92rem; }
+@media (display-mode: standalone) { .hero { padding-top: max(28px, env(safe-area-inset-top)); } }
