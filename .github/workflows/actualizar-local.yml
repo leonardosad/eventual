@@ -1,6 +1,6 @@
 name: Actualizar fuentes locales
 
-# Corre en una compu en Argentina (runner "self-hosted" con la etiqueta eventual-local)
+# Corre en una compu en Argentina (runner "self-hosted" de Windows)
 # para los sitios que bloquean conexiones desde el exterior, como Eden Entradas.
 # Si la compu está apagada, la tarea queda en espera y la agenda sigue con los
 # últimos datos locales.
@@ -18,7 +18,7 @@ concurrency:
 
 jobs:
   local:
-    runs-on: [self-hosted, eventual-local]
+    runs-on: [self-hosted, Windows]
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
