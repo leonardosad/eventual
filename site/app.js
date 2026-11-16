@@ -165,7 +165,7 @@
     $('list').innerHTML = [...groups.keys()].map((k) => {
       const label = k === t ? 'Hoy' : k === addDays(t, 1) ? 'Mañana' : '';
       return `<div class="day"><h2>${esc(fmtDay(k))}</h2>${label ? `<span>${label}</span>` : ''}</div>
-        <div class="grid">${groups.get(k).map(card).join('')}</div>`;
+        <div class="grid">${groups.get(k).map((it) => card(it)).join('')}</div>`;
     }).join('') + (all.length > limit ? `<div class="more"><button id="more">Ver más eventos (${(all.length - limit).toLocaleString('es-AR')} restantes)</button></div>` : '');
     const more = $('more');
     if (more) more.onclick = () => { limit += PAGE; render(true); };

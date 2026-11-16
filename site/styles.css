@@ -181,3 +181,7 @@ select.mes { padding: 6px 30px 6px 13px; font-size: .88rem; }
   .sheet-lista button.on { background: color-mix(in srgb, var(--accent) 16%, transparent); font-weight: 600; }
   .sheet-grupo { margin: 12px 12px 4px; font-size: .72rem; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); font-weight: 600; }
 }
+
+/* ---------- Pantallas anchas (monitores 16:9 grandes) ---------- */
+@media (min-width: 1440px) { .wrap { max-width: 1680px; padding: 0 32px; } }   /* 4 tarjetas por fila */
+@media (min-width: 2100px) { .wrap { max-width: 2060px; } }                     /* 5 tarjetas por fila */
