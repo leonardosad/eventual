@@ -26,7 +26,12 @@ export function fechasDF(texto, now = new Date()) {
     for (const d of dias) {
       const md = `${String(mes).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
       let y = m[3] ? Number(m[3]) : Number(hoy.slice(0, 4));
-      if (!m[3] && `${y}-${md}` < hoy) y++;
+      if (!m[3] && `${y}-${md}` < hoy) {
+        // Si pasó hace poco es un show que ya fue (la página tarda en sacarlo); si no, es del año que viene.
+        const dias = (new Date(`${hoy}T12:00:00Z`) - new Date(`${y}-${md}T12:00:00Z`)) / 864e5;
+        if (dias <= 90) continue;
+        y++;
+      }
       out.push(`${y}-${md}`);
     }
   }

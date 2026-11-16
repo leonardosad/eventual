@@ -523,6 +523,7 @@ test('DF Entertainment', () => {
   assert.deepEqual(fechasDF('23, 25 y 27 de Marzo', ahora), ['2027-03-23', '2027-03-25', '2027-03-27']);
   assert.deepEqual(fechasDF('16 y 17 de Agosto', ahora), ['2027-08-16', '2027-08-17']);
   assert.deepEqual(fechasDF('5 de Diciembre', ahora), ['2026-12-05']);
+  assert.deepEqual(fechasDF('15 de Noviembre', ahora), []); // ya pasó: no saltar al año que viene
   assert.deepEqual(fechasDF('30 de Noviembre y 1 de Diciembre', ahora), ['2026-11-30', '2026-12-01']);
   const html = `<h1 class="show-hero_title">Lollapalooza 2027</h1><div class="show-hero_meta"><div class="show-hero_meta__txt">12, 13 y 14 de Marzo</div>
     <a class="show-hero_meta__txt" href="/venues/hipodromo">Hipódromo de San Isidro</a></div><a class="show-purchase_card" href="https://www.allaccess.com.ar/event/lolla">x</a>`;
