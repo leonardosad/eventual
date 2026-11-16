@@ -106,7 +106,8 @@
     return partes.join(', ');
   }
 
-  function card({ e, occ }) {
+  const fmtDiaCorto = (key) => cap(new Intl.DateTimeFormat('es-AR', { weekday: 'short', day: 'numeric', month: 'short', timeZone: TZ }).format(new Date(`${key}T12:00:00-03:00`))).replace(/\./g, '');
+  function card({ e, occ }, conFecha = false) {
     const n = e.fechas ? e.fechas.length : 0;
     const multiDia = !n && e.end && dayKey(e.end) !== dayKey(e.start);
     const hora = n ? (hasTime(occ) ? fmtTime(occ) : 'Todo el día')
@@ -120,6 +121,7 @@
     return `<article class="card">
       ${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy" onerror="this.remove()">` : ''}
       <div class="body">
+        ${conFecha ? `<p class="fecha-card">${esc(fmtDiaCorto(dayKey(occ)))}${dayKey(occ) === todayKey() ? ' · Hoy' : ''}</p>` : ''}
         <div class="meta"><span class="time">${esc(hora)}</span><span class="tag">${esc(e.category)}</span>
           ${e.price ? `<span class="price ${e.free ? 'free' : ''}">${esc(e.price)}</span>` : ''}</div>
         <h3>${esc(e.title)}</h3>
@@ -142,6 +144,15 @@
     }
     if (!list.length) {
       $('list').innerHTML = `<div class="empty"><strong>No encontramos eventos con esos filtros</strong>Probá con otra fecha, lugar o categoría.</div>`;
+      return;
+    }
+    const masLink = all.length > limit ? `<div class="more"><button id="more">Ver más eventos (${(all.length - limit).toLocaleString('es-AR')} restantes)</button></div>` : '';
+    // Con un filtro puesto quedan pocos eventos por día: en vez de una fila por día,
+    // van todos seguidos de a 3 por fila y cada tarjeta muestra su fecha.
+    if (state.cat || state.lugar !== 'all' || state.free || state.q.trim()) {
+      $('list').innerHTML = `<div class="grid seguido">${list.map((it) => card(it, true)).join('')}</div>` + masLink;
+      const more = $('more');
+      if (more) more.onclick = () => { limit += PAGE; render(true); };
       return;
     }
     const groups = new Map();
