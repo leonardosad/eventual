@@ -88,7 +88,14 @@
       const occ = occurrence(e, from, to);
       if (occ) out.push({ e, occ });
     }
-    return out.sort((a, b) => a.occ.localeCompare(b.occ) || a.e.title.localeCompare(b.e.title));
+    // Dentro de cada día van primero los de la Ciudad de Buenos Aires y de música.
+    const prio = (e) => {
+      const caba = e.zona === 'CABA' || e.provincia === 'CABA';
+      const musica = e.category === 'Música';
+      return caba && musica ? 0 : caba ? 1 : musica ? 2 : 3;
+    };
+    for (const x of out) x.p = prio(x.e);
+    return out.sort((a, b) => a.occ.slice(0, 10).localeCompare(b.occ.slice(0, 10)) || a.p - b.p || a.occ.localeCompare(b.occ) || a.e.title.localeCompare(b.e.title));
   }
 
   // ---------- Tarjetas ----------
