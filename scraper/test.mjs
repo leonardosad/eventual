@@ -1,5 +1,6 @@
 // Pruebas con páginas de ejemplo (no necesitan internet): npm test
 import assert from 'node:assert/strict';
+import { linksCoolco, parseCoolcoEvento } from './adapters/coolco.mjs';
 import { parseAuto } from './adapters/jsonld.mjs';
 import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
@@ -498,6 +499,22 @@ test('Fechas escritas en texto (Eden sin startDate)', () => {
   const [r] = parseAuto(html, 'https://www.edenentradas.com/event/cosquin');
   assert.equal(r.start, '2027-02-06T00:00:00-03:00');
   assert.equal(r.ciudad, 'Santa Maria de Punilla');
+});
+
+test('CoolCo Tickets (Estadio Obras)', () => {
+  const home = `<a href="/tickets-ar/es/main">x</a><a href="https://ticketing.coolco.io/tickets-ar/es/el-plan-obr-2026">Comprar</a>
+    <a href="/tickets-ar/es/evento?idEvento=208">x</a><a href="/tickets-ar/es/cookiePolicy">x</a><a href="https://sell-ticket.f2f.coolco.io/es/landing">x</a>`;
+  assert.deepEqual(linksCoolco(home, 'https://ticketing.coolco.io/tickets-ar/es/main'), ['https://ticketing.coolco.io/tickets-ar/es/el-plan-obr-2026']);
+  const html = `<div id="datos-seo-evento"><span id="seo-name">El Plan de la Mariposa</span> <span id="seo-fecha">2026-12-10T21:00</span>
+    <span id="seo-lugar">Estadio Obras Sanitarias</span> <span id="seo-direccion">Av. Del Libertador 7395</span> <span id="seo-ciudad">Buenos Aires</span>
+    <span id="seo-precio-min">60000</span></div><script>var a={"fechaCelebracion":"2026-12-10T21:00:00-03:00[America/Buenos_Aires]"};
+    var b={"fechaCelebracion":"2026-12-11T21:00:00-03:00[America/Buenos_Aires]"};</script>`;
+  const ev = parseCoolcoEvento(html, 'https://ticketing.coolco.io/tickets-ar/es/el-plan-obr-2026');
+  assert.equal(ev.length, 2);
+  assert.equal(ev[1].start, '2026-12-11T21:00:00-03:00');
+  assert.equal(ev[0].place, 'Estadio Obras Sanitarias');
+  assert.equal(ev[0].price, '60000');
+  assert.equal(ev[0].category, 'Música');
 });
 
 console.log(`\n${passed} pruebas OK`);

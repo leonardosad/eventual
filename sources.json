@@ -124,6 +124,16 @@
     ]
   },
   {
+    "id": "coolco",
+    "name": "CoolCo Tickets (Estadio Obras)",
+    "enabled": true,
+    "type": "coolco",
+    "urls": [
+      "https://ticketing.coolco.io/tickets-ar/es/main"
+    ],
+    "delayMs": 800
+  },
+  {
     "id": "indiehoy-vorterix",
     "name": "Indie Hoy (Teatro Vorterix)",
     "enabled": true,
