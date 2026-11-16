@@ -134,6 +134,16 @@
     "delayMs": 800
   },
   {
+    "id": "df-entertainment",
+    "name": "DF Entertainment",
+    "enabled": true,
+    "type": "dfent",
+    "urls": [
+      "https://dfentertainment.com/shows"
+    ],
+    "delayMs": 800
+  },
+  {
     "id": "indiehoy-vorterix",
     "name": "Indie Hoy (Teatro Vorterix)",
     "enabled": true,

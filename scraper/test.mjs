@@ -1,6 +1,7 @@
 // Pruebas con páginas de ejemplo (no necesitan internet): npm test
 import assert from 'node:assert/strict';
 import { linksCoolco, parseCoolcoEvento } from './adapters/coolco.mjs';
+import { fechasDF, parseDFShow } from './adapters/dfent.mjs';
 import { parseAuto } from './adapters/jsonld.mjs';
 import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
@@ -515,6 +516,20 @@ test('CoolCo Tickets (Estadio Obras)', () => {
   assert.equal(ev[0].place, 'Estadio Obras Sanitarias');
   assert.equal(ev[0].price, '60000');
   assert.equal(ev[0].category, 'Música');
+});
+
+test('DF Entertainment', () => {
+  const ahora = new Date('2026-11-16T12:00:00-03:00');
+  assert.deepEqual(fechasDF('23, 25 y 27 de Marzo', ahora), ['2027-03-23', '2027-03-25', '2027-03-27']);
+  assert.deepEqual(fechasDF('16 y 17 de Agosto', ahora), ['2027-08-16', '2027-08-17']);
+  assert.deepEqual(fechasDF('5 de Diciembre', ahora), ['2026-12-05']);
+  assert.deepEqual(fechasDF('30 de Noviembre y 1 de Diciembre', ahora), ['2026-11-30', '2026-12-01']);
+  const html = `<h1 class="show-hero_title">Lollapalooza 2027</h1><div class="show-hero_meta"><div class="show-hero_meta__txt">12, 13 y 14 de Marzo</div>
+    <a class="show-hero_meta__txt" href="/venues/hipodromo">Hipódromo de San Isidro</a></div><a class="show-purchase_card" href="https://www.allaccess.com.ar/event/lolla">x</a>`;
+  const ev = parseDFShow(html, 'https://dfentertainment.com/shows/lollapalooza-2027', ahora);
+  assert.equal(ev.length, 3);
+  assert.equal(ev[0].start, '2027-03-12T00:00:00-03:00');
+  assert.equal(ev[0].ciudad, 'San Isidro');
 });
 
 console.log(`\n${passed} pruebas OK`);
