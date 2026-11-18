@@ -26,6 +26,20 @@
     ]
   },
   {
+    "id": "cultura-nacion",
+    "name": "Cultura Nación (Agenda Federal)",
+    "enabled": true,
+    "type": "cultura",
+    "urls": [
+      "https://www.cultura.gob.ar/agenda/"
+    ],
+    "delayMs": 400,
+    "provincia": null,
+    "options": {
+      "dias": 45
+    }
+  },
+  {
     "id": "allaccess",
     "name": "AllAccess",
     "enabled": false,

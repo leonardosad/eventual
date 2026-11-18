@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import { linksCoolco, parseCoolcoEvento } from './adapters/coolco.mjs';
 import { fechasDF, parseDFShow } from './adapters/dfent.mjs';
+import { parseCulturaDia, parseCulturaDetalle, fechaHasta } from './adapters/cultura.mjs';
 import { parseAuto } from './adapters/jsonld.mjs';
 import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
@@ -531,6 +532,24 @@ test('DF Entertainment', () => {
   assert.equal(ev.length, 3);
   assert.equal(ev[0].start, '2027-03-12T00:00:00-03:00');
   assert.equal(ev[0].ciudad, 'San Isidro');
+});
+
+test('Cultura Nación (Agenda Federal)', () => {
+  const dia = `<div class="post caja"><div class="image-wrapper lazy" data-original="/media/a.jpg"><div class="flag geo"><span>CABA</span></div>
+    <a class="goto" href="/jazz-17759/"><span class="sr-only">Jazz argentino</span></a></div><header><small class="mb-2">Del 18 al 20 de noviembre de 2026</small>
+    <h3 class="titulo"><a href="/jazz-17759/">Jazz argentino</a></h3><div class="bajada">Concierto.</div><div class="meta"><div class="tag sector musica"><span>Música</span></div></div></header></div>
+    <div class="post caja"><header><small>Hasta el 22 de noviembre de 2026</small><h3 class="titulo"><a href="/muestra-1/">Ningyō</a></h3></header></div>
+    <div class="post caja"><header><small>Evento permanente</small><h3 class="titulo"><a href="/museo/">Museo</a></h3></header></div>`;
+  const it = parseCulturaDia(dia, 'https://www.cultura.gob.ar/agenda/filtro/');
+  assert.deepEqual(it.map((x) => x.tipo), ['dias', 'hasta', 'permanente']);
+  assert.equal(it[0].url, 'https://www.cultura.gob.ar/jazz-17759/');
+  assert.equal(it[0].geo, 'CABA');
+  assert.equal(fechaHasta(it[1].cuando), '2026-11-22');
+  const det = parseCulturaDetalle(`<article><h1>Jazz</h1><p>¿Qué es? Un concierto.</p><p>¿Cuándo? Miércoles 18 y viernes 20 de noviembre a las 20 h.</p>
+    <p>¿Dónde? Palacio Libertad, Sarmiento 151, CABA</p><p>Entrada libre y gratuita.</p></article>`);
+  assert.equal(det.hora, '20:00');
+  assert.equal(det.donde, 'Palacio Libertad, Sarmiento 151, CABA');
+  assert.equal(det.gratis, true);
 });
 
 console.log(`\n${passed} pruebas OK`);
