@@ -37,7 +37,8 @@
     "provincia": null,
     "options": {
       "dias": 45
-    }
+    },
+    "runner": "local"
   },
   {
     "id": "allaccess",
