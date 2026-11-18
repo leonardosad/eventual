@@ -26,6 +26,15 @@
     ]
   },
   {
+    "id": "linda-ba",
+    "name": "Linda (Agenda de la Ciudad)",
+    "enabled": true,
+    "type": "linda",
+    "urls": [
+      "https://linda.buenosaires.gob.ar/api/frontend/events/filter?limit=1000"
+    ]
+  },
+  {
     "id": "cultura-nacion",
     "name": "Cultura Nación (Agenda Federal)",
     "enabled": true,

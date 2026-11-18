@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { linksCoolco, parseCoolcoEvento } from './adapters/coolco.mjs';
 import { fechasDF, parseDFShow } from './adapters/dfent.mjs';
 import { parseCulturaDia, parseCulturaDetalle, fechaHasta } from './adapters/cultura.mjs';
+import { parseLinda } from './adapters/linda.mjs';
 import { parseAuto } from './adapters/jsonld.mjs';
 import { parseHtml } from './adapters/html.mjs';
 import { parseIcal } from './adapters/ical.mjs';
@@ -550,6 +551,26 @@ test('Cultura Nación (Agenda Federal)', () => {
   assert.equal(det.hora, '20:00');
   assert.equal(det.donde, 'Palacio Libertad, Sarmiento 151, CABA');
   assert.equal(det.gratis, true);
+});
+
+test('Linda (agenda de la Ciudad)', () => {
+  const body = JSON.stringify({ events: [
+    { title: 'Museo de la subversión', description: '<p>Estreno.</p>', slug: 'museo-de-la-subversion', acceso: 'con_entrada_paga',
+      etiquetas: ['Arte y cultura', 'Cine'], ubicacion: { titulo: 'Teatro San Martín', direccion: 'Avenida Corrientes 1530, C1042AAO Buenos Aires AR, Argentina' },
+      fechasDelEvento: ['2026-11-13T18:00:00.000Z', '2026-11-18T00:00:00.000Z'] },
+    { title: 'Viva Frida', slug: 'viva-frida', acceso: 'sin_costo', etiquetas: ['Arte y cultura', 'Ferias y exposiciones'], ubicacion: { titulo: 'MALBA', direccion: 'FIGUEROA ALCORTA, PRES. AV. 3415' },
+      fechaFin: '2027-03-15T15:00:00.000Z', fechasDelEvento: Array.from({ length: 30 }, (_, i) => new Date(Date.UTC(2026, 10, 13 + i, 15)).toISOString()) },
+  ] });
+  const ev = parseLinda(body, 'https://linda.buenosaires.gob.ar/api/frontend/events/filter?limit=1000');
+  assert.equal(ev.length, 3);
+  assert.equal(ev[0].start, '2026-11-13T15:00:00-03:00');
+  assert.equal(ev[0].address, 'Avenida Corrientes 1530');
+  assert.equal(ev[0].category, 'Cine');
+  assert.equal(ev[0].url, 'https://linda.buenosaires.gob.ar/eventos/museo-de-la-subversion');
+  const frida = ev[2];
+  assert.equal(frida.end, '2027-03-15T12:00:00-03:00');
+  assert.equal(frida.free, true);
+  assert.equal(frida.category, 'Arte y muestras');
 });
 
 console.log(`\n${passed} pruebas OK`);

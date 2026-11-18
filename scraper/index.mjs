@@ -20,6 +20,7 @@ import { parseTuEntrada, tuentradaVenues, tuentradaSearch } from './adapters/tue
 import { coolco } from './adapters/coolco.mjs';
 import { dfent } from './adapters/dfent.mjs';
 import { cultura } from './adapters/cultura.mjs';
+import { parseLinda } from './adapters/linda.mjs';
 import { rendered, closeBrowser, browserFetch } from './adapters/rendered.mjs';
 import { normalizeEvent, dedupe, agrupar } from './normalize.mjs';
 import { ubicar } from './region.mjs';
@@ -72,6 +73,7 @@ async function runAdapter(source, body, url, ctx) {
     case 'ical': return parseIcal(body, url);
     case 'alternativa': return parseAlternativa(body, url, source.options);
     case 'turismo-ba': return parseTurismoBA(body, url);
+    case 'linda': return parseLinda(body, url, source.options);
     default: throw new Error(`Tipo de fuente desconocido: ${source.type}`);
   }
 }
